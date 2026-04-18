@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Cool Movies Are in NYC?</title>
+  <style>
+    :root {
+      --bg:      #0f0f0f;
+      --surface: #1a1a1a;
+      --border:  #2a2a2a;
+      --text:    #f0ede8;
+      --muted:   #737373;
+      --gold:    #e8c547;
+      --green-bg:  #14532d;
+      --green-fg:  #4ade80;
+      --blue-bg:   #1e3a5f;
+      --blue-fg:   #93c5fd;
+      --controls-h: 56px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      min-height: 100vh;
+    }
+
+    /* ── Header ─────────────────────────────────── */
+    header {
+      padding: 52px 40px 36px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    header h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.7rem, 4vw, 2.8rem);
+      font-weight: normal;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text);
+    }
+
+    header p {
+      margin-top: 12px;
+      font-size: 0.82rem;
+      color: var(--muted);
+      font-family: "Courier New", monospace;
+      letter-spacing: 0.03em;
+    }
+
+    /* ── Controls ────────────────────────────────── */
+    .controls {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 0 40px;
+      height: var(--controls-h);
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .filter-btn {
+      padding: 5px 14px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--muted);
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-family: inherit;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+      white-space: nowrap;
+    }
+    .filter-btn:hover { border-color: var(--muted); color: var(--text); }
+    .filter-btn.active {
+      background: var(--text);
+      color: var(--bg);
+      border-color: var(--text);
+    }
+
+    /* ── Table wrapper ───────────────────────────── */
+    .table-wrap {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+
+    /* Sticky header row — sits just below the controls bar */
+    thead th {
+      position: sticky;
+      top: var(--controls-h);
+      z-index: 10;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 16px;
+      text-align: left;
+      font-size: 0.7rem;
+      font-family: "Courier New", monospace;
+      font-weight: normal;
+      color: var(--muted);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background 0.08s;
+    }
+    tbody tr:hover { background: var(--surface); }
+
+    td {
+      padding: 14px 16px;
+      vertical-align: top;
+      line-height: 1.5;
+    }
+
+    /* ── Cell styles ─────────────────────────────── */
+    .c-title {
+      min-width: 200px;
+      max-width: 320px;
+    }
+    .c-year    { width: 64px;  white-space: nowrap; color: var(--muted); }
+    .c-dir     { min-width: 140px; color: var(--muted); }
+    .c-opens   { min-width: 120px; white-space: nowrap; color: var(--muted); }
+    .c-theaters { min-width: 180px; }
+
+    .film-name {
+      font-size: 0.95rem;
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 999px;
+      font-size: 0.65rem;
+      font-family: "Courier New", monospace;
+      letter-spacing: 0.04em;
+      vertical-align: middle;
+      margin-left: 7px;
+      position: relative;
+      top: -1px;
+    }
+    .badge-now  { background: var(--green-bg); color: var(--green-fg); }
+    .badge-soon { background: var(--blue-bg);  color: var(--blue-fg); }
+
+    /* Theater links */
+    .theater-entry {
+      display: block;
+      line-height: 1.9;
+    }
+    .theater-entry a {
+      color: var(--gold);
+      text-decoration: none;
+      font-size: 0.84rem;
+    }
+    .theater-entry a:hover { text-decoration: underline; }
+    .theater-entry a::after {
+      content: " ↗";
+      font-size: 0.7rem;
+      opacity: 0.7;
+    }
+    .theater-entry span {
+      color: var(--muted);
+      font-size: 0.84rem;
+    }
+
+    /* ── Empty / loading states ──────────────────── */
+    #loading {
+      text-align: center;
+      padding: 100px 40px;
+      color: var(--muted);
+      font-family: "Courier New", monospace;
+      font-size: 0.85rem;
+    }
+
+    /* ── Responsive ──────────────────────────────── */
+    @media (max-width: 640px) {
+      header { padding: 36px 20px 24px; }
+      .controls { padding: 0 20px; }
+      td, thead th { padding: 12px 10px; }
+      .c-dir, .c-year { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>What Cool Movies Are in NYC?</h1>
+  <p id="meta">Loading listings…</p>
+</header>
+
+<div class="controls">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="Now Playing">Now Playing</button>
+  <button class="filter-btn" data-filter="Coming Soon">Coming Soon</button>
+</div>
+
+<div class="table-wrap">
+  <div id="loading">Fetching the latest listings…</div>
+  <table id="tbl" style="display:none">
+    <thead>
+      <tr>
+        <th class="c-title">Film</th>
+        <th class="c-year">Year</th>
+        <th class="c-dir">Director</th>
+        <th class="c-opens">Opens</th>
+        <th class="c-theaters">Theaters</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<script>
+  // ── Theater fallback URLs (used when no per-film booking link exists) ──
+  const THEATER_URLS = {
+    'Nitehawk (Prospect Park)': 'https://nitehawkcinema.com/prospectpark/',
+    'IFC Center':               'https://www.ifccenter.com/',
+    'Film Forum':               'https://filmforum.org/',
+    'Metrograph':               'https://metrograph.com/',
+    'Film Noir Cinema':         'https://www.filmnoircinema.com/program',
+    'Paris Theater':            'https://www.paristheaternyc.com/',
+    'Film at Lincoln Center':   'https://www.filmlinc.org/',
+    'Angelika Film Center':     'https://angelikafilmcenter.com/nyc',
+  };
+
+  // ── Normalise title for cross-theater deduplication ──
+  function normTitle(t) {
+    return t.toLowerCase().replace(/[^a-z0-9]/g, '');
+  }
+
+  // ── Parse "Opens Thu May 1" → Date (for sorting) ──
+  const MONTHS = {jan:0,feb:1,mar:2,apr:3,may:4,jun:5,jul:6,aug:7,sep:8,oct:9,nov:10,dec:11};
+  function parseOpens(s) {
+    if (!s) return null;
+    const m = s.match(/([A-Za-z]{3})\s+(\d+)/);
+    if (!m) return null;
+    const mo = MONTHS[m[1].toLowerCase()];
+    if (mo === undefined) return null;
+    const yr = new Date().getFullYear();
+    return new Date(yr, mo, parseInt(m[2]));
+  }
+
+  // ── Merge per-theater rows into one row per film ──
+  function groupMovies(rows) {
+    const map = new Map();
+    for (const r of rows) {
+      const key = normTitle(r.title);
+      if (!map.has(key)) {
+        map.set(key, {
+          title:    r.title,
+          year:     r.year     || '',
+          director: r.director || '',
+          status:   r.status,
+          opens:    r.opens    || '',
+          theaters: [],
+        });
+      }
+      const g = map.get(key);
+      // "Now Playing" wins over "Coming Soon" for status display
+      if (r.status === 'Now Playing') g.status = 'Now Playing';
+      // Fill blanks from any theater entry
+      if (!g.year     && r.year)     g.year     = r.year;
+      if (!g.director && r.director) g.director = r.director;
+      // Earliest opens date wins
+      if (r.opens && (!g.opens || parseOpens(r.opens) < parseOpens(g.opens))) {
+        g.opens = r.opens;
+      }
+      g.theaters.push({
+        name:        r.theater,
+        booking_url: r.booking_url || '',
+        status:      r.status,
+        opens:       r.opens || '',
+      });
+    }
+    return Array.from(map.values());
+  }
+
+  // ── HTML escape ──
+  function esc(s) {
+    return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // ── Render table rows ──
+  function render(movies, filter) {
+    let list = filter === 'all' ? movies : movies.filter(m => m.status === filter);
+
+    list.sort((a, b) => {
+      // Now Playing before Coming Soon
+      if (a.status !== b.status) return a.status === 'Now Playing' ? -1 : 1;
+      // Coming Soon: sort by opens date
+      const da = parseOpens(a.opens), db = parseOpens(b.opens);
+      if (da && db) return da - db;
+      if (da) return -1;
+      if (db) return 1;
+      // Alphabetical fallback
+      return a.title.localeCompare(b.title);
+    });
+
+    const tbody = document.getElementById('tbody');
+    tbody.innerHTML = list.map(m => {
+      const badge = m.status === 'Now Playing'
+        ? '<span class="badge badge-now">Now Playing</span>'
+        : '<span class="badge badge-soon">Coming Soon</span>';
+
+      const theatersHtml = m.theaters.map(t => {
+        const href = t.booking_url || THEATER_URLS[t.name] || '#';
+        return `<span class="theater-entry"><a href="${esc(href)}" target="_blank" rel="noopener">${esc(t.name)}</a></span>`;
+      }).join('');
+
+      // Strip "Opens " prefix for display; show just "May 1" style
+      const opensDisplay = m.opens.replace(/^Opens\s+(?:\w{3}\s+)?/i, '');
+
+      return `<tr>
+        <td class="c-title"><span class="film-name">${esc(m.title)}</span>${badge}</td>
+        <td class="c-year">${esc(m.year)}</td>
+        <td class="c-dir">${esc(m.director)}</td>
+        <td class="c-opens">${esc(opensDisplay)}</td>
+        <td class="c-theaters">${theatersHtml}</td>
+      </tr>`;
+    }).join('');
+  }
+
+  // ── State ──
+  let allMovies = [];
+  let activeFilter = 'all';
+
+  // ── Filter buttons ──
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeFilter = btn.dataset.filter;
+      render(allMovies, activeFilter);
+    });
+  });
+
+  // ── Load data ──
+  fetch('movies.json')
+    .then(r => {
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return r.json();
+    })
+    .then(data => {
+      const rows = data.movies || data;
+      allMovies = groupMovies(rows);
+
+      const nNow    = allMovies.filter(m => m.status === 'Now Playing').length;
+      const nSoon   = allMovies.filter(m => m.status === 'Coming Soon').length;
+      const venues  = [...new Set(rows.map(r => r.theater))];
+      const dateStr = data.fetched_at
+        ? new Date(data.fetched_at).toLocaleDateString('en-US', {month:'long', day:'numeric', year:'numeric'})
+        : '';
+
+      document.getElementById('meta').textContent =
+        `Updated ${dateStr} · ${nNow} now playing, ${nSoon} coming soon · ${venues.length} theaters`;
+
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('tbl').style.display = 'table';
+      render(allMovies, activeFilter);
+    })
+    .catch(err => {
+      document.getElementById('loading').textContent =
+        `Could not load listings. ${err.message}`;
+    });
+</script>
+
+</body>
+</html>

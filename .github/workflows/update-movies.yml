@@ -1,0 +1,33 @@
+name: Update movie listings
+
+on:
+  schedule:
+    - cron: '0 14 * * *'   # Daily at 2pm UTC (10am ET)
+  workflow_dispatch:         # Also allow manual trigger from GitHub UI
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 rich
+
+      - name: Run scraper
+        run: python scraper.py --site
+
+      - name: Commit updated listings
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/movies.json
+          git diff --staged --quiet || git commit -m "Update listings $(date -u +%Y-%m-%d)"
+          git push
