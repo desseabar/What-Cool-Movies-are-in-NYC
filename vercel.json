@@ -4,6 +4,7 @@
   "installCommand": "",
   "framework": null,
   "functions": {
-    "api/watchlist.js": { "maxDuration": 60 }
+    "api/watchlist.js": { "maxDuration": 60 },
+    "api/refresh.js":   { "maxDuration": 15 }
   }
 }

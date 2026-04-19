@@ -420,6 +420,29 @@
       #modal-title { font-size: 1.2rem; }
     }
 
+    /* ── Refresh button ─────────────────────────── */
+    #refresh-btn {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      border-radius: 6px;
+      padding: 2px 9px;
+      font-size: 0.72rem;
+      font-family: "Courier New", monospace;
+      cursor: pointer;
+      margin-left: 10px;
+      vertical-align: middle;
+      transition: color 0.12s, border-color 0.12s;
+    }
+    #refresh-btn:hover { color: var(--text); border-color: var(--muted); }
+    #refresh-btn:disabled { opacity: 0.4; cursor: default; }
+    #refresh-msg {
+      font-size: 0.72rem;
+      font-family: "Courier New", monospace;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+
     /* ── Empty / loading states ──────────────────── */
     #loading {
       text-align: center;
@@ -802,7 +825,8 @@
 
       const venueListHtml = venues.map(v => `<span>${esc(v)}</span>`).join('');
       document.getElementById('meta').innerHTML =
-        `Updated ${dateStr} · ${nNow} now playing, ${nSoon} coming soon · <span class="has-tip theaters-tip">${venues.length} theaters<span class="tip">${venueListHtml}</span></span>`;
+        `Updated ${dateStr} · ${nNow} now playing, ${nSoon} coming soon · <span class="has-tip theaters-tip">${venues.length} theaters<span class="tip">${venueListHtml}</span></span>`
+        + `<button id="refresh-btn" onclick="doRefresh()">↻ Refresh</button><span id="refresh-msg"></span>`;
 
       document.getElementById('loading').style.display = 'none';
       document.getElementById('tbl').style.display = 'table';
@@ -811,6 +835,39 @@
     .catch(err => {
       document.getElementById('loading').textContent = `Could not load listings. ${err.message}`;
     });
+
+  // ── Refresh ──
+  const _adminToken = new URLSearchParams(window.location.search).get('token') || '';
+
+  async function doRefresh() {
+    const btn = document.getElementById('refresh-btn');
+    const msg = document.getElementById('refresh-msg');
+    if (!btn) return;
+    btn.disabled = true;
+    msg.textContent = 'Checking…';
+    msg.style.color = 'var(--muted)';
+    try {
+      const url = _adminToken ? `/api/refresh?token=${encodeURIComponent(_adminToken)}` : '/api/refresh';
+      const r   = await fetch(url);
+      const d   = await r.json();
+      if (d.status === 'already_refreshed') {
+        msg.textContent = 'Already refreshed today!';
+        msg.style.color = 'var(--muted)';
+        btn.disabled = false;
+      } else if (d.status === 'triggered') {
+        msg.textContent = 'Refreshing… check back in a few minutes.';
+        msg.style.color = 'var(--lb-fg)';
+      } else {
+        msg.textContent = d.message || 'Error.';
+        msg.style.color = '#f87171';
+        btn.disabled = false;
+      }
+    } catch (err) {
+      msg.textContent = 'Error — try again.';
+      msg.style.color = '#f87171';
+      btn.disabled = false;
+    }
+  }
 </script>
 
 </body>

@@ -620,27 +620,19 @@ def _bam_parse_date(date_text: str) -> tuple:
 def _bam_extract_details(soup) -> dict:
     """Extract director/year/description from a parsed BAM film page."""
     result = {}
-    body = soup.select_one("div.bam-body, div.bam-content-container")
-    if body:
-        text = body.get_text(" ", strip=True)
-        dm = re.search(r"Directed by\s+(.+?)\s*\((\d{4})\)", text)
-        if dm:
-            result["director"] = dm.group(1).strip()
-            result["year"] = dm.group(2)
-        for p_tag in body.select("p"):
-            t = p_tag.get_text(" ", strip=True)
-            if len(t) > 80:
-                result["description"] = t[:500]
-                break
-    if not result.get("description"):
-        for s in soup.find_all("script", type="application/ld+json"):
-            try:
-                ld = json.loads(s.string)
-                if isinstance(ld, dict) and ld.get("description"):
-                    result["description"] = ld["description"][:500]
-                    break
-            except Exception:
-                pass
+
+    # Director + year live in the wider page body
+    page_text = soup.get_text(" ", strip=True)
+    dm = re.search(r"Directed by\s+(.+?)\s*\((\d{4})\)", page_text)
+    if dm:
+        result["director"] = dm.group(1).strip()
+        result["year"] = dm.group(2)
+
+    # Description is in div.description (distinct from the sponsor/body noise)
+    desc_el = soup.select_one("div.description")
+    if desc_el:
+        result["description"] = desc_el.get_text(" ", strip=True)
+
     return result
 
 
