@@ -1,5 +1,8 @@
 {
   "outputDirectory": "docs",
+  "buildCommand": "",
+  "installCommand": "",
+  "framework": null,
   "functions": {
     "api/watchlist.js": { "maxDuration": 60 }
   }
