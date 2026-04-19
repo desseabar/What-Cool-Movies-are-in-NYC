@@ -650,14 +650,7 @@
       });
     }
 
-    list.sort((a, b) => {
-      if (a.status !== b.status) return a.status === 'Now Playing' ? -1 : 1;
-      const da = parseOpens(a.opens), db = parseOpens(b.opens);
-      if (da && db) return da - db;
-      if (da) return -1;
-      if (db) return 1;
-      return a.title.localeCompare(b.title);
-    });
+    list.sort((a, b) => a.title.localeCompare(b.title));
 
     renderedList = list;
     const tbody = document.getElementById('tbody');
@@ -799,7 +792,7 @@
 
       const nNow   = allMovies.filter(m => m.status === 'Now Playing').length;
       const nSoon  = allMovies.filter(m => m.status === 'Coming Soon').length;
-      const venues = [...new Set(rows.map(r => r.theater))];
+      const venues = [...new Set(rows.map(r => r.theater))].sort();
       const dateStr = data.fetched_at
         ? new Date(data.fetched_at).toLocaleDateString('en-US', {month:'long', day:'numeric', year:'numeric'})
         : '';
