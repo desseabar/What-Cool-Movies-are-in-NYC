@@ -234,7 +234,23 @@
       line-height: 1.5;
     }
 
-    /* ── Cell styles ─────────────────────────────── */ 
+    /* ── Bookmark button ────────────────────────── */
+    .save-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 0.9rem;
+      line-height: 1;
+      padding: 0 6px 0 0;
+      color: var(--border);
+      vertical-align: middle;
+      transition: color 0.12s;
+      flex-shrink: 0;
+    }
+    .save-btn:hover { color: var(--muted); }
+    .save-btn.saved { color: var(--gold); }
+
+    /* ── Cell styles ─────────────────────────────── */
     .c-title    { min-width: 180px; max-width: 320px; }
     .c-year     { width: 64px;  white-space: nowrap; color: var(--muted); }
     .c-dir      { width: 140px; max-width: 160px; color: var(--muted);
@@ -498,6 +514,8 @@
     <button class="filter-btn active" data-filter="all">All</button>
     <button class="filter-btn" data-filter="Now Playing">Now Playing</button>
     <button class="filter-btn" data-filter="Coming Soon">Coming Soon</button>
+    <div class="controls-sep"></div>
+    <button class="filter-btn" id="saved-btn">Saved</button>
 
     <div class="controls-sep" id="wl-sep" style="display:none"></div>
     <button class="filter-btn wl-btn" id="wl-title-btn" style="display:none">On my watchlist</button>
@@ -657,6 +675,11 @@
   function render(movies, filter) {
     let list = filter === 'all' ? movies : movies.filter(m => m.status === filter);
 
+    // Apply saved filter
+    if (savedFilter) {
+      list = list.filter(m => savedFilms.has(normTitle(m.title)));
+    }
+
     // Apply watchlist overlay filter
     if (watchlistFilter === 'title') {
       list = list.filter(m => watchlistTitles.has(normTitle(m.title)));
@@ -690,8 +713,10 @@
         return `<span class="theater-entry"><a href="${esc(href)}" target="_blank" rel="noopener">${esc(t.name)}</a></span>`;
       }).join('');
 
+      const key     = normTitle(m.title);
+      const isSaved = savedFilms.has(key);
       return `<tr>
-        <td class="c-title"><span class="film-name" onclick="openModal(${i})">${esc(m.title)}</span>${badge}</td>
+        <td class="c-title"><button class="save-btn${isSaved ? ' saved' : ''}" data-key="${esc(key)}" onclick="toggleSave(event,'${key}')" title="${isSaved ? 'Unsave' : 'Save'}">&#9733;</button><span class="film-name" onclick="openModal(${i})">${esc(m.title)}</span>${badge}</td>
         <td class="c-year">${esc(m.year)}</td>
         <td class="c-dir">${esc(m.director)}</td>
         <td class="c-opens">${esc(m.opens)}</td>
@@ -705,6 +730,35 @@
   let activeFilter = 'all';
   let searchQuery  = '';
   let renderedList = [];
+  let savedFilter  = false;
+  let savedFilms   = new Set(JSON.parse(localStorage.getItem('savedFilms') || '[]'));
+
+  // ── Saved films helpers ──
+  function persistSaved() {
+    localStorage.setItem('savedFilms', JSON.stringify([...savedFilms]));
+  }
+
+  function toggleSave(e, key) {
+    e.stopPropagation();
+    if (savedFilms.has(key)) {
+      savedFilms.delete(key);
+    } else {
+      savedFilms.add(key);
+    }
+    persistSaved();
+    // Update every bookmark button for this film (multiple theaters = same title)
+    document.querySelectorAll(`.save-btn[data-key="${CSS.escape(key)}"]`).forEach(btn => {
+      btn.classList.toggle('saved', savedFilms.has(key));
+      btn.title = savedFilms.has(key) ? 'Unsave' : 'Save';
+    });
+    if (savedFilter) render(allMovies, activeFilter);
+  }
+
+  document.getElementById('saved-btn').addEventListener('click', () => {
+    savedFilter = !savedFilter;
+    document.getElementById('saved-btn').classList.toggle('active', savedFilter);
+    render(allMovies, activeFilter);
+  });
 
   // ── Modal ──
   function openModal(i) {
@@ -795,14 +849,24 @@
   });
 
   // ── Letterboxd form ──
+  // Restore saved username
+  const _savedLbUser = localStorage.getItem('lbUsername');
+  if (_savedLbUser) document.getElementById('lb-username').value = _savedLbUser;
+
   document.getElementById('lb-btn').addEventListener('click', () => {
     const username = document.getElementById('lb-username').value.trim();
-    if (username) loadWatchlist(username);
+    if (username) {
+      localStorage.setItem('lbUsername', username);
+      loadWatchlist(username);
+    }
   });
   document.getElementById('lb-username').addEventListener('keydown', e => {
     if (e.key === 'Enter') {
       const username = e.target.value.trim();
-      if (username) loadWatchlist(username);
+      if (username) {
+        localStorage.setItem('lbUsername', username);
+        loadWatchlist(username);
+      }
     }
   });
 
