@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
 NYC indie/foreign movie theater scraper.
-Always saves movies.html (sortable/filterable) and movies.json.
 
 Usage:
-    python scraper.py           # all server-rendered theaters
-    python scraper.py --js      # also include JS-rendered theaters (needs playwright)
+    python scraper.py           # terminal table
+    python scraper.py --html    # also save movies.html
+    python scraper.py --site    # update docs/movies.json for GitHub Pages
 
 To add a new theater:
     1. Write scrape_mytheatre() and optionally scrape_mytheatre_coming_soon()
@@ -19,7 +19,7 @@ import time
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field, asdict
-from datetime import datetime
+from datetime import datetime, date, timedelta
 from typing import Callable, Optional
 
 import requests
@@ -57,6 +57,32 @@ class Movie:
 # ---------------------------------------------------------------------------
 # Common utilities
 # ---------------------------------------------------------------------------
+
+_MONTH_FULL = ["", "January", "February", "March", "April", "May", "June",
+               "July", "August", "September", "October", "November", "December"]
+
+
+def _normalize_opens(text: str) -> str:
+    """Return 'Month Day' (e.g. 'April 20') from any date-like string, or '' if unparseable."""
+    if not text:
+        return ""
+    iso_m = re.search(r'(\d{4})-(\d{2})-(\d{2})', text)
+    if iso_m:
+        return f"{_MONTH_FULL[int(iso_m.group(2))]} {int(iso_m.group(3))}"
+    mo_m = re.search(
+        r'\b(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?'
+        r'|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)'
+        r'\w*\s+(\d{1,2})\b',
+        text, re.IGNORECASE,
+    )
+    if mo_m:
+        try:
+            d = datetime.strptime(f"{mo_m.group(1)[:3].capitalize()} {mo_m.group(2)}", "%b %d")
+            return f"{_MONTH_FULL[d.month]} {d.day}"
+        except ValueError:
+            pass
+    return ""
+
 
 def _fetch(url: str) -> Optional[BeautifulSoup]:
     headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
@@ -285,11 +311,7 @@ def scrape_nitehawk_coming_soon() -> list:
         date_el = card.select_one("select.datelist option") or \
                   card.select_one("div.selected-date span") or \
                   card.select_one("div.no-showtimes")
-        if date_el:
-            raw_date = date_el.get_text(strip=True)
-            opens = raw_date if raw_date.lower().startswith("opens") else f"Opens {raw_date}"
-        else:
-            opens = ""
+        opens = _normalize_opens(date_el.get_text(strip=True)) if date_el else ""
         movies.append(Movie(
             title=title_el.get_text(strip=True),
             theater="Nitehawk (Prospect Park)",
@@ -343,7 +365,7 @@ def scrape_ifc_coming_soon() -> list:
             continue
         seen_urls.add(url)
         opens_el = card.select_one("div.ifc-grid-info p")
-        opens = opens_el.get_text(strip=True) if opens_el else ""
+        opens = _normalize_opens(opens_el.get_text(strip=True)) if opens_el else ""
         movies.append(Movie(
             title=title_el.get_text(strip=True),
             theater="IFC Center",
@@ -401,7 +423,7 @@ def scrape_filmforum_coming_soon() -> list:
         seen_urls.add(url)
         title = _filmforum_link_title(link)
         opens_el = card.select_one("div.details p")
-        opens = opens_el.get_text(strip=True) if opens_el else ""
+        opens = _normalize_opens(opens_el.get_text(strip=True)) if opens_el else ""
         movies.append(Movie(
             title=title,
             theater="Film Forum",
@@ -532,49 +554,440 @@ def scrape_filmnoircinema() -> list:
 
 
 # ---------------------------------------------------------------------------
-# JS-rendered theaters (require --js / playwright)
+# Nitehawk Cinema — Williamsburg
 # ---------------------------------------------------------------------------
 
-def _playwright_scrape(url: str, theater_name: str) -> list:
-    """Generic Playwright loader — renders JS then hands HTML to BeautifulSoup."""
-    try:
-        from playwright.sync_api import sync_playwright
-    except ImportError:
-        print(f"[warn] {theater_name} requires playwright: pip install playwright && playwright install chromium", file=sys.stderr)
-        return []
+def scrape_nitehawk_williamsburg() -> list:
     movies = []
-    with sync_playwright() as p:
-        browser = p.chromium.launch()
-        page = browser.new_page()
-        try:
-            page.goto(url, timeout=30000)
-            page.wait_for_load_state("networkidle")
-            soup = BeautifulSoup(page.content(), "html.parser")
-            # Generic fallback: find any <h2>/<h3> near film links
-            for el in soup.select("h2, h3"):
-                text = el.get_text(strip=True)
-                if not text or len(text) < 3:
-                    continue
-                link = el.find_parent("a") or el.find("a")
-                film_url = link["href"] if link and link.get("href") else url
-                movies.append(Movie(title=text, theater=theater_name, url=film_url))
-        except Exception as e:
-            print(f"[warn] {theater_name}: {e}", file=sys.stderr)
-        finally:
-            browser.close()
+    soup = _fetch("https://nitehawkcinema.com/williamsburg/")
+    if not soup:
+        return movies
+    seen_urls: set = set()
+    base = "https://nitehawkcinema.com"
+    for item in soup.select("div.promo-item"):
+        link = item.select_one("a[href*='/williamsburg/movies/']")
+        url = _abs(link["href"], base) if link else base + "/williamsburg/"
+        if url in seen_urls:
+            continue
+        seen_urls.add(url)
+        raw = item.get_text(" ", strip=True)
+        # Text is "Apr 18-19 FILM TITLE" — strip leading date token
+        m = re.match(r"^[A-Za-z]{3}[\s\d\-–]+\s+(.*)", raw)
+        title = (m.group(1) if m else raw).strip().title()
+        if not title:
+            continue
+        movies.append(Movie(title=title, theater="Nitehawk (Williamsburg)", url=url))
+    print(f"  Fetching detail pages for {len(movies)} Nitehawk Williamsburg films…")
+    _apply_details(movies, _nitehawk_details)
     return movies
 
 
-def scrape_paris() -> list:
-    return _playwright_scrape("https://www.paristheaternyc.com/", "Paris Theater")
+# ---------------------------------------------------------------------------
+# BAM (Brooklyn Academy of Music)
+# ---------------------------------------------------------------------------
 
+_BAM_BASE = "https://www.bam.org"
+
+
+def _bam_parse_date(date_text: str) -> tuple:
+    """Return (status, opens) from a BAM date string."""
+    dt = date_text.strip()
+    if not dt or dt.lower() == "now playing":
+        return "Now Playing", ""
+    if re.match(r"Opens\s+", dt, re.IGNORECASE):
+        return "Coming Soon", _normalize_opens(dt)
+    today = date.today()
+    yr_m = re.search(r"\b(20\d\d)\b", dt)
+    year = int(yr_m.group(1)) if yr_m else today.year
+    dates_found = []
+    for m in re.finditer(r"\b([A-Z][a-z]{2})\s+(\d{1,2})\b", dt):
+        try:
+            dates_found.append(
+                datetime.strptime(f"{m.group(1)} {m.group(2)} {year}", "%b %d %Y").date()
+            )
+        except ValueError:
+            pass
+    if not dates_found:
+        return "Now Playing", ""
+    start, end = min(dates_found), max(dates_found)
+    if end < today:
+        return "Now Playing", ""  # ended; keep on page as BAM does
+    if start > today:
+        return "Coming Soon", _normalize_opens(dt)
+    return "Now Playing", ""  # currently running
+
+
+def _bam_extract_details(soup) -> dict:
+    """Extract director/year/description from a parsed BAM film page."""
+    result = {}
+    body = soup.select_one("div.bam-body, div.bam-content-container")
+    if body:
+        text = body.get_text(" ", strip=True)
+        dm = re.search(r"Directed by\s+(.+?)\s*\((\d{4})\)", text)
+        if dm:
+            result["director"] = dm.group(1).strip()
+            result["year"] = dm.group(2)
+        for p_tag in body.select("p"):
+            t = p_tag.get_text(" ", strip=True)
+            if len(t) > 80:
+                result["description"] = t[:500]
+                break
+    if not result.get("description"):
+        for s in soup.find_all("script", type="application/ld+json"):
+            try:
+                ld = json.loads(s.string)
+                if isinstance(ld, dict) and ld.get("description"):
+                    result["description"] = ld["description"][:500]
+                    break
+            except Exception:
+                pass
+    return result
+
+
+def _bam_details(url: str) -> dict:
+    soup = _fetch(url)
+    return _bam_extract_details(soup) if soup else {}
+
+
+def scrape_bam() -> list:
+    listing_soup = _fetch(f"{_BAM_BASE}/film")
+    if not listing_soup:
+        return []
+
+    # Collect entries — only /film/ paths (skip external /link/ redirects)
+    listing_entries = []
+    seen_listing: set = set()
+    for block in listing_soup.select("div.productionblock"):
+        h = block.select_one("h2,h3")
+        a = block.select_one("a[href^='/film/']")
+        p = block.select_one("p")
+        if not (h and a):
+            continue
+        url = _abs(a["href"], _BAM_BASE)
+        if url in seen_listing:
+            continue
+        seen_listing.add(url)
+        listing_entries.append({
+            "title":     h.get_text(strip=True),
+            "url":       url,
+            "date_text": p.get_text(strip=True) if p else "",
+        })
+
+    print(f"  Classifying {len(listing_entries)} BAM pages…")
+
+    def process_entry(entry: dict):
+        """
+        Fetch one BAM page. Returns ('series', [child dicts]) if it's a
+        series/retrospective, or ('film', Movie) if it's a single film.
+        """
+        soup = _fetch(entry["url"])
+        if not soup:
+            return None
+
+        own_path = entry["url"].replace(_BAM_BASE, "")
+
+        # Series detection: productionblocks with /film/ links distinct from
+        # this page's own URL indicate individual films within a series.
+        children = []
+        for block in soup.select("div.productionblock"):
+            child_a = block.select_one("a[href^='/film/']")
+            if not child_a or child_a["href"] == own_path:
+                continue
+            child_h = block.select_one("h2,h3,h4")
+            child_p = block.select_one("p")
+            if child_h:
+                children.append({
+                    "title":     child_h.get_text(strip=True),
+                    "url":       _abs(child_a["href"], _BAM_BASE),
+                    "date_text": child_p.get_text(strip=True) if child_p else "",
+                })
+
+        # Single-film pages have a 3-film "Now Playing" sidebar that looks like
+        # children. True series pages have 4+ children AND no "Directed by" credit.
+        page_text = soup.get_text(" ", strip=True)
+        has_director = bool(re.search(r"Directed by", page_text, re.IGNORECASE))
+        if len(children) >= 4 and not has_director:
+            return ("series", children)
+
+        details = _bam_extract_details(soup)
+        status, opens = _bam_parse_date(entry["date_text"])
+        return ("film", Movie(
+            title=entry["title"].title(),
+            theater="BAM",
+            url=entry["url"],
+            status=status,
+            opens=opens,
+            director=details.get("director", ""),
+            year=details.get("year", ""),
+            description=details.get("description", ""),
+        ))
+
+    # Run concurrently; collect results in main thread (no shared mutation)
+    regular_movies: list[Movie] = []
+    series_children: list[dict] = []
+    seen_urls: set = set()
+
+    with ThreadPoolExecutor(max_workers=6) as ex:
+        futures = {ex.submit(process_entry, e): e for e in listing_entries}
+        for f in as_completed(futures):
+            try:
+                result = f.result()
+                if result is None:
+                    continue
+                kind, payload = result
+                if kind == "series":
+                    for c in payload:
+                        if c["url"] not in seen_urls:
+                            seen_urls.add(c["url"])
+                            series_children.append(c)
+                else:
+                    if payload.url not in seen_urls:
+                        seen_urls.add(payload.url)
+                        regular_movies.append(payload)
+            except Exception as e:
+                print(f"[warn] BAM: {e}", file=sys.stderr)
+
+    # Build Movie objects for series children, then fetch their detail pages
+    child_movies: list[Movie] = []
+    for c in series_children:
+        status, opens = _bam_parse_date(c["date_text"])
+        child_movies.append(Movie(
+            title=c["title"].title(),
+            theater="BAM",
+            url=c["url"],
+            status=status,
+            opens=opens,
+        ))
+
+    if child_movies:
+        print(f"  Fetching details for {len(child_movies)} BAM series films…")
+        _apply_details(child_movies, _bam_details)
+
+    return regular_movies + child_movies
+
+
+# ---------------------------------------------------------------------------
+# Paris Theater  (Next.js — data embedded in RSC inline scripts)
+# ---------------------------------------------------------------------------
+
+def scrape_paris() -> list:
+    import json as _json
+    movies = []
+    r = requests.get(
+        "https://www.paristheaternyc.com/",
+        headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"},
+        timeout=15,
+    )
+    if r.status_code != 200:
+        print(f"[warn] Paris Theater: HTTP {r.status_code}", file=sys.stderr)
+        return movies
+
+    # Collect all RSC chunk strings
+    scripts = re.findall(
+        r"<script>self\.__next_f\.push\((\[.*?\])\)</script>", r.text, re.DOTALL
+    )
+    all_content = ""
+    for s in scripts:
+        try:
+            data = _json.loads(s)
+            if len(data) >= 2 and isinstance(data[1], str):
+                all_content += data[1] + "\n"
+        except Exception:
+            pass
+
+    today = date.today()
+    seen: set = set()
+    for m in re.finditer(r'"FilmName"\s*:\s*"([^"]+)"', all_content):
+        film_name = m.group(1)
+        if film_name in seen:
+            continue
+        ctx = all_content[m.start() : m.start() + 1500]
+
+        def _rsc(field: str) -> str:
+            fm = re.search(rf'"{re.escape(field)}"\s*:\s*"([^"]*)"', ctx)
+            return fm.group(1) if fm else ""
+
+        slug       = _rsc("Slug")
+        director   = _rsc("Director")
+        cast_      = _rsc("Cast")
+        opening    = _rsc("OpeningDate")    # "YYYY-MM-DD"
+        closing    = _rsc("ClosingDate")
+        year       = _rsc("Year")
+        # Only show films active within the current or upcoming season
+        try:
+            open_date  = date.fromisoformat(opening) if opening else None
+            close_date = date.fromisoformat(closing) if closing else None
+        except ValueError:
+            open_date = close_date = None
+
+        # Skip stale past screenings (closed more than 7 days ago)
+        if close_date and close_date < today - timedelta(days=7):
+            continue
+        # Skip far-future entries with no opening date
+        if not open_date:
+            continue
+
+        seen.add(film_name)
+        status = "Coming Soon" if open_date > today else "Now Playing"
+        opens  = f"{_MONTH_FULL[open_date.month]} {open_date.day}" if status == "Coming Soon" else ""
+        url    = f"https://www.paristheaternyc.com/films/{slug}" if slug else "https://www.paristheaternyc.com/"
+
+        movies.append(Movie(
+            title=film_name.title(),
+            theater="Paris Theater",
+            url=url,
+            status=status,
+            opens=opens,
+            year=year,
+            director=director,
+            cast=cast_,
+        ))
+    return movies
+
+
+# ---------------------------------------------------------------------------
+# Film at Lincoln Center  (server-rendered listing page)
+# ---------------------------------------------------------------------------
 
 def scrape_filmlinc() -> list:
-    return _playwright_scrape("https://www.filmlinc.org/", "Film at Lincoln Center")
+    movies = []
+    soup = _fetch("https://www.filmlinc.org/")
+    if not soup:
+        return movies
+    seen_urls: set = set()
+    # Each film card is a div.py-8 (Tailwind) containing an /films/ link
+    for card in soup.select("div.py-8, div.py-6"):
+        link = card.select_one("a[href^='/films/']")
+        if not link:
+            continue
+        title = link.get_text(strip=True)
+        if not title or title in ("Get Tickets", "Learn More"):
+            continue
+        url = _abs(link["href"], "https://www.filmlinc.org")
+        if url in seen_urls:
+            continue
+        seen_urls.add(url)
+
+        card_text = card.get_text(" ", strip=True)
+        opens_m = re.search(r"Opens\s+(.+?)(?:\s+with|\s+at|\.|$)", card_text, re.IGNORECASE)
+        premiere_m = re.search(r"(World Premiere[^\.]*)", card_text, re.IGNORECASE)
+        if opens_m or premiere_m:
+            raw_opens = (opens_m.group(1) if opens_m else premiere_m.group(1)).strip()
+            status = "Coming Soon"
+            opens  = _normalize_opens(raw_opens)
+        else:
+            status = "Now Playing"
+            opens  = ""
+
+        movies.append(Movie(
+            title=title.title(),
+            theater="Film at Lincoln Center",
+            url=url,
+            status=status,
+            opens=opens,
+        ))
+    return movies
+
+
+# ---------------------------------------------------------------------------
+# Angelika Film Center  (Reading Cinemas API — no Playwright needed)
+# ---------------------------------------------------------------------------
+
+_ANGELIKA_API   = "https://production-api.readingcinemas.com"
+_ANGELIKA_CNTRY = "6"
+_ANGELIKA_ID    = "0000000005"
+_ANGELIKA_BASE  = "https://angelikafilmcenter.com/nyc"
+
+
+def _angelika_token() -> str:
+    r = requests.get(
+        f"{_ANGELIKA_API}/settings/{_ANGELIKA_CNTRY}",
+        headers={"Origin": _ANGELIKA_BASE},
+        timeout=15,
+    )
+    r.raise_for_status()
+    return r.json()["data"]["settings"]["token"]
+
+
+def _angelika_films(status: str, token: str) -> list:
+    # nowShowing uses cinemaId; comingSoon uses flag for cinema filtering
+    param_key = "cinemaId" if status == "nowShowing" else "flag"
+    r = requests.get(
+        f"{_ANGELIKA_API}/films",
+        params={"countryId": _ANGELIKA_CNTRY, param_key: _ANGELIKA_ID, "status": status},
+        headers={"Authorization": f"Bearer {token}", "Origin": _ANGELIKA_BASE},
+        timeout=15,
+    )
+    r.raise_for_status()
+    data = r.json()
+    return data if isinstance(data, list) else data.get("data", [])
+
+
+def _parse_angelika_films(raw: list, status: str) -> list:
+    movies = []
+    for f in raw:
+        title = (f.get("name") or f.get("movieName") or "").strip()
+        if not title:
+            continue
+        title = title.title()
+        slug = f.get("movieSlug") or ""
+        url = f"{_ANGELIKA_BASE}/movies/{slug}" if slug else _ANGELIKA_BASE
+
+        release = f.get("release_date", "")
+        opens = ""
+        if release and release != "Invalid date":
+            try:
+                d = datetime.strptime(release, "%Y-%m-%d")
+                opens = f"{_MONTH_FULL[d.month]} {d.day}"
+            except ValueError:
+                pass
+
+        showtimes = []
+        showdates = f.get("showdates") or {}
+        if isinstance(showdates, list):
+            for sd in showdates:
+                for st_type in sd.get("showtypes", []):
+                    for st in st_type.get("showtimes", []):
+                        dt_str = st.get("date_time", "")
+                        try:
+                            dt = datetime.fromisoformat(dt_str)
+                            showtimes.append(dt.strftime("%a %b %-d %-I:%M %p"))
+                        except ValueError:
+                            pass
+
+        movies.append(Movie(
+            title=title,
+            theater="Angelika Film Center",
+            url=url,
+            booking_url=url,
+            status=status,
+            opens=opens,
+            director=(f.get("director") or "").strip(),
+            cast=(f.get("cast") or "").strip().rstrip(","),
+            description=re.sub(r"<[^>]+>", "", f.get("synopsis") or "").strip(),
+            showtimes=showtimes,
+        ))
+    return movies
 
 
 def scrape_angelika() -> list:
-    return _playwright_scrape("https://angelikafilmcenter.com/nyc", "Angelika Film Center")
+    try:
+        token = _angelika_token()
+        raw = _angelika_films("nowShowing", token)
+        return _parse_angelika_films(raw, "Now Playing")
+    except Exception as e:
+        print(f"[warn] Angelika Film Center: {e}", file=sys.stderr)
+        return []
+
+
+def scrape_angelika_coming_soon() -> list:
+    try:
+        token = _angelika_token()
+        raw = _angelika_films("comingSoon", token)
+        return _parse_angelika_films(raw, "Coming Soon")
+    except Exception as e:
+        print(f"[warn] Angelika Film Center (coming soon): {e}", file=sys.stderr)
+        return []
 
 
 # ---------------------------------------------------------------------------
@@ -585,19 +998,19 @@ def scrape_angelika() -> list:
 # coming_soon_fn is called separately; return [] if not supported.
 
 THEATERS: list[tuple] = [
-    ("Nitehawk (Prospect Park)", scrape_nitehawk,          scrape_nitehawk_coming_soon),
-    ("IFC Center",               scrape_ifc,               scrape_ifc_coming_soon),
-    ("Film Forum",               scrape_filmforum,         scrape_filmforum_coming_soon),
-    ("Metrograph",               scrape_metrograph,        None),
-    ("Film Noir Cinema",         scrape_filmnoircinema,    None),
+    ("Nitehawk (Prospect Park)",  scrape_nitehawk,               scrape_nitehawk_coming_soon),
+    ("Nitehawk (Williamsburg)",   scrape_nitehawk_williamsburg,  None),
+    ("IFC Center",                scrape_ifc,                    scrape_ifc_coming_soon),
+    ("Film Forum",                scrape_filmforum,              scrape_filmforum_coming_soon),
+    ("Metrograph",                scrape_metrograph,             None),
+    ("Film Noir Cinema",          scrape_filmnoircinema,         None),
+    ("BAM",                       scrape_bam,                    None),
+    ("Paris Theater",             scrape_paris,                  None),
+    ("Film at Lincoln Center",    scrape_filmlinc,               None),
+    ("Angelika Film Center",      scrape_angelika,               scrape_angelika_coming_soon),
 ]
 
-# These use Playwright (--js flag required):
-JS_THEATERS: list[tuple] = [
-    ("Paris Theater",            scrape_paris,             None),
-    ("Film at Lincoln Center",   scrape_filmlinc,          None),
-    ("Angelika Film Center",     scrape_angelika,          None),
-]
+JS_THEATERS: list[tuple] = []  # all theaters now use direct HTTP scraping
 
 
 # ---------------------------------------------------------------------------
@@ -840,15 +1253,12 @@ function filterTable() {{
 def main() -> None:
     import argparse
     parser = argparse.ArgumentParser(description="NYC indie movie theater scraper")
-    parser.add_argument("--js",   action="store_true", help="Include JS-rendered theaters (needs playwright)")
     parser.add_argument("--html", action="store_true", help="Save movies.html")
     parser.add_argument("--json", action="store_true", help="Save movies.json")
     parser.add_argument("--site", action="store_true", help="Save docs/movies.json for GitHub Pages")
     args = parser.parse_args()
 
     active = list(THEATERS)
-    if args.js:
-        active.extend(JS_THEATERS)
 
     raw: list = []
     for name, fn_now, fn_soon in active:

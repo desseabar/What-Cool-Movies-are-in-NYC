@@ -16,7 +16,11 @@
       --green-fg:  #4ade80;
       --blue-bg:   #1e3a5f;
       --blue-fg:   #93c5fd;
+      --lb-bg:     #1c2a1c;
+      --lb-fg:     #6bcf6b;
+      --lb-border: #2a3f2a;
       --controls-h: 56px;
+      --wlbar-h:    52px;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -28,6 +32,7 @@
       color: var(--text);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       min-height: 100vh;
+      overflow-x: auto;
     }
 
     /* ── Header ─────────────────────────────────── */
@@ -51,7 +56,68 @@
       color: var(--muted);
       font-family: "Courier New", monospace;
       letter-spacing: 0.03em;
+      position: relative;
     }
+
+    /* ── Letterboxd bar ──────────────────────────── */
+    .watchlist-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0 40px;
+      height: var(--wlbar-h);
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .lb-label {
+      font-size: 0.75rem;
+      font-family: "Courier New", monospace;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--lb-fg);
+      opacity: 0.85;
+      white-space: nowrap;
+    }
+
+    #lb-username {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: 0.85rem;
+      font-family: "Courier New", monospace;
+      width: 160px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    #lb-username:focus { border-color: var(--lb-fg); }
+    #lb-username::placeholder { color: var(--muted); }
+
+    #lb-btn {
+      padding: 5px 14px;
+      border: 1px solid var(--lb-border);
+      background: var(--lb-bg);
+      color: var(--lb-fg);
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-family: inherit;
+      transition: opacity 0.12s;
+      white-space: nowrap;
+    }
+    #lb-btn:hover { opacity: 0.8; }
+    #lb-btn:disabled { opacity: 0.4; cursor: default; }
+
+    #lb-status {
+      font-size: 0.78rem;
+      font-family: "Courier New", monospace;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+    #lb-status.ok  { color: var(--lb-fg); }
+    #lb-status.err { color: #f87171; }
 
     /* ── Controls ────────────────────────────────── */
     .controls {
@@ -65,7 +131,32 @@
       height: var(--controls-h);
       background: var(--bg);
       border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
     }
+
+    .controls-sep {
+      width: 1px;
+      height: 20px;
+      background: var(--border);
+      margin: 0 4px;
+    }
+
+    #search {
+      margin-left: auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: 0.82rem;
+      font-family: inherit;
+      width: 240px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    #search:focus { border-color: var(--muted); }
+    #search::placeholder { color: var(--muted); }
+    @media (max-width: 640px) { #search { width: 140px; } }
 
     .filter-btn {
       padding: 5px 14px;
@@ -85,19 +176,19 @@
       color: var(--bg);
       border-color: var(--text);
     }
-
-    /* ── Table wrapper ───────────────────────────── */
-    .table-wrap {
-      overflow-x: auto;
+    .filter-btn.active.wl-btn {
+      background: var(--lb-fg);
+      color: #0a1a0a;
+      border-color: var(--lb-fg);
     }
 
+    /* ── Table wrapper ───────────────────────────── */
     table {
       width: 100%;
       border-collapse: collapse;
       font-size: 0.88rem;
     }
 
-    /* Sticky header row — sits just below the controls bar */
     thead th {
       position: sticky;
       top: var(--controls-h);
@@ -128,13 +219,10 @@
     }
 
     /* ── Cell styles ─────────────────────────────── */
-    .c-title {
-      min-width: 200px;
-      max-width: 320px;
-    }
-    .c-year    { width: 64px;  white-space: nowrap; color: var(--muted); }
-    .c-dir     { min-width: 140px; color: var(--muted); }
-    .c-opens   { min-width: 120px; white-space: nowrap; color: var(--muted); }
+    .c-title    { min-width: 200px; max-width: 320px; }
+    .c-year     { width: 64px;  white-space: nowrap; color: var(--muted); }
+    .c-dir      { min-width: 140px; color: var(--muted); }
+    .c-opens    { min-width: 120px; white-space: nowrap; color: var(--muted); }
     .c-theaters { min-width: 180px; }
 
     .film-name {
@@ -159,24 +247,67 @@
     .badge-soon { background: var(--blue-bg);  color: var(--blue-fg); }
 
     /* Theater links */
-    .theater-entry {
-      display: block;
-      line-height: 1.9;
-    }
+    .theater-entry { display: block; line-height: 1.9; }
     .theater-entry a {
       color: var(--gold);
       text-decoration: none;
       font-size: 0.84rem;
     }
     .theater-entry a:hover { text-decoration: underline; }
-    .theater-entry a::after {
-      content: " ↗";
-      font-size: 0.7rem;
-      opacity: 0.7;
+    .theater-entry a::after { content: " ↗"; font-size: 0.7rem; opacity: 0.7; }
+    .theater-entry span { color: var(--muted); font-size: 0.84rem; }
+
+    /* ── Tooltips ───────────────────────────────── */
+    .has-tip {
+      position: relative;
     }
-    .theater-entry span {
+    .tip {
+      display: none;
+      position: absolute;
+      z-index: 100;
+      top: calc(100% + 6px);
+      left: 0;
+      width: 300px;
+      background: #111;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 14px;
+      font-size: 0.78rem;
+      line-height: 1.55;
+      color: var(--text);
+      box-shadow: 0 6px 24px rgba(0,0,0,0.6);
+      white-space: normal;
+      pointer-events: none;
+    }
+    .has-tip:hover .tip { display: block; }
+
+    .tip-country {
+      font-family: "Courier New", monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.06em;
       color: var(--muted);
-      font-size: 0.84rem;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .tip-desc { color: var(--text); }
+
+    /* Theaters tooltip — opens rightward from the count */
+    .theaters-tip .tip {
+      left: auto;
+      right: 0;
+      width: 220px;
+    }
+    .theaters-tip .tip span {
+      display: block;
+      padding: 2px 0;
+      border-bottom: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.78rem;
+    }
+    .theaters-tip .tip span:last-child { border-bottom: none; }
+    .theaters-tip {
+      cursor: default;
+      border-bottom: 1px dashed var(--muted);
     }
 
     /* ── Empty / loading states ──────────────────── */
@@ -191,7 +322,7 @@
     /* ── Responsive ──────────────────────────────── */
     @media (max-width: 640px) {
       header { padding: 36px 20px 24px; }
-      .controls { padding: 0 20px; }
+      .controls, .watchlist-bar { padding: 0 20px; }
       td, thead th { padding: 12px 10px; }
       .c-dir, .c-year { display: none; }
     }
@@ -204,10 +335,23 @@
   <p id="meta">Loading listings…</p>
 </header>
 
+<div class="watchlist-bar">
+  <span class="lb-label">Letterboxd</span>
+  <input type="text" id="lb-username" placeholder="username" autocomplete="off" spellcheck="false" />
+  <button id="lb-btn">Load watchlist</button>
+  <span id="lb-status"></span>
+</div>
+
 <div class="controls">
   <button class="filter-btn active" data-filter="all">All</button>
   <button class="filter-btn" data-filter="Now Playing">Now Playing</button>
   <button class="filter-btn" data-filter="Coming Soon">Coming Soon</button>
+
+  <div class="controls-sep" id="wl-sep" style="display:none"></div>
+  <button class="filter-btn wl-btn" id="wl-title-btn" style="display:none">On my watchlist</button>
+  <button class="filter-btn wl-btn" id="wl-dir-btn" style="display:none">Director on watchlist</button>
+
+  <input type="search" id="search" placeholder="Search films, directors, theaters…" autocomplete="off" />
 </div>
 
 <div class="table-wrap">
@@ -227,57 +371,60 @@
 </div>
 
 <script>
-  // ── Theater fallback URLs (used when no per-film booking link exists) ──
+  // ── Theater fallback URLs ──
   const THEATER_URLS = {
     'Nitehawk (Prospect Park)': 'https://nitehawkcinema.com/prospectpark/',
+    'Nitehawk (Williamsburg)':  'https://nitehawkcinema.com/williamsburg/',
     'IFC Center':               'https://www.ifccenter.com/',
     'Film Forum':               'https://filmforum.org/',
     'Metrograph':               'https://metrograph.com/',
     'Film Noir Cinema':         'https://www.filmnoircinema.com/program',
+    'BAM':                      'https://www.bam.org/film',
     'Paris Theater':            'https://www.paristheaternyc.com/',
     'Film at Lincoln Center':   'https://www.filmlinc.org/',
     'Angelika Film Center':     'https://angelikafilmcenter.com/nyc',
   };
 
-  // ── Normalise title for cross-theater deduplication ──
+  // ── Normalisation helpers ──
   function normTitle(t) {
-    return t.toLowerCase().replace(/[^a-z0-9]/g, '');
+    return (t || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  }
+  function normStr(s) {
+    return (s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
   }
 
-  // ── Parse "Opens Thu May 1" → Date (for sorting) ──
-  const MONTHS = {jan:0,feb:1,mar:2,apr:3,may:4,jun:5,jul:6,aug:7,sep:8,oct:9,nov:10,dec:11};
+  // ── Date parser for sorting ──
   function parseOpens(s) {
     if (!s) return null;
-    const m = s.match(/([A-Za-z]{3})\s+(\d+)/);
+    const m = s.match(/([A-Za-z]+)\s+(\d+)/);
     if (!m) return null;
-    const mo = MONTHS[m[1].toLowerCase()];
-    if (mo === undefined) return null;
-    const yr = new Date().getFullYear();
-    return new Date(yr, mo, parseInt(m[2]));
+    const d = new Date(`${m[1]} ${m[2]}, ${new Date().getFullYear()}`);
+    return isNaN(d) ? null : d;
   }
 
-  // ── Merge per-theater rows into one row per film ──
+  // ── Group per-theater rows into one row per film ──
   function groupMovies(rows) {
     const map = new Map();
     for (const r of rows) {
       const key = normTitle(r.title);
       if (!map.has(key)) {
         map.set(key, {
-          title:    r.title,
-          year:     r.year     || '',
-          director: r.director || '',
-          status:   r.status,
-          opens:    r.opens    || '',
-          theaters: [],
+          title:       r.title,
+          year:        r.year        || '',
+          director:    r.director    || '',
+          country:     r.country     || '',
+          description: r.description || '',
+          status:      r.status,
+          opens:       r.opens       || '',
+          theaters:    [],
         });
       }
       const g = map.get(key);
-      // "Now Playing" wins over "Coming Soon" for status display
       if (r.status === 'Now Playing') g.status = 'Now Playing';
-      // Fill blanks from any theater entry
-      if (!g.year     && r.year)     g.year     = r.year;
-      if (!g.director && r.director) g.director = r.director;
-      // Earliest opens date wins
+      if (!g.year        && r.year)        g.year        = r.year;
+      if (!g.director    && r.director)    g.director    = r.director;
+      if (!g.country     && r.country)     g.country     = r.country;
+      if (!g.description && r.description) g.description = r.description;
       if (r.opens && (!g.opens || parseOpens(r.opens) < parseOpens(g.opens))) {
         g.opens = r.opens;
       }
@@ -296,19 +443,86 @@
     return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
+  // ── Watchlist state ──
+  let watchlistTitles    = new Set();
+  let watchlistDirectors = new Set();
+  let watchlistLoaded    = false;
+  let watchlistFilter    = null;  // null | 'title' | 'director'
+
+  function setLbStatus(msg, cls = '') {
+    const el = document.getElementById('lb-status');
+    el.textContent = msg;
+    el.className   = cls;
+  }
+
+  function showWatchlistControls(show) {
+    const display = show ? '' : 'none';
+    document.getElementById('wl-sep').style.display       = show ? 'block' : 'none';
+    document.getElementById('wl-title-btn').style.display = display;
+    document.getElementById('wl-dir-btn').style.display   = display;
+  }
+
+  async function loadWatchlist(username) {
+    const btn = document.getElementById('lb-btn');
+    btn.disabled = true;
+    watchlistTitles.clear();
+    watchlistDirectors.clear();
+    watchlistLoaded = false;
+    watchlistFilter = null;
+    document.querySelectorAll('.wl-btn').forEach(b => b.classList.remove('active'));
+    showWatchlistControls(false);
+    setLbStatus('Loading…');
+
+    try {
+      const r = await fetch(`/api/watchlist?username=${encodeURIComponent(username)}`);
+      const data = await r.json();
+      if (!r.ok) throw new Error(data.error || `HTTP ${r.status}`);
+
+      for (const f of data.films) {
+        watchlistTitles.add(normTitle(f.title));
+        for (const d of (f.directors || [])) watchlistDirectors.add(normStr(d));
+      }
+
+      watchlistLoaded = true;
+      showWatchlistControls(true);
+      setLbStatus(`✓ ${data.films.length} films`, 'ok');
+      render(allMovies, activeFilter);
+    } catch (err) {
+      setLbStatus(`Error: ${err.message}`, 'err');
+    } finally {
+      btn.disabled = false;
+    }
+  }
+
   // ── Render table rows ──
   function render(movies, filter) {
     let list = filter === 'all' ? movies : movies.filter(m => m.status === filter);
 
+    // Apply watchlist overlay filter
+    if (watchlistFilter === 'title') {
+      list = list.filter(m => watchlistTitles.has(normTitle(m.title)));
+    } else if (watchlistFilter === 'director') {
+      list = list.filter(m =>
+        watchlistTitles.has(normTitle(m.title)) ||
+        (m.director && m.director.split(/[,&]/).some(d => watchlistDirectors.has(normStr(d.trim()))))
+      );
+    }
+
+    // Apply search filter
+    if (searchQuery) {
+      list = list.filter(m => {
+        if (normStr(m.title).includes(searchQuery))    return true;
+        if (normStr(m.director).includes(searchQuery)) return true;
+        return m.theaters.some(t => normStr(t.name).includes(searchQuery));
+      });
+    }
+
     list.sort((a, b) => {
-      // Now Playing before Coming Soon
       if (a.status !== b.status) return a.status === 'Now Playing' ? -1 : 1;
-      // Coming Soon: sort by opens date
       const da = parseOpens(a.opens), db = parseOpens(b.opens);
       if (da && db) return da - db;
       if (da) return -1;
       if (db) return 1;
-      // Alphabetical fallback
       return a.title.localeCompare(b.title);
     });
 
@@ -323,34 +537,74 @@
         return `<span class="theater-entry"><a href="${esc(href)}" target="_blank" rel="noopener">${esc(t.name)}</a></span>`;
       }).join('');
 
-      // Strip "Opens " prefix for display; show just "May 1" style
-      const opensDisplay = m.opens.replace(/^Opens\s+(?:\w{3}\s+)?/i, '');
+      const hasTip = m.country || m.description;
+      const tipHtml = hasTip ? `<span class="tip">${
+        m.country    ? `<div class="tip-country">${esc(m.country)}</div>` : ''
+      }${
+        m.description ? `<div class="tip-desc">${esc(m.description)}</div>` : ''
+      }</span>` : '';
 
       return `<tr>
-        <td class="c-title"><span class="film-name">${esc(m.title)}</span>${badge}</td>
+        <td class="c-title"><span class="${hasTip ? 'has-tip' : ''}"><span class="film-name">${esc(m.title)}</span>${badge}${tipHtml}</span></td>
         <td class="c-year">${esc(m.year)}</td>
         <td class="c-dir">${esc(m.director)}</td>
-        <td class="c-opens">${esc(opensDisplay)}</td>
+        <td class="c-opens">${esc(m.opens)}</td>
         <td class="c-theaters">${theatersHtml}</td>
       </tr>`;
     }).join('');
   }
 
   // ── State ──
-  let allMovies = [];
+  let allMovies    = [];
   let activeFilter = 'all';
+  let searchQuery  = '';
 
-  // ── Filter buttons ──
-  document.querySelectorAll('.filter-btn').forEach(btn => {
+  // ── Status filter buttons ──
+  document.querySelectorAll('.filter-btn:not(.wl-btn)').forEach(btn => {
     btn.addEventListener('click', () => {
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.filter-btn:not(.wl-btn)').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       activeFilter = btn.dataset.filter;
       render(allMovies, activeFilter);
     });
   });
 
-  // ── Load data ──
+  // ── Watchlist filter buttons ──
+  document.querySelectorAll('.wl-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const f = btn.id === 'wl-title-btn' ? 'title' : 'director';
+      if (watchlistFilter === f) {
+        // Toggle off
+        watchlistFilter = null;
+        btn.classList.remove('active');
+      } else {
+        watchlistFilter = f;
+        document.querySelectorAll('.wl-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      }
+      render(allMovies, activeFilter);
+    });
+  });
+
+  // ── Search ──
+  document.getElementById('search').addEventListener('input', e => {
+    searchQuery = normStr(e.target.value);
+    render(allMovies, activeFilter);
+  });
+
+  // ── Letterboxd form ──
+  document.getElementById('lb-btn').addEventListener('click', () => {
+    const username = document.getElementById('lb-username').value.trim();
+    if (username) loadWatchlist(username);
+  });
+  document.getElementById('lb-username').addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      const username = e.target.value.trim();
+      if (username) loadWatchlist(username);
+    }
+  });
+
+  // ── Load movie data ──
   fetch('movies.json')
     .then(r => {
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
@@ -360,23 +614,23 @@
       const rows = data.movies || data;
       allMovies = groupMovies(rows);
 
-      const nNow    = allMovies.filter(m => m.status === 'Now Playing').length;
-      const nSoon   = allMovies.filter(m => m.status === 'Coming Soon').length;
-      const venues  = [...new Set(rows.map(r => r.theater))];
+      const nNow   = allMovies.filter(m => m.status === 'Now Playing').length;
+      const nSoon  = allMovies.filter(m => m.status === 'Coming Soon').length;
+      const venues = [...new Set(rows.map(r => r.theater))];
       const dateStr = data.fetched_at
         ? new Date(data.fetched_at).toLocaleDateString('en-US', {month:'long', day:'numeric', year:'numeric'})
         : '';
 
-      document.getElementById('meta').textContent =
-        `Updated ${dateStr} · ${nNow} now playing, ${nSoon} coming soon · ${venues.length} theaters`;
+      const venueListHtml = venues.map(v => `<span>${esc(v)}</span>`).join('');
+      document.getElementById('meta').innerHTML =
+        `Updated ${dateStr} · ${nNow} now playing, ${nSoon} coming soon · <span class="has-tip theaters-tip">${venues.length} theaters<span class="tip">${venueListHtml}</span></span>`;
 
       document.getElementById('loading').style.display = 'none';
       document.getElementById('tbl').style.display = 'table';
       render(allMovies, activeFilter);
     })
     .catch(err => {
-      document.getElementById('loading').textContent =
-        `Could not load listings. ${err.message}`;
+      document.getElementById('loading').textContent = `Could not load listings. ${err.message}`;
     });
 </script>
 

@@ -1,0 +1,6 @@
+{
+  "outputDirectory": "docs",
+  "functions": {
+    "api/watchlist.js": { "maxDuration": 60 }
+  }
+}
