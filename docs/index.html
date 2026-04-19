@@ -816,9 +816,9 @@
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
   // ── Status filter buttons ──
-  document.querySelectorAll('.filter-btn:not(.wl-btn)').forEach(btn => {
+  document.querySelectorAll('.filter-btn:not(.wl-btn):not(#saved-btn)').forEach(btn => {
     btn.addEventListener('click', () => {
-      document.querySelectorAll('.filter-btn:not(.wl-btn)').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.filter-btn:not(.wl-btn):not(#saved-btn)').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       activeFilter = btn.dataset.filter;
       render(allMovies, activeFilter);
