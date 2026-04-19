@@ -991,6 +991,79 @@ def scrape_angelika_coming_soon() -> list:
 
 
 # ---------------------------------------------------------------------------
+# HK Cinemas (Cobble Hill · Williamsburg · Kew Gardens · Mamaroneck)
+# ---------------------------------------------------------------------------
+
+_HK_API     = "https://api-v3.mobilemoviegoing.cloud/include/app/get_films.php"
+_HK_EID     = "9c37778e-4da1-436b-96c2-e0221eca51ff"
+_HK_HEADERS = {
+    "User-Agent":   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+                    "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Origin":       "https://www.hk-cinemas.com",
+    "Referer":      "https://www.hk-cinemas.com/",
+    "Content-Type": "application/json",
+}
+_HK_LOCATIONS = {
+    "Cobble Hill Cinemas":  "00001-00001-00001",
+    "Williamsburg Cinemas": "00001-00001-00002",
+    "Kew Gardens Cinema":   "00001-00001-00003",
+    "Mamaroneck Cinemas":   "00001-00001-00004",
+}
+
+
+def _scrape_hk(theater: str, location_id: str, mode: str) -> list:
+    status = "Now Playing" if mode == "now" else "Coming Soon"
+    try:
+        r = requests.post(
+            _HK_API,
+            headers=_HK_HEADERS,
+            json={"mode": mode, "eid": _HK_EID, "location": location_id, "pos_route": 1},
+            timeout=15,
+        )
+        r.raise_for_status()
+        raw = r.json().get("films") or []
+    except Exception as e:
+        print(f"[warn] HK Cinemas ({theater}): {e}", file=sys.stderr)
+        return []
+
+    movies = []
+    for f in raw:
+        if not f:
+            continue
+        title = (f.get("dispName") or "").strip()
+        if not title:
+            continue
+        try:
+            dirs = json.loads(f.get("Director") or "[]")
+        except (ValueError, TypeError):
+            dirs = []
+        description = re.sub(r"<[^>]+>", "", f.get("Synopsis") or "").strip()
+        opens = _normalize_opens(f.get("ReleaseDate") or "")
+        url = "https://www.hk-cinemas.com"
+        movies.append(Movie(
+            title=title,
+            theater=theater,
+            url=url,
+            booking_url=url,
+            status=status,
+            opens=opens if status == "Coming Soon" else "",
+            director=", ".join(dirs),
+            description=description,
+        ))
+    return movies
+
+
+def scrape_hk_cobblehill()       -> list: return _scrape_hk("Cobble Hill Cinemas",  "00001-00001-00001", "now")
+def scrape_hk_cobblehill_soon()  -> list: return _scrape_hk("Cobble Hill Cinemas",  "00001-00001-00001", "advance")
+def scrape_hk_williamsburg()     -> list: return _scrape_hk("Williamsburg Cinemas", "00001-00001-00002", "now")
+def scrape_hk_williamsburg_soon()-> list: return _scrape_hk("Williamsburg Cinemas", "00001-00001-00002", "advance")
+def scrape_hk_kewgardens()       -> list: return _scrape_hk("Kew Gardens Cinema",   "00001-00001-00003", "now")
+def scrape_hk_kewgardens_soon()  -> list: return _scrape_hk("Kew Gardens Cinema",   "00001-00001-00003", "advance")
+def scrape_hk_mamaroneck()       -> list: return _scrape_hk("Mamaroneck Cinemas",   "00001-00001-00004", "now")
+def scrape_hk_mamaroneck_soon()  -> list: return _scrape_hk("Mamaroneck Cinemas",   "00001-00001-00004", "advance")
+
+
+# ---------------------------------------------------------------------------
 # Theater registry  ← add new theaters here
 # ---------------------------------------------------------------------------
 #
@@ -1008,6 +1081,10 @@ THEATERS: list[tuple] = [
     ("Paris Theater",             scrape_paris,                  None),
     ("Film at Lincoln Center",    scrape_filmlinc,               None),
     ("Angelika Film Center",      scrape_angelika,               scrape_angelika_coming_soon),
+    ("Cobble Hill Cinemas",       scrape_hk_cobblehill,          scrape_hk_cobblehill_soon),
+    ("Williamsburg Cinemas",      scrape_hk_williamsburg,        scrape_hk_williamsburg_soon),
+    ("Kew Gardens Cinema",        scrape_hk_kewgardens,          scrape_hk_kewgardens_soon),
+    ("Mamaroneck Cinemas",        scrape_hk_mamaroneck,          scrape_hk_mamaroneck_soon),
 ]
 
 JS_THEATERS: list[tuple] = []  # all theaters now use direct HTTP scraping

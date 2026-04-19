@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-18T22:31:33.922320",
+  "fetched_at": "2026-04-18T23:52:14.732251",
   "movies": [
     {
       "title": "9 To 5",
@@ -4313,6 +4313,48 @@
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
+      "title": "Lee Cronin's The Mummy",
+      "theater": "Cobble Hill Cinemas",
+      "url": "https://www.hk-cinemas.com",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://www.hk-cinemas.com",
+      "year": "",
+      "director": "Lee Cronin",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "The young daughter of a journalist disappears into the desert without a trace&mdash;eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare."
+    },
+    {
+      "title": "Lee Cronin's The Mummy",
+      "theater": "Williamsburg Cinemas",
+      "url": "https://www.hk-cinemas.com",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://www.hk-cinemas.com",
+      "year": "",
+      "director": "Lee Cronin",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "The young daughter of a journalist disappears into the desert without a trace&mdash;eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare."
+    },
+    {
+      "title": "Lee Cronin's The Mummy",
+      "theater": "Mamaroneck Cinemas",
+      "url": "https://www.hk-cinemas.com",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://www.hk-cinemas.com",
+      "year": "",
+      "director": "Lee Cronin",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "The young daughter of a journalist disappears into the desert without a trace&mdash;eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare."
+    },
+    {
       "title": "Let the Sunshine In",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999003597",
@@ -5633,6 +5675,20 @@
       "country": "",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
+    },
+    {
+      "title": "The Christophers",
+      "theater": "Kew Gardens Cinema",
+      "url": "https://www.hk-cinemas.com",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://www.hk-cinemas.com",
+      "year": "",
+      "director": "Steven Soderbergh",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "The estranged children of a once-famous artist hire a forger to complete his unfinished works so they can be \"discovered\" and sold after his death."
     },
     {
       "title": "The Darjeeling Limited",
