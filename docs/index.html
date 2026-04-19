@@ -661,7 +661,9 @@
       }
 
       watchlistLoaded = true;
+      localStorage.setItem('lbWatchlist', JSON.stringify(data.films));
       showWatchlistControls(true);
+      document.getElementById('lb-btn').textContent = 'Refresh watchlist';
       setLbStatus(`✓ ${data.films.length} films`, 'ok');
       render(allMovies, activeFilter);
     } catch (err) {
@@ -669,6 +671,17 @@
     } finally {
       btn.disabled = false;
     }
+  }
+
+  function restoreWatchlist(films) {
+    for (const f of films) {
+      watchlistTitles.add(normTitle(f.title));
+      for (const d of (f.directors || [])) watchlistDirectors.add(normStr(d));
+    }
+    watchlistLoaded = true;
+    showWatchlistControls(true);
+    document.getElementById('lb-btn').textContent = 'Refresh watchlist';
+    setLbStatus(`✓ ${films.length} films`, 'ok');
   }
 
   // ── Render table rows ──
@@ -852,6 +865,8 @@
   // Restore saved username
   const _savedLbUser = localStorage.getItem('lbUsername');
   if (_savedLbUser) document.getElementById('lb-username').value = _savedLbUser;
+  const _savedWl = localStorage.getItem('lbWatchlist');
+  if (_savedWl) { try { restoreWatchlist(JSON.parse(_savedWl)); } catch (_) {} }
 
   document.getElementById('lb-btn').addEventListener('click', () => {
     const username = document.getElementById('lb-username').value.trim();
