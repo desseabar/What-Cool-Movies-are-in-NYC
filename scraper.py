@@ -991,6 +991,96 @@ def scrape_angelika_coming_soon() -> list:
 
 
 # ---------------------------------------------------------------------------
+# Alamo Drafthouse NYC
+# ---------------------------------------------------------------------------
+
+_ALAMO_UA      = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+_ALAMO_MARKET  = "https://drafthouse.com/s/mother/v2/schedule/market/nyc"
+_ALAMO_PRES    = "https://drafthouse.com/s/mother/v2/schedule/presentation/{slug}"
+_ALAMO_SHOW    = "https://drafthouse.com/nyc/show/{slug}"
+
+# Slugs with these prefixes are format variants or special-event wrappers — skip them
+_ALAMO_SKIP_PREFIXES = ("special-event-", "hdr-by-barco-", "advance-screening-")
+
+
+def _alamo_get(url: str) -> dict:
+    r = requests.get(url, headers={"User-Agent": _ALAMO_UA}, timeout=15)
+    r.raise_for_status()
+    return r.json()
+
+
+def _alamo_fetch_detail(slug: str) -> dict:
+    """Return the show sub-object from the presentation detail endpoint."""
+    try:
+        d = _alamo_get(_ALAMO_PRES.format(slug=slug))
+        pres = d["data"]["presentation"]
+        return {"show": pres["show"], "openingDateClt": pres.get("openingDateClt")}
+    except Exception:
+        return {}
+
+
+def scrape_alamo() -> list:
+    try:
+        data = _alamo_get(_ALAMO_MARKET)["data"]
+    except Exception as e:
+        print(f"[warn] Alamo Drafthouse: {e}", file=sys.stderr)
+        return []
+
+    presentations = data.get("presentations", [])
+    today = date.today().isoformat()
+
+    seen_titles: set[str] = set()
+    to_fetch: list[dict] = []
+    for p in presentations:
+        slug = p.get("slug", "")
+        if any(slug.startswith(pfx) for pfx in _ALAMO_SKIP_PREFIXES):
+            continue
+        title = p["show"].get("title", "").strip()
+        if not title or title.lower() in seen_titles:
+            continue
+        seen_titles.add(title.lower())
+        opening = p.get("openingDateClt")
+        status = "Coming Soon" if (opening and opening > today) else "Now Playing"
+        to_fetch.append({"slug": slug, "title": title, "status": status, "opening": opening})
+
+    movies = []
+
+    def _build(item: dict) -> Optional[Movie]:
+        detail = _alamo_fetch_detail(item["slug"])
+        show = detail.get("show", {})
+        description = re.sub(r"<[^>]+>", "", show.get("description") or "").strip()
+        release = show.get("nationalReleaseDateUtc") or ""
+        year = release[:4] if release else ""
+        directors = show.get("directors") or []
+        director = ", ".join(d.get("name", d) if isinstance(d, dict) else d for d in directors)
+        opens = _normalize_opens(item["opening"] or "")
+        url = _ALAMO_SHOW.format(slug=item["slug"])
+        return Movie(
+            title=item["title"],
+            theater="Alamo Drafthouse NYC",
+            url=url,
+            booking_url=url,
+            status=item["status"],
+            opens=opens if item["status"] == "Coming Soon" else "",
+            director=director,
+            year=year,
+            description=description,
+        )
+
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        futures = {pool.submit(_build, item): item for item in to_fetch}
+        for fut in as_completed(futures):
+            try:
+                m = fut.result()
+                if m:
+                    movies.append(m)
+            except Exception as e:
+                print(f"[warn] Alamo Drafthouse: {e}", file=sys.stderr)
+
+    return movies
+
+
+# ---------------------------------------------------------------------------
 # HK Cinemas (Cobble Hill · Williamsburg · Kew Gardens · Mamaroneck)
 # ---------------------------------------------------------------------------
 
@@ -1064,6 +1154,81 @@ def scrape_hk_mamaroneck_soon()  -> list: return _scrape_hk("Mamaroneck Cinemas"
 
 
 # ---------------------------------------------------------------------------
+# Low Cinema (Ridgewood, Queens)
+# ---------------------------------------------------------------------------
+
+_LOW_BASE = "https://lowcinema.com"
+
+
+def scrape_lowcinema() -> list:
+    soup = _fetch(f"{_LOW_BASE}/tickets/")
+    if not soup:
+        return []
+
+    cards = soup.select("div.movie-card")
+    movies = []
+
+    def _parse_card(card) -> Optional[Movie]:
+        title_tag = card.select_one("h2.movie-title a")
+        if not title_tag:
+            return None
+        title = title_tag.get_text(strip=True)
+        rel_url = title_tag.get("href", "")
+        film_url = f"{_LOW_BASE}{rel_url}"
+
+        # Earliest booking link as the canonical ticket URL
+        first_link = card.select_one("a.showtime-link")
+        booking_url = f"{_LOW_BASE}{first_link['href']}" if first_link else film_url
+
+        # Fetch film detail page for director/year/country/description
+        detail = _fetch(film_url)
+        director = year = country = description = ""
+        if detail:
+            meta = detail.find("meta", {"name": "description"})
+            if meta and meta.get("content"):
+                # Format: "Dir. X, YEAR, COUNTRY, ..., MIN. <description>"
+                content = meta["content"]
+                dir_m = re.match(r"Dir\.\s*([^,]+),\s*(\d{4}),\s*([^,]+),", content)
+                if dir_m:
+                    director = dir_m.group(1).strip()
+                    year     = dir_m.group(2).strip()
+                    country  = dir_m.group(3).strip()
+
+            desc_tag = detail.select_one("div.movie-description:not(.mobile-description)")
+            if desc_tag:
+                # First <p> is the "Dir. X, YEAR..." metadata — skip it; take remaining paragraphs
+                paras = desc_tag.find_all("p")
+                body_paras = [p.get_text(" ", strip=True) for p in paras[1:] if p.get_text(strip=True)]
+                # Drop the legal boilerplate (final paragraph starting with "All sales are final")
+                body_paras = [p for p in body_paras if not p.startswith("All sales are final")]
+                description = " ".join(body_paras)
+
+        return Movie(
+            title=title,
+            theater="Low Cinema",
+            url=film_url,
+            booking_url=booking_url,
+            status="Now Playing",
+            director=director,
+            year=year,
+            country=country,
+            description=description,
+        )
+
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        futures = {pool.submit(_parse_card, card): card for card in cards}
+        for fut in as_completed(futures):
+            try:
+                m = fut.result()
+                if m:
+                    movies.append(m)
+            except Exception as e:
+                print(f"[warn] Low Cinema: {e}", file=sys.stderr)
+
+    return movies
+
+
+# ---------------------------------------------------------------------------
 # Theater registry  ← add new theaters here
 # ---------------------------------------------------------------------------
 #
@@ -1081,6 +1246,8 @@ THEATERS: list[tuple] = [
     ("Paris Theater",             scrape_paris,                  None),
     ("Film at Lincoln Center",    scrape_filmlinc,               None),
     ("Angelika Film Center",      scrape_angelika,               scrape_angelika_coming_soon),
+    ("Alamo Drafthouse NYC",      scrape_alamo,                  None),
+    ("Low Cinema",                 scrape_lowcinema,              None),
     ("Cobble Hill Cinemas",       scrape_hk_cobblehill,          scrape_hk_cobblehill_soon),
     ("Williamsburg Cinemas",      scrape_hk_williamsburg,        scrape_hk_williamsburg_soon),
     ("Kew Gardens Cinema",        scrape_hk_kewgardens,          scrape_hk_kewgardens_soon),
@@ -1368,6 +1535,22 @@ def main() -> None:
     removed = len(raw) - len(movies)
     if removed:
         print(f"\n  (deduplicated {removed} duplicate entries)")
+
+    # Cross-theater enrichment: fill missing fields from other entries with same title
+    _norm = lambda s: re.sub(r"[^a-z0-9]", "", (s or "").lower())
+    best: dict = {}
+    for m in movies:
+        key = _norm(m.title)
+        if key not in best:
+            best[key] = {}
+        for field in ("director", "cast", "country", "year", "description"):
+            if not best[key].get(field) and getattr(m, field):
+                best[key][field] = getattr(m, field)
+    for m in movies:
+        key = _norm(m.title)
+        for field in ("director", "cast", "country", "year", "description"):
+            if not getattr(m, field) and best[key].get(field):
+                setattr(m, field, best[key][field])
 
     print()
     if HAS_RICH:

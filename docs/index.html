@@ -35,9 +35,31 @@
       overflow-x: auto;
     }
 
+    .page-wrap {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .watchlist-bar .page-wrap {
+      min-height: var(--wlbar-h);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .controls .page-wrap {
+      min-height: var(--controls-h);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
     /* ── Header ─────────────────────────────────── */
     header {
-      padding: 52px 40px 36px;
+      padding: 52px 0 36px;
       border-bottom: 1px solid var(--border);
     }
 
@@ -61,11 +83,7 @@
 
     /* ── Letterboxd bar ──────────────────────────── */
     .watchlist-bar {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      padding: 0 40px;
-      height: var(--wlbar-h);
+      min-height: var(--wlbar-h);
       background: var(--bg);
       border-bottom: 1px solid var(--border);
     }
@@ -124,14 +142,9 @@
       position: sticky;
       top: 0;
       z-index: 20;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      padding: 0 40px;
-      height: var(--controls-h);
+      min-height: var(--controls-h);
       background: var(--bg);
       border-bottom: 1px solid var(--border);
-      flex-wrap: wrap;
     }
 
     .controls-sep {
@@ -221,7 +234,8 @@
     /* ── Cell styles ─────────────────────────────── */
     .c-title    { min-width: 200px; max-width: 320px; }
     .c-year     { width: 64px;  white-space: nowrap; color: var(--muted); }
-    .c-dir      { min-width: 140px; color: var(--muted); }
+    .c-dir      { width: 110px; max-width: 110px; color: var(--muted);
+                  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .c-opens    { min-width: 120px; white-space: nowrap; color: var(--muted); }
     .c-theaters { min-width: 180px; }
 
@@ -321,40 +335,49 @@
 
     /* ── Responsive ──────────────────────────────── */
     @media (max-width: 640px) {
-      header { padding: 36px 20px 24px; }
-      .controls, .watchlist-bar { padding: 0 20px; }
-      td, thead th { padding: 12px 10px; }
+      .page-wrap { padding: 0 14px; }
+      header { padding: 28px 0 20px; }
+      .watchlist-bar .page-wrap { padding-top: 10px; padding-bottom: 10px; gap: 8px; }
+      #lb-username { flex: 1; min-width: 0; }
+      #lb-status { order: 4; width: 100%; }
+      .controls .page-wrap { padding-top: 8px; padding-bottom: 8px; }
+      #search { margin-left: 0; width: 100%; }
+      td, thead th { padding: 10px 8px; }
       .c-dir, .c-year { display: none; }
     }
   </style>
 </head>
 <body>
 
-<header>
+<header class="page-wrap">
   <h1>What Cool Movies Are in NYC?</h1>
   <p id="meta">Loading listings…</p>
 </header>
 
 <div class="watchlist-bar">
-  <span class="lb-label">Letterboxd</span>
-  <input type="text" id="lb-username" placeholder="username" autocomplete="off" spellcheck="false" />
-  <button id="lb-btn">Load watchlist</button>
-  <span id="lb-status"></span>
+  <div class="page-wrap">
+    <span class="lb-label">Letterboxd</span>
+    <input type="text" id="lb-username" placeholder="username" autocomplete="off" spellcheck="false" />
+    <button id="lb-btn">Load watchlist</button>
+    <span id="lb-status"></span>
+  </div>
 </div>
 
 <div class="controls">
-  <button class="filter-btn active" data-filter="all">All</button>
-  <button class="filter-btn" data-filter="Now Playing">Now Playing</button>
-  <button class="filter-btn" data-filter="Coming Soon">Coming Soon</button>
+  <div class="page-wrap">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="Now Playing">Now Playing</button>
+    <button class="filter-btn" data-filter="Coming Soon">Coming Soon</button>
 
-  <div class="controls-sep" id="wl-sep" style="display:none"></div>
-  <button class="filter-btn wl-btn" id="wl-title-btn" style="display:none">On my watchlist</button>
-  <button class="filter-btn wl-btn" id="wl-dir-btn" style="display:none">Director on watchlist</button>
+    <div class="controls-sep" id="wl-sep" style="display:none"></div>
+    <button class="filter-btn wl-btn" id="wl-title-btn" style="display:none">On my watchlist</button>
+    <button class="filter-btn wl-btn" id="wl-dir-btn" style="display:none">Director on watchlist</button>
 
-  <input type="search" id="search" placeholder="Search films, directors, theaters…" autocomplete="off" />
+    <input type="search" id="search" placeholder="Search films, directors, theaters…" autocomplete="off" />
+  </div>
 </div>
 
-<div class="table-wrap">
+<div class="table-wrap page-wrap">
   <div id="loading">Fetching the latest listings…</div>
   <table id="tbl" style="display:none">
     <thead>
@@ -383,6 +406,8 @@
     'Paris Theater':            'https://www.paristheaternyc.com/',
     'Film at Lincoln Center':   'https://www.filmlinc.org/',
     'Angelika Film Center':     'https://angelikafilmcenter.com/nyc',
+    'Alamo Drafthouse NYC':     'https://drafthouse.com/nyc',
+    'Low Cinema':               'https://lowcinema.com/tickets/',
     'Cobble Hill Cinemas':      'https://www.hk-cinemas.com/cobble-hill-cinemas/',
     'Williamsburg Cinemas':     'https://www.hk-cinemas.com/williamsburg-cinemas/',
     'Kew Gardens Cinema':       'https://www.hk-cinemas.com/kew-gardens-cinema/',

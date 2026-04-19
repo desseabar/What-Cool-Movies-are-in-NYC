@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-18T23:52:14.732251",
+  "fetched_at": "2026-04-19T00:10:28.080063",
   "movies": [
     {
       "title": "9 To 5",
@@ -184,6 +184,34 @@
       "description": ""
     },
     {
+      "title": "Attack on Titan: THE LAST ATTACK (Subtitled)",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/attack-on-titan-the-movie-the-last-attack-subtitled",
+      "status": "Coming Soon",
+      "opens": "May 18",
+      "booking_url": "https://drafthouse.com/nyc/show/attack-on-titan-the-movie-the-last-attack-subtitled",
+      "year": "2025",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Presented in Japanese with English subtitles\nBack on the big screen for Crunchyroll Anime Nights in an awesome new 4k version! \nEren\u2019s apocalyptic rumbling begins, unleashing an unstoppable wave of Colossal Titans marching to crush the world. Having uncovered Paradis\u2019 brutal history and the world\u2019s hatred for Eldians, he commits to eliminating all threats. Now, former allies and enemies unite in desperation for one final mission \u2013 to stop him before nothing remains."
+    },
+    {
+      "title": "Backrooms",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/backrooms",
+      "status": "Coming Soon",
+      "opens": "May 28",
+      "booking_url": "https://drafthouse.com/nyc/show/backrooms",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "A strange doorway appears in the basement of a furniture showroom."
+    },
+    {
       "title": "Barbarella",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/jane-fonda-barbarella",
@@ -196,20 +224,6 @@
       "country": "",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
-    },
-    {
-      "title": "Barton Fink",
-      "theater": "Paris Theater",
-      "url": "https://www.paristheaternyc.com/films/nyfcc-barton-fink",
-      "status": "Coming Soon",
-      "opens": "April 19",
-      "booking_url": "",
-      "year": "",
-      "director": "Joel Cohen, Ethan Coen",
-      "cast": "John Turturro, \\nJudy Davis, \\nSteve Buscemi, \\nJohn Goodman, \\nTony Shalhoub, \\nJohn Mahoney, \\nMichael Lerner, \\nRichard Portnow, \\nJon Polito",
-      "country": "",
-      "showtimes": [],
-      "description": ""
     },
     {
       "title": "Bellissima",
@@ -252,6 +266,34 @@
       "country": "USA",
       "showtimes": [],
       "description": "The legendary maestro Leonard Bernstein\u2014celebrity conductor, composer, and political activist\u2014is thrillingly captured in this archival documentary portrait by Douglas Tirola (DRUNK STONED BRILLIANT DEAD). With Bernstein\u2019s 1989 Christmas Day concert in Berlin as a frame, Tirola crafts Bernstein\u2019s remarkable career entirely from television interviews, news footage, home movies, audio clips, and personal letters. Presented with support from The Roy Lichtenstein Foundation Fund"
+    },
+    {
+      "title": "Billie Eilish - Hit Me Hard and Soft: The Tour",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/billie-eilish-hit-me-hard-and-soft-the-tour",
+      "status": "Coming Soon",
+      "opens": "May 7",
+      "booking_url": "https://drafthouse.com/nyc/show/billie-eilish-hit-me-hard-and-soft-the-tour",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Note: This film is also playing in 3D at select locations. Click here to find a screening near you.\nCaptured during her sold-out world tour, BILLIE EILISH - HIT ME HARD AND SOFT: THE TOUR brings an innovative new concert experience to the big screen from one of the most celebrated and successful artists of her generation. The film is directed by Academy Award\u00ae winners James Cameron and Billie Eilish, in theaters May 8, 2026."
+    },
+    {
+      "title": "Billie Eilish - Hit Me Hard and Soft: The Tour (Live in 3D)",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/billie-eilish-hit-me-hard-and-soft-the-tour-live-in-3d",
+      "status": "Coming Soon",
+      "opens": "May 7",
+      "booking_url": "https://drafthouse.com/nyc/show/billie-eilish-hit-me-hard-and-soft-the-tour-live-in-3d",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Captured during her sold-out world tour, BILLIE EILISH - HIT ME HARD AND SOFT: THE TOUR (LIVE IN 3D) brings an innovative new concert experience to the big screen from one of the most celebrated and successful artists of her generation. Presented in immersive 3D, the film is directed by Academy Award\u00ae winners James Cameron and Billie Eilish, in theaters May 8, 2026."
     },
     {
       "title": "Black Girl",
@@ -304,8 +346,8 @@
       "booking_url": "",
       "year": "2025",
       "director": "Sophy Romvari",
-      "cast": "",
-      "country": "",
+      "cast": "Eylul Guven, Amy Zimmer, Iringo Reti, Edik Beddoes, Adam Tompa",
+      "country": "Canada, Hungary",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
@@ -319,7 +361,7 @@
       "year": "1986",
       "director": "David Lynch",
       "cast": "Isabella Rossellini, Kyle MacLachlan, Dennis Hopper, Laura Dern",
-      "country": "",
+      "country": "USA",
       "showtimes": [],
       "description": ""
     },
@@ -329,13 +371,27 @@
       "url": "https://www.ifccenter.com/films/bound/",
       "status": "Coming Soon",
       "opens": "May 15",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553507~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553561~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1996",
       "director": "Lana Wachowski, Lilly Wachowski",
       "cast": "Jennifer Tilly, Gina Gershon",
       "country": "USA",
       "showtimes": [],
       "description": ""
+    },
+    {
+      "title": "Boys Go to Jupiter",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/boys-go-to-jupiter",
+      "status": "Coming Soon",
+      "opens": "April 28",
+      "booking_url": "https://drafthouse.com/nyc/show/boys-go-to-jupiter",
+      "year": "2024",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "It\u2019s the day after Christmas in suburban Florida, and Billy 5000 (Jack Corbett) and his friends drift through the sun-bleached limbo between holidays by slacking, shoplifting, and beatboxing. In between sneaking into pools and zoning out on the beach, Billy hustles for tips on the food-on-demand app Grubster, determined to make exactly $5,000 before New Year\u2019s Eve. As he zigzags across town on his hoverboard delivering fast food to a cast of oddball locals, a routine drop-off at the Dolphin Groves Juice Company leads to an unexpected reunion with Rozebud (Miya Folick), his childhood crush, and a mysterious alien creature named Donut that\u2019s stowed away in his backpack. The surprise encounter sets off a surreal chain of events that puts Billy in the crosshairs of Dr. Dolphin (Janeane Garofalo), a ruthless juice mogul who will stop at nothing to reclaim her extraterrestrial property.\nDirected by Julian Glander in his signature tactile, lo-fi CGI style, BOYS GO TO JUPITER transforms the sprawl of suburban Florida into a pastel purgatory of empty strip malls, algorithmic music, and adolescent yearning. What begins as a quest for financial freedom slowly evolves into an offbeat odyssey of love, labor, and late-capitalist absurdity, as Billy is forced to decide how far he\u2019ll go to protect his friends \u2013 and his future. With its deadpan humor, musical detours, and deeply felt strangeness, the film reimagines the coming-of-age comedy as a vapor-soaked fable for the burnout generation."
     },
     {
       "title": "Bringing Up Baby",
@@ -349,7 +405,7 @@
       "cast": "Cary Grant, Katharine Hepburn, Asta (dog)",
       "country": "USA",
       "showtimes": [],
-      "description": ""
+      "description": "Nebbish soon-to-be-wed paleontologist Cary Grant would be perfectly happy to stay home and play with his dinosaur bones, but then Katherine Hepburn\u2019s strident and relentless heiress crash lands into his life with other plans. A whirlwind of deranged\u2026"
     },
     {
       "title": "Bugsy Malone",
@@ -364,6 +420,20 @@
       "country": "",
       "showtimes": [],
       "description": ""
+    },
+    {
+      "title": "By Design",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/weird-wednesday-by-design",
+      "status": "Coming Soon",
+      "opens": "May 20",
+      "booking_url": "https://drafthouse.com/nyc/show/weird-wednesday-by-design",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Upon seeing a gorgeous chair in a showroom, Camille (Juliette Lewis) realizes that she truly envies the life of this perfect piece of furniture. If only she could be someone\u2019s favorite thing. When she and the chair swap forms, Camille learns that she is better liked as an inanimate object than she was as a person: her mother (Betty Buckley) finds her to be a better listener, and her best friends (Samantha Mathis and Robin Tunney) enjoy a newfound, friction-free rapport. As the chair, Camille is unable to speak or move, and winds up in the hands of Olivier (Mamoudou Athie), a minimalist bachelor who gradually becomes romantically fixated on his elegant new possession. Narrated by Melanie Griffith, this modern fable celebrates the messiness of female interiority with deadpan humor, surrealist flourishes, and interpretative dance numbers. An absurdist spin on the body-swap comedy, BY DESIGN is a bold new work from singular filmmaker Amanda Kramer."
     },
     {
       "title": "Cast Away",
@@ -450,6 +520,34 @@
       "description": ""
     },
     {
+      "title": "C\u00e9line and Julie Go Boating",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/queer-film-theory-101-celine-and-julie-go-boating",
+      "status": "Coming Soon",
+      "opens": "April 27",
+      "booking_url": "https://drafthouse.com/nyc/show/queer-film-theory-101-celine-and-julie-go-boating",
+      "year": "1974",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "\"Alice\u2019s Adventures in Wonderland\u201d meets the freewheeling invention of French New Wave gamesman Jacques Rivette in this giddy surrealist fantasia. When magician C\u00e9line (Juliet Berto) meets librarian Julie (Dominique Labourier), it\u2019s not long before they are launched through the looking glass and straight into a labyrinthine comic adventure involving a haunted house, psychotropic candy, and a murder mystery as, all the while, the line between illusion and reality grows ever fainter."
+    },
+    {
+      "title": "Death Becomes Her",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/movie-party-death-becomes-her",
+      "status": "Coming Soon",
+      "opens": "June 3",
+      "booking_url": "https://drafthouse.com/nyc/show/movie-party-death-becomes-her",
+      "year": "1992",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Director Robert Zemeckis' deliciously twisted black comedy begins with Broadway has-been Meryl Streep bulldozing her way through a memorably misguided disco number and Goldie Hawn gorging herself on canned cake frosting \u2013 and things only get weirder and wilder from there. DEATH BECOMES HER offers up a classic catfight unlike anything you've ever seen, as terminally vain Madeline Ashton (Streep) clashes with her lifelong rival, beauty expert Helen Sharp (Hawn), in a perilous quest for eternal youth and glamour. Caught in the middle are plastic surgeon Ernest Menville (Bruce Willis) and the mysterious goddess-y Lisle Von Rhuman (Isabella Rossellini), who peddles an ancient elixir that provides \"a touch of magic in this world obsessed with science.\" We've often heard \"beauty is pain,\" and Madeline and Helen take that old adage to hair-raising new extremes.\nDEATH BECOMES HER deservedly won the best visual effects Oscar in 1993. But the eye-popping digital wizardry doesn't eclipse sensational comic performances from Streep, Hawn, and Willis, who create a hilariously offbeat love triangle under Zemeckis' stylish direction, and Alan Silvestri's urgently over-the-top score is the perfect frosting on this bittersweet cake. Yes, these are the moments that make life worth living..."
+    },
+    {
       "title": "Decorado",
       "theater": "IFC Center",
       "url": "https://www.ifccenter.com/films/decorado/",
@@ -483,7 +581,7 @@
       "url": "https://www.ifccenter.com/films/departures/",
       "status": "Coming Soon",
       "opens": "April 29",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553507~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553561~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "",
       "director": "Neil Ely, Lloyd Eyre-Morgan",
       "cast": "Lloyd Eyre-Morgan, David Tag, Liam Boyle, Ali Afzal",
@@ -632,6 +730,20 @@
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
+      "title": "Erupcja",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/erupcja",
+      "status": "Coming Soon",
+      "opens": "April 23",
+      "booking_url": "https://drafthouse.com/nyc/show/erupcja",
+      "year": "2026",
+      "director": "Pete Ohs",
+      "cast": "Charli xcx,\u00a0Lena G\u00f3ra, Will Madden, Jeremy O. Harris",
+      "country": "",
+      "showtimes": [],
+      "description": "A romantic vacation goes awry when a volcanic eruption strands Bethany (Charli xcx) and her soon-to-be fianc\u00e9, Rob (Will Madden), in Warsaw, Poland. Bethany takes the explosive event as a sign to ditch her baggage, reunite with childhood friend Nel (Lena G\u00f3ra), and traipse across lofts, clubs, and back alleys, all the while becoming entangled in an emotional web that challenges her sense of self."
+    },
+    {
       "title": "Eternal Sunshine Of The Spotless Mind",
       "theater": "Paris Theater",
       "url": "https://www.paristheaternyc.com/films/eternal-sunshine-of-the-spotless-mind-branch-selects",
@@ -672,6 +784,20 @@
       "country": "",
       "showtimes": [],
       "description": ""
+    },
+    {
+      "title": "Fight Club 4K Remaster",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/fight-club-4k-remaster",
+      "status": "Coming Soon",
+      "opens": "April 22",
+      "booking_url": "https://drafthouse.com/nyc/show/fight-club-4k-remaster",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "FIGHT CLUB contains several sequences with flashing lights that may affect those who are susceptible to photosensitive epilepsy or have other photosensitivities.\nExperience FIGHT CLUB remastered in stunning 4K quality for a limited time starting April 22nd. Directed by David Fincher, this dark satire stars Brad Pitt and Edward Norton. Norton gives a riveting performance as a label-obsessed insomniac who befriends a scummy soap salesman (Pitt) and embarks on an existential crusade that takes them both to the brutal, raw heights of their manhood. Also starring Helena Bonham Carter as the woman who comes between them, FIGHT CLUB may leave you feeling bruised and bloodied\u2026but also invigorated and alive."
     },
     {
       "title": "Fleischer\u2019S Popeye",
@@ -814,6 +940,20 @@
       "description": ""
     },
     {
+      "title": "Girl Internet Show: A Kati Kelli Mixtape",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/girl-internet-show-a-kati-kelli-mixtape",
+      "status": "Coming Soon",
+      "opens": "April 25",
+      "booking_url": "https://drafthouse.com/nyc/show/girl-internet-show-a-kati-kelli-mixtape",
+      "year": "2023",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Meet Kati Kelli, the late video artist whose subversive uploads pushed the boundaries of the digital form. GIRL INTERNET SHOW: THE KATI KELLI MIXTAPE unearths a surreal, singular body of work by the enigmatic artist. For nearly a decade before her passing in 2019, Kelli ran \u201cGirl Internet Show,\u201d a YouTube channel, parasocial experiment, and one-woman universe built from scratch in her bedroom. This megamix from Jane Schoenbrun (I SAW THE TV GLOW) and Jordan Wippell features a lovingly curated selection of Kelli\u2019s online work, unreleased videos, and her first (and final) opus, TOTAL BODY REMOVAL SURGERY."
+    },
+    {
       "title": "Girls Like Girls",
       "theater": "Angelika Film Center",
       "url": "https://angelikafilmcenter.com/nyc/movies/girls-like-girls",
@@ -826,6 +966,20 @@
       "country": "",
       "showtimes": [],
       "description": "Based on Hayley Kiyoko&rsquo;s breakthrough hit song and viral music video of the same name, the film tells the universal story of falling in love for the first time and learning to accept yourself along the way."
+    },
+    {
+      "title": "Godzilla vs. Hedorah",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/godzilla-vs-hedorah",
+      "status": "Coming Soon",
+      "opens": "May 31",
+      "booking_url": "https://drafthouse.com/nyc/show/godzilla-vs-hedorah",
+      "year": "1971",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Intended to address the crisis levels of pollution in postwar Japan, GODZILLA VS. HEDORAH finds the King of the Monsters fighting an alien life form that arrives on Earth and steadily grows by feeding on industrial waste. Director Yoshimitsu Banno infuses the film with equal parts ecological horror, humorous monster antics, and '60s psychedelia straight out of San Francisco, making for a truly unique \u2013 and divisive \u2013 entry in the series. (Janus Films)"
     },
     {
       "title": "Gulliver\u2019S Travels",
@@ -870,6 +1024,20 @@
       "description": ""
     },
     {
+      "title": "Hello Mary Lou: Prom Night II",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/terror-tuesday-hello-mary-lou-prom-night-ii",
+      "status": "Coming Soon",
+      "opens": "May 12",
+      "booking_url": "https://drafthouse.com/nyc/show/terror-tuesday-hello-mary-lou-prom-night-ii",
+      "year": "1987",
+      "director": "Bruce Pittman",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "When Mary Lou's boyfriend lights her on fire at prom, her spirit is caught in a pirate trunk. Thirty years later, the trunk is opened and Mary Lou is resurrected as a body-possessing death machine with one thing on her mind: VIOLENCE!! HELLO MARY LOU: PROM NIGHT II conclusively proves that prom night doesn't have to be filled with SUV limos, unwanted acne, and broken dreams. It can also be filled with exploding Bibles, death via Apple IIe computer, and Michael Ironside. Beautifully photographed and perfectly paced, this underrated melding of CARRIE and A NIGHTMARE ON ELM STREET feels like an episode of Beverly Hills: 90210 as directed by Sam Raimi. It's that good. (Joseph A. Ziemba)"
+    },
+    {
       "title": "Hokum",
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/movies/hokum/",
@@ -881,7 +1049,21 @@
       "cast": "Adam Scott, David Wilmot, Austin Amelio, Florence Ordesh",
       "country": "",
       "showtimes": [],
-      "description": ""
+      "description": "When novelist Ohm Bauman (Adam Scott) retreats to a remote inn to scatter his parents' ashes, he is consumed by tales of a witch haunting the honeymoon suite. Disturbing visions and a shocking disappearance force him to confront dark corners of his past. Director Damian McCarthy's previous film, ODDITY, thoroughly creeped us out. Expect jump scares, demented innkeepers, and psilocybin mushroom-spiked milk."
+    },
+    {
+      "title": "Hokum",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/hokum",
+      "status": "Coming Soon",
+      "opens": "April 30",
+      "booking_url": "https://drafthouse.com/nyc/show/hokum",
+      "year": "2026",
+      "director": "Damian McCarthy",
+      "cast": "Adam Scott, David Wilmot, Austin Amelio, Florence Ordesh",
+      "country": "",
+      "showtimes": [],
+      "description": "When novelist Ohm Bauman (Adam Scott) retreats to a remote inn to scatter his parents' ashes, he is consumed by tales of a witch haunting the honeymoon suite. Disturbing visions and a shocking disappearance force him to confront dark corners of his past. Director Damian McCarthy's previous film, ODDITY, thoroughly creeped us out. Expect jump scares, demented innkeepers, and psilocybin mushroom-spiked milk."
     },
     {
       "title": "Hoppity Goes To Town",
@@ -940,6 +1122,20 @@
       "description": ""
     },
     {
+      "title": "I Swear",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/i-swear",
+      "status": "Coming Soon",
+      "opens": "April 23",
+      "booking_url": "https://drafthouse.com/nyc/show/i-swear",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "The inspiring, extraordinary life story of notable Tourette Syndrome campaigner, John Davidson, MBE. Emotionally engaging, funny, and compelling, the film charts John Davidson\u2019s Tourette's diagnosis at the age of 15 years old. Set within 1980s Britain, the story follows him throughout his troubled teens and early adulthood, and explores this little-known and entirely misunderstood condition, along with his attempts to live a \"normal\" life against the odds."
+    },
+    {
       "title": "Igualada + Landslide (Avalancha)",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/history-as-hashtag-igualada",
@@ -952,6 +1148,20 @@
       "country": "",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
+    },
+    {
+      "title": "In a Lonely Place",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/in-a-lonely-place",
+      "status": "Coming Soon",
+      "opens": "April 27",
+      "booking_url": "https://drafthouse.com/nyc/show/in-a-lonely-place",
+      "year": "1950",
+      "director": "Nicholas Ray",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "When a gifted but washed-up screenwriter with a hair-trigger temper (Humphrey Bogart in a revelatory, vulnerable performance) becomes the prime suspect in a brutal Tinseltown murder, the only person who can supply an alibi for him is a seductive neighbor with her own troubled past (Gloria Grahame).\nThe emotionally charged IN A LONELY PLACE, freely adapted from a Dorothy B. Hughes thriller, is a brilliant, turbulent mix of suspenseful noir and devastating melodrama, fueled by powerhouse performances. An uncompromising tale of two people desperate to love yet struggling with their own demons and each other's, this is one of the greatest films of the 1950s...and a benchmark in the career of the classic Hollywood auteur Nicholas Ray."
     },
     {
       "title": "Inherent Vice",
@@ -968,18 +1178,18 @@
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
-      "title": "Jeanne Dielman, 23 Quai Du Commerce, 1080 Bruxelles",
-      "theater": "BAM",
-      "url": "https://www.bam.org/film/2026/robert-wilson-jeanne-dielman",
+      "title": "Iron Maiden: Burning Ambition",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/iron-maiden-burning-ambition",
       "status": "Coming Soon",
-      "opens": "April 19",
-      "booking_url": "",
-      "year": "1975",
-      "director": "Chantal Akerman",
+      "opens": "May 7",
+      "booking_url": "https://drafthouse.com/nyc/show/iron-maiden-burning-ambition",
+      "year": "2026",
+      "director": "",
       "cast": "",
       "country": "",
       "showtimes": [],
-      "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
+      "description": "With unprecedented access to the official archives and intimate recollections from the band, both current and past, IRON MAIDEN: BURNING AMBITION invites fans to experience one of the most iconic journeys in music history.\nSpanning five decades, this electrifying documentary charts the band\u2019s rise from the pubs of East London to the world\u2019s biggest stadiums. Featuring exclusive interviews with band members and contributors such as Javier Bardem, Lars Ulrich, and Chuck D, as well as all-new animated sequences of the band's legendary mascot, Eddie, the film offers a rare and intimate look at Iron Maiden\u2019s uncompromising vision and unwavering connection with their truly global army of fans."
     },
     {
       "title": "Jimmy & The Demons",
@@ -1001,7 +1211,7 @@
       "url": "https://www.ifccenter.com/films/jinsei/",
       "status": "Coming Soon",
       "opens": "June 5",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553507~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553561~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "",
       "director": "Ryuya Suzuki",
       "cast": "",
@@ -1050,6 +1260,20 @@
       "country": "",
       "showtimes": [],
       "description": ""
+    },
+    {
+      "title": "Kiss Me Deadly",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/kiss-me-deadly",
+      "status": "Coming Soon",
+      "opens": "May 18",
+      "booking_url": "https://drafthouse.com/nyc/show/kiss-me-deadly",
+      "year": "1955",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "In this atomic adaptation of Mickey Spillane\u2019s novel, directed by Robert Aldrich, the good manners of the 1950s are blown to smithereens. Ralph Meeker stars as snarling private dick Mike Hammer, whose decision one dark, lonely night to pick up a hitchhiking woman sends him down some terrifying byways. Brazen and bleak, KISS ME DEADLY is a film noir masterwork as well as an essential piece of Cold War paranoia, and it features as nervy an ending as has ever been seen in American cinema."
     },
     {
       "title": "Klute",
@@ -1178,6 +1402,20 @@
       "description": ""
     },
     {
+      "title": "Mamma Mia!",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/movie-party-mamma-mia",
+      "status": "Coming Soon",
+      "opens": "May 10",
+      "booking_url": "https://drafthouse.com/nyc/show/movie-party-mamma-mia",
+      "year": "2008",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "MAMMA MIA! is the ultimate feel-good show that has audiences coming back again and again to relive the thrill. Now it\u2019s your turn to have the time of your life at this smash-hit musical that combines ABBA\u2019s greatest hits, including \"Dancing Queen,\" \"S.O.S.,\" \"Super Trouper,\" \"Take A Chance on Me,\" and \"The Winner Takes It All,\" with an enchanting tale of love, laughter, and friendship. Whether it\u2019s your first visit or your fourteenth, see the show that has the whole world coming back for more, because every time feels like the first time at MAMMA MIA!\nIn the 2008 film adaptation, Pierce Brosnan, Colin Firth, Stellan Skarsg\u00e5rd, Christine Baranski, Julie Walters, Amanda Seyfried, and Dominic Cooper join Meryl Streep in this celebration of a mother, a daughter, and three possible dads. An independent, single mother who owns a small hotel on an idyllic Greek island, Donna (Streep) is about to let go of Sophie (Seyfried), the spirited daughter she's raised alone. For Sophie's wedding, Donna has invited her two lifelong best girlfriends \u2013 practical and no-nonsense Rosie (Julie Walters) and wealthy, multi-divorcee Tanya (Christine Baranski ) \u2013 from her one-time backing band, Donna and the Dynamos. \nBut Sophie has secretly invited three guests of her own. On a quest to find the identity of her father to walk her down the aisle, she brings back three men from Donna's past to the Mediterranean paradise they visited 20 years earlier. \nOver 24 chaotic, magical hours, new love will bloom and old romances will be rekindled on this lush island full of possibilities."
+    },
+    {
       "title": "Manas",
       "theater": "Film Forum",
       "url": "https://filmforum.org/film/manas",
@@ -1304,6 +1542,20 @@
       "description": ""
     },
     {
+      "title": "Michael (2026)",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/michael-2026",
+      "status": "Coming Soon",
+      "opens": "April 23",
+      "booking_url": "https://drafthouse.com/nyc/show/michael-2026",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "MICHAEL (2026) is the cinematic portrayal of the life and legacy of one of the most influential artists the world has ever known. The film tells the story of Michael Jackson\u2019s life beyond the music, tracing his journey from the discovery of his extraordinary talent as the lead of the Jackson Five, to the visionary artist whose creative ambition fueled a relentless pursuit to become the biggest entertainer in the world. Highlighting both his life off-stage and some of the most iconic performances from his early solo career, the film gives audiences a front-row seat to Michael Jackson as never before. This is where his story begins."
+    },
+    {
       "title": "Millennium Actress",
       "theater": "IFC Center",
       "url": "https://www.ifccenter.com/films/millennium-actress/",
@@ -1344,6 +1596,20 @@
       "country": "",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
+    },
+    {
+      "title": "Miss Congeniality",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/movie-party-miss-congeniality",
+      "status": "Coming Soon",
+      "opens": "April 25",
+      "booking_url": "https://drafthouse.com/nyc/show/movie-party-miss-congeniality",
+      "year": "2000",
+      "director": "Donald Petrie",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "If we asked you to describe your perfect date, what would your answer be? If you said April 25th, you belong at this screening of MISS CONGENIALITY!\nSandra Bullock immediately exploded onto the scene as a comedic force to be reckoned with, portraying hardened FBI Agent Gracie Hart in this quotable comedy co-starring Michael Caine. Going deep undercover to infiltrate the Miss United States beauty pageant and thwart a potential terrorist threat, the tomboyish Agent Hart must undergo the makeover of her life...and in the process, shatter the small-minded expectations of what women are capable of."
     },
     {
       "title": "Miss Lulu Bett",
@@ -1455,7 +1721,21 @@
       "cast": "Karl Urban, Ludi Lin, Jessica McNamee, Joe Taslim, Hiroyuki Sanada, Adeline Rudolph, Tati Gabrielle, Josh Lawson",
       "country": "",
       "showtimes": [],
-      "description": ""
+      "description": "From New Line Cinema comes the latest high-stakes installment in the blockbuster video game franchise in all its brutal glory, MORTAL KOMBAT II. This time, the fan favorite champions \u2013 now joined by Johnny Cage himself \u2013 are pitted against one another in the ultimate, no-holds-barred, gory battle to defeat the dark rule of Shao Kahn that threatens the very existence of the Earthrealm and its defenders."
+    },
+    {
+      "title": "Mortal Kombat II",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/mortal-kombat-ii",
+      "status": "Coming Soon",
+      "opens": "May 7",
+      "booking_url": "https://drafthouse.com/nyc/show/mortal-kombat-ii",
+      "year": "2026",
+      "director": "Simon McQuoid",
+      "cast": "Karl Urban, Ludi Lin, Jessica McNamee, Joe Taslim, Hiroyuki Sanada, Adeline Rudolph, Tati Gabrielle, Josh Lawson",
+      "country": "",
+      "showtimes": [],
+      "description": "From New Line Cinema comes the latest high-stakes installment in the blockbuster video game franchise in all its brutal glory, MORTAL KOMBAT II. This time, the fan favorite champions \u2013 now joined by Johnny Cage himself \u2013 are pitted against one another in the ultimate, no-holds-barred, gory battle to defeat the dark rule of Shao Kahn that threatens the very existence of the Earthrealm and its defenders."
     },
     {
       "title": "Mother Mary",
@@ -1469,7 +1749,7 @@
       "cast": "Anne Hathaway, Michaela Coel, Hunter Schafer",
       "country": "",
       "showtimes": [],
-      "description": ""
+      "description": "Long-buried wounds rise to the surface when iconic pop star Mother Mary (Anne Hathaway) reunites with her estranged best friend and former costume designer Sam Anselm (Michaela Coel) on the eve of her comeback performance."
     },
     {
       "title": "Mother Mary",
@@ -1480,10 +1760,24 @@
       "booking_url": "",
       "year": "2026",
       "director": "David Lowery",
-      "cast": "",
+      "cast": "Anne Hathaway, Michaela Coel, Hunter Schafer, FKA twigs, Kaia Gerber",
       "country": "",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
+    },
+    {
+      "title": "Mother Mary",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/mother-mary",
+      "status": "Coming Soon",
+      "opens": "April 23",
+      "booking_url": "https://drafthouse.com/nyc/show/mother-mary",
+      "year": "2026",
+      "director": "David Lowery",
+      "cast": "Anne Hathaway, Michaela Coel, Hunter Schafer, FKA twigs, Kaia Gerber",
+      "country": "",
+      "showtimes": [],
+      "description": "Long-buried wounds rise to the surface when iconic pop star Mother Mary (Anne Hathaway) reunites with her estranged best friend and former costume designer Sam Anselm (Michaela Coel) on the eve of her comeback performance."
     },
     {
       "title": "Mr Arkadin",
@@ -1540,6 +1834,48 @@
       "country": "",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
+    },
+    {
+      "title": "Mystery Machine  (5/11/2026)",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/mystery-machine-5-11-2026",
+      "status": "Coming Soon",
+      "opens": "May 11",
+      "booking_url": "https://drafthouse.com/nyc/show/mystery-machine-5-11-2026",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Shrouded in secrecy! Encircled by intrigue! The Mystery Machine promises to deliver cinematic treasures that span genres, countries, and tastes... only for those brave enough to enter. All shall be revealed only after the credits begin. Screening on select Mondays with discounted admission."
+    },
+    {
+      "title": "Mystery Transmission",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/video-vortex-mystery-transmission-mystery-transmission-035",
+      "status": "Coming Soon",
+      "opens": "April 27",
+      "booking_url": "https://drafthouse.com/nyc/show/video-vortex-mystery-transmission-mystery-transmission-035",
+      "year": "1900",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Imagine that a local cable station was invaded by otherdimensional creatures at the stroke of midnight. That's Video Vortex. Each month, this series presents a mystery transmission that's culled from the outer limits of home video history \u2013 from essential underground films to surreal docs, from tokusatsu battle-parties to outsider experiments. So warm up the cathode tubes, dim the lights, and let your senses intermingle with the glow."
+    },
+    {
+      "title": "M\u0101rama",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/marama",
+      "status": "Coming Soon",
+      "opens": "May 5",
+      "booking_url": "https://drafthouse.com/nyc/show/marama",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "When a young M\u0101ori woman is summoned from New Zealand to North Yorkshire, she uncovers her horrific colonial heritage and is compelled to confront and destroy the titled Englishman who devastated her family."
     },
     {
       "title": "Nickelodeon",
@@ -1682,6 +2018,20 @@
       "description": "In her first documentary feature, Argentine auteur Lucrecia Martel (ZAMA; FF Premieres THE HEADLESS WOMAN and LA CI\u00c9NAGA) investigates the 2009 murder of Indigenous activist Javier Chocobar\u2014shot while defending his community\u2019s land from capitalist raiders\u2014and the systematic dispossession of the Chuschagasta people he represented. Martel alternates between footage of this controversial, long-delayed (9 years after the incident) trial, which hinges on a shaky cell-phone video; testimonials from Ch"
     },
     {
+      "title": "Over Your Dead Body (2026)",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/over-your-dead-body-2026",
+      "status": "Coming Soon",
+      "opens": "April 23",
+      "booking_url": "https://drafthouse.com/nyc/show/over-your-dead-body-2026",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "When miserable couple Dan and Lisa retreat to a remote cabin for a romantic reset, each arrives with a secret plan to murder the other. Their carefully plotted traps and counterplots quickly unravel when a dangerous crew crashes the weekend with plans of their own. As the toxic getaway spirals into chaotic carnage, Dan and Lisa must survive the intruders, each other, and figure out if they want to save their marriage or survive it."
+    },
+    {
       "title": "Paris Belongs To Us",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/pynchonesque-paris-belongs-to-us",
@@ -1710,6 +2060,20 @@
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
+      "title": "Phase IV",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/weird-wednesday-phase-iv",
+      "status": "Coming Soon",
+      "opens": "April 22",
+      "booking_url": "https://drafthouse.com/nyc/show/weird-wednesday-phase-iv",
+      "year": "1974",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "PHASE IV is prolific designer Saul Bass\u2019 sole feature film as director, and its classic status stands as a testament to his talent. When ants begin to build unusual structures in the Arizona desert, a team of scientists set up a research station to try and learn more about this sudden change in insect behavior. A masterclass in tone and balancing ambiguity, speculative fiction, and science-fact, PHASE IV is an eerie experience that dips into cosmic horror and existential philosophy. Incredible macro photography of actual ants and Bass\u2019 eye for design make this an event not to be missed on the big screen.\nDCP courtesy of Paramount Pictures"
+    },
+    {
       "title": "Police Story",
       "theater": "IFC Center",
       "url": "https://www.ifccenter.com/films/police-story/",
@@ -1736,6 +2100,20 @@
       "country": "USA",
       "showtimes": [],
       "description": ""
+    },
+    {
+      "title": "Power to the People: John & Yoko Live in NYC",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/power-to-the-people-john-yoko-live-in-nyc",
+      "status": "Coming Soon",
+      "opens": "April 29",
+      "booking_url": "https://drafthouse.com/nyc/show/power-to-the-people-john-yoko-live-in-nyc",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "POWER TO THE PEOPLE: JOHN &amp; YOKO LIVE IN NYC is the 2026 multiscreen concert film of two massive live shows by John Lennon &amp; Yoko Ono at Madison Square Garden, New York City, on August 30, 1972, newly restored, re-edited, and remixed by the Lennons\u2019 seven-times GRAMMY\u00ae-Award winning team.\nJohn &amp; Yoko/Plastic Ono Band with Elephant's Memory and Special Guests performed these now-legendary sold-out One To One concerts to a combined audience of 40,000 people, raising over $1.5M (equivalent to $11.5M in 2026) for children with intellectual and developmental disabilities. They were the only full-length concerts John Lennon (with Yoko Ono) performed after leaving The Beatles.\nOriginally filmed by multi-camera director Steve Gebhardt in 1972, this 2026 version of the concert film is directed by Simon Hilton, edited by Ben Wainwright-Pearce, and produced by Peter Worsley &amp; Sean Ono Lennon. Music Production is by Sean Ono Lennon; mixed and engineered by Paul Hicks &amp; Sam Gannon.\nHits performed include John's \"New York City,\" \"Instant Karma!,\" \"Imagine,\" and \"Mother,\" plus Yoko's \"Don't Worry Kyoko\" and \"Open Your Box,\" plus rousing renditions of \"Come Together\" and \"Hound Dog,\" and an encore of \"Give Peace a Chance\" with special guests Stevie Wonder, Melanie, and many others."
     },
     {
       "title": "Prismatic Ground",
@@ -1813,7 +2191,7 @@
       "url": "https://www.ifccenter.com/films/renoir/",
       "status": "Coming Soon",
       "opens": "May 29",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553507~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553561~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "",
       "director": "Chie Hayakawa",
       "cast": "Yui Suzuki, Lily Franky, Hikari Ishida, Ayumu Nakajima",
@@ -1836,6 +2214,20 @@
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
+      "title": "Reveries: The Mind Prison",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/reveries-the-mind-prison",
+      "status": "Coming Soon",
+      "opens": "April 24",
+      "booking_url": "https://drafthouse.com/nyc/show/reveries-the-mind-prison",
+      "year": "2025",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Two mysterious drifters wandering a strange desert find themselves thrown into a journey of self-discovery, traversing a surreal and hostile terrain in search of answers to life\u2019s unanswerable questions. As they spiral deeper into a world of madness, they must discover the meaning of\u2026THE MIND PRISON."
+    },
+    {
       "title": "Richie Rich",
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/movies/richie-rich/",
@@ -1845,20 +2237,6 @@
       "year": "1994",
       "director": "Donald Petrie",
       "cast": "Macaulay Culkin, John Larroquette, Edward Herrmann, Christine Ebersole",
-      "country": "",
-      "showtimes": [],
-      "description": ""
-    },
-    {
-      "title": "Rocco And His Brothers",
-      "theater": "Paris Theater",
-      "url": "https://www.paristheaternyc.com/films/rocco-and-his-brothers-branch-selects",
-      "status": "Coming Soon",
-      "opens": "April 19",
-      "booking_url": "",
-      "year": "",
-      "director": "Luchino Visconti",
-      "cast": "Alain Delon, \\nRenato Salvatori, \\nAnnie Girardot, \\nKatina Paxinou, \\nRoger Hanin, \\nPaolo Stoppa, \\nSuzy Delair, \\nClaudia Cardinale",
       "country": "",
       "showtimes": [],
       "description": ""
@@ -1904,6 +2282,20 @@
       "country": "",
       "showtimes": [],
       "description": ""
+    },
+    {
+      "title": "Saw II",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/terror-tuesday-saw-ii",
+      "status": "Coming Soon",
+      "opens": "April 21",
+      "booking_url": "https://drafthouse.com/nyc/show/terror-tuesday-saw-ii",
+      "year": "2005",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "If Michael Bay directed a SAW movie, it would feel a lot like SAW II. And that's the highest compliment we can pay to this hyperactive, near-perfect snapshot of 2000s mayhem. Picking up shortly after the events of SAW, this first sequel finds malicious serial killer Jigsaw commandeering his own trap-filled murderhouse to target a group of ex-convicts\u2014and also Donnie \"brother of Mark\" Wahlberg. With production design that resembles a stoned evening at Universal\u2019s Halloween Horror Nights and enough grisly carnage to fill three movies, SAW II is campy, outrageous, and deliciously gross."
     },
     {
       "title": "Scary Movie (2026)",
@@ -1990,6 +2382,20 @@
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
+      "title": "Shrek: 25th Anniversary",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/shrek-25th-anniversary",
+      "status": "Coming Soon",
+      "opens": "May 15",
+      "booking_url": "https://drafthouse.com/nyc/show/shrek-25th-anniversary",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Winner of the first Academy Award for Best Animated Feature, SHREK sparked a motion picture phenomenon and captured the world's imagination with the Greatest Fairy Tale Never Told! Relive every moment of Shrek's daring quest to rescue the feisty Princess Fiona with the help of his loveable, loudmouthed Donkey and win back the deed to his beloved swamp."
+    },
+    {
       "title": "Sinners In The Sun In 35Mm",
       "theater": "Film Forum",
       "url": "https://filmforum.org/film/sinners-in-the-sun-the-lubitsch-touch",
@@ -2002,6 +2408,20 @@
       "country": "U.S",
       "showtimes": [],
       "description": ""
+    },
+    {
+      "title": "Ski Party",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/weird-wednesday-ski-party",
+      "status": "Coming Soon",
+      "opens": "April 29",
+      "booking_url": "https://drafthouse.com/nyc/show/weird-wednesday-ski-party",
+      "year": "1965",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "In this musical, college classmates Todd Armstrong (Frankie Avalon) and Craig Gamble (Dwayne Hickman) head out on a group ski vacation, and agree that if they're going to get girlfriends, they need to understand how women think."
     },
     {
       "title": "Something Wild",
@@ -2085,7 +2505,21 @@
       "cast": "Pedro Pascal, Sigourney Weaver",
       "country": "",
       "showtimes": [],
-      "description": ""
+      "description": "STAR WARS: THE MANDALORIAN AND GROGU contains several sequences with flashing lights that may affect those who are susceptible to photosensitive epilepsy or have other photosensitivities.\nThe evil Empire has fallen, and Imperial warlords remain scattered throughout the galaxy. As the fledgling New Republic works to protect everything the Rebellion fought for, they have enlisted the help of legendary Mandalorian bounty hunter Din Djarin (Pedro Pascal) and his young apprentice Grogu."
+    },
+    {
+      "title": "Star Wars: The Mandalorian and Grogu",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/star-wars-the-mandalorian-and-grogu",
+      "status": "Coming Soon",
+      "opens": "May 21",
+      "booking_url": "https://drafthouse.com/nyc/show/star-wars-the-mandalorian-and-grogu",
+      "year": "2026",
+      "director": "Jon Favreau",
+      "cast": "Pedro Pascal, Sigourney Weaver",
+      "country": "",
+      "showtimes": [],
+      "description": "STAR WARS: THE MANDALORIAN AND GROGU contains several sequences with flashing lights that may affect those who are susceptible to photosensitive epilepsy or have other photosensitivities.\nThe evil Empire has fallen, and Imperial warlords remain scattered throughout the galaxy. As the fledgling New Republic works to protect everything the Rebellion fought for, they have enlisted the help of legendary Mandalorian bounty hunter Din Djarin (Pedro Pascal) and his young apprentice Grogu."
     },
     {
       "title": "Stephen King'S Dollar Babies Shorts",
@@ -2100,6 +2534,20 @@
       "country": "",
       "showtimes": [],
       "description": ""
+    },
+    {
+      "title": "Strange Journey: The Story of Rocky Horror",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/live-q-a-strange-journey-the-story-of-rocky-horror",
+      "status": "Coming Soon",
+      "opens": "April 24",
+      "booking_url": "https://drafthouse.com/nyc/show/live-q-a-strange-journey-the-story-of-rocky-horror",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "A London theater play evolves into a groundbreaking cult phenomenon, featuring iconic songs and performances that celebrate individuality. The legacy lives on through midnight screenings and a devoted following that spans generations."
     },
     {
       "title": "Sundays on Fire: Secret Hong Kong 35mm Feature",
@@ -2144,6 +2592,20 @@
       "description": ""
     },
     {
+      "title": "Sweet Smell of Success",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/sweet-smell-of-success",
+      "status": "Coming Soon",
+      "opens": "May 4",
+      "booking_url": "https://drafthouse.com/nyc/show/sweet-smell-of-success",
+      "year": "1957",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "New York City newspaper writer J.J. Hunsecker holds considerable sway over public opinion with his Broadway column, but one thing that he can't control is his younger sister, Susan, who is in a relationship with aspiring jazz guitarist Steve Dallas. Hunsecker strongly disapproves of the romance and recruits publicist Sidney Falco to find a way to split the couple, no matter how ruthless the method."
+    },
+    {
       "title": "Take Shelter",
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/showtimes/take-shelter-4-21-26-645-pm/",
@@ -2169,7 +2631,7 @@
       "cast": "Brian Tochi, Josh Pais, Corey Feldman, Robbie Rist",
       "country": "U.S",
       "showtimes": [],
-      "description": ""
+      "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
       "title": "Terminator 2: Judgment Day",
@@ -2177,13 +2639,41 @@
       "url": "https://www.ifccenter.com/films/terminator-2-judgment-day/",
       "status": "Coming Soon",
       "opens": "May 22",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553507~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553561~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1991",
       "director": "James Cameron",
       "cast": "Arnold Schwarzenegger, Linda Hamilton",
       "country": "USA",
       "showtimes": [],
       "description": ""
+    },
+    {
+      "title": "Terror of Mechagodzilla",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/terror-of-mechagodzilla",
+      "status": "Coming Soon",
+      "opens": "April 24",
+      "booking_url": "https://drafthouse.com/nyc/show/terror-of-mechagodzilla",
+      "year": "1975",
+      "director": "Ishir\u00f4 Honda",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Evil jumpsuit-wearing spacemen from the Black Hole are plotting to flatten Tokyo and build their own utopian city. Aided by deranged scientist Dr. Mafune, shunned for his strange experiments on sea life, the aliens unleash a rebuilt Mechagodzilla (this IS a direct sequel to the first Mechagodzilla jam) and the monster Titanosaurus (which looks like an aquatic Godzilla whose special attack is causing windstorms with his fins) to do their evil bidding.\nWhat better revenge is there for a dismissed scientist than to take control of giant monsters and use them for ultimate destruction? Eventually, Godzilla surfaces to defend his homeland, and that\u2019s when the Earth-shattering destruction begins.\nNote #1: This is the only Godzilla movie where he actually catches on fire.\nNote #2: Mechagodzilla can fight without his head! What more could you ask for?"
+    },
+    {
+      "title": "That Time I Got Reincarnated As a Slime The Movie: Scarlet Bond (Subtitled)",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/that-time-i-got-reincarnated-as-a-slime-the-movie-scarlet-bond-subtitled",
+      "status": "Coming Soon",
+      "opens": "April 20",
+      "booking_url": "https://drafthouse.com/nyc/show/that-time-i-got-reincarnated-as-a-slime-the-movie-scarlet-bond-subtitled",
+      "year": "2023",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Presented in Japanese with English subtitles\nBack on the big screen for Crunchyroll Anime Nights! A long-running conspiracy is swirling over a mysterious power wielded by the Queen in Raja, a small country west of Tempest. When a slime who evolved into a Demon Lord named Rimuru Tempest crosses paths with Hiiro, a survivor of the Ogre race, an incredible adventure packed with new characters begins. The power of bonds will be put to the test!"
     },
     {
       "title": "The Adventures Of Buckaroo Banzai Across The 8Th Dimension",
@@ -2225,7 +2715,7 @@
       "cast": "Jeff Bridges, John Goodman, Steve Buscemi, Julianne Moore, John Turturro",
       "country": "",
       "showtimes": [],
-      "description": ""
+      "description": "The Coen\u2019s cult comedy par excellence is the rare film not to contain a single unmemorable character or performance, from John Goodman\u2019s John Milius-inspired gun nut Walter Sobchak to John Turturro\u2019s snake-hipped sex offender Jesus Quintana to, of\u2026"
     },
     {
       "title": "The Big Lebowski",
@@ -2236,10 +2726,38 @@
       "booking_url": "",
       "year": "1998",
       "director": "Joel Coen",
-      "cast": "",
+      "cast": "Jeff Bridges, John Goodman, Steve Buscemi, Julianne Moore, John Turturro",
       "country": "",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
+    },
+    {
+      "title": "The Big Lebowski",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/movie-party-the-big-lebowski",
+      "status": "Coming Soon",
+      "opens": "April 20",
+      "booking_url": "https://drafthouse.com/nyc/show/movie-party-the-big-lebowski",
+      "year": "1999",
+      "director": "Joel Coen, Ethan Coen",
+      "cast": "Jeff Bridges, John Goodman, Steve Buscemi, Julianne Moore, John Turturro",
+      "country": "",
+      "showtimes": [],
+      "description": "Jeff Bridges plays Jeff Lebowski, or The Dude, or Duder, or uh, El Duderino \u2013 a laid-back, easygoing burnout who happens to have the same name as a millionaire whose wife owes a lot of dangerous people a whole bunch of money. This results in The Dude having his rug soiled \u2013 a rug that was essential to his interior decoration \u2013 launching him into the weird, evocative world of the Los Angeles underworld and the pornographers, nihilists, and slackers that populate it.\nThe film, a box-office bomb upon its initial release, spent years building a dedicated group of fans who rediscovered it on VHS, creating a cultural phenomenon and cementing The Dude as perhaps Jeff Bridges' trademark role."
+    },
+    {
+      "title": "The Breadwinner (2026)",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/the-breadwinner-2026",
+      "status": "Coming Soon",
+      "opens": "May 28",
+      "booking_url": "https://drafthouse.com/nyc/show/the-breadwinner-2026",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Starring record-breaking comedian Nate Bargatze in his first feature film, THE BREADWINNER is a family comedy that follows the misadventures of Nate Wilcox, whose wife Katie (Mandy Moore) lands a once-in-a-lifetime deal on Shark Tank that takes her on a prolonged business trip \u2013 and now the lifelong breadwinner has to fend for his family as a first-time stay-at-home dad. With three young daughters and little experience handling their day-to-day needs, Nate finds out quickly that running the household is the toughest gig he\u2019s ever had."
     },
     {
       "title": "The China Syndrome",
@@ -2267,7 +2785,21 @@
       "cast": "Meryl Streep, Emily Blunt, Anne Hathaway, Stanley Tucci",
       "country": "",
       "showtimes": [],
-      "description": ""
+      "description": "THE DEVIL WEARS PRADA 2 contains several sequences with flashing lights that may affect those who are susceptible to photosensitive epilepsy or have other photosensitivities.\nTwenty years after making their iconic turns as Miranda, Andy, Emily, and Nigel, Meryl Streep, Anne Hathaway, Emily Blunt, and Stanley Tucci return to the fashionable streets of New York City and the sleek offices of Runway Magazine in the eagerly awaited sequel to the 2006 phenomenon that defined a generation."
+    },
+    {
+      "title": "The Devil Wears Prada 2",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/the-devil-wears-prada-2",
+      "status": "Coming Soon",
+      "opens": "April 30",
+      "booking_url": "https://drafthouse.com/nyc/show/the-devil-wears-prada-2",
+      "year": "2026",
+      "director": "David Frankel",
+      "cast": "Meryl Streep, Emily Blunt, Anne Hathaway, Stanley Tucci",
+      "country": "",
+      "showtimes": [],
+      "description": "THE DEVIL WEARS PRADA 2 contains several sequences with flashing lights that may affect those who are susceptible to photosensitive epilepsy or have other photosensitivities.\nTwenty years after making their iconic turns as Miranda, Andy, Emily, and Nigel, Meryl Streep, Anne Hathaway, Emily Blunt, and Stanley Tucci return to the fashionable streets of New York City and the sleek offices of Runway Magazine in the eagerly awaited sequel to the 2006 phenomenon that defined a generation."
     },
     {
       "title": "The Girl In The Yellow Jumper",
@@ -2480,6 +3012,20 @@
       "description": ""
     },
     {
+      "title": "The School Duel",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/the-school-duel",
+      "status": "Coming Soon",
+      "opens": "April 24",
+      "booking_url": "https://drafthouse.com/nyc/show/the-school-duel",
+      "year": "2024",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "In a near-future Florida where gun control has been abolished, the state\u2019s ambitious governor (Oscar Nu\u00f1ez, The Office) introduces a chilling solution to school shootings: a state-wide, televised fight-to-the-death competition known as \"The School Duel.\" Sammy, a troubled 13-year-old, secretly enlists against his mother\u2019s wishes, seduced by promises of purpose, patriotism, and notoriety. But as the deadly spectacle unfolds, that dream begins to crumble. The debut feature from director Todd Wiseman Jr., THE SCHOOL DUEL is a provocative dystopian thriller about fear, manipulation, and one of the most brazenly political genre films in recent memory."
+    },
+    {
       "title": "The Seduction Of Mimi",
       "theater": "Film Forum",
       "url": "https://filmforum.org/film/the-seduction-of-mimi",
@@ -2505,7 +3051,21 @@
       "cast": "Hugh Jackman, Bryan Cranston, Nicholas Galitzine, Emma Thompson",
       "country": "",
       "showtimes": [],
-      "description": ""
+      "description": "In this witty, new breed of mystery, George (Hugh Jackman) is a shepherd who reads detective novels to his beloved sheep every night, assuming they can\u2019t possibly understand. But when a mysterious incident disrupts life on the farm, the sheep realize they must become the detectives. As they follow the clues and investigate human suspects, they prove that even sheep can be brilliant crime-solvers."
+    },
+    {
+      "title": "The Sheep Detectives",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/the-sheep-detectives",
+      "status": "Coming Soon",
+      "opens": "May 7",
+      "booking_url": "https://drafthouse.com/nyc/show/the-sheep-detectives",
+      "year": "2026",
+      "director": "Kyle Balda",
+      "cast": "Hugh Jackman, Bryan Cranston, Nicholas Galitzine, Emma Thompson",
+      "country": "",
+      "showtimes": [],
+      "description": "In this witty, new breed of mystery, George (Hugh Jackman) is a shepherd who reads detective novels to his beloved sheep every night, assuming they can\u2019t possibly understand. But when a mysterious incident disrupts life on the farm, the sheep realize they must become the detectives. As they follow the clues and investigate human suspects, they prove that even sheep can be brilliant crime-solvers."
     },
     {
       "title": "The Six Billion Dollar Man",
@@ -2534,6 +3094,34 @@
       "country": "",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
+    },
+    {
+      "title": "The Suckling",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/terror-tuesday-the-suckling",
+      "status": "Coming Soon",
+      "opens": "April 28",
+      "booking_url": "https://drafthouse.com/nyc/show/terror-tuesday-the-suckling",
+      "year": "1990",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "THE SUCKLING has everything you love: exploding heads, severed hands, a fully articulated beastie, major problems with major appliances, and spinning dildos. The monster effects are a feat, but the cinematography and script are just as strong. There are characters you love to hate and hate to love. This film is designed to offend. It's about abortions and contains sexual assault. But like the best exploitation films, THE SUCKLING is deceptively intelligent and dances nimbly around both sides of a charged issue. It's exploitation and horror at its finest. (Annie Choi)Note: This film includes a brief scene of non-consenual sexual act.DCP courtesy of Vinegar Syndrome and the American Genre Film Archive"
+    },
+    {
+      "title": "The Third Man",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/the-third-man",
+      "status": "Coming Soon",
+      "opens": "May 11",
+      "booking_url": "https://drafthouse.com/nyc/show/the-third-man",
+      "year": "1949",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Holly Martins (Joseph Cotten), a writer of pulp Westerns, arrives in a bombed-out, post-war Vienna at the invitation of his childhood friend Harry Lime (Orson Welles) only to find him dead. Martins develops the ultimate conspiracy theory after learning of a \u201cthird man\u201d present at the time of Harry\u2019s death, butting up against interference from British police officer Major Calloway (Trevor Howard), and falling head-over-heels for Harry\u2019s grief-stricken lover Anna (Alida Valli)."
     },
     {
       "title": "The Vergecast Presents: Sneakers",
@@ -2575,7 +3163,7 @@
       "cast": "Michael Beck, James Remar, Dorsey Wright, Brian Tyler, David Harris",
       "country": "USA",
       "showtimes": [],
-      "description": ""
+      "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
       "title": "The Wiz",
@@ -2589,7 +3177,7 @@
       "cast": "Diana Ross, Michael Jackson, Richard Pryor, Nipsey Russell, Ted Ross, Mabel King",
       "country": "",
       "showtimes": [],
-      "description": ""
+      "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
       "title": "The Woman Chaser",
@@ -2660,6 +3248,20 @@
       "country": "Spain",
       "showtimes": [],
       "description": ""
+    },
+    {
+      "title": "Tomorrow Never Dies",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/tomorrow-never-dies",
+      "status": "Coming Soon",
+      "opens": "April 24",
+      "booking_url": "https://drafthouse.com/nyc/show/tomorrow-never-dies",
+      "year": "1997",
+      "director": "Roger Spottiswoode",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "The producers of the 007 series must have heaved a huge sigh of relief when they read the reviews of TOMORROW NEVER DIES. The verdict was pretty much unanimous: Pierce Brosnan had passed the test in GOLDENEYE and his second adventure, with audiences and critics embracing him as James Bond in a way they never did with his predecessor Timothy Dalton.\n\"Brosnan is fast becoming the second best 007 \u2013 effortlessly competent and coolly sexy,\" raved San Francisco Gate critic Ruthe Stein. \"For his part, Brosnan now looks so at ease in the role that it seems like second nature to him,\" agreed Todd McCarthy of Variety.\nBut just in case there might have still been some qualms about the New Guy, the filmmakers added an irresistible wild card to the TOMORROW cast in the form of Michelle Yeoh.\nTOMORROW NEVER DIES, like GOLDENEYE, was also designed to reflect topical issues. The plot pits Bond against an avaricious Rupert Murdoch-style media czar named Elliot Carver (Jonathan Pryce), who is content to create bad news and then profit from the coverage through his news networks. His latest scheme: conjure up a crisis that will send Great Britain and China into what could be World War III."
     },
     {
       "title": "Tootsie",
@@ -2802,6 +3404,20 @@
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
+      "title": "Wayne's World",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/free-victory-screening-waynes-world",
+      "status": "Coming Soon",
+      "opens": "April 28",
+      "booking_url": "https://drafthouse.com/nyc/show/free-victory-screening-waynes-world",
+      "year": "1992",
+      "director": "Penelope Spheeris",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Things get complicated for Wayne and Garth as they make the jump from cable access to primetime. Rob Lowe is a sleazy network exec bent on exploiting the boys and making a hollow, big-budget version of the show \u2013 and bent on stealing Wayne\u2019s girlfriend, Cassandra (Tia Carrere \u2013 schwing!). Can Wayne and Garth save their show, save Cassandra, and most crucially, continue to party on? Directed with a razor-sharp eye by Penelope Spheeris (DECLINE OF WESTERN CIVILIZATION, SUBURBIA), her lived-in knowledge of the rock scene and array of punks that populate it make the SNL-to-big-screen jump more real."
+    },
+    {
       "title": "Who Framed Roger Rabbit",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/pynchonesque-who-framed-roger-rabbit",
@@ -2842,6 +3458,20 @@
       "country": "U.S",
       "showtimes": [],
       "description": ""
+    },
+    {
+      "title": "$POSITIONS",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/positions",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/positions",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Blue-collar Midwesterner Mike Alvarado attempts to save his family from the throes of poverty by investing their savings into speculative cryptocurrencies. However, as his investment strategy decays into a full-blown gambling addiction, he sends his life into a nightmarish anxiety-inducing downward spiral, compromising his relationships with his girlfriend, his developmentally disabled brother, and his recovering addict cousin. A twitchy, hyper-contemporary comedy with equal doses of laughs and panic attacks."
     },
     {
       "title": "12 Years A Slave",
@@ -3060,6 +3690,20 @@
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
+      "title": "All You Need Is Kill",
+      "theater": "Low Cinema",
+      "url": "https://lowcinema.com/movie/all-you-need-is-kill/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://lowcinema.com/checkout/b70a5c65-949c-43ee-a937-42d8d419bb6f/",
+      "year": "2026",
+      "director": "Kenichiro Akimoto",
+      "cast": "",
+      "country": "Japan",
+      "showtimes": [],
+      "description": "Set in the year 20XX, ALL YOU NEED IS KILL follows the story of Rita, a resourceful but isolated young woman volunteering to help rebuild Japan after the mysterious appearance of a massive alien flower known as \u201cDarol.\u201d When Darol unexpectedly erupts in a deadly event, unleashing monstrous creatures that decimate the population, Rita is caught in the destruction\u2014and killed. But then she wakes up again. And again. Caught in an endless time loop, Rita must navigate the trauma and repetition of death until she crosses paths with Keiji, a shy young man trapped in the same cycle. Together, they fight to break free from the loop and find meaning in the chaos around them."
+    },
+    {
       "title": "Alpha",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/alpha",
@@ -3209,6 +3853,20 @@
       "description": "If one were to point to a single film as the encapsulation of Walt Disney\u2019s contribution to the art of animation, one could do much worse than this loose adaptation of Austrian Felix Salten\u2019s novel Bambi, a Life in the Woods, in which we follow the\u2026"
     },
     {
+      "title": "Barton Fink",
+      "theater": "Paris Theater",
+      "url": "https://www.paristheaternyc.com/films/nyfcc-barton-fink",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "",
+      "director": "Joel Cohen, Ethan Coen",
+      "cast": "John Turturro, \\nJudy Davis, \\nSteve Buscemi, \\nJohn Goodman, \\nTony Shalhoub, \\nJohn Mahoney, \\nMichael Lerner, \\nRichard Portnow, \\nJon Polito",
+      "country": "",
+      "showtimes": [],
+      "description": ""
+    },
+    {
       "title": "Beef | Season 2 | Episodes 1 & 2",
       "theater": "Paris Theater",
       "url": "https://www.paristheaternyc.com/films/season-2-all-the-rage-beef",
@@ -3317,12 +3975,12 @@
       "status": "Now Playing",
       "opens": "",
       "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=552039~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-      "year": "",
+      "year": "2025",
       "director": "Sophy Romvari",
       "cast": "Eylul Guven, Amy Zimmer, Iringo Reti, Edik Beddoes, Adam Tompa",
       "country": "Canada, Hungary",
       "showtimes": [],
-      "description": ""
+      "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
       "title": "Blue Velvet",
@@ -3339,6 +3997,20 @@
       "description": ""
     },
     {
+      "title": "Bridesmaids: 15th Anniversary",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/bridesmaids-15th-anniversary",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/bridesmaids-15th-anniversary",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Thirty-something Annie has hit a rough patch and finds her life turned completely upside-down when she takes on the maid of honor role in her best friend Lillian's wedding. In way over her head but determined to succeed, Annie leads a hilarious hodgepodge of bridesmaids on a wild ride down the road to the big event."
+    },
+    {
       "title": "Bringing Up Baby",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999001129",
@@ -3347,8 +4019,8 @@
       "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29758",
       "year": "1938",
       "director": "Howard Hawks",
-      "cast": "",
-      "country": "",
+      "cast": "Cary Grant, Katharine Hepburn, Asta (dog)",
+      "country": "USA",
       "showtimes": [
         "Sat May2 11:20am"
       ],
@@ -3429,7 +4101,7 @@
     {
       "title": "Cecil B. Demented",
       "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/cecil-b-demented/?date=today",
+      "url": "https://nitehawkcinema.com/prospectpark/movies/cecil-b-demented/?date=yesterday",
       "status": "Now Playing",
       "opens": "",
       "booking_url": "",
@@ -3449,7 +4121,7 @@
       "booking_url": "",
       "year": "1974",
       "director": "Roman Polanski",
-      "cast": "",
+      "cast": "Faye Dunaway, \\nJack Nicholson, \\nJohn Hillerman, \\nJohn Huston, \\nPerry Lopez, \\nBurt Young",
       "country": "",
       "showtimes": [],
       "description": "The actual Chinatown neighborhood in Los Angeles doesn\u2019t play a major role in Polanski\u2019s noir-inflected film of dirty dealings in 1930s Southern California, but it does a whole lot of metaphorical heavy lifting in the film\u2019s famous kicker line,\u2026"
@@ -3461,12 +4133,12 @@
       "status": "Now Playing",
       "opens": "",
       "booking_url": "",
-      "year": "",
+      "year": "1974",
       "director": "Roman Polanski",
       "cast": "Faye Dunaway, \\nJack Nicholson, \\nJohn Hillerman, \\nJohn Huston, \\nPerry Lopez, \\nBurt Young",
       "country": "",
       "showtimes": [],
-      "description": ""
+      "description": "The actual Chinatown neighborhood in Los Angeles doesn\u2019t play a major role in Polanski\u2019s noir-inflected film of dirty dealings in 1930s Southern California, but it does a whole lot of metaphorical heavy lifting in the film\u2019s famous kicker line,\u2026"
     },
     {
       "title": "Chronicle of the Years of Fire",
@@ -3552,7 +4224,7 @@
       "cast": "",
       "country": "U.S",
       "showtimes": [
-        "8:50"
+        "5:35"
       ],
       "description": ""
     },
@@ -3611,6 +4283,20 @@
       "country": "",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
+    },
+    {
+      "title": "Death of a Bureaucrat",
+      "theater": "Low Cinema",
+      "url": "https://lowcinema.com/movie/death-of-a-bureaucrat/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://lowcinema.com/checkout/e4461d16-8a5f-48ae-b796-cbbc64ca9a1f/",
+      "year": "1966",
+      "director": "Tom\u00e1s Guti\u00e9rrez Alea",
+      "cast": "",
+      "country": "Cuba",
+      "showtimes": [],
+      "description": "Co-presented with Public Sector Office. A comedy of errors of bureaucratic proportions, Death of a Bureaucrat ( La muerte de un bur\u00f3crata ) documents the absurdity and contradictions within the well-meaning structures that buttress civic life. Set in Havana just seven years after the Cuban revolution, the message carries forward to the present day with searing clarity and a healthy dose of morbid humor. Bureaucracy aficionados Casey Peterson and Lucas Vaqueiro will moderate a panel discussion and untangle the red tape of the film following two screenings: Monday, April 27 @ 6:00PM with Jhon Usmanov , Director of Operations at The Green-Wood Cemetery Wednesday, April 29 @ 5:45PM with Meghan Peterson , President of DC 37 Local 3005 and Creator of @miceofworthst Jahongir \"Jhon\" Usmanov holds a BA in History from Brooklyn College, with a minor in Archival Studies, and a longstanding passion for genealogy. He has built his career around connecting people to their histories, helping individuals uncover and tell their families' stories. Jhon is the Director of Operations at The Green-Wood Cemetery and the founder of All Roots Lead to Brooklyn, a genealogy-focused company. Born in Tajikistan, he has been living in New York City since 1997. Meghan Peterson is President of DC 37 Local 3005, representing scientific and technical workers at the health department and medical examiners office. She is a public health epidemiologist, rabble-rouser, and expert in bureaucracy (against her will). She created the Instagram @miceofworthst, which was recently featured in Politico NY. Casey Peterson is an urban planner whose experience spans the public, private, and non-profit sectors in New York City. She launched the Instagram account @publicsectoroffice in 2018 as a coping mechanism for working at 100 Gold Street. She continues to administer the account with delight, curating submissions from public servants across North America and hosting events for the bureaucratically-minded. She is the diligent secretary of Brooklyn Community Board 2\u2019s Land Use Committee. Lucas Vaqueiro is a Brazilian civic designer, educator, and researcher based in Queens. Informed by his experience working with cities across the Americas, from New York to S\u00e3o Paulo and Montreal to Montevideo, his practice includes installations, publications, and community engagement that reframe bureaucracy as a civic infrastructure worth reimagining \u2014 and celebrating. His work has been featured at Milan Design Week and the Creative Bureaucracy Festival. Lucas is a 2025\u20132026 New City Critics Fellow and a frequent collaborator with @publicsectoroffice."
     },
     {
       "title": "Debra Granik Presents ConBody VS Everybody",
@@ -3717,13 +4403,27 @@
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
+      "title": "Edge of Tomorrow",
+      "theater": "Low Cinema",
+      "url": "https://lowcinema.com/movie/edge-of-tomorrow/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://lowcinema.com/checkout/ded32baa-e048-4cd7-bc64-9803ff966a49/",
+      "year": "2014",
+      "director": "Doug Liman",
+      "cast": "",
+      "country": "USA",
+      "showtimes": [],
+      "description": "When Earth falls under attack from invincible aliens, no military unit in the world is able to beat them. Maj. William Cage (Tom Cruise), an officer who has never seen combat, is assigned to a suicide mission. Killed within moments, Cage finds himself thrown into a time loop, in which he relives the same brutal fight -- and his death -- over and over again. However, Cage's fighting skills improve with each encore, bringing him and a comrade (Emily Blunt) ever closer to defeating the aliens."
+    },
+    {
       "title": "Erupcja",
       "theater": "Angelika Film Center",
       "url": "https://angelikafilmcenter.com/nyc/movies/erupcja",
       "status": "Now Playing",
       "opens": "April 17",
       "booking_url": "https://angelikafilmcenter.com/nyc/movies/erupcja",
-      "year": "",
+      "year": "2026",
       "director": "Pete Ohs",
       "cast": "Charli xcx,\u00a0Lena G\u00f3ra, Will Madden, Jeremy O. Harris",
       "country": "",
@@ -3737,24 +4437,38 @@
       "status": "Now Playing",
       "opens": "",
       "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553383~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-      "year": "",
+      "year": "2026",
       "director": "Ben McKenzie",
       "cast": "Ben McKenzie, Morena Baccarin, Sam Bankman-Fried, Nayib Bukele, Alex Mashinsky",
       "country": "USA",
       "showtimes": [],
-      "description": ""
+      "description": "In EVERYONE IS LYING TO YOU FOR MONEY, actor and author Ben McKenzie turns investigator, pulling back the curtain on the cryptocurrency industry and the culture of hype, misinformation, and speculation that fueled its explosive rise. What began as a promise of financial freedom has evolved into a volatile ecosystem rife with fraud and reckless gambling, carrying with it devastating consequences for everyday people.\nThrough firsthand reporting, expert interviews, and a clear-eyed examination of major collapses and scandals, the film traces how crypto became one of the most aggressively marketed financial products of the modern era \u2013 and how warning signs were ignored, dismissed, or deliberately obscured. As fortunes are made and lost, EVERYONE IS LYING TO YOU FOR MONEY asks a sobering question: who benefits from the chaos, and who is left to clean up the damage?\nAccessible, urgent, and often darkly iconic, the film is both a cautionary tale and a call for accountability \u2013 cutting through the noise to expose a system built on speculation, influence, and belief rather than truth."
+    },
+    {
+      "title": "Everyone Is Lying to You for Money",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/everyone-is-lying-to-you-for-money",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/everyone-is-lying-to-you-for-money",
+      "year": "2026",
+      "director": "Ben McKenzie",
+      "cast": "Ben McKenzie, Morena Baccarin, Sam Bankman-Fried, Nayib Bukele, Alex Mashinsky",
+      "country": "USA",
+      "showtimes": [],
+      "description": "In EVERYONE IS LYING TO YOU FOR MONEY, actor and author Ben McKenzie turns investigator, pulling back the curtain on the cryptocurrency industry and the culture of hype, misinformation, and speculation that fueled its explosive rise. What began as a promise of financial freedom has evolved into a volatile ecosystem rife with fraud and reckless gambling, carrying with it devastating consequences for everyday people.\nThrough firsthand reporting, expert interviews, and a clear-eyed examination of major collapses and scandals, the film traces how crypto became one of the most aggressively marketed financial products of the modern era \u2013 and how warning signs were ignored, dismissed, or deliberately obscured. As fortunes are made and lost, EVERYONE IS LYING TO YOU FOR MONEY asks a sobering question: who benefits from the chaos, and who is left to clean up the damage?\nAccessible, urgent, and often darkly iconic, the film is both a cautionary tale and a call for accountability \u2013 cutting through the noise to expose a system built on speculation, influence, and belief rather than truth."
     },
     {
       "title": "Exit 8",
       "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/exit-8/?date=today",
+      "url": "https://nitehawkcinema.com/prospectpark/movies/exit-8/?date=yesterday",
       "status": "Now Playing",
       "opens": "",
       "booking_url": "",
       "year": "2026",
       "director": "Genki Kawamura",
       "cast": "Kazunari Ninomiya, Yamato K\u00f4chi, Kotone Hanase, Naru Asanuma, Nana Komatsu",
-      "country": "",
+      "country": "Japan",
       "showtimes": [],
       "description": "A man trapped in an endless sterile subway passageway sets out to find Exit 8"
     },
@@ -3767,8 +4481,8 @@
       "booking_url": "",
       "year": "2025",
       "director": "Genki Kawamura",
-      "cast": "",
-      "country": "",
+      "cast": "Kazunari Ninomiya, Yamato K\u00f4chi, Kotone Hanase, Naru Asanuma, Nana Komatsu",
+      "country": "Japan",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
@@ -3779,12 +4493,40 @@
       "status": "Now Playing",
       "opens": "April 10",
       "booking_url": "https://angelikafilmcenter.com/nyc/movies/exit-8",
-      "year": "",
+      "year": "2026",
       "director": "Genki Kawamura",
       "cast": "Kazunari Ninomiya, Yamato Kochi, Naru Asanuma",
-      "country": "",
+      "country": "Japan",
       "showtimes": [],
       "description": "A man trapped in an endless sterile subway passageway sets out to find Exit 8. The rules of his quest are simple: do not overlook anything out of the ordinary. If you discover an anomaly, turn back immediately. If you don&rsquo;t, carry on. Then leave from Exit 8. But even a single oversight will send him back to the beginning. Will he ever reach his goal and escape this infinite corridor?"
+    },
+    {
+      "title": "Exit 8",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/exit-8",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/exit-8",
+      "year": "2026",
+      "director": "Genki Kawamura",
+      "cast": "Kazunari Ninomiya, Yamato K\u00f4chi, Kotone Hanase, Naru Asanuma, Nana Komatsu",
+      "country": "Japan",
+      "showtimes": [],
+      "description": "Presented in Japanese with English subtitles\nA man trapped in an endless sterile subway passageway sets out to find Exit 8. The rules of his quest are simple: do not overlook anything out of the ordinary. If you discover an anomaly, turn back immediately. If you don\u2019t, carry on. Then leave from Exit 8. But even a single oversight will send him back to the beginning. Will he ever reach his goal and escape this infinite corridor?"
+    },
+    {
+      "title": "Exit 8",
+      "theater": "Low Cinema",
+      "url": "https://lowcinema.com/movie/exit-8/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://lowcinema.com/checkout/6c6f0b1b-6ac6-400f-99c1-e4fd9695185f/",
+      "year": "2026",
+      "director": "Genki Kawamura",
+      "cast": "Kazunari Ninomiya, Yamato K\u00f4chi, Kotone Hanase, Naru Asanuma, Nana Komatsu",
+      "country": "Japan",
+      "showtimes": [],
+      "description": "Strange events plague a young man as he searches for the exit in an endless subway tunnel."
     },
     {
       "title": "F For Fake",
@@ -3799,6 +4541,34 @@
       "country": "",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
+    },
+    {
+      "title": "Face/Off",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/face-off",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/face-off",
+      "year": "1997",
+      "director": "John Woo",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "To foil a terrorist plot, an FBI agent assumes the identity of the criminal who murdered his son via facial transplant surgery, but the crook wakes up prematurely and vows revenge.\nAmongst all the praise and meme-ification of Cage, we need to re-examine John Woo\u2019s FACE/OFF as a Travolta vehicle! Both stars are equally great here as they riff on each other\u2019s persona, but Travolta\u2019s evocation of Cage is unforgettable in its subtleties amongst the explosions and maniacal cackling. You\u2019ll be quoting his Cage-y vocal tics for weeks afterward. Really, everyone in this cast is game to make the film\u2019s body-swap premise click, including Joan Allen, Gina Gershon, and even Margaret Cho. \nNew 4K DCP courtesy of Paramount Pictures"
+    },
+    {
+      "title": "Faces of Death (2026)",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/faces-of-death-2026",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/faces-of-death-2026",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "In FACES OF DEATH, the exploration of the original film\u2019s infamous \u201cis it real or not?\u201d conceit continues as a woman working as a content moderator for a major video platform discovers what appears to be reenactments of murders from the original film. In an online world where nothing can be trusted, she must determine whether the violence is fiction or unfolding in real time."
     },
     {
       "title": "Fantastic Planet",
@@ -3835,7 +4605,7 @@
     {
       "title": "Fantasy Life",
       "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/fantasy-life/?date=today",
+      "url": "https://nitehawkcinema.com/prospectpark/movies/fantasy-life/?date=yesterday",
       "status": "Now Playing",
       "opens": "",
       "booking_url": "",
@@ -3853,7 +4623,7 @@
       "status": "Now Playing",
       "opens": "March 27",
       "booking_url": "https://angelikafilmcenter.com/nyc/movies/fantasy-life",
-      "year": "",
+      "year": "2026",
       "director": "Matthew Shear",
       "cast": "Amanda Peet, Matthew Shear, Alessandro Nivola, Bob Balaban, Judd Hirsch, Andrea Martin, Zosia Mamet, Holland Taylor",
       "country": "",
@@ -3939,6 +4709,20 @@
       "description": "Film Noir Mondays are dedicated to bring to light lesser known as well as very obscure films that fit Film Noir cinema, including international titles. In Noir fashion the movie titles are not revealed beforehand, keeping the audience in total darkness. . ."
     },
     {
+      "title": "Films for Friends",
+      "theater": "Low Cinema",
+      "url": "https://lowcinema.com/movie/route-29-presents-films-for-friends/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://lowcinema.com/checkout/da533ac0-b61d-4d7f-9a95-607ef5338c18/",
+      "year": "",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": ""
+    },
+    {
       "title": "Fiume o morte!",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999004760",
@@ -3978,7 +4762,7 @@
       "cast": "Thora Birch, Scarlett Johansson, Steve Buscemi, Illeana Douglas",
       "country": "U.S",
       "showtimes": [
-        "3:50"
+        "3:10"
       ],
       "description": ""
     },
@@ -4055,6 +4839,20 @@
       "description": "Hamlet returns home after a long absence when his father, a powerful Indian businessman at the heart of London&#39;s nouveau riche, dies suddenly. Hamlet soon starts to see visions of his dead father, who claims his brother Claudius murdered him -- and urges Hamlet to take revenge."
     },
     {
+      "title": "Hamlet (2026)",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/hamlet-2026",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/hamlet-2026",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Shakespeare's most enduring tragedy is reimagined in a bold, modern adaptation set within London's elite South Asian community. When Hamlet (Riz Ahmed) returns for his father's funeral, he is stunned to discover his uncle Claudius is marrying his newly widowed mother. Visited by his father's ghost, Hamlet learns his brutal murder was at the hands of Claudius \u2013 and spirals into a quest for vengeance that exposes the rot at the heart of the family's empire and threatens his own sanity."
+    },
+    {
       "title": "Hamnet",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2025/hamnet",
@@ -4071,7 +4869,7 @@
     {
       "title": "Hoppers",
       "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/hoppers/?date=today",
+      "url": "https://nitehawkcinema.com/prospectpark/movies/hoppers/?date=yesterday",
       "status": "Now Playing",
       "opens": "",
       "booking_url": "",
@@ -4081,6 +4879,20 @@
       "country": "",
       "showtimes": [],
       "description": "Scientists discover how to \"hop\" human consciousness into robots, allowing people to communicate with animals as animals"
+    },
+    {
+      "title": "Hoppers",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/hoppers",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/hoppers",
+      "year": "2026",
+      "director": "Daniel Chong",
+      "cast": "Piper Curda, Bobby Moynihan, Jon Hamm, Dave Franco, Eduardo Franco, Meryl Streep, Nichole Sakura, Kathy Najimy",
+      "country": "",
+      "showtimes": [],
+      "description": "What if you could talk to animals and understand what they\u2019re saying? In Disney and Pixar\u2019s all-new feature film HOPPERS, scientists have discovered how to \u201chop\u201d human consciousness into lifelike robotic animals, allowing people to communicate with animals as animals! The adventure introduces Mabel, an animal lover who seizes an opportunity to use the technology, uncovering mysteries within the animal world that are beyond anything she could have imagined."
     },
     {
       "title": "In a Year of 13 Moons",
@@ -4175,6 +4987,34 @@
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
+      "title": "Jeanne Dielman, 23 Quai Du Commerce, 1080 Bruxelles",
+      "theater": "BAM",
+      "url": "https://www.bam.org/film/2026/robert-wilson-jeanne-dielman",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1975",
+      "director": "Chantal Akerman",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
+    },
+    {
+      "title": "Joe's Apartment",
+      "theater": "Low Cinema",
+      "url": "https://lowcinema.com/movie/joes-apartment/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://lowcinema.com/checkout/1ca90fb9-be2b-4417-964b-6a0c7db3a6a5/",
+      "year": "1996",
+      "director": "John Payson",
+      "cast": "",
+      "country": "USA",
+      "showtimes": [],
+      "description": "Based on a popular short film, this comedy focuses on Joe (Jerry O'Connell), a young man who has moved from Iowa to downtown New York City. After settling into his grimy apartment, Joe discovers that it is home to a legion of talking and singing cockroaches. Although having so many bugs for roommates has its drawbacks, Joe finds the roaches to be friendly and good-natured, and they aid him in wooing the lovely Lily (Megan Ward), as well as in contending with his mean landlord (Don Ho)."
+    },
+    {
       "title": "John Wick",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999004805",
@@ -4261,8 +5101,7 @@
       "cast": "",
       "country": "ROMANIA",
       "showtimes": [
-        "3:10",
-        "5:40"
+        "4:15"
       ],
       "description": "In his latest bold satire, Romanian auteur Radu Jude (BAD LUCK BANGING OR LOONY PORN, DON'T EXPECT TOO MUCH FROM THE END OF THE WORLD) takes up the spiritual crisis of educated urbanites\u2014notching down (slightly) the absurdity, while complicating his interrogation of globalized modern life. Orsolya is a Hungarian immigrant and middle-class bureaucrat in the Romanian city of Cluj. Just after she evicts an elderly indigent man (Gabriel Spahiu, THE DEATH OF MR. LAZARESCU) who was squatting in a buil"
     },
@@ -4314,26 +5153,26 @@
     },
     {
       "title": "Lee Cronin's The Mummy",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/lee-cronins-the-mummy",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/lee-cronins-the-mummy",
+      "year": "2026",
+      "director": "Lee Cronin",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "The young daughter of a journalist disappears into the desert without a trace. Eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare."
+    },
+    {
+      "title": "Lee Cronin's The Mummy",
       "theater": "Cobble Hill Cinemas",
       "url": "https://www.hk-cinemas.com",
       "status": "Now Playing",
       "opens": "",
       "booking_url": "https://www.hk-cinemas.com",
-      "year": "",
-      "director": "Lee Cronin",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "description": "The young daughter of a journalist disappears into the desert without a trace&mdash;eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare."
-    },
-    {
-      "title": "Lee Cronin's The Mummy",
-      "theater": "Williamsburg Cinemas",
-      "url": "https://www.hk-cinemas.com",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://www.hk-cinemas.com",
-      "year": "",
+      "year": "2026",
       "director": "Lee Cronin",
       "cast": "",
       "country": "",
@@ -4347,7 +5186,7 @@
       "status": "Now Playing",
       "opens": "",
       "booking_url": "https://www.hk-cinemas.com",
-      "year": "",
+      "year": "2026",
       "director": "Lee Cronin",
       "cast": "",
       "country": "",
@@ -4410,10 +5249,24 @@
       "cast": "",
       "country": "WINNER",
       "showtimes": [
-        "12:20",
-        "8:00"
+        "1:30",
+        "6:40"
       ],
       "description": ""
+    },
+    {
+      "title": "Lorne",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/lorne",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/lorne",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "From Morgan Neville, Academy Award-winning filmmaker of 20 FEET FROM STARDOM and WON\u2019T YOU BE MY NEIGHBOR, comes LORNE, an unprecedented, behind-the-scenes glimpse at the man who built the inimitable empire of comedy, shaping television and culture for generations. The documentary features exclusive footage, archival treasures, and candid interviews with the show\u2019s most iconic cast members and writers, including Tina Fey, Maya Rudolph, John Mulaney, Andy Samberg, Conan O\u2019Brien, Chris Rock, and many more."
     },
     {
       "title": "Louie Bluie",
@@ -4427,7 +5280,7 @@
       "cast": "",
       "country": "U.S",
       "showtimes": [
-        "2:10"
+        "4:30"
       ],
       "description": ""
     },
@@ -4460,7 +5313,8 @@
         "12:15",
         "2:25",
         "4:35",
-        "7:00"
+        "6:45",
+        "9:00"
       ],
       "description": "19-year-old Dominican American Rico (Juan Collado) figures he\u2019ll ride out the summer selling his homemade \u201cnutcracker\u201d cocktails (rum, vodka, juice) on Orchard Beach and hanging out with his friends. But after his girlfriend, Destiny (Destiny Checo), moves into his family\u2019s already-crowded apartment, the two must face a new, adult reality.\u202f Bronx-born debut filmmaker Vargas based MAD BILLS TO PAY on his own experiences, shot the film guerilla-style in 14 days, and cites influences as disparate a"
     },
@@ -4649,6 +5503,20 @@
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
+      "title": "Mile End Kicks",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/mile-end-kicks",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/mile-end-kicks",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "A 24-year-old music critic (Barbie Ferreira) gets romantically involved with two members of the same indie band she is covering, set against Montreal's vibrant indie music scene in 2011."
+    },
+    {
       "title": "Miroirs No. 3",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/miroirs-no3",
@@ -4669,12 +5537,12 @@
       "status": "Now Playing",
       "opens": "",
       "booking_url": "",
-      "year": "",
-      "director": "",
+      "year": "2025",
+      "director": "Christian Petzold",
       "cast": "",
       "country": "",
       "showtimes": [],
-      "description": ""
+      "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
       "title": "MISIUNEA",
@@ -4715,7 +5583,7 @@
       "status": "Now Playing",
       "opens": "April 17",
       "booking_url": "https://angelikafilmcenter.com/nyc/movies/mother-mary",
-      "year": "",
+      "year": "2026",
       "director": "David Lowery",
       "cast": "Anne Hathaway, Michaela Coel, Hunter Schafer, FKA twigs, Kaia Gerber",
       "country": "",
@@ -4807,6 +5675,34 @@
       "description": "Introduction by series curator Rob King and Ashley West, writer and founder of The Rialto Report, on Saturday, April 18th"
     },
     {
+      "title": "National Theatre Live: All My Sons",
+      "theater": "Williamsburg Cinemas",
+      "url": "https://www.hk-cinemas.com",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://www.hk-cinemas.com",
+      "year": "",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "All My Sonsby Arthur Millerdirected by Ivo Van Hovedesign by Jan VersweyveldBryan Cranston (Breaking Bad) and Marianne Jean-Baptiste (Hard Truths) feature in afive-star, triumphantly acclaimed new production of Arthur Miller&rsquo;s classic play, from visionarydirector Ivo Van Hove (A View from the Bridge).One family, the heart of the American dream. When wartime delivers profits for Joe, it comesat a price when his partner is charged with criminal manufacturing deals, and his eldest songoes missing in action. Will peacetime bring peace of mind, or will he be confronted by theconsequence of his actions?Filmed live from the West End, Paapa Essiedu (I May Destroy You), Tom Glynn-Carney(House of the Dragon), and Hayley Squires (I, Daniel Blake) also feature in this disturbinglyprescient play."
+    },
+    {
+      "title": "National Theatre Live: All My Sons",
+      "theater": "Kew Gardens Cinema",
+      "url": "https://www.hk-cinemas.com",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://www.hk-cinemas.com",
+      "year": "",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "All My Sonsby Arthur Millerdirected by Ivo Van Hovedesign by Jan VersweyveldBryan Cranston (Breaking Bad) and Marianne Jean-Baptiste (Hard Truths) feature in afive-star, triumphantly acclaimed new production of Arthur Miller&rsquo;s classic play, from visionarydirector Ivo Van Hove (A View from the Bridge).One family, the heart of the American dream. When wartime delivers profits for Joe, it comesat a price when his partner is charged with criminal manufacturing deals, and his eldest songoes missing in action. Will peacetime bring peace of mind, or will he be confronted by theconsequence of his actions?Filmed live from the West End, Paapa Essiedu (I May Destroy You), Tom Glynn-Carney(House of the Dragon), and Hayley Squires (I, Daniel Blake) also feature in this disturbinglyprescient play."
+    },
+    {
       "title": "Nd/Nf 2026 Shorts Program Ii",
       "theater": "Film at Lincoln Center",
       "url": "https://www.filmlinc.org/films/ndnf-2026-shorts-program-ii/",
@@ -4833,6 +5729,20 @@
       "country": "",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
+    },
+    {
+      "title": "Night Owl Mystery VHS Night #2",
+      "theater": "Low Cinema",
+      "url": "https://lowcinema.com/movie/night-owl-mystery-vhs-night/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://lowcinema.com/checkout/b96fa220-16e1-40c4-8e34-e0ffc93f5f53/",
+      "year": "",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": ""
     },
     {
       "title": "Nighthawks",
@@ -4904,10 +5814,24 @@
       "cast": "David Brisbin, Clare Bauman, Judith Malina, Ryan Cutrona, Anne D",
       "country": "U.S",
       "showtimes": [
-        "12:15",
-        "6:50"
+        "1:10",
+        "8:10"
       ],
       "description": ""
+    },
+    {
+      "title": "Normal",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/normal",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/normal",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "The latest collaboration between Bob Odenkirk, JOHN WICK creator Derek Kolstad, and NOBODY producer Marc Provissiero, director Ben Wheatley\u2019s (FREE FIRE, HIGH RISE) kinetic neo-Western stars Odenkirk as an unassuming substitute sheriff with a troubled past who, after moving to a small, sleepy town, responds to a bank robbery and unknowingly uncovers something far more explosive.\nFor Sheriff Ulysses (Odenkirk), his provisional posting to the quaint Midwestern American town of Normal was meant to be a welcome respite from both his marital woes and recent moral injuries in the line of duty. But when a botched bank robbery interrupts the municipality\u2019s tranquil pace, a dark secret is inadvertently exposed, and Ulysses soon discovers that the town is anything but its namesake."
     },
     {
       "title": "Nostalghia",
@@ -5092,7 +6016,7 @@
     {
       "title": "Project Hail Mary",
       "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/project-hail-mary/?date=today",
+      "url": "https://nitehawkcinema.com/prospectpark/movies/project-hail-mary/?date=yesterday",
       "status": "Now Playing",
       "opens": "",
       "booking_url": "",
@@ -5112,10 +6036,24 @@
       "booking_url": "",
       "year": "2025",
       "director": "Phil Lord & Chris Miller",
-      "cast": "",
+      "cast": "Ryan Gosling, Milana Vayntrub, Ken Leung, Sandra H\u00fcller",
       "country": "",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
+    },
+    {
+      "title": "Project Hail Mary",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/project-hail-mary",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/project-hail-mary",
+      "year": "2026",
+      "director": "Christopher Miller, Phil Lord",
+      "cast": "Ryan Gosling, Milana Vayntrub, Ken Leung, Sandra H\u00fcller",
+      "country": "",
+      "showtimes": [],
+      "description": "Based on Andy Weir\u02bcs (The Martian) novel of the same name, PROJECT HAIL MARY is an exhilarating space adventure set in the near future. Ryland Grace (Ryan Gosling), a school-teacher-turned-astronaut, wakes up from a coma, alone, on a space station with no memory of who he is or his mission. His memory returns in bursts, and he pieces together that he was sent to the Tau Ceti solar system, 12 light-years from Earth, to reverse the impact of a space event that had already hurled our planet into the early stages of an Ice Age. As details of the mission unravel, Grace must call on all of his scientific training and sheer ingenuity, but he might not have to do it alone\u2026"
     },
     {
       "title": "Queen of Diamonds",
@@ -5159,8 +6097,8 @@
       "cast": "Jason Robards, Christien Anholt, Samuel West",
       "country": "",
       "showtimes": [
-        "3:30",
-        "6:00"
+        "3:45",
+        "6:15"
       ],
       "description": "\u201cWhat kind of Jew are you?\u201d \u201cA German Jew! The kind who goes to synagogue on Yom Kippur and sings \u2018Silent Night\u2019 on Christmas!\u201d"
     },
@@ -5219,6 +6157,20 @@
       "country": "",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
+    },
+    {
+      "title": "Rocco And His Brothers",
+      "theater": "Paris Theater",
+      "url": "https://www.paristheaternyc.com/films/rocco-and-his-brothers-branch-selects",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "",
+      "director": "Luchino Visconti",
+      "cast": "Alain Delon, \\nRenato Salvatori, \\nAnnie Girardot, \\nKatina Paxinou, \\nRoger Hanin, \\nPaolo Stoppa, \\nSuzy Delair, \\nClaudia Cardinale",
+      "country": "",
+      "showtimes": [],
+      "description": ""
     },
     {
       "title": "Sambizanga",
@@ -5296,7 +6248,7 @@
       "url": "https://www.ifccenter.com/films/serpents-path-and-chime/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553351~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553393~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "1998, 2024",
       "director": "Kiyoshi Kurosawa",
       "cast": "",
@@ -5403,6 +6355,20 @@
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
+      "title": "Smiley Face",
+      "theater": "Low Cinema",
+      "url": "https://lowcinema.com/movie/smiley-face/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://lowcinema.com/checkout/bedeef0f-985f-4605-b1be-753f5360d597/",
+      "year": "2007",
+      "director": "Gregg Araki",
+      "cast": "",
+      "country": "USA",
+      "showtimes": [],
+      "description": "Come celebrate 4/20 with a stoner comedy directed by an auteur! Synopsis: A stoned aspiring actress tries to sell off a bag of government weed and reach a Hempfest on the other side of L.A. in order to keep her dealer from repossessing her beloved $999 bed."
+    },
+    {
       "title": "Soleil \u00d4",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999004802",
@@ -5497,26 +6463,26 @@
       "status": "Now Playing",
       "opens": "",
       "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553401~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-      "year": "",
+      "year": "2026",
       "director": "Carl Deal, Tia Lessin",
       "cast": "Amy Goodman",
       "country": "USA",
       "showtimes": [],
-      "description": ""
+      "description": "Undeterred by armed soldiers, evasive politicians, and riot police, journalist Amy Goodman has reported some of the most consequential stories of our time. STEAL THIS STORY, PLEASE! is a gripping portrait of the trailblazer whose unwavering commitment to truth-telling spans three decades of turbulent history. From the frontlines of global conflicts to the organized chaos of her daily news show Democracy Now!, Goodman broadcasts stories and voices routinely silenced by commercial media.\nOscar-nominated filmmakers Carl Deal and Tia Lessin (TROUBLE THE WATER, THE JANES) take us behind the scenes with the warm, wisecracking granddaughter of an Orthodox rabbi \u2013 raised in a tradition of asking hard questions \u2013 as she navigates a news landscape reshaped by technology, corporate consolidation, and political assaults on the press \u2013 and on truth itself. Urgent, provocative, and unexpectedly funny, STEAL THIS STORY, PLEASE! is both a call to action and a celebration of resistance, posing the question: what happens to democracy when the press surrenders to power?"
     },
     {
-      "title": "Stranger Things: Tales From '85",
-      "theater": "Paris Theater",
-      "url": "https://www.paristheaternyc.com/films/stranger-things-tales-from-85",
+      "title": "Steal This Story, Please!",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/steal-this-story-please",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "",
+      "booking_url": "https://drafthouse.com/nyc/show/steal-this-story-please",
       "year": "2026",
-      "director": "",
-      "cast": "",
-      "country": "",
+      "director": "Carl Deal, Tia Lessin",
+      "cast": "Amy Goodman",
+      "country": "USA",
       "showtimes": [],
-      "description": ""
+      "description": "Undeterred by armed soldiers, evasive politicians, and riot police, journalist Amy Goodman has reported some of the most consequential stories of our time. STEAL THIS STORY, PLEASE! is a gripping portrait of the trailblazer whose unwavering commitment to truth-telling spans three decades of turbulent history. From the frontlines of global conflicts to the organized chaos of her daily news show Democracy Now!, Goodman broadcasts stories and voices routinely silenced by commercial media.\nOscar-nominated filmmakers Carl Deal and Tia Lessin (TROUBLE THE WATER, THE JANES) take us behind the scenes with the warm, wisecracking granddaughter of an Orthodox rabbi \u2013 raised in a tradition of asking hard questions \u2013 as she navigates a news landscape reshaped by technology, corporate consolidation, and political assaults on the press \u2013 and on truth itself. Urgent, provocative, and unexpectedly funny, STEAL THIS STORY, PLEASE! is both a call to action and a celebration of resistance, posing the question: what happens to democracy when the press surrenders to power?"
     },
     {
       "title": "Suspiria",
@@ -5585,8 +6551,8 @@
       "booking_url": "",
       "year": "1990",
       "director": "Steve Barron",
-      "cast": "",
-      "country": "",
+      "cast": "Brian Tochi, Josh Pais, Corey Feldman, Robbie Rist",
+      "country": "U.S",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
@@ -5599,7 +6565,7 @@
       "booking_url": "",
       "year": "1998",
       "director": "Ethan Coen, Joel Coen",
-      "cast": "",
+      "cast": "Jeff Bridges, John Goodman, Steve Buscemi, Julianne Moore, John Turturro",
       "country": "",
       "showtimes": [],
       "description": "The Coen\u2019s cult comedy par excellence is the rare film not to contain a single unmemorable character or performance, from John Goodman\u2019s John Milius-inspired gun nut Walter Sobchak to John Turturro\u2019s snake-hipped sex offender Jesus Quintana to, of\u2026"
@@ -5637,14 +6603,14 @@
     {
       "title": "The Christophers",
       "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/the-christophers/?date=today",
+      "url": "https://nitehawkcinema.com/prospectpark/movies/the-christophers/?date=yesterday",
       "status": "Now Playing",
       "opens": "",
       "booking_url": "",
       "year": "2026",
       "director": "Steven Soderbergh",
       "cast": "Michaela Coel, Ian McKellen, James Corden, Jessica Gunning",
-      "country": "",
+      "country": "UK",
       "showtimes": [],
       "description": "Two siblings conspire to forge their father's unfinished paintings so they become valuable after his death"
     },
@@ -5655,12 +6621,12 @@
       "status": "Now Playing",
       "opens": "",
       "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553411~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-      "year": "",
+      "year": "2026",
       "director": "Steven Soderbergh",
       "cast": "Michaela Coel, Dmitri Prokopiev, Jessica Gunning, James Corden, Ian McKellen, Tilly Botsford",
       "country": "UK",
       "showtimes": [],
-      "description": ""
+      "description": "Two siblings conspire to forge their father's unfinished paintings so they become valuable after his death"
     },
     {
       "title": "The Christophers",
@@ -5671,24 +6637,24 @@
       "booking_url": "",
       "year": "2025",
       "director": "Steven Soderbergh",
-      "cast": "",
-      "country": "",
+      "cast": "Michaela Coel, Ian McKellen, James Corden, Jessica Gunning",
+      "country": "UK",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
       "title": "The Christophers",
-      "theater": "Kew Gardens Cinema",
-      "url": "https://www.hk-cinemas.com",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/the-christophers",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://www.hk-cinemas.com",
-      "year": "",
+      "booking_url": "https://drafthouse.com/nyc/show/the-christophers",
+      "year": "2026",
       "director": "Steven Soderbergh",
-      "cast": "",
-      "country": "",
+      "cast": "Michaela Coel, Ian McKellen, James Corden, Jessica Gunning",
+      "country": "UK",
       "showtimes": [],
-      "description": "The estranged children of a once-famous artist hire a forger to complete his unfinished works so they can be \"discovered\" and sold after his death."
+      "description": "Julian Sklar was once a star of London\u2019s 1960s and '70s pop art explosion, but he hasn\u2019t painted in decades and has been broke for years. His two estranged children, desperate for an inheritance, hire Lori, an art restorer and former forger, to pose as a prospective assistant in order to access eight unfinished canvases Julian has buried deep in storage. Her plan is to complete them, then return them to storage, where they are to be \u201cdiscovered\u201d upon Julian\u2019s death."
     },
     {
       "title": "The Darjeeling Limited",
@@ -5723,7 +6689,7 @@
     {
       "title": "The Drama",
       "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/the-drama/?date=today",
+      "url": "https://nitehawkcinema.com/prospectpark/movies/the-drama/?date=yesterday",
       "status": "Now Playing",
       "opens": "",
       "booking_url": "",
@@ -5743,10 +6709,24 @@
       "booking_url": "",
       "year": "2026",
       "director": "Kristoffer Borgli",
-      "cast": "",
+      "cast": "Zendaya, Robert Pattinson",
       "country": "",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
+    },
+    {
+      "title": "The Drama",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/the-drama",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/the-drama",
+      "year": "2026",
+      "director": "Kristoffer Borgli",
+      "cast": "Zendaya, Robert Pattinson",
+      "country": "",
+      "showtimes": [],
+      "description": "A happily engaged couple is put to the test when an unexpected turn sends their wedding week off the rails."
     },
     {
       "title": "The Ecstasy Girls",
@@ -6007,6 +6987,20 @@
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
     {
+      "title": "The Master (2012)",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/the-master-2012",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/the-master-2012",
+      "year": "2012",
+      "director": "Paul Thomas Anderson",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "PhilIp Seymour Hoffman is Lancaster Dodd, a self-made, self-absorbed and self-doubting paragon of intellect; a magnanimous socialite who's prone to thunderous episodes. His writings are devoted to exploring mankind's untapped potential, to the point that he seems intent on elevating himself and everyone around him to a superhuman level.\nInto his expanding circle stumbles Freddie Sutton (Joaquin Phoenix), a living storm of total self-destruction. The two men appear opposite in every way, but their meeting ignites a persevering mutual fascination that threatens their perceptions, their outside relationships, and even their personal well-being.\nHoffman and Phoenix both give the all-time best performances of their already-incredible careers, with equally strong work from Amy Adams as Dodd's brilliant wife/business partner. Paul Thomas Anderson's script and direction, completed with stunning 65mm photography, create the type of viewing experience that feels even more authentic and compelling than actual life. THE MASTER is one of the rarest accomplishments possible: a perfect movie."
+    },
+    {
       "title": "The Mystery of Picasso + Rembrandt: Painter of Men",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999004808",
@@ -6141,7 +7135,7 @@
     {
       "title": "The Secret Life Of Pets",
       "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/the-secret-life-of-pets/?date=today",
+      "url": "https://nitehawkcinema.com/prospectpark/movies/the-secret-life-of-pets/?date=yesterday",
       "status": "Now Playing",
       "opens": "",
       "booking_url": "",
@@ -6190,11 +7184,11 @@
       "opens": "",
       "booking_url": "",
       "year": "",
-      "director": "",
-      "cast": "",
+      "director": "Fran\u00e7ois Ozon",
+      "cast": "Benjamin Voisin, Pierre Lottin, Denis Lavant",
       "country": "",
       "showtimes": [],
-      "description": ""
+      "description": "Algiers, 1938. Meursault, a quiet and unassuming employee in his early thirties, attends his mother&#39;s funeral without shedding a tear. The next day, he begins a casual affair with Marie, a work colleague. He quickly slips back into his usual routine. However, his daily life is soon about to be disrupted by his neighbor, Raymond Sint&egrave;s, who draws Meursault into his shady dealings. Until one blisteringly hot day, a tragic event occurs on a beach..."
     },
     {
       "title": "The Stranger",
@@ -6213,7 +7207,7 @@
     {
       "title": "The Super Mario Galaxy Movie",
       "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/the-super-mario-galaxy-movie/?date=today",
+      "url": "https://nitehawkcinema.com/prospectpark/movies/the-super-mario-galaxy-movie/?date=yesterday",
       "status": "Now Playing",
       "opens": "",
       "booking_url": "",
@@ -6223,6 +7217,20 @@
       "country": "",
       "showtimes": [],
       "description": "Mario, Luigi and Princess Peach embark on an adventure across the galaxy"
+    },
+    {
+      "title": "The Super Mario Galaxy Movie",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/the-super-mario-galaxy-movie",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/the-super-mario-galaxy-movie",
+      "year": "2026",
+      "director": "Aaron Horvath, Michael Jelenic",
+      "cast": "Chris Pratt, Anya Taylor-Joy, Benny Safdie, Jack Black, Brie Larson, Charlie Day, Keegan-Michael Key",
+      "country": "",
+      "showtimes": [],
+      "description": "THE SUPER MARIO GALAXY MOVIE is an animated film based on the world of Super Mario Bros., and follows THE SUPER MARIO BROS. MOVIE, which was released in 2023 and earned more than $1.3 billion worldwide. Both the 2023 film and THE SUPER MARIO GALAXY MOVIE are produced by Chris Meledandri of Illumination and Shigeru Miyamoto of Nintendo. \nThe film will be co-financed by Universal Pictures and Nintendo and will be released worldwide by Universal Pictures. \nTHE SUPER MARIO GALAXY MOVIE is directed by returning filmmakers Aaron Horvath and Michael Jelenic, from a screenplay by returning screenwriter Matthew Fogel, with Brian Tyler returning to compose the score."
     },
     {
       "title": "The Testament Of Ann Lee",
@@ -6289,8 +7297,8 @@
       "booking_url": "",
       "year": "1979",
       "director": "Walter Hill",
-      "cast": "",
-      "country": "",
+      "cast": "Michael Beck, James Remar, Dorsey Wright, Brian Tyler, David Harris",
+      "country": "USA",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
     },
@@ -6317,10 +7325,24 @@
       "booking_url": "",
       "year": "1978",
       "director": "Sydney Lumet",
-      "cast": "",
+      "cast": "Diana Ross, Michael Jackson, Richard Pryor, Nipsey Russell, Ted Ross, Mabel King",
       "country": "",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
+    },
+    {
+      "title": "The Woman Who Could Read the Minds of Dogs",
+      "theater": "Low Cinema",
+      "url": "https://lowcinema.com/movie/the-woman-who-could-read-the-minds-of-dogs/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://lowcinema.com/checkout/e9c216c5-cc9a-4abd-a685-210186d51999/",
+      "year": "2025",
+      "director": "Michael Patten",
+      "cast": "",
+      "country": "USA",
+      "showtimes": [],
+      "description": "Q&A with director Michael Patten and special guest Caveh Zahedi Vicky, an aspiring dancer from Madrid, is working as an au pair for a New York City family. When rumors surface about a violent unhoused man roaming Prospect Park, she must confront these escalating threats while searching for the missing family dog. Imagine a B\u00e9la Tarr film about a canicide. This microbudget debut feature includes a dog murderer, an anxious au pair, and a loaded gun. Based on true events in Prospect Park, using real people playing themselves, and long uninterrupted takes. One night only!"
     },
     {
       "title": "Therese and Isabelle",
@@ -6508,8 +7530,8 @@
       "cast": "",
       "country": "FRANCE / GERMANY / THE NETHERLANDS / LATVIA / ROMANIA / LITHUANIA JANUS FILMS",
       "showtimes": [
-        "1:00",
-        "8:20"
+        "1:15",
+        "8:35"
       ],
       "description": "Soviet Union, 1937: A newly appointed, idealistic young prosecutor is spurred to meet a prison inmate after reading a desperate appeal scrawled in blood. The prosecutor recognizes this prisoner as a former law school professor\u2014and is told a mortifying account of abuse and betrayal perpetrated by the secret police. He promises to report this injustice to the Attorney General in Moscow... but doesn\u2019t realize the bureaucratically murderous trap he\u2019s stepped in to. Based upon a long-unpublished nove"
     },
@@ -6534,12 +7556,12 @@
       "status": "Now Playing",
       "opens": "",
       "booking_url": "",
-      "year": "",
-      "director": "",
+      "year": "2025",
+      "director": "Sho Miyake",
       "cast": "",
       "country": "",
       "showtimes": [],
-      "description": ""
+      "description": "Q&A with director Sho Miyake on Friday, April 24th and Saturday, April 25th"
     },
     {
       "title": "Two Women",
@@ -6670,6 +7692,20 @@
       "country": "",
       "showtimes": [],
       "description": "Leadership support for BAM Access Programs provided by the Jerome L. Greene Foundation"
+    },
+    {
+      "title": "You, Me & Tuscany",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/you-me-tuscany",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/you-me-tuscany",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "description": "Sometimes the wrong place is right where you need to be.\nFrom Will Packer, the blockbuster producer of GIRL'S TRIP, the RIDE ALONG franchise, and ten movies that have opened No. 1 at the U.S. box office \u2013 including NIGHT SCHOOL, THIS CHRISTMAS, and THINK LIKE A MAN \u2013 comes a delicious romantic comedy about one little lie, one large Italian villa, and two people getting lost in the sauce of love.\nHalle Bailey (THE LITTLE MERMAID (2023), THE COLOR PURPLE (2023)) stars as Anna, a young woman who has abandoned her dreams of becoming a chef and is now drifting through her twenties with a series of bad choices. When Anna loses her house-sitting job (and housing) in one fell swoop, a chance encounter with Matteo \u2013 a handsome Italian who happens to have a villa sitting empty in Tuscany \u2013 will inspire her to jet off for Italy, against the advice of her always-honest bestie, Claire (Home Before Dark\u2019s Aziza Scott).\nBut Anna\u2019s plan to crash at Matteo\u2019s villa, without permission, just for one night, falls apart when Matteo\u2019s mother, Gabriella (Italian film icon Isabella Ferrari), shows up at the house unexpectedly. In a panic, Anna allows Gabriella to believe that she is Matteo\u2019s fianc\u00e9e.\nThat little lie becomes a big problem, though, when Matteo\u2019s cousin, Michael (Reg\u00e9-Jean Page; Bridgerton, BLACK BAG), shows up, and Anna discovers that the heat between them may ignite a fire that will transform her life."
     },
     {
       "title": "ZIMEKLIS",
