@@ -388,7 +388,29 @@
       line-height: 1.65;
       border-top: 1px solid var(--border);
       padding-top: 14px;
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      line-clamp: 5;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
+    #modal-desc.expanded {
+      display: block;
+      overflow: visible;
+    }
+    #modal-more {
+      display: none;
+      margin-top: 8px;
+      font-size: 0.78rem;
+      font-family: "Courier New", monospace;
+      color: var(--muted);
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 0;
+      letter-spacing: 0.04em;
+    }
+    #modal-more:hover { color: var(--text); }
 
     @media (max-width: 640px) {
       #modal { padding: 22px 18px; }
@@ -427,6 +449,7 @@
     <div id="modal-meta"></div>
     <div id="modal-cast"></div>
     <div id="modal-desc"></div>
+    <button id="modal-more">show more ↓</button>
   </div>
 </div>
 
@@ -687,10 +710,21 @@
     castEl.textContent = m.cast ? `Cast: ${m.cast}` : '';
     castEl.style.display = m.cast ? '' : 'none';
     const descEl = document.getElementById('modal-desc');
+    const moreBtn = document.getElementById('modal-more');
+    descEl.classList.remove('expanded');
+    moreBtn.style.display = 'none';
     descEl.textContent = m.description || '';
     descEl.style.display = m.description ? '' : 'none';
     document.getElementById('modal-overlay').classList.add('open');
     document.body.style.overflow = 'hidden';
+    // After render, check if description is clamped
+    if (m.description) {
+      requestAnimationFrame(() => {
+        if (descEl.scrollHeight > descEl.clientHeight + 2) {
+          moreBtn.style.display = 'block';
+        }
+      });
+    }
   }
 
   function closeModal() {
@@ -698,6 +732,10 @@
     document.body.style.overflow = '';
   }
 
+  document.getElementById('modal-more').addEventListener('click', () => {
+    document.getElementById('modal-desc').classList.add('expanded');
+    document.getElementById('modal-more').style.display = 'none';
+  });
   document.getElementById('modal-close').addEventListener('click', closeModal);
   document.getElementById('modal-overlay').addEventListener('click', e => {
     if (e.target === document.getElementById('modal-overlay')) closeModal();
