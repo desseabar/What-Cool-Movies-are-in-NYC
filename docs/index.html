@@ -243,7 +243,13 @@
       font-size: 0.95rem;
       color: var(--text);
       font-weight: 500;
+      cursor: pointer;
+      text-decoration: underline;
+      text-decoration-color: transparent;
+      text-underline-offset: 3px;
+      transition: text-decoration-color 0.15s;
     }
+    .film-name:hover { text-decoration-color: var(--muted); }
 
     .badge {
       display: inline-block;
@@ -272,20 +278,19 @@
     .theater-entry span { color: var(--muted); font-size: 0.84rem; }
 
     /* ── Tooltips ───────────────────────────────── */
-    .has-tip {
-      position: relative;
-    }
+    /* Theaters tooltip (header count) */
+    .has-tip { position: relative; }
     .tip {
       display: none;
       position: absolute;
       z-index: 100;
       top: calc(100% + 6px);
       left: 0;
-      width: 300px;
+      width: 220px;
       background: #111;
       border: 1px solid var(--border);
       border-radius: 8px;
-      padding: 12px 14px;
+      padding: 10px 12px;
       font-size: 0.78rem;
       line-height: 1.55;
       color: var(--text);
@@ -294,23 +299,6 @@
       pointer-events: none;
     }
     .has-tip:hover .tip { display: block; }
-
-    .tip-country {
-      font-family: "Courier New", monospace;
-      font-size: 0.68rem;
-      letter-spacing: 0.06em;
-      color: var(--muted);
-      text-transform: uppercase;
-      margin-bottom: 6px;
-    }
-    .tip-desc { color: var(--text); }
-
-    /* Theaters tooltip — opens rightward from the count */
-    .theaters-tip .tip {
-      left: auto;
-      right: 0;
-      width: 220px;
-    }
     .theaters-tip .tip span {
       display: block;
       padding: 2px 0;
@@ -322,6 +310,89 @@
     .theaters-tip {
       cursor: default;
       border-bottom: 1px dashed var(--muted);
+    }
+
+    /* ── Film modal ──────────────────────────────── */
+    #modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 200;
+      background: rgba(0,0,0,0.72);
+      backdrop-filter: blur(2px);
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    #modal-overlay.open { display: flex; }
+
+    #modal {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px 32px;
+      max-width: 540px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      position: relative;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.7);
+    }
+
+    #modal-close {
+      position: absolute;
+      top: 14px;
+      right: 16px;
+      background: none;
+      border: none;
+      color: var(--muted);
+      font-size: 1.3rem;
+      cursor: pointer;
+      line-height: 1;
+      padding: 4px;
+    }
+    #modal-close:hover { color: var(--text); }
+
+    #modal-title {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: var(--text);
+      line-height: 1.25;
+      margin-right: 28px;
+      margin-bottom: 14px;
+    }
+
+    #modal-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 0.8rem;
+      font-family: "Courier New", monospace;
+      color: var(--muted);
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    #modal-cast {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.5;
+      margin-bottom: 14px;
+    }
+
+    #modal-desc {
+      font-size: 0.88rem;
+      color: var(--text);
+      line-height: 1.65;
+      border-top: 1px solid var(--border);
+      padding-top: 14px;
+    }
+
+    @media (max-width: 640px) {
+      #modal { padding: 22px 18px; }
+      #modal-title { font-size: 1.2rem; }
     }
 
     /* ── Empty / loading states ──────────────────── */
@@ -348,6 +419,16 @@
   </style>
 </head>
 <body>
+
+<div id="modal-overlay" role="dialog" aria-modal="true">
+  <div id="modal">
+    <button id="modal-close" aria-label="Close">✕</button>
+    <div id="modal-title"></div>
+    <div id="modal-meta"></div>
+    <div id="modal-cast"></div>
+    <div id="modal-desc"></div>
+  </div>
+</div>
 
 <header class="page-wrap">
   <h1>What Cool Movies Are in NYC?</h1>
@@ -555,8 +636,9 @@
       return a.title.localeCompare(b.title);
     });
 
+    renderedList = list;
     const tbody = document.getElementById('tbody');
-    tbody.innerHTML = list.map(m => {
+    tbody.innerHTML = list.map((m, i) => {
       const badge = m.status === 'Now Playing'
         ? '<span class="badge badge-now">Now Playing</span>'
         : '<span class="badge badge-soon">Coming Soon</span>';
@@ -566,15 +648,8 @@
         return `<span class="theater-entry"><a href="${esc(href)}" target="_blank" rel="noopener">${esc(t.name)}</a></span>`;
       }).join('');
 
-      const hasTip = m.country || m.description;
-      const tipHtml = hasTip ? `<span class="tip">${
-        m.country    ? `<div class="tip-country">${esc(m.country)}</div>` : ''
-      }${
-        m.description ? `<div class="tip-desc">${esc(m.description)}</div>` : ''
-      }</span>` : '';
-
       return `<tr>
-        <td class="c-title"><span class="${hasTip ? 'has-tip' : ''}"><span class="film-name">${esc(m.title)}</span>${badge}${tipHtml}</span></td>
+        <td class="c-title"><span class="film-name" onclick="openModal(${i})">${esc(m.title)}</span>${badge}</td>
         <td class="c-year">${esc(m.year)}</td>
         <td class="c-dir">${esc(m.director)}</td>
         <td class="c-opens">${esc(m.opens)}</td>
@@ -587,6 +662,47 @@
   let allMovies    = [];
   let activeFilter = 'all';
   let searchQuery  = '';
+  let renderedList = [];
+
+  // ── Modal ──
+  function openModal(i) {
+    const m = renderedList[i];
+    if (!m) return;
+    document.getElementById('modal-title').textContent = m.title;
+    const metaParts = [];
+    if (m.director) metaParts.push(`Director: ${m.director}`);
+    const meta = document.getElementById('modal-meta');
+    meta.innerHTML = '';
+    if (m.director) {
+      const d = document.createElement('span');
+      d.textContent = `Director: ${m.director}`;
+      meta.appendChild(d);
+    }
+    if (m.year) {
+      const y = document.createElement('span');
+      y.textContent = m.year;
+      meta.appendChild(y);
+    }
+    const castEl = document.getElementById('modal-cast');
+    castEl.textContent = m.cast ? `Cast: ${m.cast}` : '';
+    castEl.style.display = m.cast ? '' : 'none';
+    const descEl = document.getElementById('modal-desc');
+    descEl.textContent = m.description || '';
+    descEl.style.display = m.description ? '' : 'none';
+    document.getElementById('modal-overlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    document.getElementById('modal-overlay').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  document.getElementById('modal-close').addEventListener('click', closeModal);
+  document.getElementById('modal-overlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('modal-overlay')) closeModal();
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
   // ── Status filter buttons ──
   document.querySelectorAll('.filter-btn:not(.wl-btn)').forEach(btn => {
