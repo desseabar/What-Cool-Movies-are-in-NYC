@@ -51,6 +51,9 @@ class Movie:
     cast: str = ""
     country: str = ""
     showtimes: list = field(default_factory=list)
+    show_dates: list = field(default_factory=list)  # ["YYYY-MM-DD", ...]
+    date_start: str = ""   # ISO date — run/engagement start
+    date_end:   str = ""   # ISO date — run/engagement end
     description: str = ""
 
 
@@ -84,6 +87,34 @@ def _normalize_opens(text: str) -> str:
     return ""
 
 
+def _infer_year(month: int, day: int) -> int:
+    """Pick the nearest year for a bare month/day, rolling forward if the date passed >30 days ago."""
+    today = date.today()
+    try:
+        candidate = date(today.year, month, day)
+    except ValueError:
+        return today.year
+    return today.year + 1 if candidate < today - timedelta(days=30) else today.year
+
+
+def _parse_show_date(text: str) -> str:
+    """Parse a showtime date string to ISO YYYY-MM-DD, or '' if unparseable."""
+    text = text.strip()
+    m = re.match(r"(\d{4}-\d{2}-\d{2})", text)
+    if m:
+        return m.group(1)
+    # Match "Apr 20", "Apr20", "April 20" — allow zero or more spaces between month and day
+    m = re.search(r"\b([A-Z][a-z]{2,8})\s*(\d{1,2})\b", text)
+    if m:
+        try:
+            month = datetime.strptime(m.group(1)[:3], "%b").month
+            day = int(m.group(2))
+            return f"{_infer_year(month, day)}-{month:02d}-{day:02d}"
+        except ValueError:
+            pass
+    return ""
+
+
 def _fetch(url: str) -> Optional[BeautifulSoup]:
     headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
     for attempt in range(2):
@@ -112,6 +143,12 @@ def _apply_details(movies: list, detail_fn: Callable, has_booking: bool = False)
                 val = details.get(f, "")
                 if val and not getattr(movie, f):
                     setattr(movie, f, val)
+            # Prefer detail-page dates (more complete) over listing-page dates
+            if details.get("show_dates") and len(details["show_dates"]) >= len(movie.show_dates):
+                movie.show_dates = details["show_dates"]
+            for f in ("date_start", "date_end"):
+                if details.get(f) and not getattr(movie, f):
+                    setattr(movie, f, details[f])
             if has_booking and not movie.booking_url:
                 movie.booking_url = details.get("booking_url", "")
 
@@ -149,6 +186,22 @@ def _nitehawk_details(url: str) -> dict:
         if strong and "Starring" in strong.get_text():
             result["cast"] = p.get_text(separator=" ", strip=True).replace(strong.get_text(strip=True), "").strip()
             break
+    # Full show schedule: datelist options (multi-date) or individual showtime buttons (single-date)
+    show_dates = sorted({
+        datetime.fromtimestamp(int(el["data-date"])).strftime("%Y-%m-%d")
+        for el in soup.select("[data-date]")
+        if el.get("data-date")
+    })
+    if show_dates:
+        result["show_dates"] = show_dates
+    else:
+        # No sessions yet — parse "Opens on July 1" from date-selector placeholder
+        empty_sel = soup.select_one("div.date-selector.empty")
+        if empty_sel:
+            iso = _parse_show_date(empty_sel.get_text(strip=True))
+            if iso:
+                result["date_start"] = iso
+                result["date_end"] = iso
     return result
 
 
@@ -175,6 +228,16 @@ def _ifc_details(url: str) -> dict:
              soup.select_one("a[href*='tickets.ifccenter.com']")
     if ticket:
         result["booking_url"] = ticket["href"]
+    # Show dates from per-film schedule list ("Wed Apr 22 9:30 pm Buy Tickets")
+    show_dates = []
+    for li in soup.select("ul.schedule-list li"):
+        div = li.select_one("div")
+        if div:
+            iso = _parse_show_date(div.get_text(" ", strip=True))
+            if iso:
+                show_dates.append(iso)
+    if show_dates:
+        result["show_dates"] = sorted(set(show_dates))
     return result
 
 
@@ -245,6 +308,29 @@ def _filmforum_details(url: str) -> dict:
         if m:
             result["director"] = m.group(1).strip().title()
 
+    # Show dates from weekly tab grid — tab i corresponds to today + i days
+    film_slug = url.rstrip("/").split("/")[-1]
+    container = soup.select_one("div.showtimes-container")
+    if container and film_slug:
+        today_obj = date.today()
+        show_dates: set = set()
+        for i, tab in enumerate(container.select("[id^=tabs-]")[:7]):
+            if tab.select_one(f'a[href*="{film_slug}"]'):
+                show_dates.add((today_obj + timedelta(days=i)).isoformat())
+        if show_dates:
+            result["show_dates"] = sorted(show_dates)
+
+    # Fallback: parse dates from div.details p text (e.g. "Sunday, June 28 11:00")
+    # Catches films whose run is outside the 7-day tab window
+    if not result.get("show_dates"):
+        detail_dates: set = set()
+        for p in soup.select("div.details p"):
+            iso = _parse_show_date(p.get_text(" ", strip=True))
+            if iso:
+                detail_dates.add(iso)
+        if detail_dates:
+            result["show_dates"] = sorted(detail_dates)
+
     return result
 
 
@@ -266,6 +352,7 @@ def scrape_nitehawk() -> list:
         desc = card.select_one("div.short-description")
         first_st = card.select_one("a.showtime")
         showtimes = []
+        show_dates_set: set = set()
         for li in card.select("ul.showtime-button-row li"):
             st = li.select_one("a.showtime")
             if not st:
@@ -277,7 +364,9 @@ def scrape_nitehawk() -> list:
                 continue
             ts = li.get("data-date", "")
             try:
-                date_str = datetime.fromtimestamp(int(ts)).strftime("%a %b %-d")
+                dt_obj = datetime.fromtimestamp(int(ts))
+                date_str = dt_obj.strftime("%a %b %-d")
+                show_dates_set.add(dt_obj.strftime("%Y-%m-%d"))
                 showtimes.append(f"{date_str} {time_str}")
             except (ValueError, OSError):
                 showtimes.append(time_str)
@@ -287,8 +376,26 @@ def scrape_nitehawk() -> list:
             url=url,
             booking_url=first_st["href"] if first_st else "",
             showtimes=showtimes,
+            show_dates=sorted(show_dates_set),
             description=desc.get_text(strip=True) if desc else "",
         ))
+    # Supplement with /movies/ page to capture films not playing today
+    seen_urls = {m.url for m in movies}
+    movies_page = _fetch("https://nitehawkcinema.com/prospectpark/movies/")
+    if movies_page:
+        for art in movies_page.select("article"):
+            link = art.select_one("a[href*='/prospectpark/movies/']")
+            if not link or link["href"] in seen_urls:
+                continue
+            title_el = art.select_one("h2 a, h1 a")
+            if not title_el:
+                continue
+            seen_urls.add(link["href"])
+            movies.append(Movie(
+                title=title_el.get_text(strip=True),
+                theater="Nitehawk (Prospect Park)",
+                url=link["href"],
+            ))
     print(f"  Fetching detail pages for {len(movies)} Nitehawk now-playing films…")
     _apply_details(movies, _nitehawk_details)
     return movies
@@ -400,8 +507,20 @@ def scrape_filmforum() -> list:
             continue
         seen_urls.add(url)
         title = _filmforum_link_title(link)
-        showtimes = [s.get_text(strip=True) for s in p_parent.select("span") if s.get_text(strip=True)]
-        movies.append(Movie(title=title, theater="Film Forum", url=url, showtimes=showtimes))
+        showtimes = []
+        show_dates_set: set = set()
+        for s in p_parent.select("span"):
+            text = s.get_text(strip=True)
+            if not text:
+                continue
+            showtimes.append(text)
+            iso = _parse_show_date(text)
+            if iso:
+                show_dates_set.add(iso)
+        movies.append(Movie(
+            title=title, theater="Film Forum", url=url,
+            showtimes=showtimes, show_dates=sorted(show_dates_set),
+        ))
     print(f"  Fetching detail pages for {len(movies)} Film Forum now-playing films…")
     _apply_details(movies, _filmforum_details)
     return movies
@@ -466,9 +585,14 @@ def scrape_metrograph() -> list:
                 year = text.split("/")[0].strip()
 
         showtimes, booking_url = [], ""
-        for h6 in card.select("div.showtimes h6"):
-            date_str = h6.get_text(strip=True)
-            day_div = h6.find_next_sibling("div")
+        show_dates_set: set = set()
+        # Metrograph uses h6 for single-date films, h5 for multi-date films
+        for date_el in card.select("div.showtimes h5, div.showtimes h6"):
+            date_str = date_el.get_text(strip=True)
+            iso_date = _parse_show_date(date_str)
+            if iso_date:
+                show_dates_set.add(iso_date)
+            day_div = date_el.find_next_sibling("div")
             if day_div:
                 for a in day_div.select("a[href*='t.metrograph.com']"):
                     time_str = a.get_text(strip=True)
@@ -489,6 +613,7 @@ def scrape_metrograph() -> list:
             director=director,
             description=desc,
             showtimes=showtimes,
+            show_dates=sorted(show_dates_set),
         ))
     return movies
 
@@ -516,8 +641,16 @@ def scrape_filmnoircinema() -> list:
         day_el   = article.select_one(".eventlist-datetag-startdate--day")
         time_el  = article.select_one("time.event-time-12hr-start")
         showtime = ""
+        show_date = ""
         if month_el and day_el and time_el:
             showtime = f"{month_el.get_text(strip=True)} {day_el.get_text(strip=True)} {time_el.get_text(strip=True)}"
+        if month_el and day_el:
+            try:
+                m_num = datetime.strptime(month_el.get_text(strip=True)[:3], "%b").month
+                d_num = int(day_el.get_text(strip=True))
+                show_date = f"{_infer_year(m_num, d_num)}-{m_num:02d}-{d_num:02d}"
+            except (ValueError, TypeError):
+                pass
 
         year, country, description = "", "", ""
         desc_div = article.select_one("div.eventlist-description")
@@ -533,7 +666,7 @@ def scrape_filmnoircinema() -> list:
                     description = " ".join(paras)
 
         by_title[title.lower()].append({
-            "title": title, "url": url, "showtime": showtime,
+            "title": title, "url": url, "showtime": showtime, "show_date": show_date,
             "year": year, "country": country, "description": description,
         })
 
@@ -541,6 +674,7 @@ def scrape_filmnoircinema() -> list:
     for entries in by_title.values():
         first = entries[0]
         showtimes = [e["showtime"] for e in entries if e["showtime"]]
+        show_dates = sorted({e["show_date"] for e in entries if e.get("show_date")})
         movies.append(Movie(
             title=first["title"],
             theater="Film Noir Cinema",
@@ -549,6 +683,7 @@ def scrape_filmnoircinema() -> list:
             country=first["country"],
             description=first["description"],
             showtimes=showtimes,
+            show_dates=show_dates,
         ))
     return movies
 
@@ -571,12 +706,29 @@ def scrape_nitehawk_williamsburg() -> list:
             continue
         seen_urls.add(url)
         raw = item.get_text(" ", strip=True)
-        # Text is "Apr 18-19 FILM TITLE" — strip leading date token
-        m = re.match(r"^[A-Za-z]{3}[\s\d\-–]+\s+(.*)", raw)
-        title = (m.group(1) if m else raw).strip().title()
+        # Text is "Apr 18-19 FILM TITLE" — parse date range, strip from title
+        date_start = date_end = ""
+        m = re.match(r"^([A-Za-z]{3})\s+(\d{1,2})(?:\s*[-–]\s*(\d{1,2}))?\s+(.*)", raw)
+        if m:
+            try:
+                month_num = datetime.strptime(m.group(1), "%b").month
+                d1 = int(m.group(2))
+                yr = _infer_year(month_num, d1)
+                date_start = f"{yr}-{month_num:02d}-{d1:02d}"
+                d2 = int(m.group(3)) if m.group(3) else d1
+                date_end = f"{yr}-{month_num:02d}-{d2:02d}"
+            except (ValueError, TypeError):
+                pass
+            title = m.group(4).strip().title()
+        else:
+            m2 = re.match(r"^[A-Za-z]{3}[\s\d\-–]+\s+(.*)", raw)
+            title = (m2.group(1) if m2 else raw).strip().title()
         if not title:
             continue
-        movies.append(Movie(title=title, theater="Nitehawk (Williamsburg)", url=url))
+        movies.append(Movie(
+            title=title, theater="Nitehawk (Williamsburg)", url=url,
+            date_start=date_start, date_end=date_end,
+        ))
     print(f"  Fetching detail pages for {len(movies)} Nitehawk Williamsburg films…")
     _apply_details(movies, _nitehawk_details)
     return movies
@@ -590,12 +742,12 @@ _BAM_BASE = "https://www.bam.org"
 
 
 def _bam_parse_date(date_text: str) -> tuple:
-    """Return (status, opens) from a BAM date string."""
+    """Return (status, opens, date_start, date_end) from a BAM date string."""
     dt = date_text.strip()
     if not dt or dt.lower() == "now playing":
-        return "Now Playing", ""
+        return "Now Playing", "", "", ""
     if re.match(r"Opens\s+", dt, re.IGNORECASE):
-        return "Coming Soon", _normalize_opens(dt)
+        return "Coming Soon", _normalize_opens(dt), "", ""
     today = date.today()
     yr_m = re.search(r"\b(20\d\d)\b", dt)
     year = int(yr_m.group(1)) if yr_m else today.year
@@ -608,13 +760,13 @@ def _bam_parse_date(date_text: str) -> tuple:
         except ValueError:
             pass
     if not dates_found:
-        return "Now Playing", ""
+        return "Now Playing", "", "", ""
     start, end = min(dates_found), max(dates_found)
     if end < today:
-        return "Now Playing", ""  # ended; keep on page as BAM does
+        return "Now Playing", "", start.isoformat(), end.isoformat()
     if start > today:
-        return "Coming Soon", _normalize_opens(dt)
-    return "Now Playing", ""  # currently running
+        return "Coming Soon", _normalize_opens(dt), start.isoformat(), end.isoformat()
+    return "Now Playing", "", start.isoformat(), end.isoformat()
 
 
 def _bam_extract_details(soup) -> dict:
@@ -632,6 +784,33 @@ def _bam_extract_details(soup) -> dict:
     desc_el = soup.select_one("div.description")
     if desc_el:
         result["description"] = desc_el.get_text(" ", strip=True)
+
+    # Date range lives in div.bam-block-hero-date on detail pages
+    hero_date = soup.select_one("div.bam-block-hero-date")
+    if hero_date:
+        date_text = hero_date.get_text(strip=True)
+        _, _, date_start, date_end = _bam_parse_date(date_text)
+        if date_start:
+            result["date_start"] = date_start
+        if date_end:
+            result["date_end"] = date_end
+
+    # Fallback: parse individual show dates from JSON-LD Event schema
+    # (used when hero-date only says "Now Playing" but events have specific startDates)
+    if not result.get("date_start"):
+        import json as _json
+        show_dates: set = set()
+        for script in soup.select('script[type="application/ld+json"]'):
+            try:
+                ld = _json.loads(script.string or "")
+                events = ld.get("graph", [ld]) if isinstance(ld, dict) else []
+                for e in events:
+                    if e.get("@type") == "Event" and e.get("startDate"):
+                        show_dates.add(e["startDate"][:10])
+            except Exception:
+                pass
+        if show_dates:
+            result["show_dates"] = sorted(show_dates)
 
     return result
 
@@ -702,13 +881,20 @@ def scrape_bam() -> list:
             return ("series", children)
 
         details = _bam_extract_details(soup)
-        status, opens = _bam_parse_date(entry["date_text"])
+        status, opens, date_start, date_end = _bam_parse_date(entry["date_text"])
+        # Fall back to hero-date on detail page when listing has no usable dates
+        if not date_start and details.get("date_start"):
+            date_start = details["date_start"]
+            date_end = details.get("date_end", date_start)
         return ("film", Movie(
             title=entry["title"].title(),
             theater="BAM",
             url=entry["url"],
             status=status,
             opens=opens,
+            date_start=date_start,
+            date_end=date_end,
+            show_dates=details.get("show_dates", []),
             director=details.get("director", ""),
             year=details.get("year", ""),
             description=details.get("description", ""),
@@ -742,13 +928,15 @@ def scrape_bam() -> list:
     # Build Movie objects for series children, then fetch their detail pages
     child_movies: list[Movie] = []
     for c in series_children:
-        status, opens = _bam_parse_date(c["date_text"])
+        status, opens, date_start, date_end = _bam_parse_date(c["date_text"])
         child_movies.append(Movie(
             title=c["title"].title(),
             theater="BAM",
             url=c["url"],
             status=status,
             opens=opens,
+            date_start=date_start,
+            date_end=date_end,
         ))
 
     if child_movies:
@@ -833,6 +1021,8 @@ def scrape_paris() -> list:
             year=year,
             director=director,
             cast=cast_,
+            date_start=open_date.isoformat() if open_date else "",
+            date_end=close_date.isoformat() if close_date else "",
         ))
     return movies
 
@@ -871,12 +1061,15 @@ def scrape_filmlinc() -> list:
             status = "Now Playing"
             opens  = ""
 
+        # FLC listing shows today's showtimes; tag today as a known show date
+        has_showtimes = bool(re.search(r"\d{1,2}:\d{2}\s*(?:AM|PM)", card.get_text(" ", strip=True), re.IGNORECASE))
         movies.append(Movie(
             title=title.title(),
             theater="Film at Lincoln Center",
             url=url,
             status=status,
             opens=opens,
+            show_dates=[date.today().isoformat()] if (status == "Now Playing" and has_showtimes) else [],
         ))
     return movies
 
@@ -935,14 +1128,20 @@ def _parse_angelika_films(raw: list, status: str) -> list:
                 pass
 
         showtimes = []
+        show_dates_set: set = set()
         showdates = f.get("showdates") or {}
         if isinstance(showdates, list):
             for sd in showdates:
+                date_iso = (sd.get("date") or "")[:10]
+                if date_iso:
+                    show_dates_set.add(date_iso)
                 for st_type in sd.get("showtypes", []):
                     for st in st_type.get("showtimes", []):
                         dt_str = st.get("date_time", "")
                         try:
-                            dt = datetime.fromisoformat(dt_str)
+                            # Normalize short UTC offset "-04" → "-04:00" for Python 3.9
+                            dt_norm = re.sub(r"([+-]\d{2})$", r"\1:00", dt_str)
+                            dt = datetime.fromisoformat(dt_norm)
                             showtimes.append(dt.strftime("%a %b %-d %-I:%M %p"))
                         except ValueError:
                             pass
@@ -958,6 +1157,7 @@ def _parse_angelika_films(raw: list, status: str) -> list:
             cast=(f.get("cast") or "").strip().rstrip(","),
             description=re.sub(r"<[^>]+>", "", f.get("synopsis") or "").strip(),
             showtimes=showtimes,
+            show_dates=sorted(show_dates_set),
         ))
     return movies
 
@@ -1002,11 +1202,21 @@ def _alamo_get(url: str) -> dict:
 
 
 def _alamo_fetch_detail(slug: str) -> dict:
-    """Return the show sub-object from the presentation detail endpoint."""
+    """Return show data + session dates from the presentation detail endpoint."""
     try:
         d = _alamo_get(_ALAMO_PRES.format(slug=slug))
         pres = d["data"]["presentation"]
-        return {"show": pres["show"], "openingDateClt": pres.get("openingDateClt")}
+        sessions = pres.get("sessions") or []
+        show_dates = sorted({
+            s["dateTime"][:10]
+            for s in sessions
+            if s.get("dateTime")
+        })
+        return {
+            "show": pres["show"],
+            "openingDateClt": pres.get("openingDateClt"),
+            "show_dates": show_dates,
+        }
     except Exception:
         return {}
 
@@ -1020,6 +1230,15 @@ def scrape_alamo() -> list:
 
     presentations = data.get("presentations", [])
     today = date.today().isoformat()
+
+    # Build slug → sorted show_dates from the market-level sessions list
+    slug_dates: dict = {}
+    for s in data.get("sessions", []):
+        slug = s.get("presentationSlug", "")
+        bdate = s.get("businessDateClt", "")
+        if slug and bdate:
+            slug_dates.setdefault(slug, set()).add(bdate[:10])
+    slug_dates = {k: sorted(v) for k, v in slug_dates.items()}
 
     seen_titles: set[str] = set()
     to_fetch: list[dict] = []
@@ -1047,6 +1266,8 @@ def scrape_alamo() -> list:
         director = ", ".join(d.get("name", d) if isinstance(d, dict) else d for d in directors)
         opens = _normalize_opens(item["opening"] or "")
         url = _ALAMO_SHOW.format(slug=item["slug"])
+        date_start = item["opening"][:10] if item["opening"] else ""
+        show_dates = slug_dates.get(item["slug"], [])
         return Movie(
             title=item["title"],
             theater="Alamo Drafthouse NYC",
@@ -1057,6 +1278,8 @@ def scrape_alamo() -> list:
             director=director,
             year=year,
             description=description,
+            show_dates=show_dates,
+            date_start=date_start,
         )
 
     with ThreadPoolExecutor(max_workers=8) as pool:
@@ -1122,6 +1345,17 @@ def _scrape_hk(theater: str, location_id: str, mode: str) -> list:
         description = re.sub(r"<[^>]+>", "", f.get("Synopsis") or "").strip()
         opens = _normalize_opens(f.get("ReleaseDate") or "")
         url = "https://www.hk-cinemas.com"
+        # schedDates format: ["202604200000", "202604210000", ...] (YYYYMMDDHHNN)
+        show_dates: list = []
+        raw_sched = f.get("schedDates") or "[]"
+        try:
+            sched_list = json.loads(raw_sched) if isinstance(raw_sched, str) else raw_sched
+            for dt_str in sched_list:
+                s = str(dt_str)
+                if len(s) >= 8:
+                    show_dates.append(f"{s[:4]}-{s[4:6]}-{s[6:8]}")
+        except (ValueError, TypeError):
+            pass
         movies.append(Movie(
             title=title,
             theater=theater,
@@ -1131,6 +1365,7 @@ def _scrape_hk(theater: str, location_id: str, mode: str) -> list:
             opens=opens if status == "Coming Soon" else "",
             director=", ".join(dirs),
             description=description,
+            show_dates=sorted(set(show_dates)),
         ))
     return movies
 
@@ -1171,6 +1406,12 @@ def scrape_lowcinema() -> list:
         # Earliest booking link as the canonical ticket URL
         first_link = card.select_one("a.showtime-link")
         booking_url = f"{_LOW_BASE}{first_link['href']}" if first_link else film_url
+        # Show dates from the date-grid squares (data-date="YYYY-MM-DD")
+        show_dates_set: set = {
+            el["data-date"]
+            for el in card.select("span.date-square[data-date]")
+            if el.get("data-date")
+        }
 
         # Fetch film detail page for director/year/country/description
         detail = _fetch(film_url)
@@ -1205,6 +1446,7 @@ def scrape_lowcinema() -> list:
             year=year,
             country=country,
             description=description,
+            show_dates=sorted(show_dates_set),
         )
 
     with ThreadPoolExecutor(max_workers=6) as pool:
@@ -1543,6 +1785,40 @@ def main() -> None:
         for field in ("director", "cast", "country", "year", "description"):
             if not getattr(m, field) and best[key].get(field):
                 setattr(m, field, best[key][field])
+
+    # Convert opens date to date_start for Coming Soon films with no range
+    for m in movies:
+        if m.status == "Coming Soon" and not m.date_start and m.opens:
+            iso = _parse_show_date(m.opens)
+            if iso:
+                m.date_start = iso
+                m.date_end = iso
+
+    # Fallback: parse show_dates from showtimes strings when not yet populated
+    for m in movies:
+        if not m.show_dates and m.showtimes:
+            dates = set()
+            for st in m.showtimes:
+                iso = _parse_show_date(st)
+                if iso:
+                    dates.add(iso)
+            if dates:
+                m.show_dates = sorted(dates)
+
+    # Expand date ranges into individual show_dates (e.g. BAM "Apr 17—Apr 23")
+    for m in movies:
+        if not m.show_dates and m.date_start:
+            try:
+                start = date.fromisoformat(m.date_start)
+                end = date.fromisoformat(m.date_end) if m.date_end else start
+                current = start
+                dates = []
+                while current <= end and len(dates) < 60:
+                    dates.append(current.isoformat())
+                    current += timedelta(days=1)
+                m.show_dates = dates
+            except (ValueError, TypeError):
+                pass
 
     print()
     if HAS_RICH:

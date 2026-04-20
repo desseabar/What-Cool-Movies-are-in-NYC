@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Cool Movies Are in NYC?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+  <script defer src="/_vercel/insights/script.js"></script>
+  <style>
+    :root {
+      --bg:      #0f0f0f;
+      --surface: #1a1a1a;
+      --border:  #2a2a2a;
+      --text:    #f0ede8;
+      --muted:   #737373;
+      --gold:    #e8c547;
+      --green-bg:  #14532d;
+      --green-fg:  #4ade80;
+      --blue-bg:   #1e3a5f;
+      --blue-fg:   #93c5fd;
+      --lb-bg:     #1c2a1c;
+      --lb-fg:     #6bcf6b;
+      --lb-border: #2a3f2a;
+      --controls-h: 56px;
+      --wlbar-h:    52px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: Helvetica, Arial, sans-serif;
+      min-height: 100vh;
+      overflow-x: auto;
+    }
+
+    .page-wrap {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .watchlist-bar .page-wrap {
+      min-height: var(--wlbar-h);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .controls .page-wrap {
+      min-height: var(--controls-h);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    /* ── Header ─────────────────────────────────── */
+    header {
+      padding: 52px 0 36px;
+      border-bottom: 1px solid var(--border);
+    }
+    header.page-wrap {
+      display: flex;
+      align-items: baseline;
+    }
+
+    header h1 {
+      font-family: 'Limelight', cursive;
+      font-size: clamp(1.7rem, 4vw, 2.8rem);
+      font-weight: normal;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text);
+    }
+
+    header p {
+      margin-top: 12px;
+      font-size: 0.82rem;
+      color: var(--muted);
+      font-family: "Courier New", monospace;
+      letter-spacing: 0.03em;
+      position: relative;
+    }
+
+    /* ── Letterboxd bar ──────────────────────────── */
+    .watchlist-bar {
+      min-height: var(--wlbar-h);
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .lb-label {
+      font-size: 0.75rem;
+      font-family: "Courier New", monospace;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--lb-fg);
+      opacity: 0.85;
+      white-space: nowrap;
+    }
+
+    #lb-username {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: 0.85rem;
+      font-family: "Courier New", monospace;
+      width: 160px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    #lb-username:focus { border-color: var(--lb-fg); }
+    #lb-username::placeholder { color: var(--muted); }
+
+    #lb-btn {
+      padding: 5px 14px;
+      border: 1px solid var(--lb-border);
+      background: var(--lb-bg);
+      color: var(--lb-fg);
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-family: inherit;
+      transition: opacity 0.12s;
+      white-space: nowrap;
+    }
+    #lb-btn:hover { opacity: 0.8; }
+    #lb-btn:disabled { opacity: 0.4; cursor: default; }
+
+    #lb-status {
+      font-size: 0.78rem;
+      font-family: "Courier New", monospace;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+    #lb-status.ok  { color: var(--lb-fg); }
+    #lb-status.err { color: #f87171; }
+
+    /* ── Controls ────────────────────────────────── */
+    .controls {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      min-height: var(--controls-h);
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .controls-sep {
+      width: 1px;
+      height: 20px;
+      background: var(--border);
+      margin: 0 4px;
+    }
+
+    #search {
+      margin-left: auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: 0.82rem;
+      font-family: inherit;
+      width: 240px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    #search:focus { border-color: var(--muted); }
+    #search::placeholder { color: var(--muted); }
+    @media (max-width: 640px) { #search { width: 140px; } }
+
+    .filter-btn {
+      padding: 5px 14px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--muted);
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-family: inherit;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+      white-space: nowrap;
+    }
+    .filter-btn:hover { border-color: var(--muted); color: var(--text); }
+    .filter-btn.active {
+      background: var(--text);
+      color: var(--bg);
+      border-color: var(--text);
+    }
+    .filter-btn.active.wl-btn {
+      background: var(--lb-fg);
+      color: #0a1a0a;
+      border-color: var(--lb-fg);
+    }
+
+    /* ── Table wrapper ───────────────────────────── */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+
+    thead th {
+      position: sticky;
+      top: var(--controls-h);
+      z-index: 10;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 16px;
+      text-align: left;
+      font-size: 0.7rem;
+      font-family: "Courier New", monospace;
+      font-weight: normal;
+      color: var(--muted);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background 0.08s;
+    }
+    tbody tr:hover { background: var(--surface); }
+
+    td {
+      padding: 14px 16px;
+      vertical-align: top;
+      line-height: 1.5;
+    }
+
+    /* ── Bookmark button ────────────────────────── */
+    .save-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 0.9rem;
+      line-height: 1;
+      padding: 0 6px 0 0;
+      color: var(--border);
+      vertical-align: middle;
+      transition: color 0.12s;
+      flex-shrink: 0;
+    }
+    .save-btn:hover { color: var(--muted); }
+    .save-btn.saved { color: var(--gold); }
+
+    /* ── Cell styles ─────────────────────────────── */
+    .c-title    { min-width: 180px; max-width: 320px; }
+    .c-year     { width: 64px;  white-space: nowrap; color: var(--muted); }
+    .c-dir      { width: 140px; max-width: 160px; color: var(--muted);
+                  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .c-dates    { min-width: 140px; color: var(--muted); font-size: 0.8rem; line-height: 1.6; }
+    .c-theaters { min-width: 180px; }
+
+    .film-name {
+      font-size: 0.95rem;
+      color: var(--text);
+      font-weight: 500;
+      cursor: pointer;
+      text-decoration: underline;
+      text-decoration-color: transparent;
+      text-underline-offset: 3px;
+      transition: text-decoration-color 0.15s;
+    }
+    .film-name:hover { text-decoration-color: var(--muted); }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 999px;
+      font-size: 0.65rem;
+      font-family: "Courier New", monospace;
+      letter-spacing: 0.04em;
+      vertical-align: middle;
+      margin-left: 7px;
+      position: relative;
+      top: -1px;
+    }
+    .badge-wl   { background: var(--green-bg); color: var(--green-fg); }
+    .badge-dir  { background: var(--blue-bg);  color: var(--blue-fg); }
+
+    /* Theater links */
+    .theater-entry { display: block; line-height: 1.9; }
+    .theater-entry a {
+      color: var(--gold);
+      text-decoration: none;
+      font-size: 0.84rem;
+    }
+    .theater-entry a:hover { text-decoration: underline; }
+    .theater-entry a::after { content: " ↗"; font-size: 0.7rem; opacity: 0.7; }
+    .theater-entry span { color: var(--muted); font-size: 0.84rem; }
+
+    /* ── Tooltips ───────────────────────────────── */
+    /* Theaters tooltip (header count) */
+    .has-tip { position: relative; }
+    .tip {
+      display: none;
+      position: absolute;
+      z-index: 100;
+      top: calc(100% + 6px);
+      left: 0;
+      width: 220px;
+      background: #111;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: 0.78rem;
+      line-height: 1.55;
+      color: var(--text);
+      box-shadow: 0 6px 24px rgba(0,0,0,0.6);
+      white-space: normal;
+      pointer-events: none;
+    }
+    .has-tip:hover .tip { display: block; }
+    .theaters-tip .tip span {
+      display: block;
+      padding: 2px 0;
+      border-bottom: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.78rem;
+    }
+    .theaters-tip .tip span:last-child { border-bottom: none; }
+    .theaters-tip {
+      cursor: default;
+      border-bottom: 1px dashed var(--muted);
+    }
+
+    /* ── Film modal ──────────────────────────────── */
+    #modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 200;
+      background: rgba(0,0,0,0.72);
+      backdrop-filter: blur(2px);
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    #modal-overlay.open { display: flex; }
+
+    #modal {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px 32px;
+      max-width: 540px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      position: relative;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.7);
+    }
+
+    #modal-close {
+      position: absolute;
+      top: 14px;
+      right: 16px;
+      background: none;
+      border: none;
+      color: var(--muted);
+      font-size: 1.3rem;
+      cursor: pointer;
+      line-height: 1;
+      padding: 4px;
+    }
+    #modal-close:hover { color: var(--text); }
+
+    #modal-title {
+      font-family: 'Limelight', cursive;
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: var(--text);
+      line-height: 1.25;
+      margin-right: 28px;
+      margin-bottom: 14px;
+    }
+
+    #modal-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 0.8rem;
+      font-family: "Courier New", monospace;
+      color: var(--muted);
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    #modal-cast {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.5;
+      margin-bottom: 14px;
+    }
+
+    #modal-desc {
+      font-size: 0.88rem;
+      color: var(--text);
+      line-height: 1.65;
+      border-top: 1px solid var(--border);
+      padding-top: 14px;
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      line-clamp: 5;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    #modal-desc.expanded {
+      display: block;
+      overflow: visible;
+    }
+    #modal-more {
+      display: none;
+      margin-top: 8px;
+      font-size: 0.78rem;
+      font-family: "Courier New", monospace;
+      color: var(--muted);
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 0;
+      letter-spacing: 0.04em;
+    }
+    #modal-more:hover { color: var(--text); }
+
+    @media (max-width: 640px) {
+      #modal { padding: 22px 18px; }
+      #modal-title { font-size: 1.2rem; }
+    }
+
+    /* ── Refresh button ─────────────────────────── */
+    #refresh-btn {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      border-radius: 6px;
+      padding: 2px 9px;
+      font-size: 0.72rem;
+      font-family: "Courier New", monospace;
+      cursor: pointer;
+      margin-left: 10px;
+      vertical-align: middle;
+      transition: color 0.12s, border-color 0.12s;
+    }
+    #refresh-btn:hover { color: var(--text); border-color: var(--muted); }
+    #refresh-btn:disabled { opacity: 0.4; cursor: default; }
+    #refresh-msg {
+      font-size: 0.72rem;
+      font-family: "Courier New", monospace;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+
+    /* ── Empty / loading states ──────────────────── */
+    #loading {
+      text-align: center;
+      padding: 100px 40px;
+      color: var(--muted);
+      font-family: "Courier New", monospace;
+      font-size: 0.85rem;
+    }
+
+    /* ── Responsive ──────────────────────────────── */
+    @media (max-width: 640px) {
+      .page-wrap { padding: 0 14px; }
+      header { padding: 28px 0 20px; }
+      .watchlist-bar .page-wrap { padding-top: 10px; padding-bottom: 10px; gap: 8px; }
+      #lb-username { flex: 1; min-width: 0; }
+      #lb-status { order: 4; width: 100%; }
+      .controls .page-wrap { padding-top: 8px; padding-bottom: 8px; }
+      #search { margin-left: 0; width: 100%; }
+      td, thead th { padding: 10px 8px; }
+      .c-dir, .c-year { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<div id="modal-overlay" role="dialog" aria-modal="true">
+  <div id="modal">
+    <button id="modal-close" aria-label="Close">✕</button>
+    <div id="modal-title"></div>
+    <div id="modal-meta"></div>
+    <div id="modal-cast"></div>
+    <div id="modal-desc"></div>
+    <button id="modal-more">show more ↓</button>
+  </div>
+</div>
+
+<header class="page-wrap">
+  <h1>What Cool Movies Are in NYC?</h1>
+  <a href="index.html" style="font-size:0.8rem;color:#aaa;text-decoration:none;align-self:center;margin-left:auto;" onmouseover="this.style.color='#e5c100'" onmouseout="this.style.color='#aaa'">Schedule view</a>
+  <p id="meta">Loading listings…</p>
+</header>
+
+<div class="watchlist-bar">
+  <div class="page-wrap">
+    <span class="lb-label">Letterboxd</span>
+    <input type="text" id="lb-username" placeholder="username" autocomplete="off" spellcheck="false" />
+    <button id="lb-btn">Load watchlist</button>
+    <span id="lb-status"></span>
+  </div>
+</div>
+
+<div class="controls">
+  <div class="page-wrap">
+    <div class="controls-sep"></div>
+    <button class="filter-btn" id="saved-btn">Saved</button>
+
+    <div class="controls-sep" id="wl-sep" style="display:none"></div>
+    <button class="filter-btn wl-btn" id="wl-title-btn" style="display:none">On my watchlist</button>
+    <button class="filter-btn wl-btn" id="wl-dir-btn" style="display:none">Director on watchlist</button>
+
+    <input type="search" id="search" placeholder="Search films, directors, theaters…" autocomplete="off" />
+  </div>
+</div>
+
+<div class="table-wrap page-wrap">
+  <div id="loading">Fetching the latest listings…</div>
+  <table id="tbl" style="display:none">
+    <thead>
+      <tr>
+        <th class="c-title">Film</th>
+        <th class="c-year">Year</th>
+        <th class="c-dir">Director</th>
+        <th class="c-dates">Dates</th>
+        <th class="c-theaters">Theaters</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<script>
+  // ── Theater fallback URLs ──
+  const THEATER_URLS = {
+    'Nitehawk (Prospect Park)': 'https://nitehawkcinema.com/prospectpark/',
+    'Nitehawk (Williamsburg)':  'https://nitehawkcinema.com/williamsburg/',
+    'IFC Center':               'https://www.ifccenter.com/',
+    'Film Forum':               'https://filmforum.org/',
+    'Metrograph':               'https://metrograph.com/',
+    'Film Noir Cinema':         'https://www.filmnoircinema.com/program',
+    'BAM':                      'https://www.bam.org/film',
+    'Paris Theater':            'https://www.paristheaternyc.com/',
+    'Film at Lincoln Center':   'https://www.filmlinc.org/',
+    'Angelika Film Center':     'https://angelikafilmcenter.com/nyc',
+    'Alamo Drafthouse NYC':     'https://drafthouse.com/nyc',
+    'Low Cinema':               'https://lowcinema.com/tickets/',
+    'Cobble Hill Cinemas':      'https://www.hk-cinemas.com/cobble-hill-cinemas/',
+    'Williamsburg Cinemas':     'https://www.hk-cinemas.com/williamsburg-cinemas/',
+    'Kew Gardens Cinema':       'https://www.hk-cinemas.com/kew-gardens-cinema/',
+    'Mamaroneck Cinemas':       'https://www.hk-cinemas.com/mamaroneck-cinemas/',
+  };
+
+  // ── Normalisation helpers ──
+  function normTitle(t) {
+    return (t || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  }
+  function normStr(s) {
+    return (s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  }
+
+  // ── Date parser for sorting ──
+  function parseOpens(s) {
+    if (!s) return null;
+    const m = s.match(/([A-Za-z]+)\s+(\d+)/);
+    if (!m) return null;
+    const d = new Date(`${m[1]} ${m[2]}, ${new Date().getFullYear()}`);
+    return isNaN(d) ? null : d;
+  }
+
+  // ── Group per-theater rows into one row per film ──
+  function groupMovies(rows) {
+    const map = new Map();
+    for (const r of rows) {
+      const key = normTitle(r.title);
+      if (!map.has(key)) {
+        map.set(key, {
+          title:       r.title,
+          year:        r.year        || '',
+          director:    r.director    || '',
+          country:     r.country     || '',
+          description: r.description || '',
+          status:      r.status,
+          opens:       r.opens       || '',
+          show_dates:  [],
+          theaters:    [],
+        });
+      }
+      const g = map.get(key);
+      if (r.status === 'Now Playing') g.status = 'Now Playing';
+      if (!g.year        && r.year)        g.year        = r.year;
+      if (!g.director    && r.director)    g.director    = r.director;
+      if (!g.country     && r.country)     g.country     = r.country;
+      if (!g.description && r.description) g.description = r.description;
+      if (r.opens && (!g.opens || parseOpens(r.opens) < parseOpens(g.opens))) {
+        g.opens = r.opens;
+      }
+      if (r.show_dates && r.show_dates.length) {
+        const merged = new Set([...g.show_dates, ...r.show_dates]);
+        g.show_dates = Array.from(merged).sort();
+      }
+      g.theaters.push({
+        name:        r.theater,
+        booking_url: r.booking_url || '',
+        status:      r.status,
+        opens:       r.opens || '',
+      });
+    }
+    return Array.from(map.values());
+  }
+
+  // ── HTML escape ──
+  function esc(s) {
+    return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // ── Watchlist state ──
+  let watchlistTitles    = new Set();
+  let watchlistDirectors = new Set();
+  let watchlistLoaded    = false;
+  let watchlistFilter    = null;  // null | 'title' | 'director'
+
+  function setLbStatus(msg, cls = '') {
+    const el = document.getElementById('lb-status');
+    el.textContent = msg;
+    el.className   = cls;
+  }
+
+  function showWatchlistControls(show) {
+    const display = show ? '' : 'none';
+    document.getElementById('wl-sep').style.display       = show ? 'block' : 'none';
+    document.getElementById('wl-title-btn').style.display = display;
+    document.getElementById('wl-dir-btn').style.display   = display;
+  }
+
+  async function loadWatchlist(username) {
+    const btn = document.getElementById('lb-btn');
+    btn.disabled = true;
+    watchlistTitles.clear();
+    watchlistDirectors.clear();
+    watchlistLoaded = false;
+    watchlistFilter = null;
+    document.querySelectorAll('.wl-btn').forEach(b => b.classList.remove('active'));
+    showWatchlistControls(false);
+    setLbStatus('Loading…');
+
+    try {
+      const r = await fetch(`/api/watchlist?username=${encodeURIComponent(username)}`);
+      const data = await r.json();
+      if (!r.ok) throw new Error(data.error || `HTTP ${r.status}`);
+
+      for (const f of data.films) {
+        watchlistTitles.add(normTitle(f.title));
+        for (const d of (f.directors || [])) watchlistDirectors.add(normStr(d));
+      }
+
+      watchlistLoaded = true;
+      localStorage.setItem('lbWatchlist', JSON.stringify(data.films));
+      showWatchlistControls(true);
+      document.getElementById('lb-btn').textContent = 'Refresh watchlist';
+      setLbStatus(`✓ ${data.films.length} films`, 'ok');
+      render(allMovies, activeFilter);
+    } catch (err) {
+      setLbStatus(`Error: ${err.message}`, 'err');
+    } finally {
+      btn.disabled = false;
+    }
+  }
+
+  function restoreWatchlist(films) {
+    for (const f of films) {
+      watchlistTitles.add(normTitle(f.title));
+      for (const d of (f.directors || [])) watchlistDirectors.add(normStr(d));
+    }
+    watchlistLoaded = true;
+    showWatchlistControls(true);
+    document.getElementById('lb-btn').textContent = 'Refresh watchlist';
+    setLbStatus(`✓ ${films.length} films`, 'ok');
+  }
+
+  // ── Render table rows ──
+  function render(movies, filter) {
+    let list = movies;
+
+    // Apply saved filter
+    if (savedFilter) {
+      list = list.filter(m => savedFilms.has(normTitle(m.title)));
+    }
+
+    // Apply watchlist overlay filter
+    if (watchlistFilter === 'title') {
+      list = list.filter(m => watchlistTitles.has(normTitle(m.title)));
+    } else if (watchlistFilter === 'director') {
+      list = list.filter(m =>
+        watchlistTitles.has(normTitle(m.title)) ||
+        (m.director && m.director.split(/[,&]/).some(d => watchlistDirectors.has(normStr(d.trim()))))
+      );
+    }
+
+    // Apply search filter
+    if (searchQuery) {
+      list = list.filter(m => {
+        if (normStr(m.title).includes(searchQuery))    return true;
+        if (normStr(m.director).includes(searchQuery)) return true;
+        return m.theaters.some(t => normStr(t.name).includes(searchQuery));
+      });
+    }
+
+    list.sort((a, b) => a.title.localeCompare(b.title));
+
+    renderedList = list;
+    const tbody = document.getElementById('tbody');
+    tbody.innerHTML = list.map((m, i) => {
+      const isWl  = watchlistTitles.has(normTitle(m.title));
+      const isDir = !isWl && m.director &&
+                    m.director.split(/[,&]/).some(d => watchlistDirectors.has(normStr(d.trim())));
+      const badge = isWl  ? '<span class="badge badge-wl">On watchlist</span>'
+                  : isDir ? '<span class="badge badge-dir">Director on watchlist</span>'
+                  : '';
+
+      const MONTH_ABBR = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      const DAY_ABBR   = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+      let datesHtml = '';
+      if (m.show_dates && m.show_dates.length) {
+        datesHtml = m.show_dates.map(iso => {
+          const [y, mo, d] = iso.split('-').map(Number);
+          const dt = new Date(y, mo - 1, d);
+          return `${DAY_ABBR[dt.getDay()]} ${MONTH_ABBR[dt.getMonth()]} ${d}`;
+        }).join('<br>');
+      } else if (m.opens) {
+        datesHtml = `Opens ${esc(m.opens)}`;
+      }
+
+      const theatersHtml = m.theaters.map(t => {
+        const href = t.booking_url || THEATER_URLS[t.name] || '#';
+        return `<span class="theater-entry"><a href="${esc(href)}" target="_blank" rel="noopener">${esc(t.name)}</a></span>`;
+      }).join('');
+
+      const key     = normTitle(m.title);
+      const isSaved = savedFilms.has(key);
+      return `<tr>
+        <td class="c-title"><button class="save-btn${isSaved ? ' saved' : ''}" data-key="${esc(key)}" onclick="toggleSave(event,'${key}')" title="${isSaved ? 'Unsave' : 'Save'}">&#9733;</button><span class="film-name" onclick="openModal(${i})">${esc(m.title)}</span>${badge}</td>
+        <td class="c-year">${esc(m.year)}</td>
+        <td class="c-dir">${esc(m.director)}</td>
+        <td class="c-dates">${datesHtml}</td>
+        <td class="c-theaters">${theatersHtml}</td>
+      </tr>`;
+    }).join('');
+  }
+
+  // ── State ──
+  let allMovies    = [];
+  let activeFilter = 'all';
+  let searchQuery  = '';
+  let renderedList = [];
+  let savedFilter  = false;
+  let savedFilms   = new Set(JSON.parse(localStorage.getItem('savedFilms') || '[]'));
+
+  // ── Saved films helpers ──
+  function persistSaved() {
+    localStorage.setItem('savedFilms', JSON.stringify([...savedFilms]));
+  }
+
+  function toggleSave(e, key) {
+    e.stopPropagation();
+    if (savedFilms.has(key)) {
+      savedFilms.delete(key);
+    } else {
+      savedFilms.add(key);
+    }
+    persistSaved();
+    // Update every bookmark button for this film (multiple theaters = same title)
+    document.querySelectorAll(`.save-btn[data-key="${CSS.escape(key)}"]`).forEach(btn => {
+      btn.classList.toggle('saved', savedFilms.has(key));
+      btn.title = savedFilms.has(key) ? 'Unsave' : 'Save';
+    });
+    if (savedFilter) render(allMovies, activeFilter);
+  }
+
+  document.getElementById('saved-btn').addEventListener('click', () => {
+    savedFilter = !savedFilter;
+    document.getElementById('saved-btn').classList.toggle('active', savedFilter);
+    render(allMovies, activeFilter);
+  });
+
+  // ── Modal ──
+  function openModal(i) {
+    const m = renderedList[i];
+    if (!m) return;
+    document.getElementById('modal-title').textContent = m.title;
+    const metaParts = [];
+    if (m.director) metaParts.push(`Director: ${m.director}`);
+    const meta = document.getElementById('modal-meta');
+    meta.innerHTML = '';
+    if (m.director) {
+      const d = document.createElement('span');
+      d.textContent = `Director: ${m.director}`;
+      meta.appendChild(d);
+    }
+    if (m.year) {
+      const y = document.createElement('span');
+      y.textContent = m.year;
+      meta.appendChild(y);
+    }
+    const castEl = document.getElementById('modal-cast');
+    castEl.textContent = m.cast ? `Cast: ${m.cast}` : '';
+    castEl.style.display = m.cast ? '' : 'none';
+    const descEl = document.getElementById('modal-desc');
+    const moreBtn = document.getElementById('modal-more');
+    descEl.classList.remove('expanded');
+    moreBtn.style.display = 'none';
+    descEl.textContent = m.description || '';
+    descEl.style.display = m.description ? '' : 'none';
+    document.getElementById('modal-overlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+    // After render, check if description is clamped
+    if (m.description) {
+      requestAnimationFrame(() => {
+        if (descEl.scrollHeight > descEl.clientHeight + 2) {
+          moreBtn.style.display = 'block';
+        }
+      });
+    }
+  }
+
+  function closeModal() {
+    document.getElementById('modal-overlay').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  document.getElementById('modal-more').addEventListener('click', () => {
+    document.getElementById('modal-desc').classList.add('expanded');
+    document.getElementById('modal-more').style.display = 'none';
+  });
+  document.getElementById('modal-close').addEventListener('click', closeModal);
+  document.getElementById('modal-overlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('modal-overlay')) closeModal();
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+  // ── Watchlist filter buttons ──
+  document.querySelectorAll('.wl-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const f = btn.id === 'wl-title-btn' ? 'title' : 'director';
+      if (watchlistFilter === f) {
+        // Toggle off
+        watchlistFilter = null;
+        btn.classList.remove('active');
+      } else {
+        watchlistFilter = f;
+        document.querySelectorAll('.wl-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      }
+      render(allMovies, activeFilter);
+    });
+  });
+
+  // ── Search ──
+  document.getElementById('search').addEventListener('input', e => {
+    searchQuery = normStr(e.target.value);
+    render(allMovies, activeFilter);
+  });
+
+  // ── Letterboxd form ──
+  // Restore saved username
+  const _savedLbUser = localStorage.getItem('lbUsername');
+  if (_savedLbUser) document.getElementById('lb-username').value = _savedLbUser;
+  const _savedWl = localStorage.getItem('lbWatchlist');
+  if (_savedWl) { try { restoreWatchlist(JSON.parse(_savedWl)); } catch (_) {} }
+
+  document.getElementById('lb-btn').addEventListener('click', () => {
+    const username = document.getElementById('lb-username').value.trim();
+    if (username) {
+      localStorage.setItem('lbUsername', username);
+      loadWatchlist(username);
+    }
+  });
+  document.getElementById('lb-username').addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      const username = e.target.value.trim();
+      if (username) {
+        localStorage.setItem('lbUsername', username);
+        loadWatchlist(username);
+      }
+    }
+  });
+
+  // ── Load movie data ──
+  fetch('movies.json')
+    .then(r => {
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return r.json();
+    })
+    .then(data => {
+      const rows = data.movies || data;
+      allMovies = groupMovies(rows);
+
+      const venues = [...new Set(rows.map(r => r.theater))].sort();
+      const dateStr = data.fetched_at
+        ? new Date(data.fetched_at).toLocaleDateString('en-US', {month:'long', day:'numeric', year:'numeric'})
+        : '';
+
+      const venueListHtml = venues.map(v => `<span>${esc(v)}</span>`).join('');
+      document.getElementById('meta').innerHTML =
+        `Updated ${dateStr} · ${allMovies.length} films · <span class="has-tip theaters-tip">${venues.length} theaters<span class="tip">${venueListHtml}</span></span>`
+        + `<button id="refresh-btn" onclick="doRefresh()">↻ Refresh</button><span id="refresh-msg"></span>`;
+
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('tbl').style.display = 'table';
+      render(allMovies, activeFilter);
+    })
+    .catch(err => {
+      document.getElementById('loading').textContent = `Could not load listings. ${err.message}`;
+    });
+
+  // ── Refresh ──
+  const _adminToken = new URLSearchParams(window.location.search).get('token') || '';
+
+  async function doRefresh() {
+    const btn = document.getElementById('refresh-btn');
+    const msg = document.getElementById('refresh-msg');
+    if (!btn) return;
+    btn.disabled = true;
+    msg.textContent = 'Checking…';
+    msg.style.color = 'var(--muted)';
+    try {
+      const url = _adminToken ? `/api/refresh?token=${encodeURIComponent(_adminToken)}` : '/api/refresh';
+      const r   = await fetch(url);
+      const d   = await r.json();
+      if (d.status === 'already_refreshed') {
+        msg.textContent = 'Already refreshed today!';
+        msg.style.color = 'var(--muted)';
+        btn.disabled = false;
+      } else if (d.status === 'triggered') {
+        msg.textContent = 'Refreshing… check back in a few minutes.';
+        msg.style.color = 'var(--lb-fg)';
+      } else {
+        msg.textContent = d.message || 'Error.';
+        msg.style.color = '#f87171';
+        btn.disabled = false;
+      }
+    } catch (err) {
+      msg.textContent = 'Error — try again.';
+      msg.style.color = '#f87171';
+      btn.disabled = false;
+    }
+  }
+</script>
+
+</body>
+</html>
