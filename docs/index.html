@@ -185,6 +185,8 @@
       box-shadow: 2px 0 4px rgba(0,0,0,0.4);
     }
     .gantt tbody tr:hover td.title-col { background: #1a1a1a; }
+    .gantt tbody td.title-col.bar-watchlist { color: #2e7d32; }
+    .gantt tbody td.title-col.bar-director  { color: #1a5fa8; }
 
     .gantt tbody td.day-col {
       border-left: 1px solid #1e1e1e;
@@ -674,7 +676,7 @@
         ? `<span class="${arrowCls}" title="Jump to ${nearestAfter}" onclick="event.stopPropagation();navigateToDate('${nearestAfter}')">&#8594;</span>` : '';
 
       bodyHtml += `<tr${rowCls} onclick="openModal(${mJson})">`;
-      bodyHtml += `<td class="title-col" title="${esc(cleanTitle(m.title))} — ${esc(m.theater)}">${esc(cleanTitle(m.title))}</td>`;
+      bodyHtml += `<td class="title-col ${bc}" title="${esc(cleanTitle(m.title))} — ${esc(m.theater)}">${esc(cleanTitle(m.title))}</td>`;
       bodyHtml += `<td class="nav-col">${leftArrow}</td>`;
       for (const col of cols) {
         const cls = col.isToday ? 'day-col today-col' : 'day-col';
