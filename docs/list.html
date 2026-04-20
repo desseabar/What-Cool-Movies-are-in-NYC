@@ -566,8 +566,14 @@
   };
 
   // ── Normalisation helpers ──
+  const _TITLE_SUFFIXES = /\s*(\(Open Captioning\)|4K Remaster)\s*$/gi;
+  function cleanTitle(s) {
+    let t = s || '', prev;
+    do { prev = t; t = t.replace(_TITLE_SUFFIXES, '').trim(); } while (t !== prev);
+    return t;
+  }
   function normTitle(t) {
-    return (t || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    return cleanTitle(t || '').toLowerCase().replace(/[^a-z0-9]/g, '');
   }
   function normStr(s) {
     return (s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -753,7 +759,7 @@
       const key     = normTitle(m.title);
       const isSaved = savedFilms.has(key);
       return `<tr>
-        <td class="c-title"><button class="save-btn${isSaved ? ' saved' : ''}" data-key="${esc(key)}" onclick="toggleSave(event,'${key}')" title="${isSaved ? 'Unsave' : 'Save'}">&#9733;</button><span class="film-name" onclick="openModal(${i})">${esc(m.title)}</span>${badge}</td>
+        <td class="c-title"><button class="save-btn${isSaved ? ' saved' : ''}" data-key="${esc(key)}" onclick="toggleSave(event,'${key}')" title="${isSaved ? 'Unsave' : 'Save'}">&#9733;</button><span class="film-name" onclick="openModal(${i})">${esc(cleanTitle(m.title))}</span>${badge}</td>
         <td class="c-year">${esc(m.year)}</td>
         <td class="c-dir">${esc(m.director)}</td>
         <td class="c-dates">${datesHtml}</td>
@@ -801,7 +807,7 @@
   function openModal(i) {
     const m = renderedList[i];
     if (!m) return;
-    document.getElementById('modal-title').textContent = m.title;
+    document.getElementById('modal-title').textContent = cleanTitle(m.title);
     const metaParts = [];
     if (m.director) metaParts.push(`Director: ${m.director}`);
     const meta = document.getElementById('modal-meta');

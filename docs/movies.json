@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-20T17:27:02.026079",
+  "fetched_at": "2026-04-20T18:13:56.810875",
   "movies": [
     {
       "title": "9 To 5",
@@ -198,13 +198,13 @@
       "description": ""
     },
     {
-      "title": "Alpha (Open Captioning)",
+      "title": "Alpha",
       "theater": "IFC Center",
       "url": "https://www.ifccenter.com/films/alpha-open-captioning/",
       "status": "Coming Soon",
       "opens": "April 28",
       "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553495~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
-      "year": "",
+      "year": "2025",
       "director": "Julia Ducournau",
       "cast": "Tahar Rahim, Golshifteh Farahani, M\u00e9lissa Boros",
       "country": "France, Belgium",
@@ -214,7 +214,7 @@
       ],
       "date_start": "2026-04-28",
       "date_end": "2026-04-28",
-      "description": ""
+      "description": "Life swiftly starts to unravel for Alpha and her single mom after the rebellious 13-year-old comes home with a stick-and-poke tattoo made with a used needle at a house party\u2014a mark that may be related to a contagious blood-borne disease that turns its victims into disintegrating stone. The third feature by French director and screenwriter Julia Ducournau, winner of the Palme d\u2019Or at the 2021 Cannes Film Festival for Titane , is a mysterious, unsettling allegory for the 1980s AIDS crisis and the waves of hysteria, prejudice, and exclusion it produced."
     },
     {
       "title": "American Dream",
@@ -1008,8 +1008,8 @@
       "status": "Coming Soon",
       "opens": "May 5",
       "booking_url": "",
-      "year": "",
-      "director": "",
+      "year": "2026",
+      "director": "Lia Komakhidze, Michael West",
       "cast": "",
       "country": "",
       "showtimes": [],
@@ -1798,8 +1798,8 @@
       "status": "Coming Soon",
       "opens": "April 22",
       "booking_url": "",
-      "year": "",
-      "director": "",
+      "year": "2025",
+      "director": "Cindy Meehl",
       "cast": "",
       "country": "",
       "showtimes": [],
@@ -2072,14 +2072,20 @@
       "show_dates": [
         "2026-04-22",
         "2026-04-23",
-        "2026-04-26"
+        "2026-04-24",
+        "2026-04-25",
+        "2026-04-26",
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-29",
+        "2026-04-30"
       ],
       "date_start": "2026-04-22",
       "date_end": "2026-04-22",
       "description": ""
     },
     {
-      "title": "Maintenance Artist (Open Captioning)",
+      "title": "Maintenance Artist",
       "theater": "IFC Center",
       "url": "https://www.ifccenter.com/films/maintenance-artist-open-captioning/",
       "status": "Coming Soon",
@@ -2539,7 +2545,7 @@
       "booking_url": "",
       "year": "2026",
       "director": "David Lowery",
-      "cast": "Anne Hathaway, Michaela Coel, Hunter Schafer, FKA twigs, Kaia Gerber",
+      "cast": "Anne Hathaway, Michaela Coel, Hunter Schafer",
       "country": "",
       "showtimes": [],
       "show_dates": [
@@ -2840,7 +2846,7 @@
       "description": ""
     },
     {
-      "title": "Omaha (Open Captioning)",
+      "title": "Omaha",
       "theater": "IFC Center",
       "url": "https://www.ifccenter.com/films/omaha-open-captioning/",
       "status": "Coming Soon",
@@ -3264,9 +3270,9 @@
       "status": "Coming Soon",
       "opens": "April 22",
       "booking_url": "",
-      "year": "",
-      "director": "",
-      "cast": "",
+      "year": "1998",
+      "director": "Brett Ratner",
+      "cast": "Jackie Chan, Chris Tucker, Elizabeth Pe\u00f1a, Philip Baker Hall, Tom Wilkinson",
       "country": "",
       "showtimes": [],
       "show_dates": [
@@ -4639,7 +4645,7 @@
       "description": ""
     },
     {
-      "title": "True North (Open Captioning)",
+      "title": "True North",
       "theater": "IFC Center",
       "url": "https://www.ifccenter.com/films/true-north-open-captioning/",
       "status": "Coming Soon",
@@ -5251,14 +5257,13 @@
       "url": "https://lowcinema.com/movie/all-you-need-is-kill/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://lowcinema.com/checkout/ec822016-f314-41cb-81d1-3aae4c53e656/",
+      "booking_url": "https://lowcinema.com/checkout/4afd271d-f37c-4166-84f5-3f9320aa7073/",
       "year": "2026",
       "director": "Kenichiro Akimoto",
       "cast": "",
       "country": "Japan",
       "showtimes": [],
       "show_dates": [
-        "2026-04-20",
         "2026-04-21",
         "2026-04-22",
         "2026-04-23"
@@ -5276,8 +5281,8 @@
       "booking_url": "",
       "year": "2025",
       "director": "Julia Ducournau",
-      "cast": "",
-      "country": "",
+      "cast": "Tahar Rahim, Golshifteh Farahani, M\u00e9lissa Boros",
+      "country": "France, Belgium",
       "showtimes": [],
       "show_dates": [],
       "date_start": "",
@@ -6258,9 +6263,8 @@
       "cast": "Charli xcx,\u00a0Lena G\u00f3ra, Will Madden, Jeremy O. Harris",
       "country": "",
       "showtimes": [
-        "Mon Apr 20 5:45 PM",
-        "Mon Apr 20 9:45 PM",
         "Mon Apr 20 7:45 PM",
+        "Mon Apr 20 9:45 PM",
         "Tue Apr 21 10:00 AM",
         "Tue Apr 21 11:55 AM",
         "Tue Apr 21 1:50 PM",
@@ -6333,7 +6337,14 @@
         "2026-04-20",
         "2026-04-21",
         "2026-04-22",
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-24",
+        "2026-04-25",
+        "2026-04-26",
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-29",
+        "2026-04-30"
       ],
       "date_start": "",
       "date_end": "",
@@ -6720,7 +6731,7 @@
       "description": "Voiced by an impressive cast that includes Tim Curry, Tone Loc, Christian Slater, Cheech Marin, and Robin Williams as a blabbermouthed chiropteran named \u201cBatty Koda,\u201d Kroyer\u2019s feature directorial debut introduces viewers to the secret world of\u2026"
     },
     {
-      "title": "Fight Club 4K Remaster",
+      "title": "Fight Club",
       "theater": "Alamo Drafthouse NYC",
       "url": "https://drafthouse.com/nyc/show/fight-club-4k-remaster",
       "status": "Now Playing",
@@ -7875,28 +7886,6 @@
     {
       "title": "Marama",
       "theater": "IFC Center",
-      "url": "https://www.ifccenter.com/films/marama/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553480~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-      "year": "",
-      "director": "Taratoa Stappard",
-      "cast": "Ariana Osborne, Toby Stephens, Umi Myers",
-      "country": "New Zealand, UK",
-      "showtimes": [],
-      "show_dates": [
-        "2026-04-20",
-        "2026-04-21",
-        "2026-04-22",
-        "2026-04-23"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": ""
-    },
-    {
-      "title": "Marama (Open Captioning)",
-      "theater": "IFC Center",
       "url": "https://www.ifccenter.com/films/marama-open-captioning/",
       "status": "Now Playing",
       "opens": "",
@@ -7909,6 +7898,35 @@
       "show_dates": [
         "2026-04-22",
         "2026-04-23"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": ""
+    },
+    {
+      "title": "Marama",
+      "theater": "IFC Center",
+      "url": "https://www.ifccenter.com/films/marama/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553468~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "year": "",
+      "director": "Taratoa Stappard",
+      "cast": "Ariana Osborne, Toby Stephens, Umi Myers",
+      "country": "New Zealand, UK",
+      "showtimes": [],
+      "show_dates": [
+        "2026-04-20",
+        "2026-04-21",
+        "2026-04-22",
+        "2026-04-23",
+        "2026-04-24",
+        "2026-04-25",
+        "2026-04-26",
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-29",
+        "2026-04-30"
       ],
       "date_start": "",
       "date_end": "",
@@ -8291,25 +8309,6 @@
       "description": ""
     },
     {
-      "title": "Momma\u2019S Man",
-      "theater": "Film at Lincoln Center",
-      "url": "https://www.filmlinc.org/films/mommas-man/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-04-20"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": ""
-    },
-    {
       "title": "Monty Python and the Holy Grail",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999004751",
@@ -8365,7 +8364,6 @@
       "cast": "Anne Hathaway, Michaela Coel, Hunter Schafer, FKA twigs, Kaia Gerber",
       "country": "",
       "showtimes": [
-        "Mon Apr 20 6:00 PM",
         "Mon Apr 20 7:30 PM",
         "Mon Apr 20 10:05 PM",
         "Mon Apr 20 8:40 PM",
@@ -10071,6 +10069,7 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-27",
+        "2026-04-28",
         "2026-04-29"
       ],
       "date_start": "",
@@ -10206,13 +10205,12 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/the-christophers/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22386565/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22386574/",
       "year": "2026",
       "director": "Steven Soderbergh",
       "cast": "Michaela Coel, Ian McKellen, James Corden, Jessica Gunning",
       "country": "UK",
       "showtimes": [
-        "Mon Apr 20 6:00 pm",
         "Mon Apr 20 9:45 pm"
       ],
       "show_dates": [
@@ -11268,13 +11266,12 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/the-super-mario-galaxy-movie/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22386564/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22386566/",
       "year": "2026",
       "director": "Aaron Horvath, Michael Jelenic",
       "cast": "Chris Pratt, Anya Taylor-Joy, Benny Safdie, Jack Black, Brie Larson, Charlie Day, Keegan-Michael Key",
       "country": "",
       "showtimes": [
-        "Mon Apr 20 5:35 pm",
         "Mon Apr 20 6:25 pm"
       ],
       "show_dates": [

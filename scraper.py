@@ -65,6 +65,20 @@ _MONTH_FULL = ["", "January", "February", "March", "April", "May", "June",
                "July", "August", "September", "October", "November", "December"]
 
 
+_TITLE_SUFFIXES = re.compile(
+    r'\s*(\(Open Captioning\)|4K Remaster)\s*$',
+    re.IGNORECASE,
+)
+
+def clean_title(title: str) -> str:
+    """Strip display-only suffixes so titles match across sources."""
+    prev = None
+    while prev != title:
+        prev = title
+        title = _TITLE_SUFFIXES.sub('', title).strip()
+    return title
+
+
 def _normalize_opens(text: str) -> str:
     """Return 'Month Day' (e.g. 'April 20') from any date-like string, or '' if unparseable."""
     if not text:
@@ -1769,6 +1783,10 @@ def main() -> None:
     removed = len(raw) - len(movies)
     if removed:
         print(f"\n  (deduplicated {removed} duplicate entries)")
+
+    # Strip display-only title suffixes
+    for m in movies:
+        m.title = clean_title(m.title)
 
     # Cross-theater enrichment: fill missing fields from other entries with same title
     _norm = lambda s: re.sub(r"[^a-z0-9]", "", (s or "").lower())

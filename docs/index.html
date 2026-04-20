@@ -412,7 +412,14 @@
   let filterWeekend   = false;
   let savedFilms      = new Set(JSON.parse(localStorage.getItem('savedFilms') || '[]'));
 
-  function normKey(s) { return (s || '').toLowerCase().replace(/[^a-z0-9]/g, ''); }
+  const _TITLE_SUFFIXES = /\s*(\(Open Captioning\)|4K Remaster)\s*$/gi;
+  function cleanTitle(s) {
+    let t = s || '', prev;
+    do { prev = t; t = t.replace(_TITLE_SUFFIXES, '').trim(); } while (t !== prev);
+    return t;
+  }
+
+  function normKey(s) { return cleanTitle(s || '').toLowerCase().replace(/[^a-z0-9]/g, ''); }
 
   function navigateToDate(iso) {
     currentWeekStart = isoToDate(iso);
@@ -478,7 +485,7 @@
     if (movie.year)    parts.push(movie.year);
     if (movie.country) parts.push(movie.country);
     if (movie.director) parts.push('Dir. ' + movie.director);
-    document.getElementById('modal-title').textContent = movie.title;
+    document.getElementById('modal-title').textContent = cleanTitle(movie.title);
     document.getElementById('modal-meta').innerHTML  = parts.join(' &middot; ');
     document.getElementById('modal-cast').textContent = movie.cast ? 'With ' + movie.cast : '';
     document.getElementById('modal-desc').textContent = movie.description || '';
@@ -645,7 +652,7 @@
         ? `<span class="${arrowCls}" title="Jump to ${nearestAfter}" onclick="event.stopPropagation();navigateToDate('${nearestAfter}')">&#8594;</span>` : '';
 
       bodyHtml += `<tr${rowCls} onclick="openModal(${mJson})">`;
-      bodyHtml += `<td class="title-col" title="${esc(m.title)} — ${esc(m.theater)}">${esc(m.title)}</td>`;
+      bodyHtml += `<td class="title-col" title="${esc(cleanTitle(m.title))} — ${esc(m.theater)}">${esc(cleanTitle(m.title))}</td>`;
       bodyHtml += `<td class="nav-col">${leftArrow}</td>`;
       for (const col of cols) {
         const cls = col.isToday ? 'day-col today-col' : 'day-col';
