@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "fetched_at": "2026-04-20T15:22:28.730274",
-=======
-  "fetched_at": "2026-04-20T16:33:56.002420",
->>>>>>> Stashed changes
+  "fetched_at": "2026-04-20T17:27:02.026079",
   "movies": [
     {
       "title": "9 To 5",
@@ -132,14 +128,11 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-05-23"
       ],
       "date_start": "2026-05-23",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "While his latest movie \u00bfQuieres ser John Malkovich? (1999) is in production, screenwriter Charlie Kaufman is hired by Valerie Thomas to adapt Susan Orlean's non-fiction book The Orchid Thief for the screen. Thomas bought the movie rights before Orlean wrote the book, when it was only an article in The New Yorker. The book details the story of rare orchid hunter John Laroche, whose passion for orchids and horticulture made Orlean discover passion and beauty for the first time in her life. Charlie wants to be faithful to the book in his adaptation, but despite Laroche himself being an interesting character in his own right, Charlie is having difficulty finding enough material in Laroche to fill a movie, while equally not having enough to say cinematically about the beauty of orchids. At the same time, Charlie is going through other issues in his life. His insecurity as a person doesn't allow him to act upon his feelings for Amelia Kavan, who is interested in him as a man."
     },
     {
@@ -393,6 +386,25 @@
       ],
       "date_start": "2026-05-01",
       "date_end": "2026-05-01",
+      "description": ""
+    },
+    {
+      "title": "Benny\u2019s Video",
+      "theater": "IFC Center",
+      "url": "https://www.ifccenter.com/films/bennys-video/",
+      "status": "Coming Soon",
+      "opens": "May 8",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553495~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "year": "1992",
+      "director": "Michael Haneke",
+      "cast": "Arno Frisch, Angela Winkler, Ulrich M\u00fche",
+      "country": "Austria",
+      "showtimes": [],
+      "show_dates": [
+        "2026-05-08"
+      ],
+      "date_start": "2026-05-08",
+      "date_end": "2026-05-08",
       "description": ""
     },
     {
@@ -689,30 +701,20 @@
     {
       "title": "Carrie (1976)",
       "theater": "Alamo Drafthouse NYC",
-<<<<<<< Updated upstream
-      "url": "https://drafthouse.com/nyc/show/psycho-cinema-carrie-1976",
-      "status": "Coming Soon",
-      "opens": "May 24",
-      "booking_url": "https://drafthouse.com/nyc/show/psycho-cinema-carrie-1976",
-=======
       "url": "https://drafthouse.com/nyc/show/carrie",
       "status": "Coming Soon",
       "opens": "May 24",
       "booking_url": "https://drafthouse.com/nyc/show/carrie",
->>>>>>> Stashed changes
       "year": "1976",
       "director": "Brian De Palma",
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-05-24"
       ],
       "date_start": "2026-05-24",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Sissy Spacek makes Carrie a truly frail creature whose wide eyes are so much like a cat caught in the light that you\u2019d rather keep your distance to avoid the scratch. Enduring the humiliation that is the true stuff of teenage girl nightmares \u2013 public shame for getting your period \u2013 Carrie is constantly on the receiving end of her classmates\u2019 pranks. At home, she is taunted with religious nonsense and talk of dirty pillows, so what\u2019s a girl to do but transfer all that rage into telekinetic powers? Building to the end that everyone knows even if you haven\u2019t seen the movie (has someone out there really not seen it?), CARRIE is so effectively terrifying, repeat viewings won\u2019t numb you to it."
     },
     {
@@ -925,14 +927,15 @@
       "url": "https://www.ifccenter.com/films/departures/",
       "status": "Coming Soon",
       "opens": "April 29",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553495~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=554757~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "",
       "director": "Neil Ely, Lloyd Eyre-Morgan",
       "cast": "Lloyd Eyre-Morgan, David Tag, Liam Boyle, Ali Afzal",
       "country": "UK",
       "showtimes": [],
       "show_dates": [
-        "2026-04-29"
+        "2026-04-29",
+        "2026-04-30"
       ],
       "date_start": "2026-04-29",
       "date_end": "2026-04-29",
@@ -1005,8 +1008,8 @@
       "status": "Coming Soon",
       "opens": "May 5",
       "booking_url": "",
-      "year": "2026",
-      "director": "Lia Komakhidze, Michael West",
+      "year": "",
+      "director": "",
       "cast": "",
       "country": "",
       "showtimes": [],
@@ -1275,14 +1278,11 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-05-31"
       ],
       "date_start": "2026-05-31",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "FRANCES HA is a modern classic from director and writer Noah Baumbach (MARRIAGE STORY). This lovely film follows Frances, played by Greta Gerwig (director of LADY BIRD), a woman who doesn't exactly have it all together. With no real place to live and multiple rocky personal relationships, Frances tries to throw herself completely into the pursuit of her dream of becoming a modern dancer. Baumbach and Gerwig co-wrote this unapologetic look at the realities of pursuing what seem like unattainable dreams when the odds are against you. \nDCP courtesy of IFC Films"
     },
     {
@@ -1340,14 +1340,11 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-05-25"
       ],
       "date_start": "2026-05-25",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Presented in Japanese with English subtitles\nLong unavailable in the US, director Toshio Matsumoto\u2019s shattering, kaleidoscopic masterpiece is one of the most subversive and intoxicating films of the late 1960s: a headlong dive into a dazzling, unseen Tokyo night world of drag queen bars and fabulous divas, fueled by booze, drugs, fuzz guitars, performance art, and black mascara. No less than Stanley Kubrick cited the film as a direct influence on his own dystopian classic A CLOCKWORK ORANGE. \nAn unknown club dancer at the time, transgender actor Peter (from Kurosawa\u2019s RAN) gives an astonishing Edie Sedgwick/Warhol superstar-like performance as hot young thing Eddie, hostess at Bar Genet \u2013 where she\u2019s ignited a violent love triangle with reigning drag queen Leda (Osamu Ogasawara) for the attention of club owner Gonda (played by Kurosawa regular Yoshio Tsuchiya, from SEVEN SAMURAI and YOJIMBO). \nOne of Japan\u2019s leading experimental filmmakers, Matsumoto bends and distorts time here like Resnais in LAST YEAR AT MARIENBAD, freely mixing documentary interviews, Brechtian film-within-a-film asides, Oedipal premonitions of disaster, his own avant-garde shorts, and even on-screen cartoon balloons, into a dizzying whirl of image + sound. Featuring breathtaking black-and-white cinematography by Tatsuo Suzuki that rivals the photographs of Robert Mapplethorpe, FUNERAL PARADE OF ROSES offers a frank, openly erotic, and unapologetic portrait of an underground community of drag queens. Whether laughing with drunken businessmen, eating ice cream with her girlfriends, or fighting in the streets with a local girl gang, Peter\u2019s ravishing Eddie is something to behold. \u201cShe has bad manners, all she knows is coquetry,\u201d complains her rival Leda \u2013 but in fact, Eddie\u2019s bad manners are simply being too gorgeous for this world. Her stunning presence in bell-bottom pants, black leather jacket, and Brian Jones hairdo, is a direct threat to the social order, both in the Bar Genet and in the streets of Tokyo. A key work of Japanese New Wave and queer cinema, FUNERAL PARADE has been beautifully restored in 4k from the original 35mm camera negative and sound elements."
     },
     {
@@ -1710,6 +1707,26 @@
       "description": "Landslide (Avalancha) (2023) Dir. Daniel Santiago Cort\u00e9s Ram\u00edrez 25min; DCP In Spanish with English subtitles Composed entirely of archival footage, this experimental documentary opens with solely sound: scraping, rattling, and rumbling, like pebbles coming loose and starting to roll down a slope. The earth stirs before it starts to slide. What follows is a procession that runs through time and always takes a different form. A funeral procession, a protest march, a sea of fedoras, uniformed men on horses. And the sound continues to swell. The result is not just a depiction of Colombian history, but of resistance broadly, and the lives lost in its wake. Igualada (2024) Dir. Juan Mejia Botero 81min; DCP In Spanish with English subtitles Deemed \u201crousing and intimate\u201d by Variety , Botero\u2019s film follows the 2022 campaign of Francia M\u00e1rquez, a Black woman from a rural background in her pursuit of Colombia\u2019s presidency. The film\u2019s title, defined by an opening caption as \u201ca derogatory term (based on class, race and gender) used to designate someone who acts as if they deserve rights and privileges that supposedly don\u2019t correspond to them,\u201d is transformed through M\u00e1rquez\u2019s campaign, drawing the historically underrepresented into the nation\u2019s political process. Filmed over the course of 15 years, Botero provides a portrait that is both personal and socially moving."
     },
     {
+      "title": "In a Glass Cage",
+      "theater": "IFC Center",
+      "url": "https://www.ifccenter.com/films/in-a-glass-cage/",
+      "status": "Coming Soon",
+      "opens": "April 24",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=554767~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "year": "1986",
+      "director": "Agust\u00ed Villaronga",
+      "cast": "G\u00fcnter Meisner, Marisa Paredes, David Sust",
+      "country": "Spain",
+      "showtimes": [],
+      "show_dates": [
+        "2026-04-24",
+        "2026-04-25"
+      ],
+      "date_start": "2026-04-24",
+      "date_end": "2026-04-24",
+      "description": ""
+    },
+    {
       "title": "In a Lonely Place",
       "theater": "Alamo Drafthouse NYC",
       "url": "https://drafthouse.com/nyc/show/in-a-lonely-place",
@@ -1781,8 +1798,8 @@
       "status": "Coming Soon",
       "opens": "April 22",
       "booking_url": "",
-      "year": "2025",
-      "director": "Cindy Meehl",
+      "year": "",
+      "director": "",
       "cast": "",
       "country": "",
       "showtimes": [],
@@ -2067,14 +2084,17 @@
       "url": "https://www.ifccenter.com/films/maintenance-artist-open-captioning/",
       "status": "Coming Soon",
       "opens": "April 23",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553495~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=554785~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "",
       "director": "Toby Perl Freilich",
       "cast": "Mierle Laderman Ukeles",
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-04-23"
+        "2026-04-25",
+        "2026-04-26",
+        "2026-04-27",
+        "2026-04-28"
       ],
       "date_start": "2026-04-23",
       "date_end": "2026-04-23",
@@ -2291,14 +2311,15 @@
       "url": "https://www.ifccenter.com/films/millennium-actress/",
       "status": "Coming Soon",
       "opens": "April 24",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553495~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=554800~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2002",
       "director": "Satoshi Kon",
       "cast": "Miyoko Shoji, Mami Koyama, Fumiko Orikasa, Shozo Iizuka, Shoko Tsuda",
       "country": "Japan",
       "showtimes": [],
       "show_dates": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "date_start": "2026-04-24",
       "date_end": "2026-04-24",
@@ -2365,14 +2386,11 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-06-01"
       ],
       "date_start": "2026-06-01",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Brian De Palma (SCARFACE, THE UNTOUCHABLES) directs this edge-of-your-seat thrill ride that ignited one of the most spectacular action film franchises of all time. Tom Cruise stars as Ethan Hunt, a secret agent framed for the deaths of his espionage team. Fleeing from government assassins, breaking into the CIA's most impenetrable vault, clinging to the roof of a speeding bullet train, Hunt races to stay one step ahead of his pursuers and draw one step closer to discovering the shocking truth.\nYour mission, should you choose to accept it: don't miss this rare opportunity to see the one that started it all on the big screen!"
     },
     {
@@ -2521,7 +2539,7 @@
       "booking_url": "",
       "year": "2026",
       "director": "David Lowery",
-      "cast": "Anne Hathaway, Michaela Coel, Hunter Schafer",
+      "cast": "Anne Hathaway, Michaela Coel, Hunter Schafer, FKA twigs, Kaia Gerber",
       "country": "",
       "showtimes": [],
       "show_dates": [
@@ -2544,7 +2562,14 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-24",
+        "2026-04-25",
+        "2026-04-26",
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-29",
+        "2026-04-30"
       ],
       "date_start": "2026-04-23",
       "date_end": "2026-04-23",
@@ -2682,14 +2707,11 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-06-01"
       ],
       "date_start": "2026-06-01",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Exploding out of the AGFA vaults as a brand-new 35mm preservation, this 1990s kung fu fantasia from Hong Kong is a breathtaking combination of action, comedy, and cooking."
     },
     {
@@ -2807,7 +2829,11 @@
         "2026-04-23",
         "2026-04-24",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-29",
+        "2026-04-30"
       ],
       "date_start": "2026-04-24",
       "date_end": "2026-04-24",
@@ -2819,14 +2845,17 @@
       "url": "https://www.ifccenter.com/films/omaha-open-captioning/",
       "status": "Coming Soon",
       "opens": "April 25",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553495~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=554836~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "",
       "director": "Cole Webley",
       "cast": "John Magaro, Molly Belle Wright, Wyatt Solis, Talia Balsam",
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26",
+        "2026-04-27",
+        "2026-04-28"
       ],
       "date_start": "2026-04-25",
       "date_end": "2026-04-25",
@@ -3171,23 +3200,6 @@
       "description": "Pynchonesque in its invocation of government agents, conspiracy theories, and \u201850s sci-fi references, Cox\u2019s out-of-this-world (in some ways, literally) black comedy follows a young punk working under a seasoned repo man as they embark on a series of increasingly outlandish adventures."
     },
     {
-<<<<<<< Updated upstream
-      "title": "Richard Pryor: Live in Concert",
-      "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/richard-pryor-live-in-concert/",
-      "status": "Coming Soon",
-      "opens": "May 13",
-      "booking_url": "",
-      "year": "1979",
-      "director": "Jeff Margolis",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "description": ""
-    },
-    {
-=======
->>>>>>> Stashed changes
       "title": "Richie Rich",
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/movies/richie-rich/",
@@ -3252,9 +3264,9 @@
       "status": "Coming Soon",
       "opens": "April 22",
       "booking_url": "",
-      "year": "1998",
-      "director": "Brett Ratner",
-      "cast": "Jackie Chan, Chris Tucker, Elizabeth Pe\u00f1a, Philip Baker Hall, Tom Wilkinson",
+      "year": "",
+      "director": "",
+      "cast": "",
       "country": "",
       "showtimes": [],
       "show_dates": [
@@ -3318,14 +3330,11 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-05-09"
       ],
       "date_start": "2026-05-09",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "BLUE VELVET and PINK FLAMINGOS got together and had a '90s baby. After the family-friendly fare of HAIRSPRAY and CRY-BABY, John Waters swung the pendulum back to the dark side for this devilishly cuckoo take on the pressures of motherhood. This gift-that-keeps-on-giving wields the magic power of turning back the mental clock on any audience member, leaving nothing but the 12-year-old brat inside us all. No stranger to outr\u00e9 acting challenges (Ken Russell\u2019s CRIMES OF PASSION, anyone?), Kathleen Turner here gives you 87,000 reasons why she\u2019s such a great movie star \u2013 a big one being her ability to effortlessly sell the idea of a blood-lusted psychopath as a sympathetic figure. Let\u2019s also not forget that SERIAL MOM has one of the best \u201cvideo store\u201d scenes in film history!"
     },
     {
@@ -3640,23 +3649,6 @@
       "description": ""
     },
     {
-<<<<<<< Updated upstream
-      "title": "Sundays on Fire: Secret Hong Kong 35mm Feature",
-      "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/sunday-on-fire-may-2026/",
-      "status": "Coming Soon",
-      "opens": "May 3",
-      "booking_url": "",
-      "year": "",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "description": ""
-    },
-    {
-=======
->>>>>>> Stashed changes
       "title": "Supergirl",
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/movies/supergirl/",
@@ -3673,6 +3665,25 @@
       ],
       "date_start": "2026-06-26",
       "date_end": "2026-06-26",
+      "description": ""
+    },
+    {
+      "title": "Sweet Movie",
+      "theater": "IFC Center",
+      "url": "https://www.ifccenter.com/films/sweet-movie/",
+      "status": "Coming Soon",
+      "opens": "May 15",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553495~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "year": "",
+      "director": "Du\u0161an Makavejev",
+      "cast": "Carole Laure, John Vernon, Anna Prucnal, Pierre Cl\u00e9menti, Jane Mallett",
+      "country": "France",
+      "showtimes": [],
+      "show_dates": [
+        "2026-05-15"
+      ],
+      "date_start": "2026-05-15",
+      "date_end": "2026-05-15",
       "description": ""
     },
     {
@@ -3794,8 +3805,6 @@
       "description": ""
     },
     {
-<<<<<<< Updated upstream
-=======
       "title": "The Amazing Digital Circus: The Last Act",
       "theater": "Alamo Drafthouse NYC",
       "url": "https://drafthouse.com/nyc/show/the-amazing-digital-circus-the-last-act",
@@ -3816,7 +3825,6 @@
       "description": "The viral internet sensation \u201cThe Amazing Digital Circus\u201d comes to its long-awaited conclusion in a feature-length theatrical release! This \u201cLast Act\u201d combines episode 8 with the all-new, hour-long episode 9 for fans to see before anyone else in the world. \nWith Caine gone and the circus dark, the cast are left with only the mistakes and traumas of their pasts to keep them company. As the prospect of eternity closes in around them, they discover the truth about the Digital Circus and its history. Will they come to terms with what they uncover, or will they make\u2026the other choice? Also, presumably at some point, someone says something funny, because this ending can\u2019t be THAT depressing, can it?"
     },
     {
->>>>>>> Stashed changes
       "title": "The Big Lebowski",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/pynchonesque-big-lebowski",
@@ -3873,15 +3881,12 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-05-12",
         "2026-05-16"
       ],
       "date_start": "2026-05-12",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Clint Eastwood's THE BRIDGES OF MADISON COUNTY is not about love and not about sex, but about an idea. The film opens with the information that two people once met and fell in love, but decided not to spend the rest of their lives together. The implication is: If they had acted on their desire, they would not have deserved such a love.\nAlmost everybody knows the story by now. Robert James Waller's novel has been a huge best-seller. Its prose is not distinguished, but its story is compelling: he provides the fantasy of total eroticism within perfect virtue, elevating to a spiritual level the common fantasy in which a virile stranger materializes in the kitchen of a quiet housewife and takes her into his arms. (Roger Ebert)"
     },
     {
@@ -4010,14 +4015,11 @@
       "cast": "Kim Min-hee, \\nKim Tae-ri, \\nHa Jung-woo, \\nCho Jin-woong",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-05-30"
       ],
       "date_start": "2026-05-30",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Presented in Korean and Japanese with English subtitles\nFrom master filmmaker Park Chan-wook (OLDBOY, STOKER, LADY VENGEANCE) comes a gripping and sensual tale of two women \u2013 a young Japanese Lady living on a secluded estate, and a Korean woman who is hired to serve as her new handmaiden, but is secretly plotting with a conman to defraud her of a large inheritance.\nInspired by the novel Fingersmith by British author Sarah Waters, THE HANDMAIDEN borrows the most dynamic elements of its source material and combines it with Park\u2019s singular vision to create an unforgettable viewing experience."
     },
     {
@@ -5009,8 +5011,6 @@
         "Thu Apr 30 7:15 PM",
         "Thu Apr 30 9:40 PM"
       ],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-24",
         "2026-04-25",
@@ -5022,7 +5022,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Set in 1970, A Blind Bargain is a reimagining of the lost 1922 Lon Chaney silent film. It follows a desperate young man who makes a sinister pact with an eccentric doctor, offering up his mother as a subject for the doctor&rsquo;s twisted experiments."
     },
     {
@@ -5309,8 +5308,6 @@
       "description": ""
     },
     {
-<<<<<<< Updated upstream
-=======
       "title": "Andrei Rublev",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999002144",
@@ -5332,7 +5329,6 @@
       "description": "The story of Rublev (Anatoly Solonitsyn), a medieval icon painter and Russian Orthodox monk who struggled against rampant brutality to produce works praising God, becomes, in Tarkovsky\u2019s hands, the story of art and artists, for all times. (And perhaps\u2026"
     },
     {
->>>>>>> Stashed changes
       "title": "Arco",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/arco",
@@ -5625,11 +5621,7 @@
       "url": "https://www.ifccenter.com/films/blue-heron/",
       "status": "Now Playing",
       "opens": "",
-<<<<<<< Updated upstream
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553495~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-=======
       "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=552041~8722a542-64c1-4c0b-af02-c3e8a239d769&",
->>>>>>> Stashed changes
       "year": "2025",
       "director": "Sophy Romvari",
       "cast": "Eylul Guven, Amy Zimmer, Iringo Reti, Edik Beddoes, Adam Tompa",
@@ -5639,7 +5631,14 @@
         "2026-04-20",
         "2026-04-21",
         "2026-04-22",
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-24",
+        "2026-04-25",
+        "2026-04-26",
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-29",
+        "2026-04-30"
       ],
       "date_start": "",
       "date_end": "",
@@ -5651,11 +5650,7 @@
       "url": "https://www.ifccenter.com/films/blue-velvet/",
       "status": "Now Playing",
       "opens": "",
-<<<<<<< Updated upstream
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553474~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-=======
       "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553497~8722a542-64c1-4c0b-af02-c3e8a239d769&",
->>>>>>> Stashed changes
       "year": "1986",
       "director": "David Lynch",
       "cast": "Isabella Rossellini, Kyle MacLachlan, Dennis Hopper",
@@ -5723,8 +5718,6 @@
       "cast": "George Clooney, \\nTilda Swinton, \\nFrances McDormand, \\nRichard Jenkins, \\nBrad Pitt, \\nJohn Malkovich, \\nJ.K. Simmons, \\nOlek Krupa, \\nDavid Rasche",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-12",
         "2026-04-13",
@@ -5738,7 +5731,6 @@
       ],
       "date_start": "2026-04-12",
       "date_end": "2026-04-20",
->>>>>>> Stashed changes
       "description": ""
     },
     {
@@ -6007,14 +5999,11 @@
       "showtimes": [
         "Apr 21 9:00\u202fPM"
       ],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-21"
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Film Noir Cinema presents \u201cCULT CINEMA\u201d: a night of sheer cinematic madness dedicated to the most obscure films ever made."
     },
     {
@@ -6068,14 +6057,11 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-20"
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "The adventures of a group of Texas teens on their last day of school in 1976, centering on student Randall Floyd, who moves easily among stoners, jocks and geeks. Floyd is a star athlete, but he also likes smoking weed, which presents a conundrum when his football coach demands he sign a \"no drugs\" pledge."
     },
     {
@@ -6272,12 +6258,6 @@
       "cast": "Charli xcx,\u00a0Lena G\u00f3ra, Will Madden, Jeremy O. Harris",
       "country": "",
       "showtimes": [
-<<<<<<< Updated upstream
-        "Mon Apr 20 11:55 AM",
-        "Mon Apr 20 1:50 PM",
-        "Mon Apr 20 3:45 PM",
-=======
->>>>>>> Stashed changes
         "Mon Apr 20 5:45 PM",
         "Mon Apr 20 9:45 PM",
         "Mon Apr 20 7:45 PM",
@@ -6302,8 +6282,6 @@
         "Thu Apr 23 9:45 PM",
         "Thu Apr 23 7:45 PM"
       ],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-20",
         "2026-04-21",
@@ -6312,7 +6290,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "A volcanic eruption strands Bethany (Charli xcx) and her soon-to-be fianc&eacute;, Rob (Will Madden) in Warsaw, Poland. Taking the explosive event as a sign, she soon reunites with her childhood friend, Nel (Lena G&oacute;ra), and embarks on a European adventure that forces her to confront the pains and pleasures of growing up."
     },
     {
@@ -6327,8 +6304,6 @@
       "cast": "Charli xcx,\u00a0Lena G\u00f3ra, Will Madden, Jeremy O. Harris",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-23",
         "2026-04-24",
@@ -6340,7 +6315,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "A romantic vacation goes awry when a volcanic eruption strands Bethany (Charli xcx) and her soon-to-be fianc\u00e9, Rob (Will Madden), in Warsaw, Poland. Bethany takes the explosive event as a sign to ditch her baggage, reunite with childhood friend Nel (Lena G\u00f3ra), and traipse across lofts, clubs, and back alleys, all the while becoming entangled in an emotional web that challenges her sense of self."
     },
     {
@@ -6349,11 +6323,7 @@
       "url": "https://www.ifccenter.com/films/everyone-is-lying-to-you-for-money/",
       "status": "Now Playing",
       "opens": "",
-<<<<<<< Updated upstream
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553385~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-=======
       "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553386~8722a542-64c1-4c0b-af02-c3e8a239d769&",
->>>>>>> Stashed changes
       "year": "2026",
       "director": "Ben McKenzie",
       "cast": "Ben McKenzie, Morena Baccarin, Sam Bankman-Fried, Nayib Bukele, Alex Mashinsky",
@@ -6397,20 +6367,12 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/exit-8/?date=today",
       "status": "Now Playing",
       "opens": "",
-<<<<<<< Updated upstream
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22386558/",
-=======
       "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22386569/",
->>>>>>> Stashed changes
       "year": "2026",
       "director": "Genki Kawamura",
       "cast": "Kazunari Ninomiya, Yamato K\u00f4chi, Kotone Hanase, Naru Asanuma, Nana Komatsu",
       "country": "Japan",
       "showtimes": [
-<<<<<<< Updated upstream
-        "Mon Apr 20 3:15 pm",
-=======
->>>>>>> Stashed changes
         "Mon Apr 20 7:35 pm",
         "Mon Apr 20 10:00 pm"
       ],
@@ -6457,12 +6419,6 @@
       "cast": "Kazunari Ninomiya, Yamato Kochi, Naru Asanuma",
       "country": "Japan",
       "showtimes": [
-<<<<<<< Updated upstream
-        "Mon Apr 20 12:20 PM",
-        "Mon Apr 20 2:40 PM",
-=======
->>>>>>> Stashed changes
-        "Mon Apr 20 5:00 PM",
         "Mon Apr 20 9:45 PM",
         "Tue Apr 21 10:00 AM",
         "Tue Apr 21 12:20 PM",
@@ -6482,8 +6438,6 @@
         "Thu Apr 23 7:05 PM",
         "Thu Apr 23 9:30 PM"
       ],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-20",
         "2026-04-21",
@@ -6492,7 +6446,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "A man trapped in an endless sterile subway passageway sets out to find Exit 8. The rules of his quest are simple: do not overlook anything out of the ordinary. If you discover an anomaly, turn back immediately. If you don&rsquo;t, carry on. Then leave from Exit 8. But even a single oversight will send him back to the beginning. Will he ever reach his goal and escape this infinite corridor?"
     },
     {
@@ -6575,7 +6528,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-04-20",
         "2026-04-21",
         "2026-04-22",
         "2026-04-23"
@@ -6684,10 +6636,6 @@
       "cast": "Amanda Peet, Matthew Shear, Alessandro Nivola, Bob Balaban, Judd Hirsch, Andrea Martin, Zosia Mamet, Holland Taylor",
       "country": "",
       "showtimes": [
-<<<<<<< Updated upstream
-        "Mon Apr 20 1:30 PM",
-=======
->>>>>>> Stashed changes
         "Mon Apr 20 6:40 PM",
         "Tue Apr 21 1:30 PM",
         "Tue Apr 21 6:40 PM",
@@ -6696,8 +6644,6 @@
         "Thu Apr 23 1:30 PM",
         "Thu Apr 23 6:40 PM"
       ],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-20",
         "2026-04-21",
@@ -6706,7 +6652,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "An anxious law school dropout (Matthew Shear) stumbles into a job babysitting his psychiatrist&#39;s three granddaughters and falls for the girls&#39; mother (Amanda Peet), an actress in a rocky marriage. A smart, New York-set romantic comedy co-starring Alessandro Nivola, Judd Hirsch, Bob Balaban, Andrea Martin, Zosia Mamet, and Holland Taylor. Winner of the SXSW Narrative Feature Audience Award."
     },
     {
@@ -6786,8 +6731,6 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-22",
         "2026-04-23",
@@ -6796,7 +6739,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "FIGHT CLUB contains several sequences with flashing lights that may affect those who are susceptible to photosensitive epilepsy or have other photosensitivities.\nExperience FIGHT CLUB remastered in stunning 4K quality for a limited time starting April 22nd. Directed by David Fincher, this dark satire stars Brad Pitt and Edward Norton. Norton gives a riveting performance as a label-obsessed insomniac who befriends a scummy soap salesman (Pitt) and embarks on an existential crusade that takes them both to the brutal, raw heights of their manhood. Also starring Helena Bonham Carter as the woman who comes between them, FIGHT CLUB may leave you feeling bruised and bloodied\u2026but also invigorated and alive."
     },
     {
@@ -6866,8 +6808,6 @@
       "description": "Q&A and introductions with director Igor Bezinovi\u0107 on Friday, April 10th and Saturday, April 11th"
     },
     {
-<<<<<<< Updated upstream
-=======
       "title": "Forever a Woman",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999004269",
@@ -6889,7 +6829,6 @@
       "description": "Actress-cum-director Kinuyo Tanaka\u2019s third feature features Yumeji Tsukioka giving a performance of fierce dedication as Fumiko Nakajo, a tanka poet who had died from breast cancer just the year before Forever a Woman\u2019s release, here depicted\u2026"
     },
     {
->>>>>>> Stashed changes
       "title": "Fortress",
       "theater": "Nitehawk (Williamsburg)",
       "url": "https://nitehawkcinema.com/williamsburg/movies/fortress/",
@@ -6901,14 +6840,11 @@
       "cast": "Christopher Lambert, Loryn Locklin, Kurtwood Smith, Vernon Wells, Jeffrey Combs, Tom Towles",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-23"
       ],
       "date_start": "2026-04-23",
       "date_end": "2026-04-23",
->>>>>>> Stashed changes
       "description": ""
     },
     {
@@ -6923,11 +6859,6 @@
       "cast": "",
       "country": "94 min. USA An X-Rated descent into demented comedy and maniacal horror",
       "showtimes": [],
-<<<<<<< Updated upstream
-      "description": "An X-Rated descent into demented comedy and maniacal horror, as a desperate mother drags an innocent stranger into an absurd, filthy nightmare beyond comprehension. An unflinchingly loyal adaptation of transgressive artist Johnny Ryan's joyfully disgusting comic book. Adults only."
-    },
-    {
-=======
       "show_dates": [
         "2026-04-24"
       ],
@@ -6957,7 +6888,6 @@
       "description": "Austrian provocateur Haneke\u2019s original squirm-inducing, audience-indicting home invasion thriller, shot by the great German cinematographer J\u00fcrgen J\u00fcrges, unforgettably places captive couple Anne (Susanne Lothar) and Georg (Ulrich M\u00fche), together\u2026"
     },
     {
->>>>>>> Stashed changes
       "title": "Gabbeh",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/triple-canopy-magic-gabbeh",
@@ -7010,14 +6940,11 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-25"
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Meet Kati Kelli, the late video artist whose subversive uploads pushed the boundaries of the digital form. GIRL INTERNET SHOW: THE KATI KELLI MIXTAPE unearths a surreal, singular body of work by the enigmatic artist. For nearly a decade before her passing in 2019, Kelli ran \u201cGirl Internet Show,\u201d a YouTube channel, parasocial experiment, and one-woman universe built from scratch in her bedroom. This megamix from Jane Schoenbrun (I SAW THE TV GLOW) and Jordan Wippell features a lovingly curated selection of Kelli\u2019s online work, unreleased videos, and her first (and final) opus, TOTAL BODY REMOVAL SURGERY."
     },
     {
@@ -7131,10 +7058,6 @@
       "cast": "Riz Ahmed, Morfydd Clark, Joe Alwyn, Timothy Spall",
       "country": "",
       "showtimes": [
-<<<<<<< Updated upstream
-        "Mon Apr 20 1:50 PM",
-=======
->>>>>>> Stashed changes
         "Mon Apr 20 6:50 PM",
         "Tue Apr 21 1:50 PM",
         "Tue Apr 21 6:50 PM",
@@ -7142,8 +7065,6 @@
         "Wed Apr 22 6:50 PM",
         "Thu Apr 23 1:30 PM"
       ],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-20",
         "2026-04-21",
@@ -7152,7 +7073,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Hamlet returns home after a long absence when his father, a powerful Indian businessman at the heart of London&#39;s nouveau riche, dies suddenly. Hamlet soon starts to see visions of his dead father, who claims his brother Claudius murdered him -- and urges Hamlet to take revenge."
     },
     {
@@ -7168,7 +7088,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-04-20",
         "2026-04-21",
         "2026-04-22",
         "2026-04-23"
@@ -7200,25 +7119,16 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/hoppers/?date=today",
       "status": "Now Playing",
       "opens": "",
-<<<<<<< Updated upstream
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22386562/",
-=======
       "booking_url": "",
->>>>>>> Stashed changes
       "year": "2026",
       "director": "Daniel Chong",
       "cast": "Piper Curda, Bobby Moynihan, Jon Hamm, Dave Franco, Eduardo Franco, Meryl Streep, Nichole Sakura, Kathy Najimy",
       "country": "",
-<<<<<<< Updated upstream
-      "showtimes": [
-        "Mon Apr 20 4:30 pm"
-=======
       "showtimes": [],
       "show_dates": [
         "2026-04-20",
         "2026-04-21",
         "2026-04-22"
->>>>>>> Stashed changes
       ],
       "date_start": "",
       "date_end": "",
@@ -7237,7 +7147,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-04-20",
         "2026-04-21",
         "2026-04-22",
         "2026-04-23"
@@ -7250,23 +7159,6 @@
       "title": "I Swear",
       "theater": "Alamo Drafthouse NYC",
       "url": "https://drafthouse.com/nyc/show/i-swear",
-<<<<<<< Updated upstream
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://drafthouse.com/nyc/show/i-swear",
-      "year": "2026",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "description": "The inspiring, extraordinary life story of notable Tourette Syndrome campaigner, John Davidson, MBE. Emotionally engaging, funny, and compelling, the film charts John Davidson\u2019s Tourette's diagnosis at the age of 15 years old. Set within 1980s Britain, the story follows him throughout his troubled teens and early adulthood, and explores this little-known and entirely misunderstood condition, along with his attempts to live a \"normal\" life against the odds."
-    },
-    {
-      "title": "In a Year of 13 Moons",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999000217",
-=======
->>>>>>> Stashed changes
       "status": "Now Playing",
       "opens": "",
       "booking_url": "https://drafthouse.com/nyc/show/i-swear",
@@ -7486,17 +7378,10 @@
         "Fri Apr 24 4:15 PM",
         "Fri Apr 24 7:00 PM",
         "Fri Apr 24 9:45 PM",
-<<<<<<< Updated upstream
-        "Sat Apr 25 10:45 AM",
-        "Sat Apr 25 1:30 PM",
-        "Sat Apr 25 4:15 PM",
-        "Sat Apr 25 10:05 PM",
-=======
         "Sat Apr 25 10:00 AM",
         "Sat Apr 25 12:45 PM",
         "Sat Apr 25 3:30 PM",
         "Sat Apr 25 10:00 PM",
->>>>>>> Stashed changes
         "Sat Apr 25 7:00 PM",
         "Sun Apr 26 10:45 AM",
         "Sun Apr 26 1:30 PM",
@@ -7512,11 +7397,7 @@
         "Tue Apr 28 1:30 PM",
         "Tue Apr 28 4:15 PM",
         "Tue Apr 28 7:00 PM",
-<<<<<<< Updated upstream
-        "Tue Apr 28 9:45 PM",
-=======
         "Tue Apr 28 10:05 PM",
->>>>>>> Stashed changes
         "Wed Apr 29 10:45 AM",
         "Wed Apr 29 1:30 PM",
         "Wed Apr 29 4:15 PM",
@@ -7528,8 +7409,6 @@
         "Thu Apr 30 7:00 PM",
         "Thu Apr 30 9:45 PM"
       ],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-24",
         "2026-04-25",
@@ -7541,7 +7420,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Lou Wells (Rebecca Breeds) has hit rock bottom after a promising start to her Hollywood career. &nbsp;Now broke and aimless, she reluctantly accepts a plane ticket from her estranged father, Rory (Erik Thomson) to return home to South Australia&rsquo;s ruggedly beautiful Kangaroo Island. As years of unresolved tension start to resurface, the reunion turns even more complicated when Lou and her sister Freya (Adelaide Clemens) learn about Rory&rsquo;s secret."
     },
     {
@@ -7741,20 +7619,6 @@
     },
     {
       "title": "Lee Cronin's The Mummy",
-      "theater": "Williamsburg Cinemas",
-      "url": "https://www.hk-cinemas.com",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://www.hk-cinemas.com",
-      "year": "2026",
-      "director": "Lee Cronin",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "description": "The young daughter of a journalist disappears into the desert without a trace&mdash;eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare."
-    },
-    {
-      "title": "Lee Cronin's The Mummy",
       "theater": "Mamaroneck Cinemas",
       "url": "https://www.hk-cinemas.com",
       "status": "Now Playing",
@@ -7815,8 +7679,6 @@
       "cast": "Anton Yelchin, \\nFelicity Jones, \\nJennifer Lawrence, \\nCharlie Bewley, \\nAlex Kingston, \\nOliver Muirhead",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-13",
         "2026-04-14",
@@ -7828,7 +7690,6 @@
       ],
       "date_start": "2026-04-13",
       "date_end": "2026-04-19",
->>>>>>> Stashed changes
       "description": ""
     },
     {
@@ -7909,23 +7770,17 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999004797",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29642",
+      "booking_url": "",
       "year": "2008",
       "director": "Lucrecia  Martel",
       "cast": "",
       "country": "",
-<<<<<<< Updated upstream
-      "showtimes": [
-        "Sat Apr25 2:30pm"
-      ],
-=======
       "showtimes": [],
       "show_dates": [
         "2026-04-25"
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Q&A with director Lucrecia Martel on Saturday, April 25th"
     },
     {
@@ -8090,11 +7945,6 @@
       "cast": "Marc Jacobs, Sofia Coppola, Spike Jonze",
       "country": "",
       "showtimes": [
-<<<<<<< Updated upstream
-        "Mon Apr 20 11:35 AM",
-=======
->>>>>>> Stashed changes
-        "Mon Apr 20 4:35 PM",
         "Mon Apr 20 9:30 PM",
         "Tue Apr 21 11:35 AM",
         "Tue Apr 21 4:35 PM",
@@ -8106,8 +7956,6 @@
         "Thu Apr 23 4:15 PM",
         "Thu Apr 23 9:35 PM"
       ],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-20",
         "2026-04-21",
@@ -8116,7 +7964,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "An intimate, unconventional portrait of Marc Jacobs, crafted by Sofia Coppola to capture the genius and singular universe of the iconic American designer."
     },
     {
@@ -8240,8 +8087,6 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-23",
         "2026-04-24",
@@ -8253,7 +8098,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "MICHAEL (2026) is the cinematic portrayal of the life and legacy of one of the most influential artists the world has ever known. The film tells the story of Michael Jackson\u2019s life beyond the music, tracing his journey from the discovery of his extraordinary talent as the lead of the Jackson Five, to the visionary artist whose creative ambition fueled a relentless pursuit to become the biggest entertainer in the world. Highlighting both his life off-stage and some of the most iconic performances from his early solo career, the film gives audiences a front-row seat to Michael Jackson as never before. This is where his story begins."
     },
     {
@@ -8321,11 +8165,11 @@
         "2026-04-20",
         "2026-04-21",
         "2026-04-22",
+        "2026-04-23",
         "2026-04-24",
         "2026-04-25",
         "2026-04-26",
         "2026-04-27",
-        "2026-04-28",
         "2026-04-29"
       ],
       "date_start": "",
@@ -8420,11 +8264,6 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-      "description": "If we asked you to describe your perfect date, what would your answer be? If you said April 25th, you belong at this screening of MISS CONGENIALITY!\nSandra Bullock immediately exploded onto the scene as a comedic force to be reckoned with, portraying hardened FBI Agent Gracie Hart in this quotable comedy co-starring Michael Caine. Going deep undercover to infiltrate the Miss United States beauty pageant and thwart a potential terrorist threat, the tomboyish Agent Hart must undergo the makeover of her life...and in the process, shatter the small-minded expectations of what women are capable of."
-    },
-    {
-=======
       "show_dates": [
         "2026-04-25"
       ],
@@ -8452,7 +8291,6 @@
       "description": ""
     },
     {
->>>>>>> Stashed changes
       "title": "Momma\u2019S Man",
       "theater": "Film at Lincoln Center",
       "url": "https://www.filmlinc.org/films/mommas-man/",
@@ -8464,14 +8302,11 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-20"
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": ""
     },
     {
@@ -8530,14 +8365,6 @@
       "cast": "Anne Hathaway, Michaela Coel, Hunter Schafer, FKA twigs, Kaia Gerber",
       "country": "",
       "showtimes": [
-<<<<<<< Updated upstream
-        "Mon Apr 20 11:30 AM",
-        "Mon Apr 20 12:35 PM",
-        "Mon Apr 20 2:05 PM",
-        "Mon Apr 20 3:10 PM",
-=======
->>>>>>> Stashed changes
-        "Mon Apr 20 4:40 PM",
         "Mon Apr 20 6:00 PM",
         "Mon Apr 20 7:30 PM",
         "Mon Apr 20 10:05 PM",
@@ -8572,8 +8399,6 @@
         "Thu Apr 23 8:40 PM",
         "Thu Apr 23 9:40 PM"
       ],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-20",
         "2026-04-21",
@@ -8582,7 +8407,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Long-buried wounds rise to the surface when iconic pop star Mother Mary (Anne Hathaway) reunites with her estranged best friend and former costume designer Sam Anselm (Michaela Coel) on the eve of her comeback performance."
     },
     {
@@ -8837,8 +8661,6 @@
         "12:30",
         "6:00"
       ],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-20",
         "2026-04-21",
@@ -8847,7 +8669,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "\u201c A forgotten eighties NYC movie is back, scuzzier and better than ever. No Picnic captures New York's boho hipster Lower East Side on the edge of Reagan-era gentrification \u2014 and a new restoration just saved it from obscurity. \u201d \u2013\u00a0David Fear, Rolling Stone"
     },
     {
@@ -8933,8 +8754,6 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-23",
         "2026-04-24",
@@ -8946,7 +8765,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "When miserable couple Dan and Lisa retreat to a remote cabin for a romantic reset, each arrives with a secret plan to murder the other. Their carefully plotted traps and counterplots quickly unravel when a dangerous crew crashes the weekend with plans of their own. As the toxic getaway spirals into chaotic carnage, Dan and Lisa must survive the intruders, each other, and figure out if they want to save their marriage or survive it."
     },
     {
@@ -9056,14 +8874,11 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-22"
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "PHASE IV is prolific designer Saul Bass\u2019 sole feature film as director, and its classic status stands as a testament to his talent. When ants begin to build unusual structures in the Arizona desert, a team of scientists set up a research station to try and learn more about this sudden change in insect behavior. A masterclass in tone and balancing ambiguity, speculative fiction, and science-fact, PHASE IV is an eerie experience that dips into cosmic horror and existential philosophy. Incredible macro photography of actual ants and Bass\u2019 eye for design make this an event not to be missed on the big screen.\nDCP courtesy of Paramount Pictures"
     },
     {
@@ -9217,20 +9032,12 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/project-hail-mary/?date=today",
       "status": "Now Playing",
       "opens": "",
-<<<<<<< Updated upstream
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22386555/",
-=======
       "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22386571/",
->>>>>>> Stashed changes
       "year": "2026",
       "director": "Christopher Miller, Phil Lord",
       "cast": "Ryan Gosling, Milana Vayntrub, Ken Leung, Sandra H\u00fcller",
       "country": "",
       "showtimes": [
-<<<<<<< Updated upstream
-        "Mon Apr 20 3:45 pm",
-=======
->>>>>>> Stashed changes
         "Mon Apr 20 8:00 pm",
         "Mon Apr 20 8:55 pm"
       ],
@@ -9260,7 +9067,14 @@
         "2026-04-20",
         "2026-04-21",
         "2026-04-22",
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-24",
+        "2026-04-25",
+        "2026-04-26",
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-29",
+        "2026-04-30"
       ],
       "date_start": "",
       "date_end": "",
@@ -9388,14 +9202,11 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-24"
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Two mysterious drifters wandering a strange desert find themselves thrown into a journey of self-discovery, traversing a surreal and hostile terrain in search of answers to life\u2019s unanswerable questions. As they spiral deeper into a world of madness, they must discover the meaning of\u2026THE MIND PRISON."
     },
     {
@@ -9608,14 +9419,11 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-21"
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "If Michael Bay directed a SAW movie, it would feel a lot like SAW II. And that's the highest compliment we can pay to this hyperactive, near-perfect snapshot of 2000s mayhem. Picking up shortly after the events of SAW, this first sequel finds malicious serial killer Jigsaw commandeering his own trap-filled murderhouse to target a group of ex-convicts\u2014and also Donnie \"brother of Mark\" Wahlberg. With production design that resembles a stoned evening at Universal\u2019s Halloween Horror Nights and enough grisly carnage to fill three movies, SAW II is campy, outrageous, and deliciously gross."
     },
     {
@@ -9682,11 +9490,7 @@
       "url": "https://www.ifccenter.com/films/serpents-path-and-chime/",
       "status": "Now Playing",
       "opens": "",
-<<<<<<< Updated upstream
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553371~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-=======
       "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553490~8722a542-64c1-4c0b-af02-c3e8a239d769&",
->>>>>>> Stashed changes
       "year": "1998, 2024",
       "director": "Kiyoshi Kurosawa",
       "cast": "",
@@ -9825,8 +9629,6 @@
         "Thu May 14 6:15 PM",
         "Thu May 14 9:30 PM"
       ],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-05-06",
         "2026-05-07",
@@ -9840,7 +9642,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Set in the botancial garden of a medieval town in Germany. Three epochs, three personalities, three sometimes clumsy but sincere attempts to free themselves and to create links with the plants and the works of the garden.&nbsp;"
     },
     {
@@ -9993,8 +9794,6 @@
       "description": "25th Anniversary screening This vibrant v\u00e9rit\u00e9 documentary, winner of the Grand Jury Prize at 2001\u2019s Sundance Film Festival, traces the final year in the life of Robert Eads, a transgender man and community leader living in rural Georgia. Southern Comfort moves with quiet intimacy and wit, following Eads as he opens his world with disarming honesty: his romantic partnership with Lola, his loving yet complicated bond with his son, and the chosen family that surrounds him across the rural South. As Eads candidly confronts being denied lifesaving treatment by a failing healthcare system, the film transforms that injustice into a profoundly human portrait. Director Kate Davis captures a community navigating love, caretaking, and identity in a region that often refuses to see them. Eads\u2019 appearance at the Southern Comfort Conference in Atlanta, an important gathering for trans people, becomes both elegy and testament: a reminder of the resilience and interconnectedness that sustain trans lives throughout America."
     },
     {
-<<<<<<< Updated upstream
-=======
       "title": "Speciwomen Focus: Kim Torres",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999004816",
@@ -10035,7 +9834,6 @@
       "description": ""
     },
     {
->>>>>>> Stashed changes
       "title": "Stalker",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999001012",
@@ -10072,7 +9870,14 @@
         "2026-04-20",
         "2026-04-21",
         "2026-04-22",
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-24",
+        "2026-04-25",
+        "2026-04-26",
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-29",
+        "2026-04-30"
       ],
       "date_start": "",
       "date_end": "",
@@ -10091,7 +9896,6 @@
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-04-20",
         "2026-04-21",
         "2026-04-22"
       ],
@@ -10103,8 +9907,6 @@
       "title": "Strange Journey: The Story of Rocky Horror",
       "theater": "Alamo Drafthouse NYC",
       "url": "https://drafthouse.com/nyc/show/live-q-a-strange-journey-the-story-of-rocky-horror",
-<<<<<<< Updated upstream
-=======
       "status": "Now Playing",
       "opens": "",
       "booking_url": "https://drafthouse.com/nyc/show/live-q-a-strange-journey-the-story-of-rocky-horror",
@@ -10124,25 +9926,20 @@
       "title": "Sundays on Fire: Secret Hong Kong 35mm Feature",
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/movies/sunday-on-fire-may-2026/",
->>>>>>> Stashed changes
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://drafthouse.com/nyc/show/live-q-a-strange-journey-the-story-of-rocky-horror",
-      "year": "2026",
+      "booking_url": "",
+      "year": "",
       "director": "",
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-      "description": "A London theater play evolves into a groundbreaking cult phenomenon, featuring iconic songs and performances that celebrate individuality. The legacy lives on through midnight screenings and a devoted following that spans generations."
-=======
       "show_dates": [
         "2026-05-03"
       ],
       "date_start": "",
       "date_end": "",
       "description": ""
->>>>>>> Stashed changes
     },
     {
       "title": "Suspiria",
@@ -10269,8 +10066,6 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-24",
         "2026-04-25",
@@ -10280,7 +10075,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Evil jumpsuit-wearing spacemen from the Black Hole are plotting to flatten Tokyo and build their own utopian city. Aided by deranged scientist Dr. Mafune, shunned for his strange experiments on sea life, the aliens unleash a rebuilt Mechagodzilla (this IS a direct sequel to the first Mechagodzilla jam) and the monster Titanosaurus (which looks like an aquatic Godzilla whose special attack is causing windstorms with his fins) to do their evil bidding.\nWhat better revenge is there for a dismissed scientist than to take control of giant monsters and use them for ultimate destruction? Eventually, Godzilla surfaces to defend his homeland, and that\u2019s when the Earth-shattering destruction begins.\nNote #1: This is the only Godzilla movie where he actually catches on fire.\nNote #2: Mechagodzilla can fight without his head! What more could you ask for?"
     },
     {
@@ -10295,14 +10089,11 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-20"
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Presented in Japanese with English subtitles\nBack on the big screen for Crunchyroll Anime Nights! A long-running conspiracy is swirling over a mysterious power wielded by the Queen in Raja, a small country west of Tempest. When a slime who evolved into a Demon Lord named Rimuru Tempest crosses paths with Hiiro, a survivor of the Ogre race, an incredible adventure packed with new characters begins. The power of bonds will be put to the test!"
     },
     {
@@ -10319,14 +10110,11 @@
       "showtimes": [
         "Mon Apr 20 9:15 pm"
       ],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-20"
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "The Dude abides"
     },
     {
@@ -10364,14 +10152,11 @@
       "cast": "Jeff Bridges, John Goodman, Steve Buscemi, Julianne Moore, John Turturro",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-20"
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Jeff Bridges plays Jeff Lebowski, or The Dude, or Duder, or uh, El Duderino \u2013 a laid-back, easygoing burnout who happens to have the same name as a millionaire whose wife owes a lot of dangerous people a whole bunch of money. This results in The Dude having his rug soiled \u2013 a rug that was essential to his interior decoration \u2013 launching him into the weird, evocative world of the Los Angeles underworld and the pornographers, nihilists, and slackers that populate it.\nThe film, a box-office bomb upon its initial release, spent years building a dedicated group of fans who rediscovered it on VHS, creating a cultural phenomenon and cementing The Dude as perhaps Jeff Bridges' trademark role."
     },
     {
@@ -10421,20 +10206,12 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/the-christophers/?date=today",
       "status": "Now Playing",
       "opens": "",
-<<<<<<< Updated upstream
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22386560/",
-=======
       "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22386565/",
->>>>>>> Stashed changes
       "year": "2026",
       "director": "Steven Soderbergh",
       "cast": "Michaela Coel, Ian McKellen, James Corden, Jessica Gunning",
       "country": "UK",
       "showtimes": [
-<<<<<<< Updated upstream
-        "Mon Apr 20 3:30 pm",
-=======
->>>>>>> Stashed changes
         "Mon Apr 20 6:00 pm",
         "Mon Apr 20 9:45 pm"
       ],
@@ -10454,11 +10231,7 @@
       "url": "https://www.ifccenter.com/films/the-christophers/",
       "status": "Now Playing",
       "opens": "",
-<<<<<<< Updated upstream
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553440~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-=======
       "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=553441~8722a542-64c1-4c0b-af02-c3e8a239d769&",
->>>>>>> Stashed changes
       "year": "2026",
       "director": "Steven Soderbergh",
       "cast": "Michaela Coel, Dmitri Prokopiev, Jessica Gunning, James Corden, Ian McKellen, Tilly Botsford",
@@ -10490,7 +10263,14 @@
         "2026-04-20",
         "2026-04-21",
         "2026-04-22",
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-24",
+        "2026-04-25",
+        "2026-04-26",
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-29",
+        "2026-04-30"
       ],
       "date_start": "",
       "date_end": "",
@@ -10573,21 +10353,12 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/the-drama/?date=today",
       "status": "Now Playing",
       "opens": "",
-<<<<<<< Updated upstream
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22386559/",
-=======
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22386563/",
->>>>>>> Stashed changes
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22386567/",
       "year": "2026",
       "director": "Kristoffer Borgli",
       "cast": "Zendaya, Robert Pattinson",
       "country": "",
       "showtimes": [
-<<<<<<< Updated upstream
-        "Mon Apr 20 4:00 pm",
-=======
->>>>>>> Stashed changes
-        "Mon Apr 20 5:00 pm",
         "Mon Apr 20 6:40 pm",
         "Mon Apr 20 8:30 pm"
       ],
@@ -10617,7 +10388,14 @@
         "2026-04-20",
         "2026-04-21",
         "2026-04-22",
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-24",
+        "2026-04-25",
+        "2026-04-26",
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-29",
+        "2026-04-30"
       ],
       "date_start": "",
       "date_end": "",
@@ -10761,17 +10539,15 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999004759",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29701",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29716",
       "year": "2004",
       "director": "Wong Kar-wai",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Mon Apr20 4:25pm",
         "Wed Apr22 9:30pm"
       ],
       "show_dates": [
-        "2026-04-20",
         "2026-04-22"
       ],
       "date_start": "",
@@ -10790,8 +10566,6 @@
       "cast": "Kim Min-hee, \\nKim Tae-ri, \\nHa Jung-woo, \\nCho Jin-woong",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-11",
         "2026-04-12",
@@ -10808,7 +10582,6 @@
       ],
       "date_start": "2026-04-11",
       "date_end": "2026-04-22",
->>>>>>> Stashed changes
       "description": "Presented in Korean and Japanese with English subtitles\nFrom master filmmaker Park Chan-wook (OLDBOY, STOKER, LADY VENGEANCE) comes a gripping and sensual tale of two women \u2013 a young Japanese Lady living on a secluded estate, and a Korean woman who is hired to serve as her new handmaiden, but is secretly plotting with a conman to defraud her of a large inheritance.\nInspired by the novel Fingersmith by British author Sarah Waters, THE HANDMAIDEN borrows the most dynamic elements of its source material and combines it with Park\u2019s singular vision to create an unforgettable viewing experience."
     },
     {
@@ -10859,17 +10632,15 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999002966",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29707",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29763",
       "year": "1973",
       "director": "Alejandro Jodorowsky",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Mon Apr20 4:40pm",
         "Thu Apr30 5:40pm"
       ],
       "show_dates": [
-        "2026-04-20",
         "2026-04-30"
       ],
       "date_start": "",
@@ -11272,8 +11043,6 @@
         "Thu May 14 7:30 PM",
         "Thu May 14 9:50 PM"
       ],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-05-07",
         "2026-05-08",
@@ -11286,7 +11055,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "In an attempt to save the threatened ecosystem, the Florida government hosts an annual competition to remove invasive pythons from the Everglades. For ten grueling nights, python-mania overtakes the &#39;glades as an eclectic group of amateur hunters contends with unforgiving terrain, aggressive nocturnal creatures, and their own desires and demons that push them into the swamp, searching for slithering glory."
     },
     {
@@ -11322,8 +11090,6 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-24",
         "2026-04-25",
@@ -11335,7 +11101,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "In a near-future Florida where gun control has been abolished, the state\u2019s ambitious governor (Oscar Nu\u00f1ez, The Office) introduces a chilling solution to school shootings: a state-wide, televised fight-to-the-death competition known as \"The School Duel.\" Sammy, a troubled 13-year-old, secretly enlists against his mother\u2019s wishes, seduced by promises of purpose, patriotism, and notoriety. But as the deadly spectacle unfolds, that dream begins to crumble. The debut feature from director Todd Wiseman Jr., THE SCHOOL DUEL is a provocative dystopian thriller about fear, manipulation, and one of the most brazenly political genre films in recent memory."
     },
     {
@@ -11424,20 +11189,6 @@
       "description": ""
     },
     {
-      "title": "The Sky Socialist",
-      "theater": "Film at Lincoln Center",
-      "url": "https://www.filmlinc.org/films/the-sky-socialist/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "description": ""
-    },
-    {
       "title": "The Smallest Show On Earth + Box Office Bunny",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/cinema-du-cashiers-the-smallest-show",
@@ -11490,10 +11241,6 @@
       "cast": "Benjamin Voisin, Pierre Lottin, Denis Lavant",
       "country": "",
       "showtimes": [
-<<<<<<< Updated upstream
-        "Mon Apr 20 3:50 PM",
-=======
->>>>>>> Stashed changes
         "Mon Apr 20 9:00 PM",
         "Tue Apr 21 10:45 AM",
         "Tue Apr 21 3:50 PM",
@@ -11505,8 +11252,6 @@
         "Thu Apr 23 3:50 PM",
         "Thu Apr 23 9:00 PM"
       ],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-20",
         "2026-04-21",
@@ -11515,7 +11260,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Algiers, 1938. Meursault, a quiet and unassuming employee in his early thirties, attends his mother&#39;s funeral without shedding a tear. The next day, he begins a casual affair with Marie, a work colleague. He quickly slips back into his usual routine. However, his daily life is soon about to be disrupted by his neighbor, Raymond Sint&egrave;s, who draws Meursault into his shady dealings. Until one blisteringly hot day, a tragic event occurs on a beach..."
     },
     {
@@ -11524,20 +11268,12 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/the-super-mario-galaxy-movie/?date=today",
       "status": "Now Playing",
       "opens": "",
-<<<<<<< Updated upstream
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22386561/",
-=======
       "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22386564/",
->>>>>>> Stashed changes
       "year": "2026",
       "director": "Aaron Horvath, Michael Jelenic",
       "cast": "Chris Pratt, Anya Taylor-Joy, Benny Safdie, Jack Black, Brie Larson, Charlie Day, Keegan-Michael Key",
       "country": "",
       "showtimes": [
-<<<<<<< Updated upstream
-        "Mon Apr 20 4:00 pm",
-=======
->>>>>>> Stashed changes
         "Mon Apr 20 5:35 pm",
         "Mon Apr 20 6:25 pm"
       ],
@@ -11767,14 +11503,11 @@
       "showtimes": [
         "Mon Apr 20 7:15 pm"
       ],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-20"
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "What can equal the tragedy of a strong man's tears?"
     },
     {
@@ -11829,14 +11562,11 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-22"
       ],
       "date_start": "2026-04-22",
       "date_end": "2026-04-22",
->>>>>>> Stashed changes
       "description": ""
     },
     {
@@ -12000,15 +11730,12 @@
       "cast": "",
       "country": "",
       "showtimes": [],
-<<<<<<< Updated upstream
-=======
       "show_dates": [
         "2026-04-24",
         "2026-04-30"
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "The producers of the 007 series must have heaved a huge sigh of relief when they read the reviews of TOMORROW NEVER DIES. The verdict was pretty much unanimous: Pierce Brosnan had passed the test in GOLDENEYE and his second adventure, with audiences and critics embracing him as James Bond in a way they never did with his predecessor Timothy Dalton.\n\"Brosnan is fast becoming the second best 007 \u2013 effortlessly competent and coolly sexy,\" raved San Francisco Gate critic Ruthe Stein. \"For his part, Brosnan now looks so at ease in the role that it seems like second nature to him,\" agreed Todd McCarthy of Variety.\nBut just in case there might have still been some qualms about the New Guy, the filmmakers added an irresistible wild card to the TOMORROW cast in the form of Michelle Yeoh.\nTOMORROW NEVER DIES, like GOLDENEYE, was also designed to reflect topical issues. The plot pits Bond against an avaricious Rupert Murdoch-style media czar named Elliot Carver (Jonathan Pryce), who is content to create bad news and then profit from the coverage through his news networks. His latest scheme: conjure up a crisis that will send Great Britain and China into what could be World War III."
     },
     {
@@ -12104,16 +11831,12 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999004792",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29634",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29656",
       "year": "2025",
       "director": "Sho Miyake",
       "cast": "",
       "country": "",
-<<<<<<< Updated upstream
-      "showtimes": [],
-=======
       "showtimes": [
-        "Fri Apr24 7:00pm",
         "Sun Apr26 7:30pm",
         "Tue Apr28 12:00pm",
         "Thu Apr30 8:00pm"
@@ -12127,7 +11850,6 @@
       ],
       "date_start": "",
       "date_end": "",
->>>>>>> Stashed changes
       "description": "Q&A with director Sho Miyake on Friday, April 24th and Saturday, April 25th"
     },
     {
@@ -12163,15 +11885,9 @@
         "Mon Apr 27 4:35 PM",
         "Mon Apr 27 7:00 PM",
         "Mon Apr 27 9:30 PM",
-<<<<<<< Updated upstream
-        "Tue Apr 28 11:45 AM",
-        "Tue Apr 28 2:10 PM",
-        "Tue Apr 28 4:35 PM",
-=======
         "Tue Apr 28 11:10 AM",
         "Tue Apr 28 1:35 PM",
         "Tue Apr 28 4:00 PM",
->>>>>>> Stashed changes
         "Tue Apr 28 7:00 PM",
         "Tue Apr 28 9:30 PM",
         "Wed Apr 29 11:45 AM",
@@ -12183,11 +11899,6 @@
         "Thu Apr 30 2:10 PM",
         "Thu Apr 30 4:35 PM",
         "Thu Apr 30 7:00 PM",
-<<<<<<< Updated upstream
-        "Thu Apr 30 9:30 PM"
-      ],
-      "description": "Winner of the Special Jury Prize at Sundance, TWO WOMEN is an irrepressible comedy about two mothers who refuse to settle for stagnant lives, and instead pursue the joy they need to feel alive and fulfilled."
-=======
         "Thu Apr 30 10:00 PM"
       ],
       "show_dates": [
@@ -12203,7 +11914,6 @@
       "date_start": "",
       "date_end": "",
       "description": "Winner of the Special Jury Prize at Sundance, TWO WOMEN is an irrepressible comedy about two mothers who refuse to settle for stagnant lives, and instead pursue the joy they need to feel alive and fulfilled.\r\n\r\nWhen neighbors Violette (Laurence Leboeuf) and Florence (Karine Gonthier-Hyndman) bond over the ennui of parenthood, they realize that the solution to reviving their joie de vivre may be in listening to their libidos. As the two start finding sex in unexpected places, they examine the larger unfulfilled needs that brought them to their current moment, and choose to pursue a life of joy over compromise."
->>>>>>> Stashed changes
     },
     {
       "title": "Utamaro and His Five Women",
