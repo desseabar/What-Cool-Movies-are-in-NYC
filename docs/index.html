@@ -404,6 +404,8 @@
   let activeDirector  = '';         // empty = all directors shown
   let filterWatchlist = false;
   let filterDirector  = false;
+  let filterSaved     = false;
+  let savedFilms      = new Set(JSON.parse(localStorage.getItem('savedFilms') || '[]'));
 
   function normKey(s) { return (s || '').toLowerCase().replace(/[^a-z0-9]/g, ''); }
 
@@ -568,7 +570,8 @@
       // ── Director dropdown filter ──
       if (activeDirector && (m.director || '') !== activeDirector) continue;
 
-      // ── Watchlist / director filters ──
+      // ── Saved / watchlist / director filters ──
+      if (filterSaved && !savedFilms.has(normKey(m.title))) continue;
       if (filterWatchlist && !wlTitles.has(normKey(m.title))) continue;
       if (filterDirector) {
         const dirs = (m.director || '').split(',').map(d => d.trim().toLowerCase()).filter(Boolean);
@@ -719,6 +722,7 @@
       allDirectors.forEach(d => { filterHtml += `<option value="${esc(d)}">${esc(d)}</option>`; });
       filterHtml += '</select>';
       filterHtml += '<span class="filter-sep"></span>';
+      filterHtml += `<button class="filter-btn" id="saved-filter-btn">Saved</button>`;
       filterHtml += `<button class="filter-btn" id="wl-filter-btn">On my watchlist</button>`;
       filterHtml += `<button class="filter-btn" id="dir-filter-btn">Director on watchlist</button>`;
       filterRow.innerHTML = filterHtml;
@@ -730,6 +734,12 @@
       });
       document.getElementById('director-select').addEventListener('change', function() {
         activeDirector = this.value;
+        buildChart();
+      });
+      document.getElementById('saved-filter-btn').addEventListener('click', function() {
+        savedFilms = new Set(JSON.parse(localStorage.getItem('savedFilms') || '[]'));
+        filterSaved = !filterSaved;
+        this.classList.toggle('active', filterSaved);
         buildChart();
       });
       document.getElementById('wl-filter-btn').addEventListener('click', function() {
