@@ -227,6 +227,48 @@
     .filter-sep { width: 1px; height: 18px; background: #333; margin: 0 4px; }
     select.filter-btn { appearance: auto; padding-right: 6px; width: 160px; }
 
+    /* ── Mobile layout ── */
+    .mobile-dates-col,
+    .gantt td.mobile-dates { display: none; }
+
+    @media (max-width: 680px) {
+      .gantt thead th.nav-col,
+      .gantt tbody td.nav-col,
+      .gantt thead th.day-col,
+      .gantt tbody td.day-col { display: none; }
+
+      .mobile-dates-col,
+      .gantt td.mobile-dates {
+        display: table-cell;
+        width: 50%;
+        font-size: 0.72rem;
+        color: #888;
+        vertical-align: middle;
+        padding: 5px 8px;
+        line-height: 1.7;
+        text-align: left;
+      }
+
+      .gantt tbody td.title-col {
+        position: static;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: unset;
+        max-width: none;
+        width: 50%;
+        box-shadow: none;
+        padding-right: 8px;
+        font-size: 0.8rem;
+      }
+      .gantt thead th.title-col {
+        position: static;
+        box-shadow: none;
+      }
+
+      .chart-wrap { overflow-x: hidden; }
+      table.gantt { min-width: 0; width: 100%; }
+    }
+
     /* ── No-date section ── */
     .no-date-section {
       padding: 24px 0 40px;
@@ -636,7 +678,7 @@
 
     // ── Render header ──
     const head = document.getElementById('gantt-head');
-    let headHtml = '<tr><th class="title-col">Film</th><th class="nav-col" style="font-size:0.65rem;color:#555;">Earlier dates</th>';
+    let headHtml = '<tr><th class="title-col">Film</th><th class="mobile-dates-col">Dates</th><th class="nav-col" style="font-size:0.65rem;color:#555;">Earlier dates</th>';
     for (const col of cols) {
       const cls = col.isToday ? 'today-col' : '';
       const dow = DAY_ABBR[col.date.getDay()];
@@ -662,8 +704,17 @@
       const rightArrow = nearestAfter
         ? `<span class="${arrowCls}" title="Jump to ${nearestAfter}" onclick="event.stopPropagation();navigateToDate('${nearestAfter}')">&#8594;</span>` : '';
 
+      const allDatesM = movieDates(m);
+      const upcoming  = allDatesM.filter(d => d >= todayIso);
+      const mobileSrc = upcoming.length ? upcoming.slice(0, 5) : allDatesM.slice(-3);
+      const mobileDatesHtml = mobileSrc.map(iso => {
+        const dt = isoToDate(iso);
+        return `${DAY_ABBR[dt.getDay()]} ${MONTH_ABBR[dt.getMonth()]} ${dt.getDate()}`;
+      }).join('<br>');
+
       bodyHtml += `<tr${rowCls} onclick="openModal(${mJson})">`;
       bodyHtml += `<td class="title-col" title="${esc(cleanTitle(m.title))} — ${esc(m.theater)}">${esc(cleanTitle(m.title))}</td>`;
+      bodyHtml += `<td class="mobile-dates">${mobileDatesHtml}</td>`;
       bodyHtml += `<td class="nav-col">${leftArrow}</td>`;
       for (const col of cols) {
         const cls = col.isToday ? 'day-col today-col' : 'day-col';
