@@ -115,8 +115,12 @@
 
     /* ── Main chart ── */
     .chart-wrap {
-      overflow-x: auto;
-      padding: 20px 0 40px;
+      overflow: auto;
+      /* height set by JS so the chart fills the remaining viewport */
+    }
+    .chart-wrap .page-wrap {
+      padding-top: 16px;
+      padding-bottom: 40px;
     }
 
     table.gantt {
@@ -135,7 +139,7 @@
       border-left: 1px solid #222;
       min-width: 28px;
       position: sticky;
-      top: var(--controls-h, 0px);
+      top: 0;
       background: #111;
       z-index: 10;
     }
@@ -149,6 +153,10 @@
       color: #aaa;
       font-size: 0.72rem;
       border-left: none;
+      position: sticky;
+      left: 0;
+      z-index: 11;
+      box-shadow: 2px 0 4px rgba(0,0,0,0.4);
     }
 
     /* Film rows */
@@ -174,6 +182,7 @@
       left: 0;
       background: #111;
       z-index: 5;
+      box-shadow: 2px 0 4px rgba(0,0,0,0.4);
     }
     .gantt tbody tr:hover td.title-col { background: #1a1a1a; }
 
@@ -344,17 +353,17 @@
   <div class="filter-row page-wrap" id="filter-row"></div>
 </div>
 
-<div class="page-wrap">
-  <div class="chart-wrap">
+<div class="chart-wrap" id="chart-wrap">
+  <div class="page-wrap">
     <table class="gantt" id="gantt-table">
       <thead id="gantt-head"></thead>
       <tbody id="gantt-body"></tbody>
     </table>
-  </div>
 
-  <div class="no-date-section" id="no-date-section" style="display:none">
-    <h2>No scheduling data available</h2>
-    <div class="no-date-pills" id="no-date-pills"></div>
+    <div class="no-date-section" id="no-date-section" style="display:none">
+      <h2>No scheduling data available</h2>
+      <div class="no-date-pills" id="no-date-pills"></div>
+    </div>
   </div>
 </div>
 
@@ -544,12 +553,14 @@
     return 'bar-default';
   }
 
-  function updateControlsHeight() {
-    const h = document.querySelector('.controls-bar').offsetHeight;
-    document.documentElement.style.setProperty('--controls-h', h + 'px');
+  function updateChartHeight() {
+    const topH = (document.querySelector('header')      ?.offsetHeight || 0)
+               + (document.querySelector('.lb-bar')     ?.offsetHeight || 0)
+               + (document.querySelector('.controls-bar')?.offsetHeight || 0);
+    document.getElementById('chart-wrap').style.height = `calc(100vh - ${topH}px)`;
   }
 
-  window.addEventListener('resize', updateControlsHeight);
+  window.addEventListener('resize', updateChartHeight);
 
   function buildChart() {
     const todayIso       = dateToIso(_today);
@@ -677,7 +688,7 @@
     } else {
       noDateSec.style.display = 'none';
     }
-    updateControlsHeight();
+    updateChartHeight();
   }
 
   // ── Controls ──────────────────────────────────────────────────────────────
