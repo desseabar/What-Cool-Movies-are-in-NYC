@@ -134,6 +134,10 @@
       white-space: nowrap;
       border-left: 1px solid #222;
       min-width: 28px;
+      position: sticky;
+      top: var(--controls-h, 0px);
+      background: #111;
+      z-index: 10;
     }
     .gantt thead th.today-col {
       color: #e5c100;
@@ -533,6 +537,13 @@
     return 'bar-default';
   }
 
+  function updateControlsHeight() {
+    const h = document.querySelector('.controls-bar').offsetHeight;
+    document.documentElement.style.setProperty('--controls-h', h + 'px');
+  }
+
+  window.addEventListener('resize', updateControlsHeight);
+
   function buildChart() {
     const todayIso       = dateToIso(_today);
     const windowStart    = currentWeekStart;
@@ -659,6 +670,7 @@
     } else {
       noDateSec.style.display = 'none';
     }
+    updateControlsHeight();
   }
 
   // ── Controls ──────────────────────────────────────────────────────────────
