@@ -405,6 +405,7 @@
   let filterWatchlist = false;
   let filterDirector  = false;
   let filterSaved     = false;
+  let filterWeekend   = false;
   let savedFilms      = new Set(JSON.parse(localStorage.getItem('savedFilms') || '[]'));
 
   function normKey(s) { return (s || '').toLowerCase().replace(/[^a-z0-9]/g, ''); }
@@ -570,8 +571,12 @@
       // ── Director dropdown filter ──
       if (activeDirector && (m.director || '') !== activeDirector) continue;
 
-      // ── Saved / watchlist / director filters ──
+      // ── Saved / weekend / watchlist / director filters ──
       if (filterSaved && !savedFilms.has(normKey(m.title))) continue;
+      if (filterWeekend) {
+        const hasWeekend = movieDates(m).some(iso => { const d = isoToDate(iso).getDay(); return d === 0 || d === 5 || d === 6; });
+        if (!hasWeekend) continue;
+      }
       if (filterWatchlist && !wlTitles.has(normKey(m.title))) continue;
       if (filterDirector) {
         const dirs = (m.director || '').split(',').map(d => d.trim().toLowerCase()).filter(Boolean);
@@ -723,6 +728,7 @@
       filterHtml += '</select>';
       filterHtml += '<span class="filter-sep"></span>';
       filterHtml += `<button class="filter-btn" id="saved-filter-btn">Saved</button>`;
+      filterHtml += `<button class="filter-btn" id="weekend-filter-btn">Weekend showing</button>`;
       filterHtml += `<button class="filter-btn" id="wl-filter-btn">On my watchlist</button>`;
       filterHtml += `<button class="filter-btn" id="dir-filter-btn">Director on watchlist</button>`;
       filterRow.innerHTML = filterHtml;
@@ -740,6 +746,11 @@
         savedFilms = new Set(JSON.parse(localStorage.getItem('savedFilms') || '[]'));
         filterSaved = !filterSaved;
         this.classList.toggle('active', filterSaved);
+        buildChart();
+      });
+      document.getElementById('weekend-filter-btn').addEventListener('click', function() {
+        filterWeekend = !filterWeekend;
+        this.classList.toggle('active', filterWeekend);
         buildChart();
       });
       document.getElementById('wl-filter-btn').addEventListener('click', function() {
