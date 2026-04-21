@@ -439,8 +439,9 @@
   let activeDirector  = '';         // empty = all directors shown
   let filterWatchlist = false;
   let filterDirector  = false;
-  let filterSaved     = false;
-  let filterWeekend   = false;
+  let filterSaved        = false;
+  let filterWeekend      = false;
+  let filterThisWeekend  = false;
   let savedFilms      = new Set(JSON.parse(localStorage.getItem('savedFilms') || '[]'));
 
   const _TITLE_SUFFIXES = /\s*(\(Open Captioning\)|4K Remaster)\s*$/gi;
@@ -586,6 +587,13 @@
     return 'bar-default';
   }
 
+  function thisWeekendDates() {
+    const d = _today.getDay(); // 0=Sun,5=Fri,6=Sat → in progress; else next Fri
+    const fridayOffset = d === 5 ? 0 : d === 6 ? -1 : d === 0 ? -2 : 5 - d;
+    const fri = addDays(_today, fridayOffset);
+    return new Set([dateToIso(fri), dateToIso(addDays(fri,1)), dateToIso(addDays(fri,2))]);
+  }
+
   function updateChartHeight() {
     const topH = (document.querySelector('header')      ?.offsetHeight || 0)
                + (document.querySelector('.lb-bar')     ?.offsetHeight || 0)
@@ -635,6 +643,10 @@
 
       // ── Saved / weekend / watchlist / director filters ──
       if (filterSaved && !savedFilms.has(normKey(m.title))) continue;
+      if (filterThisWeekend) {
+        const wknd = thisWeekendDates();
+        if (!movieDates(m).some(d => wknd.has(d))) continue;
+      }
       if (filterWeekend) {
         const hasWeekend = movieDates(m).some(iso => { const d = isoToDate(iso).getDay(); return d === 0 || d === 5 || d === 6; });
         if (!hasWeekend) continue;
@@ -793,6 +805,7 @@
       filterHtml += '</select>';
       filterHtml += '<span class="filter-sep"></span>';
       filterHtml += `<button class="filter-btn" id="saved-filter-btn">Saved</button>`;
+      filterHtml += `<button class="filter-btn" id="this-weekend-filter-btn">This weekend</button>`;
       filterHtml += `<button class="filter-btn" id="weekend-filter-btn">Weekend showing</button>`;
       filterHtml += `<button class="filter-btn" id="wl-filter-btn">On my watchlist</button>`;
       filterHtml += `<button class="filter-btn" id="dir-filter-btn">Director on watchlist</button>`;
@@ -811,6 +824,11 @@
         savedFilms = new Set(JSON.parse(localStorage.getItem('savedFilms') || '[]'));
         filterSaved = !filterSaved;
         this.classList.toggle('active', filterSaved);
+        buildChart();
+      });
+      document.getElementById('this-weekend-filter-btn').addEventListener('click', function() {
+        filterThisWeekend = !filterThisWeekend;
+        this.classList.toggle('active', filterThisWeekend);
         buildChart();
       });
       document.getElementById('weekend-filter-btn').addEventListener('click', function() {
