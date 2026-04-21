@@ -188,6 +188,15 @@
     .gantt tbody td.title-col.bar-watchlist { color: #2e7d32; }
     .gantt tbody td.title-col.bar-director  { color: #1a5fa8; }
 
+    .save-btn {
+      background: none; border: none; cursor: pointer;
+      font-size: 0.9rem; line-height: 1; padding: 0 5px 0 0;
+      color: #333; vertical-align: middle; transition: color 0.12s;
+      flex-shrink: 0;
+    }
+    .save-btn:hover { color: #888; }
+    .save-btn.saved { color: #e5c100; }
+
     .gantt tbody td.day-col {
       border-left: 1px solid #1e1e1e;
       padding: 3px 1px;
@@ -443,6 +452,17 @@
 
   function normKey(s) { return cleanTitle(s || '').toLowerCase().replace(/[^a-z0-9]/g, ''); }
 
+  function toggleSave(e, key) {
+    e.stopPropagation();
+    if (savedFilms.has(key)) { savedFilms.delete(key); } else { savedFilms.add(key); }
+    localStorage.setItem('savedFilms', JSON.stringify([...savedFilms]));
+    document.querySelectorAll(`.save-btn[data-key="${CSS.escape(key)}"]`).forEach(btn => {
+      btn.classList.toggle('saved', savedFilms.has(key));
+      btn.title = savedFilms.has(key) ? 'Unsave' : 'Save';
+    });
+    if (filterSaved) buildChart();
+  }
+
   function navigateToDate(iso) {
     currentWeekStart = isoToDate(iso);
     buildChart();
@@ -676,7 +696,9 @@
         ? `<span class="${arrowCls}" title="Jump to ${nearestAfter}" onclick="event.stopPropagation();navigateToDate('${nearestAfter}')">&#8594;</span>` : '';
 
       bodyHtml += `<tr${rowCls} onclick="openModal(${mJson})">`;
-      bodyHtml += `<td class="title-col ${bc}" title="${esc(cleanTitle(m.title))} — ${esc(m.theater)}">${esc(cleanTitle(m.title))}</td>`;
+      const key = normKey(m.title);
+      const isSaved = savedFilms.has(key);
+      bodyHtml += `<td class="title-col ${bc}" title="${esc(cleanTitle(m.title))} — ${esc(m.theater)}"><button class="save-btn${isSaved ? ' saved' : ''}" data-key="${esc(key)}" onclick="toggleSave(event,'${esc(key)}')" title="${isSaved ? 'Unsave' : 'Save'}">&#9733;</button>${esc(cleanTitle(m.title))}</td>`;
       bodyHtml += `<td class="nav-col">${leftArrow}</td>`;
       for (const col of cols) {
         const cls = col.isToday ? 'day-col today-col' : 'day-col';
