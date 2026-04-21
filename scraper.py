@@ -1024,7 +1024,7 @@ def scrape_paris() -> list:
         seen.add(film_name)
         status = "Coming Soon" if open_date > today else "Now Playing"
         opens  = f"{_MONTH_FULL[open_date.month]} {open_date.day}" if status == "Coming Soon" else ""
-        url    = f"https://www.paristheaternyc.com/films/{slug}" if slug else "https://www.paristheaternyc.com/"
+        url    = f"https://www.paristheaternyc.com/film/{slug}" if slug else "https://www.paristheaternyc.com/"
 
         movies.append(Movie(
             title=film_name.title(),
