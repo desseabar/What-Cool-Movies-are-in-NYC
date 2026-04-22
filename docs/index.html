@@ -197,6 +197,26 @@
     .save-btn:hover { color: #888; }
     .save-btn.saved { color: #e5c100; }
 
+    .gantt thead th.weekend-col { background: #1a1400; }
+    .gantt tbody td.day-col.weekend-col { background: #1a1400; }
+    .gantt tbody tr:hover td.day-col.weekend-col { background: #221b00; }
+
+    .gantt thead th.day-col,
+    .gantt tbody td.day-col {
+      transition: max-width 0.38s ease, min-width 0.38s ease, padding 0.38s ease, opacity 0.38s ease;
+      overflow: hidden;
+    }
+    .gantt.cols-collapsing thead th.day-col:not(.weekend-col),
+    .gantt.cols-collapsing tbody td.day-col:not(.weekend-col) {
+      max-width: 0 !important; min-width: 0 !important;
+      padding: 0 !important; opacity: 0; border-color: transparent !important;
+    }
+    .gantt.cols-expanding thead th.day-col:not(.weekend-col),
+    .gantt.cols-expanding tbody td.day-col:not(.weekend-col) {
+      max-width: 0 !important; min-width: 0 !important;
+      padding: 0 !important; opacity: 0; border-color: transparent !important;
+    }
+
     .gantt tbody td.day-col {
       border-left: 1px solid #1e1e1e;
       padding: 3px 1px;
@@ -442,6 +462,7 @@
   let filterSaved        = false;
   let filterWeekend      = false;
   let filterThisWeekend  = false;
+  let _wasWeekendOnly    = false;
   let savedFilms      = new Set(JSON.parse(localStorage.getItem('savedFilms') || '[]'));
 
   const _TITLE_SUFFIXES = /\s*(\(Open Captioning\)|4K Remaster)\s*$/gi;
@@ -587,6 +608,20 @@
     return 'bar-default';
   }
 
+  // Called by weekend filter buttons instead of buildChart() directly.
+  // Handles collapse (7→3) and expand (3→7) animations.
+  function applyWeekendChange(wasWeekendOnly) {
+    const isNowWeekendOnly = filterWeekend || filterThisWeekend;
+    const gt = document.getElementById('gantt-table');
+    if (isNowWeekendOnly && !wasWeekendOnly) {
+      // 7→3: collapse non-weekend cols on current DOM, then rebuild
+      gt.classList.add('cols-collapsing');
+      setTimeout(() => { gt.classList.remove('cols-collapsing'); buildChart(); }, 400);
+    } else {
+      buildChart();
+    }
+  }
+
   function thisWeekendDates() {
     const d = _today.getDay(); // 0=Sun,5=Fri,6=Sat → in progress; else next Fri
     const fridayOffset = d === 5 ? 0 : d === 6 ? -1 : d === 0 ? -2 : 5 - d;
@@ -604,21 +639,40 @@
   window.addEventListener('resize', updateChartHeight);
 
   function buildChart() {
-    const todayIso       = dateToIso(_today);
-    const windowStart    = currentWeekStart;
-    const windowEnd      = addDays(windowStart, 6);
-    const windowStartIso = dateToIso(windowStart);
-    const windowEndIso   = dateToIso(windowEnd);
+    const isWeekendOnly = filterWeekend || filterThisWeekend;
+    const todayIso      = dateToIso(_today);
+    // Build columns: 3 (Fri/Sat/Sun) when weekend filter active, else 7
+    let cols, windowStartIso, windowEndIso;
 
-    const ws = windowStart, we = windowEnd;
-    document.getElementById('week-label').textContent =
-      `${MONTH_ABBR[ws.getMonth()]} ${ws.getDate()} – ${MONTH_ABBR[we.getMonth()]} ${we.getDate()}`;
-
-    // 7 columns
-    const cols = [];
-    for (let i = 0; i < 7; i++) {
-      const d = addDays(windowStart, i);
-      cols.push({ iso: dateToIso(d), date: d, isToday: dateToIso(d) === todayIso });
+    if (isWeekendOnly) {
+      // Find the Friday of the week containing currentWeekStart
+      const d = currentWeekStart.getDay();
+      const daysSinceMon = d === 0 ? 6 : d - 1;
+      const fri = addDays(addDays(currentWeekStart, -daysSinceMon), 4);
+      const sat = addDays(fri, 1);
+      const sun = addDays(fri, 2);
+      cols = [fri, sat, sun].map(dt => ({
+        iso: dateToIso(dt), date: dt,
+        isToday: dateToIso(dt) === todayIso,
+        isWeekend: true,
+      }));
+      windowStartIso = cols[0].iso;
+      windowEndIso   = cols[2].iso;
+      document.getElementById('week-label').textContent =
+        `${MONTH_ABBR[fri.getMonth()]} ${fri.getDate()} – ${MONTH_ABBR[sun.getMonth()]} ${sun.getDate()}`;
+    } else {
+      const windowStart = currentWeekStart;
+      const windowEnd   = addDays(windowStart, 6);
+      windowStartIso = dateToIso(windowStart);
+      windowEndIso   = dateToIso(windowEnd);
+      document.getElementById('week-label').textContent =
+        `${MONTH_ABBR[windowStart.getMonth()]} ${windowStart.getDate()} – ${MONTH_ABBR[windowEnd.getMonth()]} ${windowEnd.getDate()}`;
+      cols = [];
+      for (let i = 0; i < 7; i++) {
+        const dt = addDays(windowStart, i);
+        const dow = dt.getDay();
+        cols.push({ iso: dateToIso(dt), date: dt, isToday: dateToIso(dt) === todayIso, isWeekend: dow === 0 || dow === 5 || dow === 6 });
+      }
     }
 
     const q = searchQuery.toLowerCase();
@@ -683,11 +737,11 @@
     const head = document.getElementById('gantt-head');
     let headHtml = '<tr><th class="title-col">Film</th><th class="nav-col" style="font-size:0.65rem;color:#555;">Earlier</th>';
     for (const col of cols) {
-      const cls = col.isToday ? 'today-col' : '';
-      const dow = DAY_ABBR[col.date.getDay()];
+      const cls = [col.isToday ? 'today-col' : '', col.isWeekend ? 'weekend-col' : ''].filter(Boolean).join(' ');
+      const dayAbbr = DAY_ABBR[col.date.getDay()];
       const day = col.date.getDate();
       const showMonth = col.date.getDate() === 1 || col === cols[0];
-      const label = showMonth ? `${MONTH_ABBR[col.date.getMonth()]}<br>${day}` : `${dow}<br>${day}`;
+      const label = showMonth ? `${MONTH_ABBR[col.date.getMonth()]}<br>${day}` : `${dayAbbr}<br>${day}`;
       headHtml += `<th class="${cls}">${label}</th>`;
     }
     headHtml += '<th class="nav-col" style="font-size:0.65rem;color:#555;">Later</th></tr>';
@@ -713,7 +767,7 @@
       bodyHtml += `<td class="title-col ${bc}" title="${esc(cleanTitle(m.title))} — ${esc(m.theater)}"><button class="save-btn${isSaved ? ' saved' : ''}" data-key="${esc(key)}" onclick="toggleSave(event,'${esc(key)}')" title="${isSaved ? 'Unsave' : 'Save'}">&#9733;</button>${esc(cleanTitle(m.title))}</td>`;
       bodyHtml += `<td class="nav-col">${leftArrow}</td>`;
       for (const col of cols) {
-        const cls = col.isToday ? 'day-col today-col' : 'day-col';
+        const cls = ['day-col', col.isToday ? 'today-col' : '', col.isWeekend ? 'weekend-col' : ''].filter(Boolean).join(' ');
         bodyHtml += colSet.has(col.iso)
           ? `<td class="${cls}"><div class="bar ${bc}"></div></td>`
           : `<td class="${cls}"></td>`;
@@ -735,6 +789,14 @@
     } else {
       noDateSec.style.display = 'none';
     }
+    // 3→7 expand: new non-weekend cols start collapsed, then animate open
+    if (!isWeekendOnly && _wasWeekendOnly) {
+      const gt = document.getElementById('gantt-table');
+      gt.classList.add('cols-expanding');
+      requestAnimationFrame(() => requestAnimationFrame(() => gt.classList.remove('cols-expanding')));
+    }
+    _wasWeekendOnly = isWeekendOnly;
+
     updateChartHeight();
   }
 
@@ -805,7 +867,7 @@
       filterHtml += '</select>';
       filterHtml += '<span class="filter-sep"></span>';
       filterHtml += `<button class="filter-btn" id="saved-filter-btn">Saved</button>`;
-      filterHtml += `<button class="filter-btn" id="this-weekend-filter-btn">This weekend</button>`;
+      filterHtml += `<button class="filter-btn" id="this-weekend-filter-btn">This weekend!</button>`;
       filterHtml += `<button class="filter-btn" id="weekend-filter-btn">Weekend showing</button>`;
       filterHtml += `<button class="filter-btn" id="wl-filter-btn">On my watchlist</button>`;
       filterHtml += `<button class="filter-btn" id="dir-filter-btn">Director on watchlist</button>`;
@@ -827,14 +889,16 @@
         buildChart();
       });
       document.getElementById('this-weekend-filter-btn').addEventListener('click', function() {
+        const was = filterWeekend || filterThisWeekend;
         filterThisWeekend = !filterThisWeekend;
         this.classList.toggle('active', filterThisWeekend);
-        buildChart();
+        applyWeekendChange(was);
       });
       document.getElementById('weekend-filter-btn').addEventListener('click', function() {
+        const was = filterWeekend || filterThisWeekend;
         filterWeekend = !filterWeekend;
         this.classList.toggle('active', filterWeekend);
-        buildChart();
+        applyWeekendChange(was);
       });
       document.getElementById('wl-filter-btn').addEventListener('click', function() {
         filterWatchlist = !filterWatchlist;
