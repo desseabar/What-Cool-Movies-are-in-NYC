@@ -974,6 +974,52 @@ def scrape_bam() -> list:
 # Paris Theater  (Next.js — data embedded in RSC inline scripts)
 # ---------------------------------------------------------------------------
 
+def _paris_details(url: str) -> dict:
+    """Fetch a Paris Theater film page and extract the synopsis."""
+    import json as _json
+    result: dict = {}
+    try:
+        r = requests.get(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"},
+            timeout=15,
+        )
+        if r.status_code != 200:
+            return result
+        # Pull RSC chunks (same technique as listing page)
+        content = ""
+        for s in re.findall(r"<script>self\.__next_f\.push\((\[.*?\])\)</script>", r.text, re.DOTALL):
+            try:
+                data = _json.loads(s)
+                if len(data) >= 2 and isinstance(data[1], str):
+                    content += data[1] + "\n"
+            except Exception:
+                pass
+        # Try known field names for the synopsis in the RSC payload
+        for field in ("Synopsis", "Description", "Body", "ShortSynopsis", "LongSynopsis", "About"):
+            m = re.search(rf'"{re.escape(field)}"\s*:\s*"((?:[^"\\]|\\.)*)"', content)
+            if m:
+                try:
+                    result["description"] = _json.loads(f'"{m.group(1)}"').strip()
+                except Exception:
+                    result["description"] = m.group(1).strip()
+                if result["description"]:
+                    return result
+        # HTML fallback: look for common synopsis containers
+        soup = BeautifulSoup(r.text, "html.parser")
+        for sel in ("div.synopsis", "div.film-synopsis", "section.synopsis",
+                    "div.description", "p.synopsis", "div.about"):
+            el = soup.select_one(sel)
+            if el:
+                text = el.get_text(separator=" ", strip=True)
+                if text:
+                    result["description"] = text
+                    return result
+    except Exception as e:
+        print(f"[warn] Paris details {url}: {e}", file=sys.stderr)
+    return result
+
+
 def scrape_paris() -> list:
     import json as _json
     movies = []
@@ -1048,6 +1094,8 @@ def scrape_paris() -> list:
             date_start=open_date.isoformat() if open_date else "",
             date_end=close_date.isoformat() if close_date else "",
         ))
+    print(f"  Fetching descriptions for {len(movies)} Paris Theater films…")
+    _apply_details(movies, _paris_details)
     return movies
 
 
