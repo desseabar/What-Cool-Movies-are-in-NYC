@@ -201,11 +201,21 @@ def _nitehawk_details(url: str) -> dict:
             result["cast"] = p.get_text(separator=" ", strip=True).replace(strong.get_text(strip=True), "").strip()
             break
     # Full show schedule: datelist options (multi-date) or individual showtime buttons (single-date)
-    show_dates = sorted({
-        datetime.fromtimestamp(int(el["data-date"])).strftime("%Y-%m-%d")
+    def _parse_data_date(val: str) -> str:
+        # Site used to supply Unix timestamps; now supplies ISO dates directly
+        val = val.strip()
+        if re.match(r'^\d{4}-\d{2}-\d{2}$', val):
+            return val
+        try:
+            return datetime.fromtimestamp(int(val)).strftime("%Y-%m-%d")
+        except (ValueError, OSError):
+            return ""
+
+    show_dates = sorted(filter(None, {
+        _parse_data_date(el["data-date"])
         for el in soup.select("[data-date]")
         if el.get("data-date")
-    })
+    }))
     if show_dates:
         result["show_dates"] = show_dates
     else:
