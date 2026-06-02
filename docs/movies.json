@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-01T19:23:41.862440",
+  "fetched_at": "2026-06-02T18:09:12.443098",
   "movies": [
     {
       "title": "A Flame At The Pier",
@@ -200,7 +200,7 @@
       "url": "https://www.ifccenter.com/films/barrio-triste/",
       "status": "Coming Soon",
       "opens": "July 10",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560836~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560837~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "",
       "director": "Stillz",
       "cast": "Juan Pablo Baena, Samuel Velazquez, Tomas Tinoco Higuita, Bryan Erlin Garcia, Samuel Andres Celis",
@@ -239,7 +239,7 @@
       "status": "Coming Soon",
       "opens": "June 14",
       "booking_url": "",
-      "year": "1996",
+      "year": "",
       "director": "Julian Schnabel",
       "cast": "Jeffrey Wright, \\nWillem Dafoe, \\nDennis Hopper, \\nChristopher Walken, \\nBenicio Del Toro, \\nClaire Forlani, \\nGary Oldman, \\nDavid Bowie, \\nParker Posey, \\nCourtney Love, \\nElina L\u00f6wensohn, \\nMichael Wincott",
       "country": "",
@@ -454,7 +454,7 @@
       "url": "https://www.ifccenter.com/films/camp/",
       "status": "Coming Soon",
       "opens": "June 24",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560836~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560837~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2026",
       "director": "Avalon Fast",
       "cast": "Zola Grimmer, Alice Wordsworth, Cherry Moore",
@@ -473,7 +473,7 @@
       "url": "https://www.ifccenter.com/films/camp-open-captioning/",
       "status": "Coming Soon",
       "opens": "June 25",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560836~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560837~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2026",
       "director": "Avalon Fast",
       "cast": "Zola Grimmer, Alice Wordsworth, Cherry Moore",
@@ -645,6 +645,49 @@
       "description": ""
     },
     {
+      "title": "Chum",
+      "theater": "IFC Center",
+      "url": "https://www.ifccenter.com/films/chum/",
+      "status": "Coming Soon",
+      "opens": "June 5",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=562032~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "year": "",
+      "director": "Jonathan Zuck",
+      "cast": "Alice Eve, Eric Michael Cole, Jim Klock, Elle Haymond, Lisa Yaro",
+      "country": "USA",
+      "showtimes": [],
+      "show_dates": [
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-08",
+        "2026-06-10",
+        "2026-06-11"
+      ],
+      "date_start": "2026-06-05",
+      "date_end": "2026-06-05",
+      "description": ""
+    },
+    {
+      "title": "Chum",
+      "theater": "IFC Center",
+      "url": "https://www.ifccenter.com/films/chum-open-captioning/",
+      "status": "Coming Soon",
+      "opens": "June 6",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=562034~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "year": "",
+      "director": "Jonathan Zuck",
+      "cast": "Alice Eve, Eric Michael Cole, Jim Klock, Elle Haymond, Lisa Yaro",
+      "country": "USA",
+      "showtimes": [],
+      "show_dates": [
+        "2026-06-07",
+        "2026-06-09"
+      ],
+      "date_start": "2026-06-06",
+      "date_end": "2026-06-06",
+      "description": ""
+    },
+    {
       "title": "City Of God",
       "theater": "Paris Theater",
       "url": "https://www.paristheaternyc.com/film/city-of-god-bleak-week",
@@ -747,7 +790,7 @@
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/movies/disclosure-day/",
       "status": "Coming Soon",
-      "opens": "June 12",
+      "opens": "June 11",
       "booking_url": "",
       "year": "2026",
       "director": "Steven Spielberg",
@@ -755,10 +798,13 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-12"
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-13",
+        "2026-06-14"
       ],
-      "date_start": "2026-06-12",
-      "date_end": "2026-06-12",
+      "date_start": "2026-06-11",
+      "date_end": "2026-06-11",
       "description": "If you found out we weren\u2019t alone, if someone showed you, proved it to you, would that frighten you? This summer, the truth belongs to eight billion people. Spielberg\u2019s latest sci-fi movie event, his first film since 2022\u2019s The Fablemans , returns to a legacy of grand, other-worldly, mysterious spectacle. Starring Emily Blunt ( Oppenheimer ), Josh O\u2019Connor ( Challengers ), and Colin Firth ( The King\u2019s Speech ), Disclosure Day thrills in the tense moment when the unknown becomes known."
     },
     {
@@ -803,7 +849,10 @@
         "2026-06-11",
         "2026-06-12",
         "2026-06-13",
-        "2026-06-14"
+        "2026-06-14",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17"
       ],
       "date_start": "2026-06-11",
       "date_end": "",
@@ -853,7 +902,7 @@
       "url": "https://www.ifccenter.com/films/drunken-noodles/",
       "status": "Coming Soon",
       "opens": "June 26",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560836~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560837~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "",
       "director": "Lucio Castro",
       "cast": "Laith Khalifeh, Jo\u00e9l Isaac, Ezriel Kornel, C\u00e9line Clermontois, John Arthur Peetz",
@@ -910,7 +959,7 @@
       "url": "https://www.ifccenter.com/films/easy-rider/",
       "status": "Coming Soon",
       "opens": "July 3",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560836~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560837~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1969",
       "director": "Dennis Hopper",
       "cast": "Peter Fonda, Dennis Hopper, Jack Nicholson",
@@ -1180,25 +1229,6 @@
       "description": "Presented in Japanese with English subtitles\nFollowing the events of RETURN OF GODZILLA, genetic scientists, the Japanese government, and terrorists collide over the ownership of Godzilla\u2019s DNA. Following an act of industrial sabotage, Dr. Shiragami fuses both Godzilla\u2019s and his daughter\u2019s cells with plant information and inadvertently creates the biological terror Biollante.\nA parable over a sustainable future set against chaotic uncertainty, GODZILLA VS. BIOLLANTE doubles down on the explosive effects from its predecessor to deliver another high-stakes monster mash."
     },
     {
-      "title": "Golden Goal Presents: Offside",
-      "theater": "BAM",
-      "url": "https://www.bam.org/film/2026/offside",
-      "status": "Coming Soon",
-      "opens": "June 2",
-      "booking_url": "",
-      "year": "2006",
-      "director": "Jafar Panahi",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-06-02"
-      ],
-      "date_start": "2026-06-02",
-      "date_end": "2026-06-02",
-      "description": "In Tehran, a girl (Shima Mobarak-Shahi) disguises her gender to elude the regime\u2019s stadium ban against women ahead of a men\u2019s qualifying match for the 2006 World Cup. When she is detained and jailed, she joins a group of riotous women bent on watching their country play. Bored but dutiful soldiers look after the women, and occasionally provide game commentary. Bold Iranian cinema luminary Jafar Panahi ( It Was Just an Accident , No Bears ) was inspired by his own football-loving daughter\u2019s exploits to make Offside , filming at the actual match with two improvised outcomes prepared to anticipate victory or defeat. Golden Goal , an independent literary magazine, explores the politics and allure of the World Cup. Celebrating this year\u2019s series, BAM is thrilled to screen Offside , followed by a discussion with Iranian author Amir Ahmadi Arian and Solmaz Sharif, founder of Shirzanan , the first women\u2019s sports magazine in Iran, moderated by Golden Goal co-editors Miguel Salazar and Alex Shephard."
-    },
-    {
       "title": "Gonza The Spearman",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/masahiro-shinoda-gonza",
@@ -1391,7 +1421,11 @@
       "show_dates": [
         "2026-06-12",
         "2026-06-13",
-        "2026-06-14"
+        "2026-06-14",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18"
       ],
       "date_start": "2026-06-12",
       "date_end": "2026-06-12",
@@ -1487,7 +1521,7 @@
       "url": "https://www.ifccenter.com/films/jaws/",
       "status": "Coming Soon",
       "opens": "June 19",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560836~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560837~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1975",
       "director": "Steven Spielberg",
       "cast": "Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary, Murray Hamilton",
@@ -1506,14 +1540,13 @@
       "url": "https://www.ifccenter.com/films/jinsei/",
       "status": "Coming Soon",
       "opens": "June 5",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560154~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560156~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "",
       "director": "Ryuya Suzuki",
       "cast": "",
       "country": "Japan",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-05",
         "2026-06-06",
         "2026-06-07",
@@ -1632,6 +1665,28 @@
       "description": "IN THE HAND OF DANTE follows the parallel lives of a New York author (Nick Tosches) in the 21st century who embarks on a violent journey after he is recruited by a mafia don to steal Italian poet Dante Alighieri\u2019s The Divine Comedy written in the poet\u2019s own hand, and Dante in the 14th century seeking inspiration to write his most important work \u2013 each man unknowingly connected through time and their obsessive quest for love, beauty, and the divine."
     },
     {
+      "title": "Leviticus",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/leviticus",
+      "status": "Coming Soon",
+      "opens": "June 18",
+      "booking_url": "https://drafthouse.com/nyc/show/leviticus",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-06-18",
+        "2026-06-19",
+        "2026-06-20",
+        "2026-06-21"
+      ],
+      "date_start": "2026-06-18",
+      "date_end": "",
+      "description": "In the latest horror from the producers of TALK TO ME and THE BABADOOK, two teenage boys must escape a violent entity that takes the form of the person they desire most \u2013 each other. Doppelg\u00e4ngers, conversion camp, and a shape-shifting monster make for a movie that crawls under your skin and stays there. Don\u2019t miss it in theaters."
+    },
+    {
       "title": "Lonely Are The Brave",
       "theater": "Paris Theater",
       "url": "https://www.paristheaternyc.com/film/lonely-are-the-brave-bleak-week",
@@ -1713,7 +1768,7 @@
       "url": "https://www.ifccenter.com/films/macho-dancer/",
       "status": "Coming Soon",
       "opens": "July 10",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560836~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560837~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1988",
       "director": "Lino Brocka",
       "cast": "Allan Paule, Daniel Fernando, Jaclyn Jose",
@@ -1797,7 +1852,7 @@
       "url": "https://www.ifccenter.com/films/mary-oliver-saved-by-the-beauty-of-the-world/",
       "status": "Coming Soon",
       "opens": "July 3",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560836~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560837~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "",
       "director": "Sasha Waters",
       "cast": "",
@@ -1823,7 +1878,13 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-05"
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "2026-06-05",
       "date_end": "2026-06-05",
@@ -1913,7 +1974,7 @@
       ],
       "date_start": "2026-06-08",
       "date_end": "2026-06-08",
-      "description": "IN THE HAND OF DANTE follows the parallel lives of a New York author (Nick Tosches) in the 21st century who embarks on a violent journey after he is recruited by a mafia don to steal Italian poet Dante Alighieri\u2019s The Divine Comedy written in the poet\u2019s own hand, and Dante in the 14th century seeking inspiration to write his most important work \u2013 each man unknowingly connected through time and their obsessive quest for love, beauty, and the divine."
+      "description": "After a chance meeting at La Brea Tar Pits and an unlikely first date, Harry and Julie are on their way to falling head over heels in love. They arrange a second date after Julie has finished her shift at a late night dinner, but Harry oversleeps and leaves Julie out in the cold. After heading to the diner to make things up to her, Harry inadvertently intercepts a phone call that alerts him to an impending nuclear war, setting off him on a manic journey through the city to rescue his new-found love."
     },
     {
       "title": "Miral",
@@ -1959,7 +2020,7 @@
       "url": "https://www.ifccenter.com/films/mysterious-skin/",
       "status": "Coming Soon",
       "opens": "August 14",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560836~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560837~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2004",
       "director": "Gregg Araki",
       "cast": "Joseph Gordon-Levitt, Brady Crobet, Michelle Trachtenberg, Elisabeth Shue",
@@ -2009,6 +2070,25 @@
       "date_start": "2026-06-09",
       "date_end": "2026-06-09",
       "description": "IN THE HAND OF DANTE follows the parallel lives of a New York author (Nick Tosches) in the 21st century who embarks on a violent journey after he is recruited by a mafia don to steal Italian poet Dante Alighieri\u2019s The Divine Comedy written in the poet\u2019s own hand, and Dante in the 14th century seeking inspiration to write his most important work \u2013 each man unknowingly connected through time and their obsessive quest for love, beauty, and the divine."
+    },
+    {
+      "title": "National Theatre Live: Hamlet",
+      "theater": "Williamsburg Cinemas",
+      "url": "https://www.hk-cinemas.com",
+      "status": "Coming Soon",
+      "opens": "June 7",
+      "booking_url": "https://www.hk-cinemas.com",
+      "year": "",
+      "director": "Robert Hastie",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-06-07"
+      ],
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "description": "Olivier Award-winner Hiran Abeysekera (Life of Pi) is Hamlet in this fearless, contemporary take on Shakespeare&rsquo;s famous tragedy. Trapped between duty and doubt, surrounded by power and privilege, young Prince Hamlet dares to ask the ultimate question&ndash;you know the one. National Theatre Deputy Artistic Director, Robert Hastie (Standing at the Sky&rsquo;s Edge, Operation Mincemeat) directs this sharp, stylish and darkly funny reimagining."
     },
     {
       "title": "Oliver!",
@@ -2113,7 +2193,7 @@
       "url": "https://www.ifccenter.com/films/paprika/",
       "status": "Coming Soon",
       "opens": "June 26",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560836~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560837~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2006",
       "director": "Satoshi Kon",
       "cast": "Megumi Hayashibara, Toru Emori, Katsunosuke Hori, Toru Furuya, Akio Otsuka",
@@ -2208,14 +2288,15 @@
       "url": "https://www.ifccenter.com/films/purple-rain/",
       "status": "Coming Soon",
       "opens": "June 5",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560836~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=562064~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "1984",
       "director": "Albert Magnoli",
       "cast": "Prince, Apollonia Kotero, Morris Day, Olga Karlatos, Clarence Williams III",
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-06-05"
+        "2026-06-05",
+        "2026-06-06"
       ],
       "date_start": "2026-06-05",
       "date_end": "2026-06-05",
@@ -2343,7 +2424,7 @@
       "url": "https://www.ifccenter.com/films/rose-of-nevada/",
       "status": "Coming Soon",
       "opens": "June 19",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560836~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560837~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "",
       "director": "Mark Jenkin",
       "cast": "George Mackay, Callum Turner, Francis Magee, Edward Rowe, Rosalind Eleazar",
@@ -2484,7 +2565,13 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-05"
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "2026-06-05",
       "date_end": "2026-06-05",
@@ -2951,7 +3038,7 @@
       "url": "https://www.ifccenter.com/films/the-big-lebowski/",
       "status": "Coming Soon",
       "opens": "June 12",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560836~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560837~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1998",
       "director": "Joel Coen, Ethan Coen",
       "cast": "Jeff Bridges, John Goodman, Julianne Moore, Steve Buscemi, Philiip Seymour Hoffman, David Huddleston, Tara Reid",
@@ -3015,7 +3102,13 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-05"
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "2026-06-05",
       "date_end": "2026-06-05",
@@ -3101,7 +3194,12 @@
         "2026-06-03",
         "2026-06-04",
         "2026-06-05",
-        "2026-06-06"
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "2026-06-03",
       "date_end": "2026-06-03",
@@ -3318,6 +3416,26 @@
       "description": "This movie feels like it was dreamed into existence. When a girl named Sayuri is reunited with her family after years in an orphanage, she's plagued with phantasmagorical visions involving a fanged demon, wild monsters, and murder by snakes. And it only gets weirder from there. Directed by Noriaki Yuasa (the co-creator of the GAMERA series) and adapted from the work of horror manga pioneer Kazuo Umezu, THE SNAKE GIRL AND THE SILVER-HAIRED WITCH is a stylish, theremin-fueled gothic nightmare that's easily the most traumatizing movie ever aimed at a kids audience. Salvador Dali would be proud.\nRestoration courtesy Arrow Films and the American Genre Film Archive"
     },
     {
+      "title": "The Terminator",
+      "theater": "IFC Center",
+      "url": "https://www.ifccenter.com/films/the-terminator/",
+      "status": "Coming Soon",
+      "opens": "June 5",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=562103~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "year": "1984",
+      "director": "James Cameron",
+      "cast": "Arnold Schwarzenegger, Michael Biehn",
+      "country": "USA",
+      "showtimes": [],
+      "show_dates": [
+        "2026-06-05",
+        "2026-06-06"
+      ],
+      "date_start": "2026-06-05",
+      "date_end": "2026-06-05",
+      "description": ""
+    },
+    {
       "title": "The Third Man In 35Mm",
       "theater": "Film Forum",
       "url": "https://filmforum.org/film/the-third-man-2026",
@@ -3482,14 +3600,15 @@
       "url": "https://www.ifccenter.com/films/true-lies/",
       "status": "Coming Soon",
       "opens": "June 5",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560836~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=562107~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "1994",
       "director": "James Cameron",
       "cast": "Arnold Schwarzenegger, Jamie Lee Curtis, Tom Arnold",
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-06-05"
+        "2026-06-05",
+        "2026-06-06"
       ],
       "date_start": "2026-06-05",
       "date_end": "2026-06-05",
@@ -3521,7 +3640,7 @@
       "url": "https://www.ifccenter.com/films/true-north-open-captioning/",
       "status": "Coming Soon",
       "opens": "June 18",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560836~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560837~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "",
       "director": "Mich\u00e8le Stephenson",
       "cast": "",
@@ -3571,25 +3690,6 @@
       "date_start": "2026-06-19",
       "date_end": "2026-06-19",
       "description": "Sparked by the discovery of the lifeless body of a teenage girl in the desert; When no one claims the body, Noelle Al Saffan, a newly divorced, true crime aficionado who recently lost a child of her own, gets obsessively involved. Despite a ticking clock that seemingly guarantees the girl&rsquo;s senseless death will be discarded as a cold case, Noelle is determined to identify the body and uncover the truth. She slowly unravels a mystery entangled within a traditional society in transition, where women are learning to create more space for themselves and to take control of their own destinies."
-    },
-    {
-      "title": "Victim",
-      "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/victim/",
-      "status": "Coming Soon",
-      "opens": "June 2",
-      "booking_url": "",
-      "year": "1961",
-      "director": "Basil Dearden",
-      "cast": "Dirk Bogarde, Sylvia Syms, Peter McEnery",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-06-02"
-      ],
-      "date_start": "2026-06-02",
-      "date_end": "2026-06-02",
-      "description": ""
     },
     {
       "title": "Viva Viva",
@@ -3674,7 +3774,7 @@
       "url": "https://www.ifccenter.com/films/wild-inside/",
       "status": "Coming Soon",
       "opens": "July 31",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560836~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560837~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "",
       "director": "Penny Lane",
       "cast": "Flaco the Owl",
@@ -3768,6 +3868,27 @@
       "date_start": "2026-04-04",
       "date_end": "2026-04-04",
       "description": "12 Years a Slave is based on an incredible true story of one man\u2019s fight for survival and freedom. In the pre-Civil War United States, Solomon Northup (Chiwetel Ejiofor), a free Black man from upstate New York, is abducted and sold into slavery. Facing cruelty personified by a malevolent slave owner (Michael Fassbender) as well as unexpected kindnesses, Solomon struggles not only to stay alive, but to retain his dignity. In the twelfth year of his unforgettable odyssey, Solomon's chance meeting with a Canadian abolitionist (Brad Pitt) forever alters his life. The winner of three Academy Awards including Best Picture, 12 Years a Slave returns to BAM screens alongside the new restoration of Gordon Park\u2019s version of the same story, Solomon Northrup\u2019s Odyssey ."
+    },
+    {
+      "title": "2 Lizards preceded by Culturesport: Rotterdam 95",
+      "theater": "Metrograph",
+      "url": "https://metrograph.com/film/?vista_film_id=9999004901",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30152",
+      "year": "2020",
+      "director": "Meriem  Bennani, Orian Barki, John Michael Boling",
+      "cast": "",
+      "country": "",
+      "showtimes": [
+        "Sat Jun27 7:00pm"
+      ],
+      "show_dates": [
+        "2026-06-27"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "Q&A with filmmakers and artists Orian Barki, Meriem Bennani, John Michael Boling, and Jason Coombs on Saturday, June 27th"
     },
     {
       "title": "2026 Oscar Nominated Animated Shorts",
@@ -3880,22 +4001,39 @@
       "description": "Lou Reed narrates this award-winning documentary, a deep dive into the breadth and depth of the Occupy Wall Street Movement. The spark lit in a small park in lower Manhattan would snowball into an international movement, aimed at removing money from politics in an effort to move power from corporate interests into the hands of the people. The thought-provoking presentation includes interviews from Occupiers, economist Jeffrey Sachs, and business magnate Russell Simmons, tracing the movement\u2019s aims of tackling affordable access to health care and education, protecting the environment, creating jobs, and more."
     },
     {
+      "title": "A Brief Affair",
+      "theater": "Film at Lincoln Center",
+      "url": "https://www.filmlinc.org/films/a-brief-affair/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-06-02"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": ""
+    },
+    {
       "title": "A Fish Called Wanda",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999004854",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29952",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29982",
       "year": "1988",
       "director": "Charles Crichton",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sun May31 11:00am",
         "Sat Jun6 11:30am"
       ],
       "show_dates": [
-        "2026-05-31",
         "2026-06-06"
       ],
       "date_start": "",
@@ -3946,17 +4084,23 @@
       "url": "https://www.ifccenter.com/films/a-new-leaf/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560861~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560862~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "1971",
       "director": "Elaine May",
       "cast": "Walter Matthau, Elaine May, Jack Weston, George Rose, James Coco",
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -4020,23 +4164,44 @@
       "description": "After escaping from prison in 1979, the revolutionary, thinker, and Black Panther and Black Liberation Army leader Assata Shakur found political asylum in Cuba, where she lived in exile for over 40 years. Gloria Rolando\u2019s Eyes of the Rainbow finds Shakur in Havana discussing life before and after exile and her own Afro-Cuban roots. Weaving together Shakur\u2019s spiritual connection to the Yoruba Orisha Oya, her militant political commitments and an Afro-diasporic tapestry of music, Rolando dedicated the documentary to \u201call women who struggle for a better world.\u201d Assata Shakur joined the ancestors on September 25, 2025 and the screening will be an occasion for remembrance centered on her lifelong devotion to freedom from all forms of oppression. The screening will be followed by a conversation with series programmer Yasmina Price, organizer Monifa Bandele and filmmaker Yaania Bell about collective struggle, memory, and the intertwinement of culture and militancy."
     },
     {
-      "title": "ACE Presents The Silence of the Lambs",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004845",
+      "title": "A Year Of School",
+      "theater": "Film at Lincoln Center",
+      "url": "https://www.filmlinc.org/films/a-year-of-school/",
       "status": "Now Playing",
       "opens": "",
       "booking_url": "",
-      "year": "1991",
-      "director": "Jonathan Demme",
+      "year": "",
+      "director": "",
       "cast": "",
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-05-30"
+        "2026-06-02"
       ],
       "date_start": "",
       "date_end": "",
-      "description": "Post-screening panel with Craig McKay, ACE, Colleen Sharp. ACE, Naomi Geraghty, Tom Fleischman, Joseph DeBeasi and Patrick McMahon on Saturday, May 30th."
+      "description": ""
+    },
+    {
+      "title": "ACE Presents Breakfast of Champions",
+      "theater": "Metrograph",
+      "url": "https://metrograph.com/film/?vista_film_id=9999004902",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30150",
+      "year": "1999",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [
+        "Sat Jun27 7:00pm"
+      ],
+      "show_dates": [
+        "2026-06-27"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "Q&A with editor Suzy Elmiger moderated by Meg Reticker, ACE, on Saturday, June 27th"
     },
     {
       "title": "Adolescence of Utena",
@@ -4050,10 +4215,12 @@
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sun Jun21 5:40pm"
+        "Sun Jun21 5:40pm",
+        "Fri Jun26 4:45pm"
       ],
       "show_dates": [
-        "2026-06-21"
+        "2026-06-21",
+        "2026-06-26"
       ],
       "date_start": "",
       "date_end": "",
@@ -4131,10 +4298,13 @@
         "12:15"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08"
       ],
       "date_start": "",
       "date_end": "",
@@ -4175,7 +4345,8 @@
         "8:30"
       ],
       "show_dates": [
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-08"
       ],
       "date_start": "",
       "date_end": "",
@@ -4205,7 +4376,7 @@
       ],
       "date_start": "",
       "date_end": "",
-      "description": "Q&A with director Shunji Iwai moderated by filmmaker Christopher Radcliffe on Saturday, June 6th"
+      "description": "Q&A with director Shunji Iwai moderated by filmmaker Christopher Radcliff on Saturday, June 6th"
     },
     {
       "title": "All That Heaven Allows",
@@ -4249,27 +4420,6 @@
       "date_start": "2026-03-23",
       "date_end": "2026-03-23",
       "description": "A deeply moving, multigenerational drama, All That\u2019s Left of You follows a Palestinian teenager who gets swept into a protest in the Occupied West Bank and experiences a moment of violence that rocks his family. The film unfolds as his mother recounts the political and emotional threads that led to that fateful moment. Spanning seven decades, the film\u2014Jordan\u2019s official selection for the 98th Academy Awards\u2014traces the hopes and heartaches of one uprooted family, bearing witness to the scars of dispossession and the enduring legacy of survival. Followed by a Q&A with director & actor Cherien Dabis and actor Adam Bakri."
-    },
-    {
-      "title": "Alo\u00efse preceded by Qui donc a r\u00eav\u00e9?",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004827",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30073",
-      "year": "1975",
-      "director": "Liliane  de Kermadec",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Mon Jun1 4:45pm"
-      ],
-      "show_dates": [
-        "2026-06-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Introduction by filmmaker Theda Hammel on Friday, May 15th"
     },
     {
       "title": "Alpha",
@@ -4363,17 +4513,14 @@
       "cast": "Audrey Tautou, Yolande Moreau, Mathieu Kassovitz, Dominique Pinon, Jamel Debbouze, Isabelle Nanty",
       "country": "",
       "showtimes": [
-        "Mon Jun 1 3:50 PM",
-        "Tue Jun 2 11:50 AM",
-        "Tue Jun 2 10:00 PM",
         "Tue Jun 2 4:10 PM",
+        "Tue Jun 2 10:00 PM",
         "Wed Jun 3 11:50 AM",
         "Wed Jun 3 9:15 PM",
         "Wed Jun 3 4:10 PM",
         "Thu Jun 4 1:40 PM"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04"
@@ -4381,6 +4528,27 @@
       "date_start": "",
       "date_end": "",
       "description": "Am&eacute;lie is an innocent and naive girl in Paris with her own sense of justice. She decides to help those around her and, along the way, discovers love."
+    },
+    {
+      "title": "Andrei Rublev",
+      "theater": "Metrograph",
+      "url": "https://metrograph.com/film/?vista_film_id=9999002144",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30116",
+      "year": "1966",
+      "director": "Andrei Tarkovsky",
+      "cast": "",
+      "country": "",
+      "showtimes": [
+        "Mon Jun8 3:30pm"
+      ],
+      "show_dates": [
+        "2026-06-08"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "The story of Rublev (Anatoly Solonitsyn), a medieval icon painter and Russian Orthodox monk who struggled against rampant brutality to produce works praising God, becomes, in Tarkovsky\u2019s hands, the story of art and artists, for all times. (And perhaps\u2026"
     },
     {
       "title": "Angelika Members Exclusive Mystery Screening Nyc: June 3",
@@ -4415,21 +4583,19 @@
       "cast": "Suet-Ying Chung, Hiu-Tung Choi, Louis Cheung",
       "country": "",
       "showtimes": [
-        "Fri Jun 5 10:15 AM",
         "Fri Jun 5 12:50 PM",
         "Fri Jun 5 3:30 PM",
         "Fri Jun 5 6:10 PM",
         "Fri Jun 5 8:45 PM",
-        "Sat Jun 6 10:15 AM",
         "Sat Jun 6 12:50 PM",
         "Sat Jun 6 3:30 PM",
         "Sat Jun 6 6:10 PM",
-        "Sat Jun 6 8:45 PM",
+        "Sat Jun 6 9:40 PM",
         "Sun Jun 7 10:15 AM",
         "Sun Jun 7 12:50 PM",
         "Sun Jun 7 3:30 PM",
         "Sun Jun 7 6:10 PM",
-        "Sun Jun 7 8:45 PM",
+        "Sun Jun 7 9:40 PM",
         "Mon Jun 8 10:15 AM",
         "Mon Jun 8 12:50 PM",
         "Mon Jun 8 3:30 PM",
@@ -4447,7 +4613,9 @@
         "Wed Jun 10 8:45 PM",
         "Thu Jun 11 10:35 AM",
         "Thu Jun 11 1:10 PM",
-        "Thu Jun 11 3:50 PM"
+        "Thu Jun 11 3:50 PM",
+        "Thu Jun 11 6:10 PM",
+        "Thu Jun 11 9:30 PM"
       ],
       "show_dates": [
         "2026-06-05",
@@ -4546,17 +4714,23 @@
       "url": "https://www.ifccenter.com/films/ask-e-jean/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560844~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560845~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "",
       "director": "Ivy Meeropol",
       "cast": "",
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -4597,10 +4771,12 @@
       "cast": "",
       "country": "",
       "showtimes": [
-        "Fri Jun19 6:00pm"
+        "Fri Jun19 6:00pm",
+        "Fri Jun26 9:30pm"
       ],
       "show_dates": [
-        "2026-06-19"
+        "2026-06-19",
+        "2026-06-26"
       ],
       "date_start": "",
       "date_end": "",
@@ -4612,21 +4788,27 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/backrooms/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22854462/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22854603/",
       "year": "2026",
       "director": "Kane Parsons",
       "cast": "Chiwetel Ejiofor, Renate Reinsve",
       "country": "",
       "showtimes": [
-        "Mon Jun 1 4:15 pm",
-        "Mon Jun 1 7:00 pm",
-        "Mon Jun 1 9:45 pm"
+        "Tue Jun 2 4:15 pm",
+        "Tue Jun 2 7:00 pm",
+        "Tue Jun 2 9:45 pm"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -4645,10 +4827,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -4667,9 +4855,15 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -4688,10 +4882,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -4710,10 +4910,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -4758,27 +4964,6 @@
       "description": "In the 41st century, astronaut Barbarella (Fonda) is tasked with finding Dr. Durand Durand, a scientist the Earth\u2019s government believes to be developing a weapon that could signal the end of humanity. In a 98 minute run-time littered with sensationally campy set design and vibrant costuming, Barbarella\u2019s quest sends her from planet to planet in this \u201860s signature cult film."
     },
     {
-      "title": "Basquiat: Black and White Version",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004832",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30020",
-      "year": "1996",
-      "director": "Julian Schnabel",
-      "cast": "Jeffrey Wright, \\nWillem Dafoe, \\nDennis Hopper, \\nChristopher Walken, \\nBenicio Del Toro, \\nClaire Forlani, \\nGary Oldman, \\nDavid Bowie, \\nParker Posey, \\nCourtney Love, \\nElina L\u00f6wensohn, \\nMichael Wincott",
-      "country": "",
-      "showtimes": [
-        "Mon May25 9:30pm"
-      ],
-      "show_dates": [
-        "2026-05-25"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Q&A with director Julian Schnabel moderated by filmmaker \nNemo Librizzi on Saturday, May 16th"
-    },
-    {
       "title": "Bellissima",
       "theater": "Film Forum",
       "url": "https://filmforum.org/film/bellissima",
@@ -4794,10 +4979,13 @@
         "6:40"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08"
       ],
       "date_start": "",
       "date_end": "",
@@ -5012,17 +5200,23 @@
       "url": "https://www.ifccenter.com/films/blue-film/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560997~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560999~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2026",
       "director": "Elliot Tuttle",
       "cast": "Reed Birney, Kieron Moore",
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -5051,17 +5245,23 @@
       "url": "https://www.ifccenter.com/films/blue-heron/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560888~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560889~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2025",
       "director": "Sophy Romvari",
       "cast": "Eylul Guven, Amy Zimmer, Iringo Reti, Edik Beddoes, Adam Tompa",
       "country": "Canada, Hungary",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -5080,7 +5280,6 @@
       "country": "Canada, Hungary",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04"
@@ -5101,12 +5300,10 @@
       "cast": "Lea Seydoux, Adele Exarchopoulos, Salim Kechiouche",
       "country": "",
       "showtimes": [
-        "Tue Jun 2 12:10 PM",
         "Wed Jun 3 1:30 PM",
         "Thu Jun 4 2:20 PM"
       ],
       "show_dates": [
-        "2026-06-02",
         "2026-06-03",
         "2026-06-04"
       ],
@@ -5136,25 +5333,29 @@
       "description": "Rosi\u2019s first (almost) feature-length film documents the daily routine of Gopal, a no-longer-young man who earns his bread by rowing Western tourists eager to rubberneck at Hindu funeral rites in Benares from one bank of the Ganges to another in a\u2026"
     },
     {
-      "title": "Boyfriends and Girlfriends",
+      "title": "Bouchra",
       "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999002871",
+      "url": "https://metrograph.com/film/?vista_film_id=9999004897",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29963",
-      "year": "1987",
-      "director": "\u00c9ric Rohmer",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30141",
+      "year": "2025",
+      "director": "Meriem  Bennani, Orian Barki",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sun May31 11:10am"
+        "Fri Jun26 7:00pm",
+        "Sat Jun27 4:40pm",
+        "Sun Jun28 7:30pm"
       ],
       "show_dates": [
-        "2026-05-31"
+        "2026-06-26",
+        "2026-06-27",
+        "2026-06-28"
       ],
       "date_start": "",
       "date_end": "",
-      "description": "Rohmer uses the amorous misadventures of two girlfriends in the Paris suburbs to test the old proverb \u201cles amis de mes amis sont mes amis\u201d (\u201cthe friends of my friends are my friends\u201d) in the final episode of his \u201cComedies and Proverbs\u201d series.\u2026"
+      "description": "Q&A with filmmakers and artists Orian Barki, Meriem Bennani, John Michael Boling, and Jason Coombs on Friday, June 26th\n, June 27th, and June 28th"
     },
     {
       "title": "Bumming in Beijing: The Last Dreamers",
@@ -5178,6 +5379,27 @@
       "description": "Widely regarded as the opening salvo of independent documentary in Mainland China, Wu\u2019s Bumming in Beijing\u2014a portrait of broke bohemian artists scraping by in the capital city, among them future blue-chip star Zhang Dali\u2014was shot with equipment from\u2026"
     },
     {
+      "title": "Bus Stop",
+      "theater": "Film Forum",
+      "url": "https://filmforum.org/film/bus-stop-marilyn-100",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1956",
+      "director": "Joshua Logan",
+      "cast": "Marilyn Monroe, Don Murray, Arthur O\u2019Connell",
+      "country": "U.S",
+      "showtimes": [
+        "5:50"
+      ],
+      "show_dates": [
+        "2026-06-05"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": ""
+    },
+    {
       "title": "Call Me By Your Name",
       "theater": "Angelika Film Center",
       "url": "https://angelikafilmcenter.com/nyc/movies/call-me-by-your-name",
@@ -5189,8 +5411,6 @@
       "cast": "Timoth\u00e9e Chalamet, Armie Hammer, Michael Stuhlbarg",
       "country": "",
       "showtimes": [
-        "Mon Jun 1 6:00 PM",
-        "Mon Jun 1 8:55 PM",
         "Tue Jun 2 4:00 PM",
         "Tue Jun 2 9:45 PM",
         "Wed Jun 3 10:30 AM",
@@ -5200,7 +5420,6 @@
         "Thu Jun 4 8:55 PM"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04"
@@ -5349,53 +5568,18 @@
       "show_dates": [
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
       "description": ""
-    },
-    {
-      "title": "Children of the Beehive + Children of War",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004839",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29950",
-      "year": "1976",
-      "director": "Hiroshi Shimizu, Jocelyne Saab",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Sat May30 4:30pm"
-      ],
-      "show_dates": [
-        "2026-05-30"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Independently produced by Shimizu following his parting of ways with Shochiku studios, Children of the Beehive offers a cross-country tour of a postwar Japan that everywhere displays the livid scars of still-recent bombings, following a newly repatriated\u2026"
-    },
-    {
-      "title": "Cinema Na\u00eff presents Pirosmani",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004853",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29944",
-      "year": "1969",
-      "director": "Sergei Parajanov, Giorgi Shengelaia",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Sat May30 6:15pm"
-      ],
-      "show_dates": [
-        "2026-05-30"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Introduction by Anri Vartan, Cinema Na\u00eff on Saturday, May 30th"
     },
     {
       "title": "Cinema Paradiso",
@@ -5491,7 +5675,8 @@
       ],
       "show_dates": [
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-08"
       ],
       "date_start": "",
       "date_end": "",
@@ -5509,10 +5694,12 @@
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sun Jun21 9:50pm"
+        "Sun Jun21 9:50pm",
+        "Sun Jun28 7:35pm"
       ],
       "show_dates": [
-        "2026-06-21"
+        "2026-06-21",
+        "2026-06-28"
       ],
       "date_start": "",
       "date_end": "",
@@ -5545,16 +5732,16 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999001846",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29955",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30131",
       "year": "1962",
       "director": "Agn\u00e8s Varda",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sun May31 5:20pm"
+        "Thu Jun11 3:30pm"
       ],
       "show_dates": [
-        "2026-05-31"
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -5566,19 +5753,13 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999003139",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29928",
+      "booking_url": "",
       "year": "1985",
       "director": "Elem Klimov",
       "cast": "",
       "country": "",
-      "showtimes": [
-        "Mon May25 6:45pm",
-        "Sun May31 9:45pm",
-        "Sat Jun6 1:45pm"
-      ],
+      "showtimes": [],
       "show_dates": [
-        "2026-05-25",
-        "2026-05-31",
         "2026-06-06"
       ],
       "date_start": "",
@@ -5734,17 +5915,15 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999004851",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29939",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29980",
       "year": "1983",
       "director": "Lewis  Teague",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Fri May29 10:50pm",
         "Fri Jun5 10:45pm"
       ],
       "show_dates": [
-        "2026-05-29",
         "2026-06-05"
       ],
       "date_start": "",
@@ -5778,14 +5957,16 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999004856",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30132",
       "year": "1990",
       "director": "Jean-Marie Straub, Dani\u00e8le  Huillet",
       "cast": "",
       "country": "",
-      "showtimes": [],
+      "showtimes": [
+        "Thu Jun11 5:30pm"
+      ],
       "show_dates": [
-        "2026-05-31"
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -5812,25 +5993,6 @@
       "description": "Touted as the first queer love story from West Africa, this poignant, unapologetic drama endures beyond the controversy and celebration it received upon its premiere at the 1997 Cannes Film Festival. Sory (Aboucar Tour\u00e9) and Manga (Mamady Mory Camara) feel an irrepressible romantic connection they cannot deny. But after the young men share their authentic feelings with their parents, they are separated and sent in different directions. Sory begins to work in his father\u2019s business, while Manga must spend a year with a traditional healer in the backcountry\u2014and both are firmly encouraged to settle down with women. As Sory and Manga attempt to meet social conventions, it gradually becomes clear that their personal journeys are more parallel than divergent. A rarely screened milestone in queer cinema, Mohamed Camara\u2019s Dakan (Destiny) is a powerful call to listen to\u2014and trust in\u2014one\u2019s heart."
     },
     {
-      "title": "DarkRoom Screening & Salon",
-      "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/darkroom-screening-salon-jun-2026/?date=today",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-06-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "A secret monthly mixtape of\u00a0short films from across the globe"
-    },
-    {
       "title": "Daughters of Darkness",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999002613",
@@ -5843,11 +6005,15 @@
       "country": "",
       "showtimes": [
         "Fri Jun19 10:30pm",
-        "Sat Jun20 11:15pm"
+        "Sat Jun20 11:15pm",
+        "Fri Jun26 5:15pm",
+        "Sat Jun27 8:40pm"
       ],
       "show_dates": [
         "2026-06-19",
-        "2026-06-20"
+        "2026-06-20",
+        "2026-06-26",
+        "2026-06-27"
       ],
       "date_start": "",
       "date_end": "",
@@ -5897,19 +6063,15 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999004847",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29935",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29978",
       "year": "1979",
       "director": "Grigori Kromanov",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Fri May29 6:20pm",
-        "Sat May30 9:00pm",
         "Fri Jun5 6:15pm"
       ],
       "show_dates": [
-        "2026-05-29",
-        "2026-05-30",
         "2026-06-05"
       ],
       "date_start": "",
@@ -5968,10 +6130,12 @@
       "cast": "",
       "country": "",
       "showtimes": [
-        "Fri Jun19 1:00pm"
+        "Fri Jun19 1:00pm",
+        "Sat Jun27 2:00pm"
       ],
       "show_dates": [
-        "2026-06-19"
+        "2026-06-19",
+        "2026-06-27"
       ],
       "date_start": "",
       "date_end": "",
@@ -6008,10 +6172,9 @@
       "cast": "Miriam Hopkins, Fredric March, Gary Cooper",
       "country": "U.S",
       "showtimes": [
-        "12:15"
+        "6:25"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02"
       ],
       "date_start": "",
@@ -6099,27 +6262,6 @@
       "date_start": "2026-05-13",
       "date_end": "2026-05-13",
       "description": "A thrilling (and gut-busting) examination of the height of Cold War tension, Kubrick\u2019s 1964 comedy chronicles the story of a mentally unstable American general\u2019s sudden order of a nuclear attack on the Soviet Union. Peter Sellers, in particularly magnetic form, portrays three characters in this equally funny and disturbing romp through one of America\u2019s most tumultuous periods. From black comedy at the end of the world to characters named Buck Turgidson and Jack D. Ripper, there\u2019s more than a little Pynchon DNA in Kubrick\u2019s classic."
-    },
-    {
-      "title": "Dream of Light preceded by Mir\u00f3 l'altre",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004852",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29941",
-      "year": "1992",
-      "director": "Victor Erice, Pere Portabella",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Sat May30 12:00pm"
-      ],
-      "show_dates": [
-        "2026-05-30"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Erice, best known for his ravishing 1973 Spirit of the Beehive, here focuses his camera on Madrile\u00f1o painter Antonio L\u00f3pez as he goes about the daily labor of artistic creation, meticulously struggling to capture, to his satisfaction, a quince tree in\u2026"
     },
     {
       "title": "Duck Soup",
@@ -6262,10 +6404,12 @@
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sat Jun20 12:00pm"
+        "Sat Jun20 12:00pm",
+        "Fri Jun26 1:45pm"
       ],
       "show_dates": [
-        "2026-06-20"
+        "2026-06-20",
+        "2026-06-26"
       ],
       "date_start": "",
       "date_end": "",
@@ -6357,6 +6501,29 @@
       "description": "When Bethany (Charli xcx) and her soon-to-be fianc\u00e9 (Will Madden) are unexpectedly stranded in Warsaw, Poland in the wake of a volcanic eruption, the former takes the explosive event as a sign to ditch her baggage, reunite with childhood friend Nel (Lena G\u00f3ra), and traipse across lofts, clubs, and back alleys, all the while becoming entangled in an emotional web that challenges her sense of self. American maverick Pete Ohs ( Everything Beautiful Is Far Away ) directed, edited, photographed, and produced this dizzyingly charming European postcard, an anti-romantic comedy about the pains and pleasures of being in love. Join us for a Q&A following the May 6, 7:10pm screening with Pete Ohs and Jeremy O. Harris, moderated by Nia Dacosta"
     },
     {
+      "title": "Europa",
+      "theater": "Metrograph",
+      "url": "https://metrograph.com/film/?vista_film_id=9999004899",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30144",
+      "year": "1991",
+      "director": "Lars Von Trier",
+      "cast": "",
+      "country": "",
+      "showtimes": [
+        "Fri Jun26 9:25pm",
+        "Sun Jun28 9:50pm"
+      ],
+      "show_dates": [
+        "2026-06-26",
+        "2026-06-28"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "Also known as Zentropa, by any name von Trier\u2019s film is a technical tour de force, its use of superimpositions and rear projection in layered widescreen compositions and expressionistic set design making for an orgy of formal flair unlike most anything\u2026"
+    },
+    {
       "title": "eXistenZ preceded by emergent mesh",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999004887",
@@ -6440,43 +6607,22 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999003325",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30070",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30128",
       "year": "1995",
       "director": "Wong Kar-wai",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Mon Jun1 10:10pm",
+        "Wed Jun10 10:00pm",
         "Fri Jun19 10:45pm"
       ],
       "show_dates": [
-        "2026-06-01",
+        "2026-06-10",
         "2026-06-19"
       ],
       "date_start": "",
       "date_end": "",
       "description": "Part hard-boiled crime thriller and part soft, featherweight giddiness, Fallen Angels was first conceived as a segment of Wong\u2019s Chungking Express, then developed into a darker companion piece to his glistening pop-romantic masterpiece, the story of a\u2026"
-    },
-    {
-      "title": "Farewell My Concubine",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999003621",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30021",
-      "year": "1993",
-      "director": "Kaige  Chen",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Tue May26 3:30pm"
-      ],
-      "show_dates": [
-        "2026-05-26"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Art and life become inextricably entwined in Chen\u2019s gorgeously arrayed triumph of costume and production design, an epic spanning 50 years of 20th-century Chinese history in the life of a troupe of Peking opera actors based on the 1985 Lilian Lee novel,\u2026"
     },
     {
       "title": "Fellini Satyricon",
@@ -6497,7 +6643,7 @@
       ],
       "date_start": "",
       "date_end": "",
-      "description": "The surviving fragments of Gaius Petronius\u2019s 1st century AD satire were adapted by Fellini into this appropriately disjointed, disorienting travelogue through an ancient Rome, extravagantly and outlandishly imagined\u2014with significant inspiration drawn\u2026"
+      "description": "Introduction by curator and scholar\u00a0Marc\u00a0Francis, author of\u00a0Curating Deviance: Programming the Queer Film Canon, on Sunday, June 14th"
     },
     {
       "title": "Fiddler On The Roof",
@@ -6542,27 +6688,6 @@
       "date_start": "",
       "date_end": "",
       "description": "Film Noir Cinema presents: \u201cFILM CLUB\u201d - an evening with moving image. The films are chosen each time by a different member of the club without anybody but the chooser knowing the title. Pure cinematheque fun."
-    },
-    {
-      "title": "FILM NOIR MONDAY",
-      "theater": "Film Noir Cinema",
-      "url": "https://www.filmnoircinema.com/program/2019/12/16/film-noir-mondays-b4lyr-5hdte",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Jun 1 9:00\u202fPM"
-      ],
-      "show_dates": [
-        "2026-06-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Film Noir Mondays are dedicated to bring to light lesser known as well as very obscure films that fit Film Noir cinema, including international titles. In Noir fashion the movie titles are not revealed beforehand, keeping the audience in total darkness. . ."
     },
     {
       "title": "Find Your Friends",
@@ -6610,17 +6735,15 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999004825",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29945",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29989",
       "year": "1983",
       "director": "Adrian  Lyne",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sat May30 8:40pm",
         "Sat Jun6 10:35pm"
       ],
       "show_dates": [
-        "2026-05-30",
         "2026-06-06"
       ],
       "date_start": "",
@@ -6665,56 +6788,17 @@
         "9:00"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08"
       ],
       "date_start": "",
       "date_end": "",
       "description": ""
-    },
-    {
-      "title": "Forbidden Games",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004838",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29951",
-      "year": "1952",
-      "director": "Ren\u00e9  Cl\u00e9ment",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Sat May30 2:40pm"
-      ],
-      "show_dates": [
-        "2026-05-30"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "France, 1940. Five-year-old Paulette (Brigitte Fossey), orphaned by a German air strike while fleeing Paris with her parents, finds shelter with a peasant family and, in their 11-year-old son, Michel (Georges Poujouly), a confidante, the two together\u2026"
-    },
-    {
-      "title": "Four Adventures of Reinette and Mirabelle",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999000659",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29931",
-      "year": "1987",
-      "director": "\u00c9ric Rohmer",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Fri May29 2:15pm"
-      ],
-      "show_dates": [
-        "2026-05-29"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Shot quickly in and around Paris during a production break on Rohmer\u2019s Le Rayon Vert, this breezy, witty film traces the exploits of two young women\u2014one an ethnology student from the city, the other an unsophisticated aspiring artist from the country.\u2026"
     },
     {
       "title": "Frances Ha",
@@ -6728,10 +6812,6 @@
       "cast": "Greta Gerwig, Mickey Sumner, Adam Driver, Michael Esper, Michael Zegen, Charlotte d&#39;Amboise, Grace Gummer",
       "country": "",
       "showtimes": [
-        "Mon Jun 1 5:10 PM",
-        "Mon Jun 1 7:25 PM",
-        "Mon Jun 1 9:40 PM",
-        "Tue Jun 2 10:50 AM",
         "Tue Jun 2 2:50 PM",
         "Tue Jun 2 5:10 PM",
         "Tue Jun 2 7:25 PM",
@@ -6748,7 +6828,6 @@
         "Thu Jun 4 9:40 PM"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04"
@@ -6811,10 +6890,12 @@
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sun Jun21 9:50pm"
+        "Sun Jun21 9:50pm",
+        "Sat Jun27 10:30pm"
       ],
       "show_dates": [
-        "2026-06-21"
+        "2026-06-21",
+        "2026-06-27"
       ],
       "date_start": "",
       "date_end": "",
@@ -6870,10 +6951,9 @@
       "cast": "Marilyn Monroe, Jane Russell, Charles Coburn",
       "country": "U.S",
       "showtimes": [
-        "6:30"
+        "4:25"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02"
       ],
       "date_start": "",
@@ -6898,27 +6978,6 @@
       "date_start": "2026-05-26",
       "date_end": "2026-05-26",
       "description": "North American Premiere Germaine Acogny, the \"mother of African contemporary dance,\" is one of Africa\u2019s most influential artists. This documentary traces her journey as a pioneer in blending traditional West African dance with European influences, creating the Acogny Technique, which has shaped contemporary dance worldwide. With over 50 years of performing and teaching, the 80-year-old dance icon received the Golden Lion for Dance at the 2021 Venice Dance Festival for her lifetime achievements. Followed by a Q&A with Ghyslaine de Souza, Germaine Acogny\u2019s daughter, moderated by Tracy Austin"
-    },
-    {
-      "title": "Germany Year Zero preceded by Bambini in citt\u00e0",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004855",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29954",
-      "year": "1948",
-      "director": "Roberto Rossellini, Luigi Comencini",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Sun May31 3:25pm"
-      ],
-      "show_dates": [
-        "2026-05-31"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Shot in the ruins of postwar Berlin, Rossellini\u2019s staggeringly despairing film\u2014peopled almost entirely with nonprofessional actors, including, in the central role, young Edmund Meschke\u2014follows a towheaded 12-year-old enduring unspeakable agonies in\u2026"
     },
     {
       "title": "Girls Like Girls",
@@ -7035,6 +7094,25 @@
       "description": "Intended to address the crisis levels of pollution in postwar Japan, GODZILLA VS. HEDORAH finds the King of the Monsters fighting an alien life form that arrives on Earth and steadily grows by feeding on industrial waste. Director Yoshimitsu Banno infuses the film with equal parts ecological horror, humorous monster antics, and '60s psychedelia straight out of San Francisco, making for a truly unique \u2013 and divisive \u2013 entry in the series. (Janus Films)"
     },
     {
+      "title": "Golden Goal Presents: Offside",
+      "theater": "BAM",
+      "url": "https://www.bam.org/film/2026/offside",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "2006",
+      "director": "Jafar Panahi",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-06-02"
+      ],
+      "date_start": "2026-06-02",
+      "date_end": "2026-06-02",
+      "description": "In Tehran, a girl (Shima Mobarak-Shahi) disguises her gender to elude the regime\u2019s stadium ban against women ahead of a men\u2019s qualifying match for the 2006 World Cup. When she is detained and jailed, she joins a group of riotous women bent on watching their country play. Bored but dutiful soldiers look after the women, and occasionally provide game commentary. Bold Iranian cinema luminary Jafar Panahi ( It Was Just an Accident , No Bears ) was inspired by his own football-loving daughter\u2019s exploits to make Offside , filming at the actual match with two improvised outcomes prepared to anticipate victory or defeat. Golden Goal , an independent literary magazine, explores the politics and allure of the World Cup. Celebrating this year\u2019s series, BAM is thrilled to screen Offside , followed by a discussion with Iranian author Amir Ahmadi Arian and Solmaz Sharif, founder of Shirzanan , the first women\u2019s sports magazine in Iran, moderated by Golden Goal co-editors Miguel Salazar and Alex Shephard."
+    },
+    {
       "title": "Good Time",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/urban-odysseys-good-time",
@@ -7111,11 +7189,13 @@
       "country": "",
       "showtimes": [
         "Fri Jun19 3:40pm",
-        "Sun Jun21 1:15pm"
+        "Sun Jun21 1:15pm",
+        "Sun Jun28 3:00pm"
       ],
       "show_dates": [
         "2026-06-19",
-        "2026-06-21"
+        "2026-06-21",
+        "2026-06-28"
       ],
       "date_start": "",
       "date_end": "",
@@ -7145,29 +7225,6 @@
       "description": "A single day in the life of the titular art deco Berlin institution, whose residents include prima ballerina Greta Garbo, jewel thief John Barrymore, and further colorful characters played by Joan Crawford, Wallace Beery, and Lionel Barrymore. (Producer\u2026"
     },
     {
-      "title": "Grave of the Fireflies [OV]",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004840",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29932",
-      "year": "1988",
-      "director": "Isao Takahata",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Fri May29 2:20pm",
-        "Sun May31 1:25pm"
-      ],
-      "show_dates": [
-        "2026-05-29",
-        "2026-05-31"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Based on a short story of the same name by Akiyuki Nosaka, set in the final months of the Pacific War, Takahata\u2019s first feature with Studio Ghibli tells the devastating story of two young siblings, Seita and Setsuko who, having succumbed to starvation,\u2026"
-    },
-    {
       "title": "Greetings From Out Here",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/queering-the-canon-greetings-from-out-here",
@@ -7183,27 +7240,6 @@
       "date_start": "",
       "date_end": "",
       "description": "Accompanied by her dog Sam and a video camera, filmmaker Ellen Spiro traveled from Virginia to Texas and back exploring openly gay culture in the Deep South. Highlighted by spontaneous encounters with local eccentrics and mechanics (her van breaks down frequently), Greetings from Out Here provides detailed portraits of small-town queer Southerners\u2014from Rita, a retired military officer turned drag queen in New Orleans to Iris, a Black lesbian living in a bus in the Ozarks. Filmed on location at the Texas Gay Rodeo, Mardi Gras, Gay Pride in Atlanta, Dollywood, Miss Miller's Eternal Love and Care Pet Cemetery, and the Short Mountain Radical Faerie sanctuary, Spiro captures the richness, vitality and courage of \"out\" gay Southern life in the early 1990s."
-    },
-    {
-      "title": "Grey Gardens",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999000707",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30031",
-      "year": "1975",
-      "director": "Ellen  Hovde, Albert  Maysles, David  Maysles, Muffie Meyer",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Wed May27 5:00pm"
-      ],
-      "show_dates": [
-        "2026-05-27"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "\u201cI only care about three things: the Catholic Church, swimming, and dancing.\u201d So goes the gospel according to Edith \u201cLittle Edie\u201d Beale, who in the 1970s, together with her brow-beating elderly mother, Edith \u201cBig Edie\u201d Bouvier lived in the\u2026"
     },
     {
       "title": "Guess Who'S Coming To Dinner",
@@ -7228,7 +7264,7 @@
       ],
       "date_start": "2026-05-29",
       "date_end": "2026-06-04",
-      "description": "After a 10-day Hawaiian vacation, Joanna Drayton (Katharine Houghton) returns to her San Francisco home with John Prentice (Sidney Poitier), her brand-new fianc\u00e9. Although he's a successful doctor and a Nobel Prize candidate, her parents, Christina (Katharine Hepburn) and Matthew (Spencer Tracy), are taken aback when they discover John is black."
+      "description": "IN THE HAND OF DANTE follows the parallel lives of a New York author (Nick Tosches) in the 21st century who embarks on a violent journey after he is recruited by a mafia don to steal Italian poet Dante Alighieri\u2019s The Divine Comedy written in the poet\u2019s own hand, and Dante in the 14th century seeking inspiration to write his most important work \u2013 each man unknowingly connected through time and their obsessive quest for love, beauty, and the divine."
     },
     {
       "title": "G\u00fceros",
@@ -7255,16 +7291,16 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999004831",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29925",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30130",
       "year": "2010",
       "director": "Hong Sang-soo",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Mon May25 1:00pm"
+        "Thu Jun11 5:10pm"
       ],
       "show_dates": [
-        "2026-05-25"
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -7329,44 +7365,25 @@
       "description": "Introduction by director Shunji Iwai on Sunday, June 7th"
     },
     {
-      "title": "Hiroshi Sugimoto selects The Face of Another",
+      "title": "Hill of Freedom",
       "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004820",
+      "url": "https://metrograph.com/film/?vista_film_id=9999004829",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29927",
-      "year": "1966",
-      "director": "Hiroshi Teshigahara",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30123",
+      "year": "2014",
+      "director": "Hong Sangsoo",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Mon May25 3:45pm"
+        "Wed Jun10 3:15pm"
       ],
       "show_dates": [
-        "2026-05-25"
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
-      "description": "The great Tatsuya Nakadai plays Mr. Okuyama, a businessman disfigured beyond recognition in a freak industrial accident who, through the operations of his psychiatrist, is affixed with a lifelike mask molded from the features of a stranger\u2014a miracle\u2026"
-    },
-    {
-      "title": "How Not to be Seen preceded by La Jet\u00e9e",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004848",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "1962",
-      "director": "Chris Marker, Hito Steyerl",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-05-29"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Q&A with artist Hito Steyerl on Friday, May 29th"
+      "description": "The progress through a hopelessly shuffled stack of love letters inspires the a-chronological structure of Hong\u2019s Hill of Freedom\u2014Moon So-ri\u2019s second film with Hong\u2014which describes the terse long-distance relationship between a South Korean woman\u2026"
     },
     {
       "title": "How To Build A Library",
@@ -7449,43 +7466,32 @@
       "description": "\u2018I DREAM OF YOUR DEATH\u2019 Short FIlm Block A collection of short films from... the Dark Side. Q&A with the Filmmakers after the screening!"
     },
     {
-      "title": "I Have Graduated",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004833",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "1992",
-      "director": "Shi Jian, Guangli Wang",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-05-31"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Introduction by filmmaker Zhu Rikun on Sunday, May 31st"
-    },
-    {
       "title": "I Love Boosters",
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/movies/i-love-boosters/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22854476/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22854598/",
       "year": "2026",
       "director": "Boots Riley",
       "cast": "Keke Palmer, Naomi Ackie, Taylour Paige, Poppy Liu, Eiza Gonzalez, LaKeith Stanfield, Will Poulter, Don Cheadle, Demi Moore",
       "country": "",
       "showtimes": [
-        "Mon Jun 1 10:00 pm"
+        "Tue Jun 2 2:30 pm",
+        "Tue Jun 2 7:40 pm",
+        "Tue Jun 2 10:00 pm"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -7504,10 +7510,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -7526,9 +7538,15 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -7554,28 +7572,7 @@
       "description": "Landslide (Avalancha) (2023) Dir. Daniel Santiago Cort\u00e9s Ram\u00edrez 25min; DCP In Spanish with English subtitles Composed entirely of archival footage, this experimental documentary opens with solely sound: scraping, rattling, and rumbling, like pebbles coming loose and starting to roll down a slope. The earth stirs before it starts to slide. What follows is a procession that runs through time and always takes a different form. A funeral procession, a protest march, a sea of fedoras, uniformed men on horses. And the sound continues to swell. The result is not just a depiction of Colombian history, but of resistance broadly, and the lives lost in its wake. Igualada (2024) Dir. Juan Mejia Botero 81min; DCP In Spanish with English subtitles Deemed \u201crousing and intimate\u201d by Variety , Botero\u2019s film follows the 2022 campaign of Francia M\u00e1rquez, a Black woman from a rural background in her pursuit of Colombia\u2019s presidency. The film\u2019s title, defined by an opening caption as \u201ca derogatory term (based on class, race and gender) used to designate someone who acts as if they deserve rights and privileges that supposedly don\u2019t correspond to them,\u201d is transformed through M\u00e1rquez\u2019s campaign, drawing the historically underrepresented into the nation\u2019s political process. Filmed over the course of 15 years, Botero provides a portrait that is both personal and socially moving."
     },
     {
-      "title": "In a Year of 13 Moons",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999000217",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30025",
-      "year": "1978",
-      "director": "Rainer Werner Fassbinder",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Tue May26 10:00pm"
-      ],
-      "show_dates": [
-        "2026-05-26"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Among Fassbinder\u2019s most emotionally brutalizing films\u2014and that\u2019s saying something!\u2014is the devastating story of a spiralling working-class transsexual, Elvira (Volker Spengler), struggling to make sense of her life after being callously cast aside\u2026"
-    },
-    {
-      "title": "In Viaggio: The Travels of Pope Francis?????ext-ms",
+      "title": "In Viaggio: The Travels of Pope Francis",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999004894",
       "status": "Now Playing",
@@ -7714,7 +7711,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03"
       ],
@@ -7738,6 +7734,27 @@
       "date_start": "",
       "date_end": "",
       "description": "As their marriage quietly unravels, Alex (Arnett) faces middle age and an impending divorce, seeking new purpose in the New York comedy scene while Tess (Dern) confronts the sacrifices she made for their family\u2014forcing them to navigate co-parenting, identity, and whether love can take a new form. Bradley Cooper writes, directs, and co-stars in this understated, affecting portrait of the challenges and opportunities of starting over in middle age."
+    },
+    {
+      "title": "Ivan's Childhood",
+      "theater": "Metrograph",
+      "url": "https://metrograph.com/film/?vista_film_id=9999004903",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30156",
+      "year": "1962",
+      "director": "Andrei Tarkovsky",
+      "cast": "",
+      "country": "",
+      "showtimes": [
+        "Sun Jun28 1:00pm"
+      ],
+      "show_dates": [
+        "2026-06-28"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "Tarkovsky\u2019s magisterial feature debut, dubbed an exemplar of \u201csocialist surrealism\u201d by admirer Jean-Paul Sartre, follows a 12-year-old Russian boy orphaned during the German invasion of the USSR who, spurred by a passionate desire to avenge the\u2026"
     },
     {
       "title": "Jack Johnson: Surfilmusic",
@@ -7809,10 +7826,12 @@
       "cast": "",
       "country": "",
       "showtimes": [
-        "Tue Jun2 3:55pm"
+        "Tue Jun2 4:00pm",
+        "Wed Jun10 6:10pm"
       ],
       "show_dates": [
-        "2026-06-02"
+        "2026-06-02",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -7937,6 +7956,48 @@
       "description": "When government cuts force a judge (Mohammed Bakri) to make a career pivot, Abu Laila finds himself driving a taxi in the hectic streets of the West Bank. On the day of his daughter's birthday, his wife insists that he needs to be home early with a present and a cake. The proud ex-judge embarks on a sprawling urban odyssey plagued by gridlock, disorderly passengers, and the myriad plights affecting daily life under occupation."
     },
     {
+      "title": "Landscape in the Mist",
+      "theater": "Metrograph",
+      "url": "https://metrograph.com/film/?vista_film_id=9999004795",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30117",
+      "year": "1988",
+      "director": "Theo  Angelopoulos",
+      "cast": "",
+      "country": "",
+      "showtimes": [
+        "Mon Jun8 4:10pm"
+      ],
+      "show_dates": [
+        "2026-06-08"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "An adolescent girl and her younger brother leave their village in Greece behind to hitchhike and hop trains in hopes of picking up the scent of the absent father they\u2019ve never met, having little to go on beyond a conviction that he may have emigrated to\u2026"
+    },
+    {
+      "title": "Last Year at Marienbad",
+      "theater": "Metrograph",
+      "url": "https://metrograph.com/film/?vista_film_id=9999002663",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30155",
+      "year": "1961",
+      "director": "Alain Resnais",
+      "cast": "",
+      "country": "",
+      "showtimes": [
+        "Sun Jun28 11:00am"
+      ],
+      "show_dates": [
+        "2026-06-28"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "Variously pilloried and adulated in its time, and undeniably \u201cone of the most influential movies ever made\u201d [J. Hoberman, The Village Voice], Resnais\u2019s coolly glittering, fascinating, frustrating film, made in collaboration with novelist Alain\u2026"
+    },
+    {
       "title": "Last Year At Marienbad",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/triple-canopy-magic-last-year-at-marienbad",
@@ -7967,10 +8028,12 @@
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sun Jun21 11:00am"
+        "Sun Jun21 11:00am",
+        "Sat Jun27 11:45am"
       ],
       "show_dates": [
-        "2026-06-21"
+        "2026-06-21",
+        "2026-06-27"
       ],
       "date_start": "",
       "date_end": "",
@@ -7982,7 +8045,7 @@
       "url": "https://www.ifccenter.com/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560836~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560837~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "",
       "director": "",
       "cast": "",
@@ -8013,46 +8076,70 @@
       "description": "A bank robber (Bulle Ogier) recently released from prison and a young woman (portrayed by Bulle\u2019s daughter, Pascale) roam the streets of Paris, cinematically reimagined as a sprawling board game, in a quest to understand the contents of a mysterious suitcase. A gorgeously rendered portrait of Paris imbued with an ever-present ominous rhythm, the playful middle period work from Rivette shares with Pynchon an interest in conspiracy and secret histories."
     },
     {
-      "title": "Lee Friedlander selects North by Northwest",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004821",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30034",
-      "year": "1959",
-      "director": "Alfred Hitchcock",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Wed May27 9:40pm"
-      ],
-      "show_dates": [
-        "2026-05-25",
-        "2026-05-27"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "From the United Nations building to broad-shouldered Chicago to Mount Rushmore, with a scenic stop at an empty field somewhere in the Midwest, follow beleaguered ad exec Roger Thornhill (Cary Grant) and his mysterious companion (Eva Marie Saint) as they\u2026"
-    },
-    {
       "title": "Les rendez-vous d'Anna",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999004850",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30136",
       "year": "1978",
       "director": "Chantal  Akerman",
       "cast": "",
       "country": "",
-      "showtimes": [],
+      "showtimes": [
+        "Thu Jun11 7:30pm"
+      ],
       "show_dates": [
-        "2026-05-29",
-        "2026-05-30"
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
       "description": "Akerman\u2019s third film produced through Liliane de Kermadec and Paul Vecchiali\u2019s Unit\u00e9 3 production company was this transfixing\u2014and, one suspects, quite personal\u2014study of alienation and emotional withdrawal, in which a well-known Belgian director\u2026"
+    },
+    {
+      "title": "Let'S Make Love",
+      "theater": "Film Forum",
+      "url": "https://filmforum.org/film/lets-make-love-marilyn-100",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1960",
+      "director": "George Cukor",
+      "cast": "Marilyn Monroe, Yves Montand",
+      "country": "U.S",
+      "showtimes": [
+        "3:00"
+      ],
+      "show_dates": [
+        "2026-06-05",
+        "2026-06-06"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": ""
+    },
+    {
+      "title": "Light of Day",
+      "theater": "Metrograph",
+      "url": "https://metrograph.com/film/?vista_film_id=9999004900",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30149",
+      "year": "1987",
+      "director": "Paul Schrader",
+      "cast": "",
+      "country": "",
+      "showtimes": [
+        "Sat Jun27 4:45pm",
+        "Sun Jun28 9:45pm"
+      ],
+      "show_dates": [
+        "2026-06-27",
+        "2026-06-28"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "Bruce Springsteen was originally intended to star in Schrader\u2019s blue-collar rock \u2019n\u2019 roll melodrama, but after the Boss took off with its original title in his back pocket\u2014\u201cBorn in the U.S.A.\u201d\u2014he presented the renamed Light of Day as a title\u2026"
     },
     {
       "title": "Long Live the Republic!",
@@ -8112,26 +8199,21 @@
         "Sat Jun 6 12:10 PM",
         "Sat Jun 6 3:20 PM",
         "Sat Jun 6 6:30 PM",
-        "Sat Jun 6 9:40 PM",
         "Sun Jun 7 12:10 PM",
         "Sun Jun 7 3:20 PM",
         "Sun Jun 7 6:30 PM",
-        "Sun Jun 7 9:40 PM",
         "Mon Jun 8 12:10 PM",
         "Mon Jun 8 3:20 PM",
         "Mon Jun 8 6:30 PM",
-        "Mon Jun 8 9:40 PM",
         "Tue Jun 9 12:10 PM",
-        "Tue Jun 9 3:20 PM",
         "Tue Jun 9 6:30 PM",
         "Tue Jun 9 9:40 PM",
         "Wed Jun 10 12:10 PM",
         "Wed Jun 10 3:20 PM",
         "Wed Jun 10 6:30 PM",
-        "Wed Jun 10 9:40 PM",
         "Thu Jun 11 10:00 AM",
-        "Thu Jun 11 3:20 PM",
-        "Thu Jun 11 8:45 PM"
+        "Thu Jun 11 12:30 PM",
+        "Thu Jun 11 3:20 PM"
       ],
       "show_dates": [
         "2026-06-05",
@@ -8165,7 +8247,7 @@
       ],
       "date_start": "",
       "date_end": "",
-      "description": "Q&A with director Claire Duguet moderated by US Vogue editor Chlo\u00e9 Malle on Friday, June 5th"
+      "description": "Q&A with director Claire Duguet moderated by Chloe Malle on Friday, June 5th"
     },
     {
       "title": "Love Letter",
@@ -8180,12 +8262,18 @@
       "country": "",
       "showtimes": [
         "Sun Jun7 1:00pm",
+        "Mon Jun8 7:25pm",
+        "Wed Jun10 3:45pm",
+        "Thu Jun11 10:15pm",
         "Fri Jun12 2:30pm"
       ],
       "show_dates": [
         "2026-06-05",
         "2026-06-06",
         "2026-06-07",
+        "2026-06-08",
+        "2026-06-10",
+        "2026-06-11",
         "2026-06-12"
       ],
       "date_start": "",
@@ -8219,20 +8307,18 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999004846",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29933",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29971",
       "year": "1981",
       "director": "George  Miller",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Fri May29 4:20pm",
-        "Sun May31 1:20pm",
-        "Fri Jun5 1:30pm"
+        "Fri Jun5 1:30pm",
+        "Wed Jun10 10:15pm"
       ],
       "show_dates": [
-        "2026-05-29",
-        "2026-05-31",
-        "2026-06-05"
+        "2026-06-05",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -8315,10 +8401,13 @@
         "8:00"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08"
       ],
       "date_start": "",
       "date_end": "",
@@ -8348,27 +8437,6 @@
       "date_start": "",
       "date_end": "",
       "description": "Introduction by actor John \"Lypsinka\" Epperson on Saturday, June 13th"
-    },
-    {
-      "title": "Martine Gutierrez selects Princess Mononoke [OV]",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004815",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30029",
-      "year": "1997",
-      "director": "Hayao  Miyazaki",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Wed May27 2:25pm"
-      ],
-      "show_dates": [
-        "2026-05-27"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Introduction by artist Martine Gutierrez on Saturday, May 9th"
     },
     {
       "title": "Marty Supreme",
@@ -8460,7 +8528,10 @@
         "2026-06-04",
         "2026-06-05",
         "2026-06-06",
-        "2026-06-07"
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -8553,20 +8624,26 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/michael/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22854466/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22854600/",
       "year": "2026",
       "director": "Antoine Fuqua",
       "cast": "Jaafar Jackson, Juliano Valdi, Colman Domingo, Nia Long, Larenz Tate",
       "country": "",
       "showtimes": [
-        "Mon Jun 1 5:30 pm",
-        "Mon Jun 1 8:30 pm"
+        "Tue Jun 2 3:15 pm",
+        "Tue Jun 2 5:30 pm",
+        "Tue Jun 2 8:30 pm"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -8585,9 +8662,15 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -8684,7 +8767,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-03"
       ],
       "date_start": "",
@@ -8744,32 +8826,12 @@
         "12:15"
       ],
       "show_dates": [
-        "2026-06-02"
+        "2026-06-02",
+        "2026-06-06"
       ],
       "date_start": "",
       "date_end": "",
       "description": ""
-    },
-    {
-      "title": "Moonrise Kingdom",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999003851",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29934",
-      "year": "2012",
-      "director": "Wes Anderson",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Fri May29 4:25pm"
-      ],
-      "show_dates": [
-        "2026-05-29"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Twelve-year-old pen pals Sam Shakusky and Suzy Bishop (newcomers Jared Gilman and Kara Hayward) turn pubescent lovers on the lam, crossing the hurricane-threatened New England coastal island of New Penzance while struggling to keep ahead of Suzy\u2019s\u2026"
     },
     {
       "title": "Moonstruck",
@@ -8876,17 +8938,23 @@
       "url": "https://www.ifccenter.com/films/mulholland-dr/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560110~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560097~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2001",
       "director": "David Lynch",
       "cast": "Naomi Watts, Laura Harring, Justin Theroux",
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -9044,44 +9112,6 @@
       "description": "Apichatpong Weerasethakul brought an appetite for experimen\u00adtation to Thai cinema with his debut feature, an uncategorizable work that refracts documentary impressions of his homeland through the surrealist concept of the \u201cexquisite corpse.\u201d Enlisting locals to contribute improvised narration to a simple tale, Weerasethakul charts the collective construction of the fiction as each new encounter imbues it with unpredictable shades of fantasy and pathos. Shot over the course of two years in black-and-white 16mm, Mysterious Object at Noon established the director\u2019s defining fascination with the porous boundaries between the real and the imagined."
     },
     {
-      "title": "Mystery Machine (6/1/2026)",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/mystery-machine-6-1-2026",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://drafthouse.com/nyc/show/mystery-machine-6-1-2026",
-      "year": "2026",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-06-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Shrouded in secrecy! Encircled by intrigue! The Mystery Machine promises to deliver cinematic treasures that span genres, countries, and tastes... only for those brave enough to enter. All shall be revealed only after the credits begin. Screening on select Mondays with discounted admission."
-    },
-    {
-      "title": "Mystery Voyage",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/agfadrome-mystery-voyage-may-2026",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://drafthouse.com/nyc/show/agfadrome-mystery-voyage-may-2026",
-      "year": "2000",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-06-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Exploding out of the AGFA vaults as a brand-new 35mm preservation, this 1990s kung fu fantasia from Hong Kong is a breathtaking combination of action, comedy, and cooking."
-    },
-    {
       "title": "Nadja",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/nadja",
@@ -9099,27 +9129,6 @@
       "date_start": "2026-02-06",
       "date_end": "2026-02-06",
       "description": "Michael Almereyda\u2019s ( Tesla , Experimenter , Hamlet ) 1994 work of horror\u2014executive produced by David Lynch\u2014centers on young vampire Nadja (Elina L\u00f6wensohn) as she attempts to reunite with her twin brother following their father\u2019s death from a stake in the heart at the hands of Dr. Van Helsing (Peter Fonda). The cult-classic, which fuses shimmering black-and-white 35mm with the hallucinatory grain of Pixelvision video, draws inspiration from Dracula\u2019s Daughter (1936) and Andr\u00e9 Breton\u2019s surrealist novel Nadja . We\u2019re thrilled to screen a brand-new 4K restoration of the director\u2019s cut. A Grasshopper Film and Arbelos Films Release Featuring two Q&As with director Michael Almereyda, moderated on February 6 by critic Stephanie Zacharek at 7pm and on February 7 by filmmaker Azazel Jacobs at 7pm"
-    },
-    {
-      "title": "Nan Goldin selects The Naked Kiss",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004822",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30030",
-      "year": "1964",
-      "director": "Samuel Fuller",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Wed May27 5:00pm"
-      ],
-      "show_dates": [
-        "2026-05-27"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Introduction by Nan Goldin on Sunday, May 17th"
     },
     {
       "title": "Ndar, Saga Waalo",
@@ -9155,7 +9164,8 @@
         "2:25"
       ],
       "show_dates": [
-        "2026-06-02"
+        "2026-06-02",
+        "2026-06-08"
       ],
       "date_start": "",
       "date_end": "",
@@ -9232,10 +9242,13 @@
         "9:10"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08"
       ],
       "date_start": "",
       "date_end": "",
@@ -9296,10 +9309,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -9311,21 +9330,27 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/obsession-2026/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22854487/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22854606/",
       "year": "2026",
       "director": "Curry Barker",
       "cast": "Michael Johnston, Inde Navarrette, Cooper Tomlinson, Megan Lawless, Andy Richter",
       "country": "",
       "showtimes": [
-        "Mon Jun 1 6:00 pm",
-        "Mon Jun 1 8:45 pm",
-        "Mon Jun 1 10:15 pm"
+        "Tue Jun 2 6:00 pm",
+        "Tue Jun 2 8:45 pm",
+        "Tue Jun 2 10:15 pm"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -9344,9 +9369,15 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -9486,41 +9517,29 @@
       "cast": "Jaeden Martell, Asa Butterfield, Chris Bauer, Jennifer Ehle, Anna Baryshnikov, Noah Centineo, Becky Ann Baker, Avan Jogia, Pippa Knowles",
       "country": "",
       "showtimes": [
-        "Mon Jun 1 6:50 PM",
-        "Mon Jun 1 9:15 PM",
         "Tue Jun 2 6:50 PM",
         "Wed Jun 3 6:50 PM",
         "Wed Jun 3 10:00 PM",
-        "Thu Jun 4 9:45 PM"
+        "Thu Jun 4 9:45 PM",
+        "Fri Jun 5 10:30 AM",
+        "Sun Jun 7 10:00 AM",
+        "Mon Jun 8 9:40 PM",
+        "Tue Jun 9 3:45 PM",
+        "Thu Jun 11 8:45 PM"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
       "description": "A headlong race through a world where success can be measured in engagement and tragedy has become content, Our Hero, Balthazar follows two neglected teens thrown together by a chance online encounter. Privileged yet lonely New Yorker Balthy (Jaeden Martell) Malone dreams of becoming a hero, while struggling Texan Solomon Jackson (Asa Butterfield) seeks recognition by posting violent threats. When Balthy, in an act of misguided heroism, travels to Texas in an attempt to befriend Solomon and avert a possible tragedy, he is drawn into a dangerous and thrilling new world. Despite their differences, both find refuge from their crushing loneliness in each other&rsquo;s company, but for all Balthy&rsquo;s good intentions, his decisions are driving them close to the precipice of disaster."
-    },
-    {
-      "title": "Paisan",
-      "theater": "Film at Lincoln Center",
-      "url": "https://www.filmlinc.org/films/paisan/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-06-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": ""
     },
     {
       "title": "Palestine \u201836",
@@ -9538,27 +9557,6 @@
       "date_start": "",
       "date_end": "",
       "description": "In 1936, Yusuf (Karim Daoud Anaya) oscillates between his rural home in Mandatory Palestine and an increasingly restless Jerusalem. Chronicling what would become the largest uprising against Britain\u2019s 30-year colonial project in the region, writer-director Annemarie Jacir (who was last at BAM for a full retrospective in 2018) returns with her most ambitious project to date. Anchored by performances from Hiam Abbass ( Succession ) and Saleh Bakri ( All That\u2019s Left of You ), the only feature to shoot in Palestine in the last two years arrives at a critical time. Advance screening followed by a Q&A with Annemarie Jacir on Mar 20, followed by our run of the film starting Mar 27"
-    },
-    {
-      "title": "Panic Room",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004818",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30026",
-      "year": "2002",
-      "director": "David Fincher",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Tue May26 7:45pm"
-      ],
-      "show_dates": [
-        "2026-05-26"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Newly divorced Meg Altman (Jodie Foster) and her sullen adolescent daughter Sarah (a pre-Twilight Kristen Stewart) have just begun to acquaint themselves with their new digs, a four-story Upper West Side brownstone previously owned by a wealthy recluse\u2026"
     },
     {
       "title": "Paris Belongs To Us",
@@ -9592,34 +9590,12 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03"
       ],
       "date_start": "",
       "date_end": "",
       "description": "After a young couple witnesses a gruesome highway accident, they soon realize they did not leave the crash scene alone, as a demonic presence called the Passenger that won't stop until it claims them both turns their van life adventure into a nightmare."
-    },
-    {
-      "title": "Peppermint Candy",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999003665",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30032",
-      "year": "1999",
-      "director": "Lee  Chang-dong",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Wed May27 7:00pm"
-      ],
-      "show_dates": [
-        "2026-05-27"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Opening on a shocking scene of implied suicide, Lee\u2019s sophomore feature proceeds to move backward in time, its reverse chronology following its protagonist\u2019s unhappiness to its source, following him from the end of the \u201970s to the close of the\u2026"
     },
     {
       "title": "Petro",
@@ -9721,27 +9697,6 @@
       "description": ""
     },
     {
-      "title": "Polyester",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999002713",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30071",
-      "year": "1981",
-      "director": "John  Waters",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Mon Jun1 10:15pm"
-      ],
-      "show_dates": [
-        "2026-06-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Introduction by John Early on Sunday, May 17th"
-    },
-    {
       "title": "Pompei: Below the Clouds",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999004873",
@@ -9765,42 +9720,17 @@
       "description": "Introduction and Q&A with director Gianfranco Rosi on Friday, June 12th"
     },
     {
-      "title": "Portrait of a Lady on Fire",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999003837",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30028",
-      "year": "2019",
-      "director": "C\u00e9line  Sciamma",
-      "cast": "No\u00e9mie Merlant, Ad\u00e8le Haenel, Lu\u00e0na Bajrami, Valeria Golino",
-      "country": "",
-      "showtimes": [
-        "Wed May27 2:30pm"
-      ],
-      "show_dates": [
-        "2026-05-27"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Set in late 18th-century France, Sciamma\u2019s acclaimed queer period romance, luminously shot by Claire Mathon, concerns the blossoming romance between a young aristocratic woman (Ad\u00e8le Haenel), engaged to be married, and the female painter (No\u00e9mie\u2026"
-    },
-    {
       "title": "Portrait Of A Lady On Fire",
       "theater": "Angelika Film Center",
       "url": "https://angelikafilmcenter.com/nyc/movies/portrait-of-a-lady-on-fire",
       "status": "Now Playing",
       "opens": "May 29",
       "booking_url": "https://angelikafilmcenter.com/nyc/movies/portrait-of-a-lady-on-fire",
-      "year": "2019",
+      "year": "",
       "director": "C\u00e9line Sciamma",
       "cast": "No\u00e9mie Merlant, Ad\u00e8le Haenel, Lu\u00e0na Bajrami, Valeria Golino",
       "country": "",
       "showtimes": [
-        "Mon Jun 1 3:50 PM",
-        "Mon Jun 1 6:45 PM",
-        "Mon Jun 1 9:40 PM",
-        "Tue Jun 2 12:10 PM",
         "Tue Jun 2 7:00 PM",
         "Tue Jun 2 9:50 PM",
         "Wed Jun 3 10:30 AM",
@@ -9812,7 +9742,6 @@
         "Thu Jun 4 4:10 PM"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04"
@@ -9834,39 +9763,19 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04",
         "2026-06-05",
         "2026-06-06",
-        "2026-06-07"
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
       "description": "When Rick (Paul Rudd), a past-his-prime wedding singer, meets fading boy-band star Danny (Nick Jonas) during a gig, the two bond over music and a late-night jam session. But when Danny turns one of Rick\u2019s songs into the hit that reignites his career, Rick sets out to reclaim the recognition he believes he deserves \u2013 even if it means risking everything he cares about. From writer-director John Carney (SING STREET, ONCE), POWER BALLAD is a feel-good story about music, self-respect, friendship, and the price of ambition."
-    },
-    {
-      "title": "Pressure",
-      "theater": "Williamsburg Cinemas",
-      "url": "https://www.hk-cinemas.com",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://www.hk-cinemas.com",
-      "year": "",
-      "director": "Anthony Maras",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-06-01",
-        "2026-06-02",
-        "2026-06-03",
-        "2026-06-04"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "In the tense 72 hours before D-Day, and the fate of the free world hanging in the balance, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice&mdash;launch the largest and most dangerous seaborne invasion in history or risk losing the war altogether."
     },
     {
       "title": "Pressure (2026)",
@@ -9881,9 +9790,15 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -9965,7 +9880,9 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-05-28"
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-09"
       ],
       "date_start": "",
       "date_end": "",
@@ -9989,25 +9906,24 @@
       "description": "School-teacher-turned-astronaut Ryland Grace (Gosling) awakes on a space station with no memory of who he is or his mission. As fragments of memory return in bursts, he pieces together his objective to reverse the impact of a space event that hurled Earth into the early stages of an Ice Age, and soon realizes he may not be alone in his quest. Based on the novel by Andy Weir ( The Martian ), Phil Lord and Christopher Miller\u2019s adaptation invokes elements of puppetry and practical effects in its conjuring of Grace\u2019s companion, propelling a visual style reminiscent of some of sci-fi\u2019s trailblazing works."
     },
     {
-      "title": "Rear Window",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999000255",
+      "title": "Rango",
+      "theater": "Nitehawk (Williamsburg)",
+      "url": "https://nitehawkcinema.com/williamsburg/movies/rango/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30067",
-      "year": "1954",
-      "director": "Alfred Hitchcock",
-      "cast": "",
+      "booking_url": "",
+      "year": "2011",
+      "director": "Gore Verbinski",
+      "cast": "Johnny Depp, Isla Fisher, Timothy Olyphant, Abigail Breslin, Ned Beatty, Alfred Molina, Bill Nighy, Stephen Root, Harry Dean Stanton, Ray Winstone",
       "country": "",
-      "showtimes": [
-        "Wed May27 7:15pm"
-      ],
+      "showtimes": [],
       "show_dates": [
-        "2026-05-27"
+        "2026-06-06",
+        "2026-06-07"
       ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Jimmy Stewart\u2019s he-man, globe-trotting photographer is laid up for the summer with a broken leg, and enlists the help of Grace Kelly (ordering snacks from 21) when he becomes convinced that neighbor Raymond Burr has murdered his wife. One of the\u2026"
+      "date_start": "2026-06-06",
+      "date_end": "2026-06-07",
+      "description": ""
     },
     {
       "title": "Reel Sisters & Bam Present An Evening Of Shorts Honoring Women\u2019S History Month",
@@ -10034,17 +9950,23 @@
       "url": "https://www.ifccenter.com/films/renoir/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560359~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560360~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "",
       "director": "Chie Hayakawa",
       "cast": "Yui Suzuki, Lily Franky, Hikari Ishida, Ayumu Nakajima",
       "country": "Japan/France/Singapore/Philippines/Indonesia/Qatar",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -10119,11 +10041,11 @@
       "cast": "Marilyn Monroe, Robert Mitchum, Rory Calhoun",
       "country": "U.S",
       "showtimes": [
-        "2:15"
+        "3:10"
       ],
       "show_dates": [
-        "2026-06-01",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-07"
       ],
       "date_start": "",
       "date_end": "",
@@ -10147,25 +10069,6 @@
       "date_start": "2026-04-17",
       "date_end": "2026-04-17",
       "description": "One of the great unrealized theatrical productions of the 20th century, the CIVIL warS: a tree is best measured when it is down would have been visionary director Robert Wilson\u2019s magnum opus: a 12-hour historical opera in six distinct parts, each prepared in a different country ahead of a complete performance planned for the 1984 Summer Olympics in Los Angeles. Director Howard Brookner\u2019s 1985 documentary follows Wilson as he collaborates with artists like David Byrne, Philip Glass, and Lucinda Childs, while grappling with funding challenges, labor issues, and the daunting scale of his undertaking. After elements of the film were lost or destroyed in Superstorm Sandy, Aaron Brookner, the documentarian\u2019s nephew, devoted 12 years to restoring this extraordinary chronicle. Restored in 2025 by Pinball London \u2013 Janus Films \u2013 The Criterion Collection at Pinball London, Bando a parte, Dan Zlotnik, and Matar Studio from a 16mm print, a VHS, and the stereo 16mm optical sound. Funding provided by Howard Brookner Legacy Project, Howard Brookner Estate, Pinball London and Janus Films \u2013 The Criterion Collection. Restoration supervised by Aaron Brookner, Paula Vaccaro, and Carlos Morales/EPost."
-    },
-    {
-      "title": "Roberto Rossellini, Living Without A Script",
-      "theater": "Film at Lincoln Center",
-      "url": "https://www.filmlinc.org/films/roberto-rossellini/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-06-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": ""
     },
     {
       "title": "Sacro GRA",
@@ -10263,7 +10166,10 @@
         "2026-06-04",
         "2026-06-05",
         "2026-06-06",
-        "2026-06-07"
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -10488,18 +10394,18 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999002394",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29957",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29988",
       "year": "1995",
       "director": "Paul Verhoeven",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sun May31 9:45pm",
-        "Sat Jun6 7:50pm"
+        "Sat Jun6 7:50pm",
+        "Thu Jun11 10:00pm"
       ],
       "show_dates": [
-        "2026-05-31",
-        "2026-06-06"
+        "2026-06-06",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -10518,7 +10424,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04"
@@ -10540,7 +10445,7 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01"
+        "2026-06-02"
       ],
       "date_start": "",
       "date_end": "",
@@ -10602,27 +10507,6 @@
       "description": "Margot Kidder is Danielle, a beautiful model separated from her Siamese twin, Dominique. When a hotshot reporter (Jennifer Salt) suspects Dominique of a brutal murder, she becomes dangerously ensnared in the sisters\u2019 insidious sibling bond. A scary and stylish paean to female destructiveness, Brian De Palma\u2019s first foray into horror voyeurism is a stunning amalgam of split-screen effects, bloody birthday cakes, and a chilling score by frequent Alfred Hitchcock collaborator Bernard Herrmann."
     },
     {
-      "title": "Soleil \u00d4",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004802",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30027",
-      "year": "1970",
-      "director": "Med Hondo",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Tue May26 5:40pm"
-      ],
-      "show_dates": [
-        "2026-05-26"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Introduction by Yassine Ait Ali, PhD candidate at Princeton University and founding director of the Princeton French Film Festival on Sunday, April 26th"
-    },
-    {
       "title": "Solomon Northup\u2019S Odyssey",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/solomon-northups-odyssey",
@@ -10653,10 +10537,12 @@
       "cast": "Marilyn Monroe, Jack Lemmon, Tony Curtis, George Raft",
       "country": "U.S",
       "showtimes": [
-        "8:40"
+        "12:30"
       ],
       "show_dates": [
-        "2026-06-01"
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07"
       ],
       "date_start": "",
       "date_end": "",
@@ -10740,46 +10626,32 @@
       "description": "Set in the then near-future landscape of 2008 Los Angeles, this ensemble black comedy about the city\u2019s impending social and economic collapse satirizes the military-industrial complex and accelerating infotainment industry. A sprawling cast of characters circle a shadowy conspiracy, which literalizes a Pynchonesque love of \u201clow\u201d culture through its cast of mid-00s pop culture icons."
     },
     {
-      "title": "Stalker",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999001012",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30022",
-      "year": "1979",
-      "director": "Andrei Tarkovsky",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Tue May26 6:50pm"
-      ],
-      "show_dates": [
-        "2026-05-26"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Tarkovsky\u2019s stunning, haunted sepia-toned sci-fi masterpiece follows a scientist and a writer who, living in a broken-down totalitarian dystopia, recruit the help of a \u201cStalker\u201d\u2014a kind of post-apocalyptic Sherpa\u2014to guide them on a voyage of\u2026"
-    },
-    {
       "title": "Star Wars: The Mandalorian and Grogu",
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/movies/star-wars-the-mandalorian-and-grogu/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22854467/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22854597/",
       "year": "2026",
       "director": "Jon Favreau",
       "cast": "Pedro Pascal, Sigourney Weaver, Jeremy Allen White",
       "country": "",
       "showtimes": [
-        "Mon Jun 1 6:30 pm",
-        "Mon Jun 1 9:30 pm"
+        "Tue Jun 2 3:00 pm",
+        "Tue Jun 2 6:30 pm",
+        "Tue Jun 2 9:00 pm"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -10798,9 +10670,15 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -10988,14 +10866,39 @@
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sat Jun20 8:35pm"
+        "Sat Jun20 8:35pm",
+        "Sat Jun27 10:00pm"
       ],
       "show_dates": [
-        "2026-06-20"
+        "2026-06-20",
+        "2026-06-27"
       ],
       "date_start": "",
       "date_end": "",
       "description": "Introduction by chef and author Natasha Pickowicz on Saturday, June 20th"
+    },
+    {
+      "title": "Teen Wolf",
+      "theater": "Metrograph",
+      "url": "https://metrograph.com/film/?vista_film_id=9999004898",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30142",
+      "year": "1985",
+      "director": "Rod Daniel",
+      "cast": "",
+      "country": "",
+      "showtimes": [
+        "Fri Jun26 7:15pm",
+        "Sun Jun28 5:30pm"
+      ],
+      "show_dates": [
+        "2026-06-26",
+        "2026-06-28"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "Awkward Nebraska high schooler Scott Howard (Fox) is a flop on the basketball court and practically invisible to girls, but all of that changes when he discovers he\u2019s inherited the curse\u2014and the gift\u2014of lycanthropy from his father, achieving local\u2026"
     },
     {
       "title": "Teenage Gang Debs",
@@ -11041,17 +10944,23 @@
       "url": "https://www.ifccenter.com/films/terminator-2-judgment-day/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560811~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=560812~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "1991",
       "director": "James Cameron",
       "cast": "Arnold Schwarzenegger, Linda Hamilton",
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -11118,7 +11027,7 @@
       ],
       "date_start": "2026-05-31",
       "date_end": "2026-06-04",
-      "description": "Society scion Newland Archer is engaged to May Welland, but his well-ordered life is upset when he meets May's unconventional cousin, the Countess Olenska. At first, Newland becomes a defender of the Countess, whose separation from her abusive husband makes her a social outcast in the restrictive high society of late-19th Century New York, but he finds in her a companion spirit and they fall in love."
+      "description": "IN THE HAND OF DANTE follows the parallel lives of a New York author (Nick Tosches) in the 21st century who embarks on a violent journey after he is recruited by a mafia don to steal Italian poet Dante Alighieri\u2019s The Divine Comedy written in the poet\u2019s own hand, and Dante in the 14th century seeking inspiration to write his most important work \u2013 each man unknowingly connected through time and their obsessive quest for love, beauty, and the divine."
     },
     {
       "title": "The Amazing Digital Circus: The Last Act",
@@ -11140,6 +11049,27 @@
       "date_start": "",
       "date_end": "",
       "description": "The viral internet sensation \u201cThe Amazing Digital Circus\u201d comes to its long-awaited conclusion in a feature-length theatrical release! This \u201cLast Act\u201d combines episode 8 with the all-new, hour-long episode 9 for fans to see before anyone else in the world. \nWith Caine gone and the circus dark, the cast are left with only the mistakes and traumas of their pasts to keep them company. As the prospect of eternity closes in around them, they discover the truth about the Digital Circus and its history. Will they come to terms with what they uncover, or will they make\u2026the other choice? Also, presumably at some point, someone says something funny, because this ending can\u2019t be THAT depressing, can it?"
+    },
+    {
+      "title": "The Asphalt Jungle",
+      "theater": "Film Forum",
+      "url": "https://filmforum.org/film/the-asphalt-jungle-marilyn-100",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1950",
+      "director": "John Huston",
+      "cast": "Marilyn Monroe, Sterling Hayden, Louis Calhern, Jean Hagen, James Whitmore, Sam Jaffe",
+      "country": "U.S",
+      "showtimes": [
+        "5:50"
+      ],
+      "show_dates": [
+        "2026-06-08"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": ""
     },
     {
       "title": "The Aviator's Wife",
@@ -11213,10 +11143,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -11235,9 +11171,15 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -11292,7 +11234,7 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01"
+        "2026-06-02"
       ],
       "date_start": "",
       "date_end": "",
@@ -11340,7 +11282,7 @@
       ],
       "date_start": "",
       "date_end": "",
-      "description": "Pasolini\u2019s so-called \u201cTrilogy of Life\" films, adapted from canonical, world-historical story collections, represented a break from his experimental works of the late 1960s like Porcile and Teorema\u2014films which he came to judge as existing too much in\u2026"
+      "description": "Introduction by curator and scholar\u00a0Marc\u00a0Francis, author of\u00a0Curating Deviance: Programming the Queer Film Canon, on Sunday, June 14th"
     },
     {
       "title": "The Devil Wears Prada 2",
@@ -11348,20 +11290,26 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/the-devil-wears-prada-2/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22854468/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22854599/",
       "year": "2026",
       "director": "David Frankel",
       "cast": "Meryl Streep, Emily Blunt, Anne Hathaway, Stanley Tucci",
       "country": "",
       "showtimes": [
-        "Mon Jun 1 6:15 pm",
-        "Mon Jun 1 9:00 pm"
+        "Tue Jun 2 2:45 pm",
+        "Tue Jun 2 6:15 pm",
+        "Tue Jun 2 7:15 pm"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -11380,9 +11328,15 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -11422,7 +11376,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04"
@@ -11510,6 +11463,25 @@
       "description": "Dr. Frederic Treves (Anthony Hopkins) discovers Joseph (John) Merrick (John Hurt) in a sideshow. Born with a congenital disorder, Merrick uses his disfigurement to earn a living as the &quot;Elephant Man.&quot; Treves brings Merrick into his home, discovering that his rough exterior hides a refined soul, and that Merrick can teach the stodgy British upper class of the time a lesson about dignity. Merrick becomes the toast of London and charms a caring actress (Anne Bancroft) before his death at 27."
     },
     {
+      "title": "The Eyes Of Others",
+      "theater": "Film at Lincoln Center",
+      "url": "https://www.filmlinc.org/films/the-eyes-of-others/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-06-02"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": ""
+    },
+    {
       "title": "THE FLESH PEOPLE",
       "theater": "Film Noir Cinema",
       "url": "https://www.filmnoircinema.com/program/2026/6/5/the-flesh-people",
@@ -11590,52 +11562,6 @@
       "date_start": "2026-02-14",
       "date_end": "2026-02-14",
       "description": "In 1935, the great German-born American director William Wyler made this film about Luisa Ginglebusher, a sweet-natured yet naive young woman recently released from an orphanage who becomes an usher at a local movie theater. In an attempt to do good, Luisa finds herself wrapped up in a series of hi-jinks and romantic entanglements. The Good Fairy is based on the Hungarian play of the same name by Ferenc Moln\u00e1r."
-    },
-    {
-      "title": "The Handmaiden",
-      "theater": "Nitehawk (Williamsburg)",
-      "url": "https://nitehawkcinema.com/williamsburg/movies/the-handmaiden/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "2016",
-      "director": "Park Chan-wook",
-      "cast": "Kim Min-hee, Ha Jung-woo, Cho Jin-woong, Moon So-ri, Kim Tae-ri, Lee Yong-nyeo",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-06-01",
-        "2026-06-06",
-        "2026-06-07"
-      ],
-      "date_start": "2026-06-01",
-      "date_end": "2026-06-01",
-      "description": "Park\u2019s twisty, kinky, divinely decadent period thriller, set in a Japanese-occupied 1930s Korea that\u2019s imagined with baroque flourish by set designer Ryu Seong-hee, follows hired handmaiden Kim Tae-ri as she enters the service of shut-in heiress Kim\u2026"
-    },
-    {
-      "title": "The Handmaiden",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999000494",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29924",
-      "year": "2016",
-      "director": "Park Chan-wook",
-      "cast": "Kim Min-hee, Ha Jung-woo, Cho Jin-woong, Moon So-ri, Kim Tae-ri, Lee Yong-nyeo",
-      "country": "",
-      "showtimes": [
-        "Mon May25 12:45pm",
-        "Fri May29 10:45pm",
-        "Mon Jun1 4:30pm"
-      ],
-      "show_dates": [
-        "2026-05-25",
-        "2026-05-29",
-        "2026-06-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Park\u2019s twisty, kinky, divinely decadent period thriller, set in a Japanese-occupied 1930s Korea that\u2019s imagined with baroque flourish by set designer Ryu Seong-hee, follows hired handmaiden Kim Tae-ri as she enters the service of shut-in heiress Kim\u2026"
     },
     {
       "title": "The Harder They Come",
@@ -11782,14 +11708,13 @@
       "url": "https://lowcinema.com/movie/the-misconceived/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://lowcinema.com/checkout/74baca32-81ac-4ba6-b7ed-2bda6a8ca9f4/",
+      "booking_url": "https://lowcinema.com/checkout/ee742936-2549-498e-aa9c-928d70aa626e/",
       "year": "2026",
       "director": "James N. Kienitz Wilkins",
       "cast": "",
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04",
@@ -11802,24 +11727,46 @@
       "description": "A struggling filmmaker and single father navigates work-life balance through home renovation. Mon June 1: Q&A with artist/filmmaker Mary Helena Clark, actor Jesse Wakeman, and filmmakers Fri June 5: Q&A with writer/film programmer Steve Macfarlane, multimedia artist Matt Romein, and filmmakers Sat June 6: Q&A with filmmakers"
     },
     {
-      "title": "The Misconceived Mystery Movie Nights",
-      "theater": "Low Cinema",
-      "url": "https://lowcinema.com/movie/secret-screening-1-related-to-the-misconceived/",
+      "title": "The Misfits",
+      "theater": "Film Forum",
+      "url": "https://filmforum.org/film/the-misfits-marilyn-100",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://lowcinema.com/checkout/7e5b6e11-9c70-4f9f-af66-ae2408c69b73/",
-      "year": "",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
+      "booking_url": "",
+      "year": "1961",
+      "director": "John Huston",
+      "cast": "Marilyn Monroe, Clark Gable, Eli Wallach, Montgomery Clift, Thelma Ritter",
+      "country": "U.S",
+      "showtimes": [
+        "8:00"
+      ],
       "show_dates": [
-        "2026-06-01",
-        "2026-06-05"
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07"
       ],
       "date_start": "",
       "date_end": "",
-      "description": "A home renovation thriller introduced by Chad Laird on June 1st. A troubling cartoon classic about interspecial sex introduced by Steve Macfarlane on June 5th."
+      "description": ""
+    },
+    {
+      "title": "The Misfits",
+      "theater": "Film Forum",
+      "url": "https://filmforum.org/film/the-misfits-marilyn-100-marilyn-100",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1961",
+      "director": "John Huston",
+      "cast": "Marilyn Monroe, Clark Gable, Eli Wallach, Montgomery Clift, Thelma Ritter",
+      "country": "U.S",
+      "showtimes": [
+        "7:50"
+      ],
+      "show_dates": [],
+      "date_start": "",
+      "date_end": "",
+      "description": ""
     },
     {
       "title": "The Pawnbroker",
@@ -11949,10 +11896,9 @@
       "cast": "Marilyn Monroe, Tom Ewell, Evelyn Keyes",
       "country": "U.S",
       "showtimes": [
-        "4:15"
+        "5:20"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-04"
       ],
       "date_start": "",
@@ -11965,21 +11911,26 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/the-sheep-detectives/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22854460/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22854601/",
       "year": "2026",
       "director": "Kyle Balda",
       "cast": "Hugh Jackman, Bryan Cranston, Nicholas Galitzine, Emma Thompson",
       "country": "",
       "showtimes": [
-        "Mon Jun 1 4:00 pm",
-        "Mon Jun 1 4:40 pm",
-        "Mon Jun 1 5:10 pm"
+        "Tue Jun 2 4:00 pm",
+        "Tue Jun 2 4:40 pm",
+        "Tue Jun 2 5:10 pm"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -11998,9 +11949,15 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -12093,10 +12050,12 @@
       "cast": "",
       "country": "",
       "showtimes": [
-        "Fri Jun5 3:35pm"
+        "Fri Jun5 3:35pm",
+        "Sat Jun13 10:30pm"
       ],
       "show_dates": [
-        "2026-06-05"
+        "2026-06-05",
+        "2026-06-13"
       ],
       "date_start": "",
       "date_end": "",
@@ -12153,32 +12112,11 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01"
+        "2026-06-02"
       ],
       "date_start": "",
       "date_end": "",
       "description": ""
-    },
-    {
-      "title": "The Taste of Tea",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004814",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30033",
-      "year": "2004",
-      "director": "Katsuhito Ishii",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Wed May27 9:35pm"
-      ],
-      "show_dates": [
-        "2026-05-27"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Playing in a sterling new transfer, Ishii\u2019s third feature is a uniquely gonzo take on the Japanese shokin-geki (literally: \u201ccommon people drama\u201d), focused on the daily affairs of a family, the Hasunos\u2014hypnotherapist father, animator mother,\u2026"
     },
     {
       "title": "The Testament Of Ann Lee",
@@ -12203,18 +12141,18 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999000933",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29946",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30078",
       "year": "1984",
       "director": "John Carpenter",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sat May30 10:50pm",
-        "Tue Jun2 9:50pm"
+        "Tue Jun2 9:50pm",
+        "Mon Jun8 9:50pm"
       ],
       "show_dates": [
-        "2026-05-30",
-        "2026-06-02"
+        "2026-06-02",
+        "2026-06-08"
       ],
       "date_start": "",
       "date_end": "",
@@ -12251,10 +12189,12 @@
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sat Jun20 3:00pm"
+        "Sat Jun20 3:00pm",
+        "Sat Jun27 2:00pm"
       ],
       "show_dates": [
-        "2026-06-20"
+        "2026-06-20",
+        "2026-06-27"
       ],
       "date_start": "",
       "date_end": "",
@@ -12291,8 +12231,6 @@
       "cast": "Catherine Denevue, Nino Castelnuovo, Anne Vernon, Marc Michel",
       "country": "",
       "showtimes": [
-        "Mon Jun 1 4:30 PM",
-        "Tue Jun 2 11:50 AM",
         "Tue Jun 2 2:10 PM",
         "Tue Jun 2 4:30 PM",
         "Wed Jun 3 11:50 AM",
@@ -12303,7 +12241,6 @@
         "Thu Jun 4 4:30 PM"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04"
@@ -12400,8 +12337,6 @@
       "cast": "Paul Dano, Jude Law, Alicia Vikander,\u00a0Jeffrey Wright",
       "country": "",
       "showtimes": [
-        "Mon Jun 1 9:30 PM",
-        "Tue Jun 2 1:00 PM",
         "Tue Jun 2 7:00 PM",
         "Wed Jun 3 1:00 PM",
         "Wed Jun 3 7:00 PM",
@@ -12409,7 +12344,6 @@
         "Thu Jun 4 4:25 PM"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04"
@@ -12438,7 +12372,7 @@
       "description": "The Woman Who Poked The Leopard (2025) Dir. Patience Nitumwesiga With Stella Nyanzi, Baraka Bah, Kato Bah, Wasswa Bah 108min; DCP Uganda, South Africa, Germany, US US Premiere An outspoken poet, scholar, and activist, Dr. Stella Nyanzi has become one of the most uncompromising voices of resistance in Uganda. After publicly criticizing President Yoweri Museveni online, she was arrested in 2018 and imprisoned, where severe mistreatment led to the loss of her pregnancy. Undeterred, she returned to the public arena in 2020 to campaign for parliament, challenging Museveni\u2019s continued rule. A radical feminist and advocate for queer rights in a country where homosexuality is criminalized, Nyanzi faces constant harassment from authorities determined to silence dissent. Interweaving footage from the campaign trail with archival scenes of protest and repression, alongside intimate moments with her three teenage children, the story reveals both Uganda\u2019s fraught political landscape and the personal toll borne by those who dare to resist. Screening with a video introduction from director Patience Nitumwesiga Preceded by: A Kalabanda Ate My Homework (2017) Dir. Raymond Malinga 7min; DCP Uganda Tendo, a pupil, shows up to class one day without homework - claiming that a \"Kalabanda\" ate it. Who'd believe such a lame excuse? No-one. How will Tendo prove his story? Tendo's mischievous friend Kibe devises a method to protect him from Mr. Oketch's wrath. However, Mr. Oketch seeks out the perpetrator in a chilling yet comical outcome."
     },
     {
-      "title": "This Long Century presents Ben River",
+      "title": "This Long Century presents Ben Rivers",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/?vista_film_id=9999004892",
       "status": "Now Playing",
@@ -12489,10 +12423,6 @@
       "cast": "Andri Sn\u00e6r Magnason",
       "country": "",
       "showtimes": [
-        "Mon Jun 1 5:15 PM",
-        "Mon Jun 1 9:55 PM",
-        "Mon Jun 1 7:35 PM",
-        "Tue Jun 2 12:30 PM",
         "Tue Jun 2 2:50 PM",
         "Tue Jun 2 5:15 PM",
         "Tue Jun 2 7:35 PM",
@@ -12506,13 +12436,43 @@
         "Thu Jun 4 2:50 PM",
         "Thu Jun 4 5:15 PM",
         "Thu Jun 4 7:35 PM",
-        "Thu Jun 4 9:55 PM"
+        "Thu Jun 4 9:55 PM",
+        "Sat Jun 6 10:35 AM",
+        "Sat Jun 6 12:25 PM",
+        "Sat Jun 6 9:50 PM",
+        "Sat Jun 6 8:45 PM",
+        "Sun Jun 7 10:15 AM",
+        "Sun Jun 7 8:45 PM",
+        "Sun Jun 7 9:50 PM",
+        "Sun Jun 7 1:10 PM",
+        "Mon Jun 8 11:35 AM",
+        "Mon Jun 8 1:55 PM",
+        "Mon Jun 8 10:10 PM",
+        "Mon Jun 8 4:15 PM",
+        "Tue Jun 9 12:10 PM",
+        "Tue Jun 9 2:40 PM",
+        "Tue Jun 9 9:50 PM",
+        "Tue Jun 9 5:05 PM",
+        "Wed Jun 10 11:45 AM",
+        "Wed Jun 10 2:05 PM",
+        "Wed Jun 10 4:30 PM",
+        "Wed Jun 10 9:10 PM",
+        "Wed Jun 10 6:50 PM",
+        "Thu Jun 11 11:10 AM",
+        "Thu Jun 11 1:30 PM",
+        "Thu Jun 11 3:50 PM",
+        "Thu Jun 11 8:50 PM"
       ],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -12580,27 +12540,6 @@
       "description": "New to her Paris neighborhood, 10-year-old Laure impulsively tells a new friend that her name is \u201cMicka\u00ebl\u201d and from that pivotal point on presents as the new boy on the block\u2014something that will call for an uneasy explanation when Micka\u00ebl\u2019s\u2026"
     },
     {
-      "title": "Touki Bouki",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004836",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30023",
-      "year": "1973",
-      "director": "Djibril Diop  Mamb\u00e9ty",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Tue May26 3:45pm"
-      ],
-      "show_dates": [
-        "2026-05-26"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "By turns naturalistic and audaciously surreal, Mamb\u00e9ty\u2019s postcolonialist picaresque follows a pair of young lovers\u2014dandyish cowherd Mory and student Anta (Magaye and Mareme Niang) who dream of abandoning their lives in Dakar for the promise of Paris.\u2026"
-    },
-    {
       "title": "Trainspotting: 30Th Anniversary",
       "theater": "Angelika Film Center",
       "url": "https://angelikafilmcenter.com/nyc/movies/trainspotting-30th-anniversary",
@@ -12624,14 +12563,12 @@
         "Sat Jun 6 12:35 PM",
         "Sat Jun 6 5:15 PM",
         "Sat Jun 6 7:35 PM",
-        "Sat Jun 6 9:55 PM",
         "Sat Jun 6 2:55 PM",
-        "Sun Jun 7 10:15 AM",
         "Sun Jun 7 12:35 PM",
         "Sun Jun 7 5:15 PM",
         "Sun Jun 7 7:35 PM",
-        "Sun Jun 7 9:55 PM",
         "Sun Jun 7 2:55 PM",
+        "Mon Jun 8 10:15 AM",
         "Mon Jun 8 12:35 PM",
         "Mon Jun 8 2:55 PM",
         "Mon Jun 8 5:15 PM",
@@ -12643,12 +12580,14 @@
         "Tue Jun 9 7:35 PM",
         "Tue Jun 9 9:55 PM",
         "Tue Jun 9 5:15 PM",
+        "Wed Jun 10 10:15 AM",
         "Wed Jun 10 12:35 PM",
         "Wed Jun 10 2:55 PM",
         "Wed Jun 10 7:35 PM",
         "Wed Jun 10 9:55 PM",
         "Wed Jun 10 5:15 PM",
         "Thu Jun 11 1:05 PM",
+        "Thu Jun 11 3:40 PM",
         "Thu Jun 11 9:50 PM"
       ],
       "show_dates": [
@@ -12735,10 +12674,15 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -12757,9 +12701,15 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -12783,6 +12733,27 @@
       "date_start": "2026-04-11",
       "date_end": "2026-04-11",
       "description": "When firefighter Terry Lynch (Hutton) is denied benefits by the city in the wake of an off-duty rescue injury, his brother Jimmy (Urich) takes it upon himself to seek restitution. In an overstuffed 96 minutes, Jimmy\u2019s quest takes him around the city\u2014from the Queensboro Bridge to the Hoyt-Schermerhorn station. Fun fact: this was one of the first flicks to receive a PG-13 rating."
+    },
+    {
+      "title": "Turtles Can Fly",
+      "theater": "Metrograph",
+      "url": "https://metrograph.com/film/?vista_film_id=9999004904",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30158",
+      "year": "2004",
+      "director": "Bahman Gohbadi",
+      "cast": "",
+      "country": "",
+      "showtimes": [
+        "Sun Jun28 3:15pm"
+      ],
+      "show_dates": [
+        "2026-06-28"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "In the weeks leading up to the fall of Saddam Hussein, the residents of a Kurdish refugee camp on the mountainous border between Turkey and Iraq await the arrival of US-led forces. A 13-year-old, known by his friends as \u201cSatellite,\u201d earns pocket money\u2026"
     },
     {
       "title": "Twin Peaks: Fire Walk With Me",
@@ -12949,14 +12920,12 @@
         "Fri Jun 5 4:45 PM",
         "Fri Jun 5 9:35 PM",
         "Fri Jun 5 7:00 PM",
-        "Sat Jun 6 10:30 AM",
-        "Sat Jun 6 12:35 PM",
+        "Sat Jun 6 10:20 AM",
         "Sat Jun 6 2:40 PM",
         "Sat Jun 6 4:45 PM",
         "Sat Jun 6 9:35 PM",
         "Sat Jun 6 7:00 PM",
-        "Sun Jun 7 11:15 AM",
-        "Sun Jun 7 1:20 PM",
+        "Sun Jun 7 11:05 AM",
         "Sun Jun 7 6:00 PM",
         "Sun Jun 7 8:00 PM",
         "Sun Jun 7 10:30 PM",
@@ -13027,14 +12996,16 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999002195",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30118",
       "year": "1991",
       "director": "Maurice  Pialat",
       "cast": "",
       "country": "",
-      "showtimes": [],
+      "showtimes": [
+        "Mon Jun8 6:45pm"
+      ],
       "show_dates": [
-        "2026-05-25"
+        "2026-06-08"
       ],
       "date_start": "",
       "date_end": "",
@@ -13057,7 +13028,7 @@
       ],
       "date_start": "",
       "date_end": "",
-      "description": "Introduction by US Vogue editor Chlo\u00e9 Malle on Friday, June 5th"
+      "description": "Introduction by Chloe Malle on Friday, June 5th"
     },
     {
       "title": "Variety + Life In The Cage",
@@ -13079,6 +13050,27 @@
       "description": "Variety (1983) dir. Bette Gordon. With Sandy McLeod, Richard M. Davidson, Luis Guzm\u00e1n 100min; DCP Both panned and praised by critics for its subject matter, Bette Gordon\u2019s film follows an aspiring author who, desperate for cash, finds work as a ticket taker at a seedy Times Square porn theater. There, she becomes sexually awakened and finds herself irresistibly intrigued by the mysterious life of a wealthy patron. Literary iconoclast Kathy Acker wrote the screenplay for Variety , which LA Weekly likened to \u201ca feminist Vertigo .\u201d Life in the Cage (2025) Dir. David Cardoza 4min; Digital A box-office clerk is forced to deal with a hot-tempered patron in David Cardoza\u2019s comedic short vignette."
     },
     {
+      "title": "Victim",
+      "theater": "Nitehawk (Prospect Park)",
+      "url": "https://nitehawkcinema.com/prospectpark/movies/victim/?date=today",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/22643957/",
+      "year": "1961",
+      "director": "Basil Dearden",
+      "cast": "Dirk Bogarde, Sylvia Syms, Peter McEnery",
+      "country": "",
+      "showtimes": [
+        "Tue Jun 2 9:15 pm"
+      ],
+      "show_dates": [
+        "2026-06-02"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "Are you adult enough to see VICTIM?"
+    },
+    {
       "title": "Video 50 + Deafman Glance",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/robert-wilson-video50",
@@ -13096,27 +13088,6 @@
       "date_start": "2026-04-21",
       "date_end": "2026-04-21",
       "description": "Video 50 (1978) Dir. Robert Wilson With Lucinda Childs, Philippe Chemin, Laura Condominas, Robert Wilson 52min; Digital An extraordinary video sketchbook, Video 50 is a composition of one hundred abbreviated \u201cepisodes\u201d produced for television by Wilson, a perhaps prescient exploration of ultra-short form film. This series of 30-second vignettes unfolds in uninterrupted succession, snowballing into an enigmatic film essay that invokes a range of visual styles, from deadpan theatricality to tense surrealism. Rife with singular images\u2014a man teetering above a waterfall, a floating chair, a winking eye, a parrot against the New York skyline\u2014Wilson creates a work of startling wit and poetry. Deafman Glance (1981) Dir. Robert Wilson With Sheryl Sutton, Jerry Jackson. Rafael Carmona 27min; Digital This adaptation of Wilson's five-hour \"silent opera\" of the same title tells a vividly stylized story of murder, eschewing the spoken word in favor of light and movement as narrative tools. The ritualistic action, which moves from a spartan kitchen through the silent halls, stairways, and rooms of a lonely house, is both dreamlike and sinister. A somber, menacing woman washes white dishes and a gleaming carving knife, pours milk into a glass, and then slowly attacks first one young boy and then another. Not a word of dialogue is uttered. Suggesting the disparate worlds of both ancient Greek tragedy and contemporary tabloid headlines, Deafman Glance harbors paradox: the events are terrifying but not violent; characters are both real and symbols of reality; pacing reduces action to abstraction; and morality and mortality are ambiguous."
-    },
-    {
-      "title": "Vive L'Amour",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999002623",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30024",
-      "year": "1994",
-      "director": "Tsai Ming-liang",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Tue May26 10:00pm"
-      ],
-      "show_dates": [
-        "2026-05-26"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Tsai\u2019s second theatrical feature drew understandable comparisons to Antonioni\u2019s chilly studies in urban ennui on initial release, but this bizarre love triangle\u2014Chen Chao-jung and Yang Kuei-mei meet for illicit rendezvous in an \u201cempty\u201d apartment\u2026"
     },
     {
       "title": "Waiting For Guffman",
@@ -13157,25 +13128,27 @@
       "description": "Mohammed Bakri plays father to his real-life son Saleh Bakri in an intimate look at the lives of Palestinians living within Israel\u2019s borders by director Annemarie Jacir\u2014whose newest film, the historical drama Palestine 36 , opens at BAM Rose Cinemas on March 27. Abu Shadi, a divorced father in his mid-sixties and a school teacher in Nazareth, will be living alone after his daughter\u2019s wedding in one month. Shadi, his architect son, arrives from Rome after years abroad to help his father in hand-delivering the wedding invitations to each guest, per local Palestinian custom. As the estranged pair spend the day together, the tense details of their relationship come to a head, challenging their fragile and very different lives."
     },
     {
-      "title": "What Time is it There?",
+      "title": "What Do We See When We Look at the Sky?",
       "theater": "Metrograph",
-      "url": "https://metrograph.com/film/?vista_film_id=9999004235",
+      "url": "https://metrograph.com/film/?vista_film_id=9999004896",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29956",
-      "year": "2001",
-      "director": "Tsai Ming-liang",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30138",
+      "year": "2021",
+      "director": "Alexandre Koberidze",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sun May31 7:20pm"
+        "Fri Jun26 2:00pm",
+        "Sun Jun28 12:00pm"
       ],
       "show_dates": [
-        "2026-05-31"
+        "2026-06-26",
+        "2026-06-28"
       ],
       "date_start": "",
       "date_end": "",
-      "description": "Lee Kang-sheng\u2019s Hsiao Kang, now working as a street vendor selling watches out of a briefcase in Taipei, sells a dual-time watch to Chen Shiang-chyi, a young woman preparing for an extended stay in Paris. While she drifts alone through the City of\u2026"
+      "description": "World Cup fever and young love are in the air in the Georgian riverside city of Kutaisi; Lisa, a pharmacist, and Giorgi, a soccer player, smitten on first sight with one another, make plans for a date\u2014plans that go awry when both awaken transformed\u2026"
     },
     {
       "title": "What'S Up, Doc?",
@@ -13256,6 +13229,27 @@
       "description": "New 4K Restoration A chance encounter with a mysterious cat sends Shizuku, a girl with her head in the clouds, on a quest for her true talent. Together with a new friend Seij, and enchanted by The Baron, an antique cat figurine who guides her to listen to the whispers of her heart, Shizuku embarks on a life-changing adventure that takes her beyond the boundaries of her imagination. This precious gem from the Studio Ghibli catalog\u2014based on a screenplay and storyboards from Hayao Miyazaki\u2014was directed by veteran animator Yoshifumi Kond\u014d, who the studio hoped would become Miyazaki\u2019s successor before his untimely passing in 1998."
     },
     {
+      "title": "White Material",
+      "theater": "Metrograph",
+      "url": "https://metrograph.com/film/?vista_film_id=9999000557",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30160",
+      "year": "2009",
+      "director": "Claire Denis",
+      "cast": "",
+      "country": "",
+      "showtimes": [
+        "Sun Jun28 5:20pm"
+      ],
+      "show_dates": [
+        "2026-06-28"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "Raised in colonial French Africa until the age of 13, Denis would return to the continent in her cinema time and again, making it the scene of some of her richest and most redolent works. Here, Isabelle Huppert plays the manager of a coffee plantation in\u2026"
+    },
+    {
       "title": "Who Framed Roger Rabbit",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/pynchonesque-who-framed-roger-rabbit",
@@ -13280,14 +13274,13 @@
       "url": "https://lowcinema.com/movie/wildwood-nj/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://lowcinema.com/checkout/b1c9db86-f2a6-4c16-a907-80ef9bdad7f1/",
+      "booking_url": "https://lowcinema.com/checkout/f867896a-7817-499e-bbf3-fcca81d543ec/",
       "year": "1994",
       "director": "Ruth Leitman and Carol Weaks Cassidy",
       "cast": "",
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04",
@@ -13305,28 +13298,24 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999004849",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29937",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30075",
       "year": "2025",
       "director": "Kamal Aljafari",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Fri May29 8:00pm",
-        "Sat May30 12:00pm",
-        "Sun May31 7:30pm",
-        "Mon Jun1 7:45pm",
-        "Tue Jun2 7:40pm"
+        "Tue Jun2 7:40pm",
+        "Wed Jun10 4:45pm",
+        "Thu Jun11 3:00pm"
       ],
       "show_dates": [
-        "2026-05-29",
-        "2026-05-30",
-        "2026-05-31",
-        "2026-06-01",
-        "2026-06-02"
+        "2026-06-02",
+        "2026-06-10",
+        "2026-06-11"
       ],
       "date_start": "",
       "date_end": "",
-      "description": "Q&A with director Kamal Aljafari on Friday, May 29th and Saturday, May 30th + Introduction by director Kamal Ajafari on Sunday, May 31st"
+      "description": "Q&A with director Kamal Aljafari on Friday, May 29th and Saturday, May 30th + Introduction by director Kamal Aljafari on Sunday, May 31st"
     },
     {
       "title": "Woman In The Moon",
@@ -13372,18 +13361,16 @@
       "url": "https://metrograph.com/film/?vista_film_id=9999002984",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=29929",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=30119",
       "year": "1997",
       "director": "Jia Zhangke",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Mon May25 9:35pm",
-        "Sat May30 10:50pm"
+        "Mon Jun8 9:50pm"
       ],
       "show_dates": [
-        "2026-05-25",
-        "2026-05-30"
+        "2026-06-08"
       ],
       "date_start": "",
       "date_end": "",
