@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-07T18:41:54.920814",
+  "fetched_at": "2026-09-08T17:52:57.947296",
   "movies": [
     {
       "title": "25Th Hour",
@@ -23,25 +23,6 @@
       "date_start": "2026-09-27",
       "date_end": "2026-10-01",
       "description": "Academy Award nominee Edward Norton ( American History X ) heads an amazing all-star cast in this critically acclaimed film by Spike Lee ( Do the Right Thing , Summer of Sam ) recognized for its compassionate view of post-9/11 New York City. In 24 short hours, Monty Brogan (Norton) goes to prison for seven long years. Once a king of Manhattan, Monty is about to say goodbye to the life he knew\u2014a life that opened doors to New York's swankiest clubs but also alienated him from the people closest to him. In his last day on the outside, Monty tries to reconnect with his father (Brian Cox), and gets together with two old friends, Jacob (Philip Seymour Hoffman) and Slaughtery (Barry Pepper). And then there's his girlfriend, Naturelle (Rosario Dawson), who might (or might not) have been the one who tipped off the cops. Monty's not sure of much these days, but with time running out, there are choices to be made as he struggles to redeem himself in the 25th hour."
-    },
-    {
-      "title": "9/11\u2019S Unsettled Dust",
-      "theater": "Film Forum",
-      "url": "https://filmforum.org/film/9-11s-unsettled-dust",
-      "status": "Coming Soon",
-      "opens": "",
-      "booking_url": "",
-      "year": "2021",
-      "director": "Lisa Katzman Executive Produced by Eric Overmyer and Charles Burnett",
-      "cast": "",
-      "country": "U.S",
-      "showtimes": [],
-      "show_dates": [
-        "2026-09-11"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": ""
     },
     {
       "title": "A Litany for Survival: The Life and Work of Audre Lorde",
@@ -406,6 +387,25 @@
       "description": ""
     },
     {
+      "title": "Chronovisor",
+      "theater": "BAM",
+      "url": "https://www.bam.org/film/2026/chronovisor",
+      "status": "Coming Soon",
+      "opens": "September 18",
+      "booking_url": "",
+      "year": "2026",
+      "director": "Jack Auen, Kevin Walker",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-09-18"
+      ],
+      "date_start": "2026-09-18",
+      "date_end": "2026-09-18",
+      "description": "While writing a monograph on historical theories of memory, B\u00e9atrice, a respected academic, becomes beguiled by the allegedly true story of the Chronovisor, an occult device said to reproduce visuals from any point in history on a TV screen. Her obsession with the mysterious machine drags her from her Upper East Side apartment through the depths of New York City\u2019s hidden libraries, to the edge of a breakthrough."
+    },
+    {
       "title": "City Of Jade",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/a-pure-person-city-of-jade",
@@ -714,7 +714,7 @@
       "theater": "Film Forum",
       "url": "https://filmforum.org/series/film-forum-jr.-series-page",
       "status": "Coming Soon",
-      "opens": "September 13",
+      "opens": "",
       "booking_url": "",
       "year": "",
       "director": "",
@@ -722,23 +722,10 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-13",
-        "2026-09-20",
-        "2026-09-27",
-        "2026-10-04",
-        "2026-10-11",
-        "2026-10-18",
-        "2026-10-25",
-        "2026-11-01",
-        "2026-11-08",
-        "2026-11-15",
-        "2026-11-22",
-        "2026-11-29",
-        "2026-12-06",
-        "2026-12-13"
+        "2026-09-13"
       ],
-      "date_start": "2026-09-13",
-      "date_end": "2026-09-13",
+      "date_start": "",
+      "date_end": "",
       "description": "We are able to make this series a bargain for children, their parents, and anybody else who would like to see these marvelous films through the generosity of the following private and public supporters:"
     },
     {
@@ -798,6 +785,47 @@
       "date_start": "2026-09-26",
       "date_end": "2026-09-26",
       "description": ""
+    },
+    {
+      "title": "Forgotten Island",
+      "theater": "Nitehawk (Prospect Park)",
+      "url": "https://nitehawkcinema.com/prospectpark/movies/forgotten-island/",
+      "status": "Coming Soon",
+      "opens": "September 25",
+      "booking_url": "",
+      "year": "2026",
+      "director": "Januel P. Mercado, Joel Crawford",
+      "cast": "Dave Franco, Jenny Slate, Manny Jacinto, Lea Salonga, Ronny Chieng, Dolly De Leon",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-09-25"
+      ],
+      "date_start": "2026-09-25",
+      "date_end": "2026-09-25",
+      "description": "The latest animated spectacle from the studio behind SHREK and HOW TO TRAIN YOUR DRAGON follows lifelong best friends Jo and Raissa on their last night together before graduation sends them in different directions. A mysterious portal drops them on Nakali, a fantastical island filled with creatures from the Filipino folk tales they grew up hearing. Getting home means facing a terrifying manananggal, a hapless weredog, and a pretty serious catch: they may have to forget each other to leave. Bring your best friend and see it on the big screen."
+    },
+    {
+      "title": "Forgotten Island",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/forgotten-island",
+      "status": "Coming Soon",
+      "opens": "September 24",
+      "booking_url": "https://drafthouse.com/nyc/show/forgotten-island",
+      "year": "2026",
+      "director": "Januel P. Mercado, Joel Crawford",
+      "cast": "Dave Franco, Jenny Slate, Manny Jacinto, Lea Salonga, Ronny Chieng, Dolly De Leon",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27"
+      ],
+      "date_start": "2026-09-24",
+      "date_end": "",
+      "description": "The latest animated spectacle from the studio behind SHREK and HOW TO TRAIN YOUR DRAGON follows lifelong best friends Jo and Raissa on their last night together before graduation sends them in different directions. A mysterious portal drops them on Nakali, a fantastical island filled with creatures from the Filipino folk tales they grew up hearing. Getting home means facing a terrifying manananggal, a hapless weredog, and a pretty serious catch: they may have to forget each other to leave. Bring your best friend and see it on the big screen."
     },
     {
       "title": "Funny Face",
@@ -961,8 +989,8 @@
       "opens": "September 25",
       "booking_url": "",
       "year": "2026",
-      "director": "David Ayer",
-      "cast": "Brad Pitt, J.K. Simmons, Anna Lambe",
+      "director": "",
+      "cast": "",
       "country": "",
       "showtimes": [],
       "show_dates": [
@@ -980,8 +1008,8 @@
       "opens": "September 24",
       "booking_url": "https://drafthouse.com/nyc/show/heart-of-the-beast",
       "year": "2026",
-      "director": "David Ayer",
-      "cast": "Brad Pitt, J.K. Simmons, Anna Lambe",
+      "director": "",
+      "cast": "",
       "country": "",
       "showtimes": [],
       "show_dates": [
@@ -1029,7 +1057,14 @@
       "showtimes": [],
       "show_dates": [
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
       ],
       "date_start": "2026-09-09",
       "date_end": "2026-09-09",
@@ -1076,7 +1111,8 @@
       "showtimes": [],
       "show_dates": [
         "2026-09-17",
-        "2026-09-18"
+        "2026-09-18",
+        "2026-09-19"
       ],
       "date_start": "2026-09-18",
       "date_end": "2026-09-18",
@@ -1465,14 +1501,15 @@
       "url": "https://www.ifccenter.com/films/mac-and-me/",
       "status": "Coming Soon",
       "opens": "September 11",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577598~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=578979~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "1988",
       "director": "Stewart Raffill",
       "cast": "Christine Ebersole, Jonathan Ward, Katrina Caspary, Lauren Stanley, Jade Calegory",
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-09-11"
+        "2026-09-11",
+        "2026-09-12"
       ],
       "date_start": "2026-09-11",
       "date_end": "2026-09-11",
@@ -1496,25 +1533,6 @@
       "date_start": "2026-09-10",
       "date_end": "2026-09-10",
       "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
-    },
-    {
-      "title": "Merrily We Go To Hell",
-      "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/merrily-we-go-to-hell/",
-      "status": "Coming Soon",
-      "opens": "September 8",
-      "booking_url": "",
-      "year": "1932",
-      "director": "Dorothy Arzner",
-      "cast": "Fredric March, Sylvia Sidney, Adrianne Allen, Richard Gallagher, George Irving, Esther Howard",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-09-08"
-      ],
-      "date_start": "2026-09-08",
-      "date_end": "2026-09-08",
-      "description": ""
     },
     {
       "title": "Millennium Mambo",
@@ -1593,6 +1611,25 @@
       "date_start": "2026-09-22",
       "date_end": "",
       "description": "Ignited by what may be the most hilariously disastrous meet-cute in cinema history, MY SASSY GIRL reinvented the romcom with wild aplomb. An unassuming young man\u2019s whole world is turned upside down when a beautiful and ferocious female force of nature takes his life by storm. Their ensuing tumultuous relationship both scales the heights of blockbuster movie fantasies and descends the poignant depths of heartache in this outrageous and uplifting ode to true love.\nBased on a South Korean netizen\u2019s blog of reportedly true stories about his girlfriend, the film proved a massive sleeper hit and one of the most influential Asian films of the 21st century. A must-see contemporary classic, MY SASSY GIRL is an \u201cunabashed crowd-pleaser that mixes genres with the audacious abandon that makes Korean cinema so much fun\u201d (Film at Lincoln Center). Presented newly restored in 4K from the original negative."
+    },
+    {
+      "title": "Mystery Machine (9/14/2026)",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/mystery-machine-9-14-2026",
+      "status": "Coming Soon",
+      "opens": "September 14",
+      "booking_url": "https://drafthouse.com/nyc/show/mystery-machine-9-14-2026",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-09-14"
+      ],
+      "date_start": "2026-09-14",
+      "date_end": "",
+      "description": "Shrouded in secrecy! Encircled by intrigue! The Mystery Machine promises to deliver cinematic treasures that span genres, countries, and tastes... only for those brave enough to enter. All shall be revealed only after the credits begin. Screening on select Mondays with discounted admission."
     },
     {
       "title": "Mystery Machine (9/21/2026)",
@@ -1852,25 +1889,6 @@
       "description": "Isabel (Isabel Hagen) is a young, Juilliard-trained violist still living at home with her parents in the heart of New York City. She\u2019s trying to make a living playing gigs with her friends, but when her toxic ex-boyfriend reappears \u2013 who also happens to be the Philharmonic's \"newest, hottest cellist\" \u2013 he informs her of a viola opening in the prestigious orchestra. Nothing can go wrong, right?"
     },
     {
-      "title": "On The Town",
-      "theater": "Film Forum",
-      "url": "https://filmforum.org/film/on-the-town-ffjr-2026",
-      "status": "Coming Soon",
-      "opens": "",
-      "booking_url": "",
-      "year": "1949",
-      "director": "Gene Kelly and Stanley Donen Screenplay and lyrics by Betty Comden and Adolph Green",
-      "cast": "Gene Kelly, Frank Sinatra, Ann Miller, Betty Garrett, Vera-Ellen, Jules Munshin Music by Leonard Bernstein",
-      "country": "U.S",
-      "showtimes": [],
-      "show_dates": [
-        "2026-09-13"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": ""
-    },
-    {
       "title": "Onda Nova",
       "theater": "Alamo Drafthouse NYC",
       "url": "https://drafthouse.com/nyc/show/weird-wednesday-onda-nova",
@@ -1914,7 +1932,7 @@
       "url": "https://www.ifccenter.com/films/one-in-a-million/",
       "status": "Coming Soon",
       "opens": "October 21",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577598~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577618~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2026",
       "director": "Itab Azzam, Jack MacInnes",
       "cast": "",
@@ -2109,7 +2127,7 @@
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/movies/practical-magic-2/",
       "status": "Coming Soon",
-      "opens": "September 10",
+      "opens": "September 15",
       "booking_url": "",
       "year": "2026",
       "director": "Susanne Bier",
@@ -2117,10 +2135,17 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
       ],
-      "date_start": "2026-09-10",
-      "date_end": "2026-09-10",
+      "date_start": "2026-09-15",
+      "date_end": "2026-09-15",
       "description": "Twenty-seven years after Sally and Gillian Owens first bewitched us, Sandra Bullock and Nicole Kidman return with a new generation of family magic and an old curse threatening to unravel it all. The original gave us midnight margaritas, broom mishaps, and Gillian\u2019s eternally enviable wardrobe. Now, the Owens family has another curse to deal with, plus a whole new generation of witches. Bring your whole coven to Alamo Drafthouse and see what kind of trouble the Owens sisters get into this time."
     },
     {
@@ -2278,7 +2303,14 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-18"
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24"
       ],
       "date_start": "2026-09-18",
       "date_end": "2026-09-18",
@@ -2289,7 +2321,7 @@
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/movies/resident-evil-2026/",
       "status": "Coming Soon",
-      "opens": "September 18",
+      "opens": "September 17",
       "booking_url": "",
       "year": "2026",
       "director": "Zach Cregger",
@@ -2297,10 +2329,10 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-18"
+        "2026-09-17"
       ],
-      "date_start": "2026-09-18",
-      "date_end": "2026-09-18",
+      "date_start": "2026-09-17",
+      "date_end": "2026-09-17",
       "description": "From the mind of visionary filmmaker Zach Cregger (WEAPONS, BARBARIAN) comes a thrilling \u2013 and terrifying \u2013 reinvention of the RESIDENT EVIL franchise. In an all-new story, RESIDENT EVIL follows Bryan (Austin Abrams), a medical courier who unwittingly finds himself in an action-packed, non-stoprace for survival as one fateful, horrifying night collapses around him in chaos."
     },
     {
@@ -2333,7 +2365,7 @@
       "opens": "September 11",
       "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=578423~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "",
-      "director": "Kiyoshi Kurasawa",
+      "director": "Kiyoshi Kurosawa",
       "cast": "Damien Bonnard, Ko Shibasaki",
       "country": "Japan",
       "showtimes": [],
@@ -2484,25 +2516,6 @@
       "date_start": "2026-09-20",
       "date_end": "",
       "description": "When the notorious husband-and-wife spy team, Gregorio and Ingrid Cortez (Antonio Banderas and Carla Gugino), is kidnapped by the evil Fegan Floop (Alan Cumming), the two Cortez children are the only ones who have the right skills and the insider know-how to help. Together, Carmen and Juni Cortez (Alexa Vega and Daryl Sabara) set out on their first spy mission to find Floop and rescue their parents. SPY KIDS is a high-wire family adventure that lets the kids save the day."
-    },
-    {
-      "title": "Star Trek: The Motion Picture (The Director'S Edition) + Star Trek Ii: The Wrath Of Khan (The Director'S Cut)",
-      "theater": "Paris Theater",
-      "url": "https://www.paristheaternyc.com/film/star-trek-double-feature-paris",
-      "status": "Coming Soon",
-      "opens": "September 8",
-      "booking_url": "",
-      "year": "1979, 1982",
-      "director": "Robert Wise, Nicholas Meyer",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-09-08"
-      ],
-      "date_start": "2026-09-08",
-      "date_end": "2026-09-08",
-      "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
     },
     {
       "title": "Steal This Story, Please!",
@@ -2948,6 +2961,25 @@
       "description": "Billionaire vigilante Batman (Christian Bale), district attorney Harvey Dent (Aaron Eckhart), and police lieutenant Jim Gordon (Gary Oldman), working together to eliminate Gotham's organized crime, are confronted and confounded by a chaotic criminal mastermind known as the Joker (Heath Ledger). Made in the wake of the 2001 Patriot Act and the rise of technological mass surveillance, Batman\u2019s path to justice in the film recalls the Bush administration\u2019s violation of civil liberties in the name of safety. One of the highest-grossing films of all time, The Dark Knight established the template for the modern super-hero movie, and earned Ledger posthumous Academy, BAFTA, and Golden Globe awards."
     },
     {
+      "title": "The Departed",
+      "theater": "Nitehawk (Prospect Park)",
+      "url": "https://nitehawkcinema.com/prospectpark/movies/the-departed/",
+      "status": "Coming Soon",
+      "opens": "September 12",
+      "booking_url": "",
+      "year": "2006",
+      "director": "Martin Scorsese",
+      "cast": "Leonardo DiCaprio, Matt Damon, Jack Nicholson, Mark Wahlberg, Vera Farmiga",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-09-12"
+      ],
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-12",
+      "description": ""
+    },
+    {
       "title": "The Devils",
       "theater": "IFC Center",
       "url": "https://www.ifccenter.com/films/the-devils/",
@@ -2984,6 +3016,25 @@
       "date_start": "2026-09-30",
       "date_end": "",
       "description": "The recently deceased Hiram (Boris Karloff) discovers that he only has 24 hours to perform a single good dead in order to get into Heaven. He teams up with his long-dead girlfriend Cecily (Susan Hart) to try to take down his corrupt lawyer (Basil Rathbone) before he can claim the estate \u2014 only for things to become much more complicated when Hiram\u2019s teenybopper heirs show up to have a pool party.The tenth in the never-ending BEACH PARTY series, THE GHOST IN THE INVISIBLE BIKINI takes things back to basics (sort of?) and feature guest appearances from Nancy Sinatra and the Bobby Fuller Four.\n35mm print courtesy of Park Circus"
+    },
+    {
+      "title": "The History of Concrete",
+      "theater": "Nitehawk (Prospect Park)",
+      "url": "https://nitehawkcinema.com/prospectpark/movies/the-history-of-concrete/",
+      "status": "Coming Soon",
+      "opens": "September 25",
+      "booking_url": "",
+      "year": "2026",
+      "director": "John Wilson",
+      "cast": "",
+      "country": "USA",
+      "showtimes": [],
+      "show_dates": [
+        "2026-09-25"
+      ],
+      "date_start": "2026-09-25",
+      "date_end": "2026-09-25",
+      "description": "A filmmaker applies lessons from a Hallmark movie writing workshop to pitch a documentary about concrete. * Q&A after the Monday, September 21st screenings with director John Wilson * Probably some other ones too just don't know yet"
     },
     {
       "title": "The History of Concrete",
@@ -3055,14 +3106,15 @@
       "url": "https://www.ifccenter.com/films/the-kingdom/",
       "status": "Coming Soon",
       "opens": "September 16",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577598~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=578909~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "",
       "director": "Julien Colonna",
       "cast": "Ghjuvanna Benedetti, Saveriu Santucci",
       "country": "France",
       "showtimes": [],
       "show_dates": [
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ],
       "date_start": "2026-09-16",
       "date_end": "2026-09-16",
@@ -3204,12 +3256,37 @@
       "description": "The supernatural tale of star-crossed lovers continues as the Cullen family flees Forks in order to protect Bella (Kristen Stewart), and the heartbroken high-school senior discovers that vampires aren't the only creatures in town. Realizing that Bella will never be safe as long as he's around, Edward (Robert Pattinson) makes the difficult decision to leave his beloved behind shortly after her 18th birthday. Reeling from her loss, Bella embraces self-destruction after being comforted by Edward's image during a moment of mortal peril. But as heavy-hearted as Bella may be, her friend Jacob (Taylor Lautner) distracts her from her sorrows by helping her renovate a weather-beaten motorbike. When Bella encounters a former adversary with a sizable grudge, she's rescued from harm at the last second by a pack of enormous, ferocious wolves. Subsequently delving into the history of the Quileutes, Bella discovers the secrets of Jacob's tribe while looking forward to a reunion with Edward that may have deadly consequences."
     },
     {
+      "title": "The Uprising",
+      "theater": "Nitehawk (Prospect Park)",
+      "url": "https://nitehawkcinema.com/prospectpark/movies/the-uprising/",
+      "status": "Coming Soon",
+      "opens": "September 11",
+      "booking_url": "",
+      "year": "2026",
+      "director": "",
+      "cast": "Andrew Garfield, Jamie Bell, Stephen Dillane, Tom Hollander, Cosmo Jarvis, Thomasin McKenzie, Jonny Lee Miller, Woody Norman, Katherine Waterston, Sky Yang",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
+      ],
+      "date_start": "2026-09-11",
+      "date_end": "2026-09-11",
+      "description": "Andrew Garfield leads a brutal, propulsive rebellion against the tyranny of King Richard II in this medieval war epic from writer-director Paul Greengrass (THE BOURNE SUPREMACY). As England descends into bloodshed, one man rallies an army of ordinary people and takes the fight straight to the crown."
+    },
+    {
       "title": "The Vanishing Song",
       "theater": "IFC Center",
       "url": "https://www.ifccenter.com/films/the-vanishing-song/",
       "status": "Coming Soon",
       "opens": "September 18",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577598~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577618~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "",
       "director": "",
       "cast": "",
@@ -3474,7 +3551,9 @@
         "2026-09-12",
         "2026-09-13",
         "2026-09-14",
-        "2026-09-15"
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
       ],
       "date_start": "2026-09-09",
       "date_end": "2026-09-09",
@@ -3536,6 +3615,25 @@
       "date_start": "2026-11-06",
       "date_end": "2026-11-06",
       "description": "Shortly before the 1973 Chilean coup, CIA agents Chris (John Malkovich) and Lee (Sam Rockwell) are dispatched from Santiago to Easter island by their bureau chief, MJ (Steve Buscemi). Amongst the Island&#39;s iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris&#39;s newfound bond with a pair of rebellious students (Mariana di Girolamo and Ail&iacute;n Salas) threatens to send everyone&rsquo;s trip to this remote paradise sideways."
+    },
+    {
+      "title": "Wild Inside",
+      "theater": "Nitehawk (Prospect Park)",
+      "url": "https://nitehawkcinema.com/prospectpark/showtimes/wild-inside-9-9-26-545-pm/",
+      "status": "Coming Soon",
+      "opens": "September 9",
+      "booking_url": "",
+      "year": "2026",
+      "director": "Penny Lane",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-09-09"
+      ],
+      "date_start": "2026-09-09",
+      "date_end": "2026-09-09",
+      "description": "A Eurasian eagle-owl named Flaco escapes from the Central Park Zoo"
     },
     {
       "title": "Wild River",
@@ -3614,25 +3712,6 @@
       "description": ""
     },
     {
-      "title": "\u602a\u8ac7",
-      "theater": "Film Forum",
-      "url": "https://filmforum.org/film/kwaidan-2026",
-      "status": "Coming Soon",
-      "opens": "September 11",
-      "booking_url": "",
-      "year": "1964",
-      "director": "Masaki Kobayashi Based on a collection of folktales by Lafcadio Hearn",
-      "cast": "Tatsuya Nakadai, Rentar\u00f4 Mikuni, Michiyo Aratama, Misako Watanabe",
-      "country": "Japan",
-      "showtimes": [],
-      "show_dates": [
-        "2026-09-11"
-      ],
-      "date_start": "2026-09-11",
-      "date_end": "2026-09-11",
-      "description": ""
-    },
-    {
       "title": "12 Years A Slave",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/12-years-a-slave",
@@ -3677,10 +3756,32 @@
         "2026-09-02",
         "2026-09-03",
         "2026-09-04",
-        "2026-09-05"
+        "2026-09-05",
+        "2026-09-06",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27"
       ],
       "date_start": "2026-08-23",
-      "date_end": "2026-09-05",
+      "date_end": "2026-09-27",
       "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
     },
     {
@@ -3723,7 +3824,7 @@
       "url": "https://www.ifccenter.com/films/2026-sundance-festival-short-film-tour-open-captioning/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577618~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577628~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2026",
       "director": "",
       "cast": "",
@@ -3742,16 +3843,22 @@
       "url": "https://www.ifccenter.com/films/2026-sundance-film-festival-short-film-tour/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577610~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577636~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2026",
       "director": "",
       "cast": "",
       "country": "India",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
       ],
       "date_start": "",
       "date_end": "",
@@ -3834,6 +3941,28 @@
       "date_start": "2026-04-25",
       "date_end": "2026-04-25",
       "description": "Three working women try to overthrow their misogynist, egotistical boss in this wacky, over-the-top 1980 comedy. Directed by Colin Higgins (writer of Harold and Maude ), and perhaps best-known for its titular theme song, the workplace romp spawned a television series, stage adaptation, and further launched Dolly Parton to mainstream superstardom."
+    },
+    {
+      "title": "9/11\u2019S Unsettled Dust",
+      "theater": "Film Forum",
+      "url": "https://filmforum.org/film/9-11s-unsettled-dust",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "2021",
+      "director": "Lisa Katzman Executive Produced by Eric Overmyer and Charles Burnett",
+      "cast": "",
+      "country": "U.S",
+      "showtimes": [
+        "Special Screening!",
+        "6:30"
+      ],
+      "show_dates": [
+        "2026-09-11"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": ""
     },
     {
       "title": "99%: The Occupy Wall Street Collaborative Film",
@@ -4206,7 +4335,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08"
       ],
       "date_start": "",
@@ -4226,7 +4354,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08"
       ],
       "date_start": "",
@@ -4448,17 +4575,6 @@
       "cast": "Thaer Ahmad, Mark Perlmutter, Feroze Sidhwa",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 2:45 PM",
-        "Mon Sep 7 3:45 PM",
-        "Mon Sep 7 5:00 PM",
-        "Mon Sep 7 7:15 PM",
-        "Mon Sep 7 8:15 PM",
-        "Mon Sep 7 9:30 PM",
-        "Mon Sep 7 6:00 PM",
-        "Tue Sep 8 10:15 AM",
-        "Tue Sep 8 11:15 AM",
-        "Tue Sep 8 12:30 PM",
-        "Tue Sep 8 1:30 PM",
         "Tue Sep 8 2:45 PM",
         "Tue Sep 8 3:45 PM",
         "Tue Sep 8 5:00 PM",
@@ -4477,13 +4593,16 @@
         "Wed Sep 9 8:15 PM",
         "Wed Sep 9 7:15 PM",
         "Thu Sep 10 11:00 AM",
+        "Thu Sep 10 12:15 PM",
         "Thu Sep 10 1:15 PM",
+        "Thu Sep 10 2:30 PM",
         "Thu Sep 10 3:30 PM",
+        "Thu Sep 10 4:45 PM",
         "Thu Sep 10 5:45 PM",
-        "Thu Sep 10 8:00 PM"
+        "Thu Sep 10 8:00 PM",
+        "Thu Sep 10 9:50 PM"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
         "2026-09-10"
@@ -4565,6 +4684,7 @@
       "cast": "Marlon Brando, Martin Sheen, Robert Duvall, Dennis Hopper, Frederic Forrest, Laurence Fishburne WINNER Cannes Film Festival \u2013 Palme d\u2019Or, 1979 WINNER Academy Awards\u00ae \u2013 Best Cinematography, Best Sound, 1980",
       "country": "U.S",
       "showtimes": [
+        "Ends Today!",
         "8:15"
       ],
       "show_dates": [
@@ -4784,7 +4904,7 @@
       "booking_url": "",
       "year": "1980",
       "director": "Franco Rosso",
-      "cast": "",
+      "cast": "Brad Pitt, \\nMargot Robbie, \\nDiego Calva, \\nJean Smart, \\nJovan Adepo, \\nLi Jun Li",
       "country": "",
       "showtimes": [],
       "show_dates": [
@@ -4793,6 +4913,100 @@
       "date_start": "2026-09-05",
       "date_end": "2026-09-05",
       "description": "Franco Rosso's incendiary Babylon had its world premiere at Cannes in 1980, but went unreleased in the US on account of being \u201ctoo controversial, and likely to incite racial tension\" ( Time Out ). The film follows a young dancehall DJ in South London as he pursues his musical ambitions but seems to experience racism and xenophobia at every turn. Set to a sizzling reggae and lover\u2019s rock soundtrack, Babylon is unapologetically raw and unsentimental, but also tempered by the hazy bliss of the dancehall, where one can release the heat of daily indignities, and music becomes both refuge and resistance. A landmark of Black British cinema, Babylon is a furious, sensual portrait of cultural survival under systemic oppression."
+    },
+    {
+      "title": "Babylon",
+      "theater": "Paris Theater",
+      "url": "https://www.paristheaternyc.com/film/babylon-paris",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1980",
+      "director": "Damien Chazelle",
+      "cast": "Brad Pitt, \\nMargot Robbie, \\nDiego Calva, \\nJean Smart, \\nJovan Adepo, \\nLi Jun Li",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-29",
+        "2026-08-30",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-05",
+        "2026-09-06",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-19"
+      ],
+      "date_start": "2026-08-26",
+      "date_end": "2026-09-19",
+      "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
+    },
+    {
+      "title": "Back To The Future",
+      "theater": "Paris Theater",
+      "url": "https://www.paristheaternyc.com/film/back-to-the-future-paris",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1985",
+      "director": "Robert Zemeckis",
+      "cast": "Michael J. Fox, \\nChristopher Lloyd, \\nLea Thompson, \\nCrispin Glover",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-08-21",
+        "2026-08-22",
+        "2026-08-23",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-29",
+        "2026-08-30",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-05",
+        "2026-09-06",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22"
+      ],
+      "date_start": "2026-08-21",
+      "date_end": "2026-09-22",
+      "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
     },
     {
       "title": "Backrooms",
@@ -4886,10 +5100,13 @@
         "7:45"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14"
       ],
       "date_start": "",
       "date_end": "",
@@ -4992,7 +5209,7 @@
       ],
       "date_start": "2026-09-04",
       "date_end": "2026-09-06",
-      "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
+      "description": "Tim Burton directs; Michael Keaton stars as Batman; and Jack Nicholson stars as his arch foe, The Joker, in the first of the blockbuster Batman series of features. As the Dark Knight, defender of law and order in Gotham City, Batman treads the shadow zone between right and wrong, fighting with only his skill in martial arts and his keenly honed mind to defend the innocent and to purge the memory of his parents' brutal murder--always keeping his true identity as millionaire philanthropist Bruce Wayne a closely guarded secret."
     },
     {
       "title": "Beloved",
@@ -5084,7 +5301,7 @@
       "theater": "Angelika Film Center",
       "url": "https://angelikafilmcenter.com/nyc/movies/big-girls-dont-cry",
       "status": "Now Playing",
-      "opens": "September 7",
+      "opens": "September 8",
       "booking_url": "https://angelikafilmcenter.com/nyc/movies/big-girls-dont-cry",
       "year": "",
       "director": "Paloma Schneideman",
@@ -5312,10 +5529,31 @@
         "2026-09-05",
         "2026-09-06",
         "2026-09-07",
-        "2026-09-08"
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29"
       ],
       "date_start": "2026-08-22",
-      "date_end": "2026-09-08",
+      "date_end": "2026-09-29",
       "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
     },
     {
@@ -5429,6 +5667,52 @@
       "description": "Struggling actor and claustrophobe Jake Scully becomes entranced by a mysterious neighbor\u2019s nightly striptease, until one evening he witnesses her murder. As curiosity crosses the line into obsession, Jake chases a killer through the dark underbelly of 1980s Hollywood. In Body Double , De Palma reckons with frequent critical perception of his work as exploitative or voyeuristic, investigating the psychological underpinnings of masculine impotence and desire. Cinematographer Stephen H. Burum creates a number of disorienting magic tricks to reflect Jake\u2019s descent into the deep\u2014including a famous five-minute tracking shot through a Los Angeles shopping plaza. Fantasy and reality do not just co-exist, but grind against one another until they melt into one stunningly nightmarish pool of Rear Window -tinted neon sleaze."
     },
     {
+      "title": "Boogie Nights",
+      "theater": "Paris Theater",
+      "url": "https://www.paristheaternyc.com/film/boogie-nights-paris",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "",
+      "director": "Paul Thomas Anderson",
+      "cast": "Mark Wahlberg, \\nJulianne Moore, \\nBurt Reynolds, \\nDon Cheadle, \\nJohn C. Reilly, \\nWilliam H. Macy, \\nHeather Graham, \\nNicole Parker, \\nPhilip Seymour Hoffman",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-08-28",
+        "2026-08-29",
+        "2026-08-30",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-05",
+        "2026-09-06",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24"
+      ],
+      "date_start": "2026-08-28",
+      "date_end": "2026-09-24",
+      "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
+    },
+    {
       "title": "Boorman and the Devil",
       "theater": "Alamo Drafthouse NYC",
       "url": "https://drafthouse.com/nyc/show/boorman-and-the-devil",
@@ -5509,25 +5793,6 @@
       "description": "Ground into despairing dust by his routine as a low-level bureaucrat in an Orwellian near-future\u2014drabulously conceived as a junk shop jumble by art directors Norman Garwood and Maggie Gray\u2014Sam (Jonathan Pryce) takes flight only in his imagination,\u2026"
     },
     {
-      "title": "Breaking Bad Day",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/free-victory-screening-breaking-bad-day-free-tv-party-screening",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://drafthouse.com/nyc/show/free-victory-screening-breaking-bad-day-free-tv-party-screening",
-      "year": "2026",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-09-07"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "September 7 is Breaking Bad Day, so we're celebrating the only way that makes sense: with a one-night-only interactive screening of Breaking Bad's legendary Season 4 finale, \"Face Off.\" Admission is free with the purchase of a fully redeemable and refundable $10 food and beverage voucher. Join a live host in a yellow hazmat suit and collect your themed keepsakes: Hector Salamanca's bell, a Heisenberg hat, blue rock candy, and a Gus Fring half-face mask. Then get ready to experience one of television's greatest episodes with a theater full of fellow fans. Reserve your spot now. Let\u2019s cook."
-    },
-    {
       "title": "Buddy (2026)",
       "theater": "Alamo Drafthouse NYC",
       "url": "https://drafthouse.com/nyc/show/buddy-2026",
@@ -5540,7 +5805,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09"
       ],
@@ -5561,7 +5825,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08"
       ],
       "date_start": "",
@@ -5581,7 +5844,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09"
       ],
@@ -5602,10 +5864,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
       ],
       "date_start": "",
       "date_end": "",
@@ -5795,17 +6063,17 @@
       "status": "Now Playing",
       "opens": "",
       "booking_url": "",
-      "year": "",
-      "director": "",
+      "year": "2026",
+      "director": "Jack Auen, Kevin Walker",
       "cast": "",
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07"
+        "2026-09-08"
       ],
       "date_start": "",
       "date_end": "",
-      "description": ""
+      "description": "While writing a monograph on historical theories of memory, B\u00e9atrice, a respected academic, becomes beguiled by the allegedly true story of the Chronovisor, an occult device said to reproduce visuals from any point in history on a TV screen. Her obsession with the mysterious machine drags her from her Upper East Side apartment through the depths of New York City\u2019s hidden libraries, to the edge of a breakthrough."
     },
     {
       "title": "Chungking Express",
@@ -5912,17 +6180,23 @@
       "url": "https://www.ifccenter.com/films/colony-3/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577604~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577620~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2025",
       "director": "Yeon Sang-ho",
       "cast": "Gianna Jun, Koo Kyo-hwan",
       "country": "Korea",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
       ],
       "date_start": "",
       "date_end": "",
@@ -6017,10 +6291,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
       ],
       "date_start": "",
       "date_end": "",
@@ -6039,10 +6319,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
       ],
       "date_start": "",
       "date_end": "",
@@ -6054,21 +6340,27 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/coyote-vs-acme/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24080243/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24078230/",
       "year": "2026",
       "director": "Dave Green",
       "cast": "John Cena, Lana Condor, Will Forte, P.J. Byrne",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 4:20 pm",
-        "Mon Sep 7 5:50 pm",
-        "Mon Sep 7 6:55 pm"
+        "Tue Sep 8 4:15 pm",
+        "Tue Sep 8 5:20 pm",
+        "Tue Sep 8 6:30 pm"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
       ],
       "date_start": "",
       "date_end": "",
@@ -6088,7 +6380,13 @@
       "showtimes": [],
       "show_dates": [
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16"
       ],
       "date_start": "2026-09-09",
       "date_end": "2026-09-09",
@@ -6107,7 +6405,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09"
       ],
@@ -6328,6 +6625,7 @@
       "cast": "William Campbell, Luana Anders, Bart Patton, Mary Mitchel, Patrick Magee",
       "country": "U.S./Ireland",
       "showtimes": [
+        "Ends Today!",
         "12:20"
       ],
       "show_dates": [
@@ -6586,14 +6884,15 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/dreams-in-nightmares/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24078240/",
       "year": "2025",
       "director": "Shatara Michelle Ford",
       "cast": "Den\u00e9e Benton, Jasmin Savoy Brown, Sasha Comp\u00e8re, Mars Storm Rucker, Dezi Bing, Charlie Barnett",
       "country": "",
-      "showtimes": [],
+      "showtimes": [
+        "Tue Sep 8 9:00 pm"
+      ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08"
       ],
       "date_start": "",
@@ -6779,10 +7078,32 @@
         "2026-09-01",
         "2026-09-02",
         "2026-09-03",
-        "2026-09-04"
+        "2026-09-04",
+        "2026-09-05",
+        "2026-09-06",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26"
       ],
       "date_start": "2026-08-31",
-      "date_end": "2026-09-04",
+      "date_end": "2026-09-26",
       "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
     },
     {
@@ -7043,35 +7364,6 @@
       "description": "Perhaps the best-loved of Iosseliani\u2019s French productions and the one that earned him the enormously prestigious Prix Louis Delluc, deliciously deadpan formalist comedy Farewell, Home Sweet Home is another of the director\u2019s ensemble narratives, its\u2026"
     },
     {
-      "title": "Fight Club",
-      "theater": "Paris Theater",
-      "url": "https://www.paristheaternyc.com/film/fight-club-paris",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "1999",
-      "director": "David Fincher",
-      "cast": "Brad Pitt, \\nEdward Norton, \\nHelena Bonham Carter",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-08-21",
-        "2026-08-22",
-        "2026-08-23",
-        "2026-08-24",
-        "2026-08-25",
-        "2026-08-26",
-        "2026-08-27",
-        "2026-08-28",
-        "2026-08-29",
-        "2026-08-30",
-        "2026-08-31"
-      ],
-      "date_start": "2026-08-21",
-      "date_end": "2026-08-31",
-      "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
-    },
-    {
       "title": "Filipi\u00f1ana",
       "theater": "Film Forum",
       "url": "https://filmforum.org/film/filipinana",
@@ -7087,14 +7379,16 @@
         "2:30",
         "4:45",
         "7:00",
-        "8:10",
         "9:10"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14"
       ],
       "date_start": "",
       "date_end": "",
@@ -7112,7 +7406,7 @@
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sep 10 9:00\u202fPM",
+        "Sep 10 7:00\u202fPM",
         "Sep 24 9:00\u202fPM"
       ],
       "show_dates": [
@@ -7177,7 +7471,6 @@
       "cast": "Angourie Rice, Spike Fearn, Minnie Driver",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 7:00 PM",
         "Tue Sep 8 1:45 PM",
         "Tue Sep 8 7:00 PM",
         "Wed Sep 9 1:45 PM",
@@ -7185,7 +7478,6 @@
         "Thu Sep 10 1:40 PM"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
         "2026-09-10"
@@ -7207,7 +7499,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08"
       ],
       "date_start": "",
@@ -7332,25 +7623,6 @@
       "date_start": "2026-05-28",
       "date_end": "2026-05-28",
       "description": "Freedom Way (2024) Dir. Afolabi Olalekan With Jesse Suntele, Ogranya Jable 83min; DCP Nigeria In English and Yoruba with English subtitles Software developers Themba (Jesse Suntele) and Tayo (Ogranya Jable) finally realize their long-awaited venture, Easy Go, a rideshare app connecting motorcyclists with customers across Lagos, Nigeria. The excitement of the launch quickly gives way to mounting pressure as they confront restrictive government laws, shifting regulations, and the threat of police brutality. On the periphery, the lives of nine individuals begin to collide in Afolabi Olalekan\u2019s feature debut, a fast-paced, electric thriller shot on location in Lagos. Preceded by Ifeyinwa (2025) Dir. Jay Ikechukwu Okoroafo 13min; DCP US New York Premiere Ifeyinwa is a short film weaving director Jay Ikechukwu Okoroafo\u2019s mother's life and migration from Enugu, Nigeria to Houston using personal family photographs, VHS footage, interviews, and sound, as told by her. The work explores the relationship between encounter, memory, and activation."
-    },
-    {
-      "title": "From Dusk Till Dawn",
-      "theater": "Nitehawk (Williamsburg)",
-      "url": "https://nitehawkcinema.com/williamsburg/movies/from-dusk-till-dawn/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "1996",
-      "director": "Robert Rodriguez",
-      "cast": "Harvey Keitel, George Clooney, Juliette Lewis, Quentin Tarantino, Ernest Liu, Salma Hayek, Cheech Marin, Danny Trejo, Tom Savini, Fred Williamson",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-09-07"
-      ],
-      "date_start": "2026-09-07",
-      "date_end": "2026-09-07",
-      "description": ""
     },
     {
       "title": "Frontline Pbs Presents: 2000 Meters To Andriivka",
@@ -7811,10 +8083,28 @@
         "2026-09-01",
         "2026-09-02",
         "2026-09-03",
-        "2026-09-04"
+        "2026-09-04",
+        "2026-09-05",
+        "2026-09-06",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22"
       ],
       "date_start": "2026-08-28",
-      "date_end": "2026-09-04",
+      "date_end": "2026-09-22",
       "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
     },
     {
@@ -7823,17 +8113,23 @@
       "url": "https://www.ifccenter.com/films/heathers/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577317~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577318~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "1989",
       "director": "Michael Lehmann",
       "cast": "Winona Ryder, Christian Slater, Shannen Doherty, Lisanne Falk, Kim Walker",
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
       ],
       "date_start": "",
       "date_end": "",
@@ -7954,7 +8250,14 @@
       "showtimes": [],
       "show_dates": [
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
       ],
       "date_start": "2026-09-09",
       "date_end": "2026-09-09",
@@ -8097,25 +8400,6 @@
       "date_start": "",
       "date_end": "",
       "description": "The latest from New Queer Cinema pioneer Gregg Araki ( Mysterious Skin , The Doom Generation , White Bird in a Blizzard ), I Want Your Sex follows Elliot, a kind-hearted if unmotivated twentysomething (Hoffman), whose fantasies quickly come true when he lands a job with renowned artist and provocateur Erika Tracy (Wilde). When Erika breaks down office boundaries and takes young Elliot on as her sexual muse and subordinate, their sexually charged relationship makes him question his own desires, boundaries, and relationships with his uptight girlfriend (Charli XCX) and repressed roommate (Wonders). As the stakes heighten and power dynamics shift, the lines between satire, romantic comedy, mystery, and murder blur through the colorful and edgy visual language for which Araki is best known."
-    },
-    {
-      "title": "Idiots",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/idiots",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://drafthouse.com/nyc/show/idiots",
-      "year": "2026",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-09-08"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "\u201cDUMB AND DUMBER meets MIDNIGHT RUN\u201d \u2013 Deadline\nLeave it to filmmaker Macon Blair (THE TOXIC AVENGER, I DON'T FEEL AT HOME IN THIS WORLD ANYMORE) to turn a routine rehab pickup into a total disaster. Dave Franco and O'Shea Jackson Jr. star as two spectacularly underqualified escorts hired to transport a wealthy teenager to rehab, only to watch their easy payday unravel into a cross-country mess of bad decisions and increasingly dangerous company. Also featuring Mason Thames (HOW TO TRAIN YOUR DRAGON), Kiernan Shipka (TWISTERS), Nicolas Braun (Succession), and Peter Dinklage, this is the kind of madcap comedy that\u2019s best experienced on the big screen."
     },
     {
       "title": "If I Go Will They Miss Me",
@@ -8288,7 +8572,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09"
       ],
@@ -8380,16 +8663,15 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/it-ends/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24080257/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24078238/",
       "year": "2026",
       "director": "Alex Ullom",
       "cast": "Mitchell Cole, Akira Jackson, Noah Toth, Phinehas Yoon",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 10:00 pm"
+        "Tue Sep 8 10:00 pm"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
         "2026-09-10"
@@ -8411,7 +8693,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08"
       ],
       "date_start": "",
@@ -8431,7 +8712,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08"
       ],
       "date_start": "",
@@ -8543,7 +8823,7 @@
       ],
       "date_start": "2026-08-31",
       "date_end": "2026-09-06",
-      "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
+      "description": "Hot newcomers Josie (Rachael Leigh Cook), Melody (Tara Reid) and Val (Rosario Dawson) are three small-town musicians with big dreams but little future. Then fate gives the Pussycats the chance of a lifetime when band manager Wyatt (Alan Cumming) of MegaRecords signs them overnight to an awesome recording contract. Suddenly, Josie and the Pussycats are living life in the fast lane with sold-out concerts, a number one single and global stardom. But it's not all limousines and private jets. The Pussycats soon discover they're being played like pawns in an evil plot by the record label's maniacal CEO Fiona (Parker Posey) to control the youth of America."
     },
     {
       "title": "Julia",
@@ -8624,6 +8904,33 @@
       "date_start": "",
       "date_end": "",
       "description": "Tsui\u2019s second and last English-language film, reuniting him with the star of his 1997 Double Team and favorite of Hong Kongers making forays into Hollywood, Jean-Claude Van Damme. In Hong Kong arranging a fashion show for \u201cV-Six\u201d jeans, unscrupulous\u2026"
+    },
+    {
+      "title": "Kwaidan",
+      "theater": "Film Forum",
+      "url": "https://filmforum.org/film/kwaidan-2026",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1964",
+      "director": "Masaki Kobayashi Based on a collection of folktales by Lafcadio Hearn",
+      "cast": "Tatsuya Nakadai, Rentar\u00f4 Mikuni, Michiyo Aratama, Misako Watanabe",
+      "country": "Japan",
+      "showtimes": [
+        "Opens Today!",
+        "12:15",
+        "3:50",
+        "7:30"
+      ],
+      "show_dates": [
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": ""
     },
     {
       "title": "La Haine",
@@ -8755,32 +9062,16 @@
       "showtimes": [
         "1:00",
         "3:15",
-        "6:00"
+        "7:50"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Willem Dafoe is Ed Saxberger, a postal worker whose former life as a downtown poet in late-70s New York is rediscovered by a young admirer (Donovan) and his \u201cEnthusiasm Society,\u201d a group of 20-somethings with a comically romanticized sense of the past. In the company of his new friends, including the mysterious and mercurial Gloria (Lee of PAST LIVES), Ed has the uncanny feeling of merging with his younger self. Directed by Kent Jones (DIANE) from a witty, razor-sharp script by Samy Burch (MAY D"
-    },
-    {
-      "title": "Late Fame",
-      "theater": "Film at Lincoln Center",
-      "url": "https://www.filmlinc.org/films/late-fame/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "2025",
-      "director": "Kent Jones Starring Willem Dafoe, Greta Lee, And Edmund Donovan",
-      "cast": "",
-      "country": "USA",
-      "showtimes": [],
-      "show_dates": [
-        "2026-09-07"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14"
       ],
       "date_start": "",
       "date_end": "",
@@ -8792,7 +9083,7 @@
       "url": "https://www.ifccenter.com/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577598~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577618~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "",
       "director": "",
       "cast": "",
@@ -8837,10 +9128,27 @@
         "2026-09-09",
         "2026-09-10",
         "2026-09-11",
-        "2026-09-12"
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29"
       ],
       "date_start": "2026-08-22",
-      "date_end": "2026-09-12",
+      "date_end": "2026-09-29",
       "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
     },
     {
@@ -8878,25 +9186,6 @@
       "date_start": "",
       "date_end": "",
       "description": "In a conservative Australian town, the most terrifying thing facing two queer teens isn\u2019t just the ostracization of their community, but a more sinister entity that takes the form of the person they desire most: each other. With captivating performances from its breakout stars, this striking debut from director Adrian Chiarella deftly weaves a truly haunting premise and moments of sweet romance into a larger tapestry investigating the toll of contemporary bigotry."
-    },
-    {
-      "title": "Live Sound Cinema: Metropolis",
-      "theater": "Nitehawk (Williamsburg)",
-      "url": "https://nitehawkcinema.com/williamsburg/movies/metropolis-silent-light/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "",
-      "director": "Fritz Lang",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-09-08"
-      ],
-      "date_start": "2026-09-08",
-      "date_end": "2026-09-08",
-      "description": ""
     },
     {
       "title": "Lone Star",
@@ -8995,10 +9284,33 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-05",
+        "2026-09-06",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25"
       ],
       "date_start": "2026-08-25",
-      "date_end": "2026-09-02",
+      "date_end": "2026-09-25",
       "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
     },
     {
@@ -9057,6 +9369,26 @@
       "description": "Maluala takes us into a palenque \u2014a fortified settlement of escaped slaves\u2014hidden in Cuba\u2019s eastern mountains, as the Spanish colonial forces attempt to sow discord among their leaders. The film marks Giral\u2019s third entry into his trilogy of films about slavery in 19th-century Cuba and the Caribbean, combining a Marxist lens with the long arc of Black Liberation to trace the development from individual to collective struggle."
     },
     {
+      "title": "Manhunter: The Final Cut",
+      "theater": "Nitehawk (Williamsburg)",
+      "url": "https://nitehawkcinema.com/williamsburg/movies/manhunter-the-final-cut/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1986",
+      "director": "Michael Mann",
+      "cast": "William Petersen, Dennis Farina, Kim Greist, Brian Cox, Tom Noonan, Joan Allen",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-09-11",
+        "2026-09-14"
+      ],
+      "date_start": "2026-09-11",
+      "date_end": "2026-09-11",
+      "description": ""
+    },
+    {
       "title": "Marketa Lazarov\u00e1",
       "theater": "Film at Lincoln Center",
       "url": "https://www.filmlinc.org/films/marketa-lazarova/",
@@ -9069,7 +9401,7 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07"
+        "2026-09-08"
       ],
       "date_start": "",
       "date_end": "",
@@ -9249,6 +9581,27 @@
       "date_start": "2026-05-23",
       "date_end": "2026-05-23",
       "description": "On April 24, 2002, filmmaker Ntare Guma Mbaho Mwine\u2019s car broke down in the small town of Mbirizi, Uganda. While waiting for it to be repaired, he stumbled upon a small photo studio and met photographer Kibaate Aloysius Ssalongo, whose work spanned from the late 1950s to his death in 2006. This chance encounter turned into a 22-year journey documenting and exploring Kibaate\u2019s life, photography, and the profound impact his work had on the community he documented, as well as Mwine\u2019s own life. Followed by a Q&A with director Ntare Guma Mbaho Mwine, moderated by Delphine Fawundu"
+    },
+    {
+      "title": "Merrily We Go To Hell",
+      "theater": "Nitehawk (Prospect Park)",
+      "url": "https://nitehawkcinema.com/prospectpark/movies/merrily-we-go-to-hell/?date=today",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/23801635/",
+      "year": "1932",
+      "director": "Dorothy Arzner",
+      "cast": "Fredric March, Sylvia Sidney, Adrianne Allen, Richard Gallagher, George Irving, Esther Howard",
+      "country": "",
+      "showtimes": [
+        "Tue Sep 8 7:00 pm"
+      ],
+      "show_dates": [
+        "2026-09-08"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "In her innocence she expected days and nights of tender love. What she got was a Bitter Shock!"
     },
     {
       "title": "Michael Mann'S Manhunter: The Final Cut",
@@ -9448,25 +9801,6 @@
       "date_start": "2026-07-01",
       "date_end": "2026-07-01",
       "description": "Based on the 1946 novel of the same name, Frank Borzage\u2019s Moonrise follows the son of a man hanged for murder, the catalyst for a life plagued by bullying and ostracization. In a particularly fraught confrontation, the young Danny (Dane Clark) kills one of his tormentors in self defense. He soon develops a fledgling relationship with the deceased man\u2019s fianc\u00e9e, a schoolteacher who finds herself increasingly charmed by the afflicted man. This postwar noir from Borzage serves as a hidden gem within the catalogue of an auteur often neglected in the chronicling of early Hollywood."
-    },
-    {
-      "title": "Morvern Callar",
-      "theater": "Paris Theater",
-      "url": "https://www.paristheaternyc.com/film/morvern-callar-paris",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "2002",
-      "director": "Lynne Ramsay",
-      "cast": "Samantha Morton, \\nKathleen McDermott, \\nPaul Popplewell, \\nBryan Dick",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-08-31"
-      ],
-      "date_start": "2026-08-31",
-      "date_end": "2026-08-31",
-      "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
     },
     {
       "title": "Mother Mary",
@@ -9773,6 +10107,26 @@
       "description": "South Korea\u2019s Academy Awards submission for Best Foreign Film is being hailed by critics as an utter masterpiece and earned a rapturous nine-minute standing ovation at this year\u2019s Venice Film Festival. No Other Choice follows one man\u2019s berserk search for a new job after he is abruptly laid off from the paper company where he worked for 25 years. The visionary Park Chan-wook ( Oldboy , Decision to Leave ) helms this captivating black-comedy thriller\u2014one of the most highly anticipated and acclaimed films of the season\u2014adapted from Donald E. Westlake\u2019s 1997 novel The Ax ."
     },
     {
+      "title": "NOFX: 40 Years of Fuckin' Up",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/nofx-40-years-of-fuckin-up",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/nofx-40-years-of-fuckin-up",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-09-26",
+        "2026-10-24"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "40 YEARS OF FUCKIN' UP is SPINAL TAP, but real. It's a film about the infamous, fairly unfamous, and beloved punk rock band NOFX. This is the unbelievable story about how a group of untalented, drug-addicted teenage punks somehow became the most successful independent band in history \u2013 and they did it haphazardly, entirely on their own."
+    },
+    {
       "title": "Nostalghia",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/kino-canines-nostalghia",
@@ -10023,6 +10377,28 @@
       "description": "After abandoning a dystopian future Earth, a small band of dissident astronauts crash-land on an earthlike planet and set out to establish a new human civilization\u2014only to discover in time that they carry the seeds of their own slow demise and a new mythology. Polish writer-director Andrzej \u017bu\u0142awski adapted On the Silver Globe from The Lunar Trilogy , novels written between 1901 and 1911 by his grand-uncle, Jerzy \u017bu\u0142awski. After a year of filming in 1976 and 1977, Polish authorities shut down the production and ordered all materials destroyed, but the studio, cast, and crew preserved reels, costumes, and props, allowing \u017bu\u0142awski to devise a conclusion in time to screen the film at Cannes in 1988. RogerEbert.com proclaimed, \u201cEven out of time, even incomplete, even now that its director is gone for good, On the Silver Globe endures and its beautiful power will never dim.\u201d"
     },
     {
+      "title": "On The Town",
+      "theater": "Film Forum",
+      "url": "https://filmforum.org/film/on-the-town-ffjr-2026",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1949",
+      "director": "Gene Kelly and Stanley Donen Screenplay and lyrics by Betty Comden and Adolph Green",
+      "cast": "Gene Kelly, Frank Sinatra, Ann Miller, Betty Garrett, Vera-Ellen, Jules Munshin Music by Leonard Bernstein",
+      "country": "U.S",
+      "showtimes": [
+        "Returns Today!",
+        "11:00"
+      ],
+      "show_dates": [
+        "2026-09-13"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": ""
+    },
+    {
       "title": "Once Upon A Time... In Hollywood",
       "theater": "Paris Theater",
       "url": "https://www.paristheaternyc.com/film/once-upon-a-time-in-hollywood-paris",
@@ -10106,20 +10482,26 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/onslaught/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24080246/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24078226/",
       "year": "2026",
       "director": "Adam Wingard",
       "cast": "Adria Arjona, Dan Stevens, Eric Wareheim, Reginald VelJohnson, Michael Biehn, Alex Pereira, Drew Starkey, Rebecca Hall",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 5:35 pm",
-        "Mon Sep 7 10:15 pm"
+        "Tue Sep 8 2:30 pm",
+        "Tue Sep 8 5:05 pm",
+        "Tue Sep 8 10:15 pm"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16"
       ],
       "date_start": "",
       "date_end": "",
@@ -10138,7 +10520,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09"
       ],
@@ -10159,7 +10540,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
         "2026-09-10"
@@ -10181,7 +10561,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
         "2026-09-10"
@@ -10429,18 +10808,19 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/paw-patrol-the-dino-movie/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24080232/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24078227/",
       "year": "2026",
       "director": "Cal Brunker",
       "cast": "Mckenna Grace, Terry Crews, Fortune Feimster, Jameela Jamil, Jennifer Hudson, Snoop Dogg, Paris Hilton, Bill Nye",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 4:00 pm"
+        "Tue Sep 8 2:40 pm"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
-        "2026-09-09"
+        "2026-09-09",
+        "2026-09-12",
+        "2026-09-13"
       ],
       "date_start": "",
       "date_end": "",
@@ -11661,10 +12041,20 @@
         "2026-09-11",
         "2026-09-12",
         "2026-09-13",
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24"
       ],
       "date_start": "2026-09-01",
-      "date_end": "2026-09-14",
+      "date_end": "2026-09-24",
       "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
     },
     {
@@ -11795,10 +12185,35 @@
         "2026-08-31",
         "2026-09-01",
         "2026-09-02",
-        "2026-09-03"
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-05",
+        "2026-09-06",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28"
       ],
       "date_start": "2026-08-21",
-      "date_end": "2026-09-03",
+      "date_end": "2026-09-28",
       "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
     },
     {
@@ -11807,20 +12222,27 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/spider-man-brand-new-day/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24080247/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24078229/",
       "year": "2026",
       "director": "Destin Daniel Cretton",
       "cast": "Tom Holland, Zendaya, Sadie Sink, Jacob Batalon, Jon Bernthal, Mark Ruffalo",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 5:20 pm",
-        "Mon Sep 7 9:15 pm"
+        "Tue Sep 8 2:30 pm",
+        "Tue Sep 8 5:35 pm",
+        "Tue Sep 8 8:00 pm"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
       ],
       "date_start": "",
       "date_end": "",
@@ -11839,7 +12261,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09"
       ],
@@ -11884,6 +12305,25 @@
       "date_start": "",
       "date_end": "",
       "description": "It is 1980. Disappointed with the decidedly un-STAR WARS-like performance of STAR TREK: THE MOTION PICTURE, Paramount executives approach television producer Harve Bennett about taking over the next outing of the Starship Enterprise, but for a far lower budget than the prior film and its special effects extravaganza. \nTo familiarize himself with the series, Bennett watched all 79 episodes of the original series, with one story \u2013 season one's \"Space Seed\" \u2013 igniting his imagination. The tale of an antiheroic superhuman named Khan who attempts to take over the Enterprise but who is left with his followers on an Earth-like planet to create their own utopia... well, it begged for a follow-up.\nAlongside co-writer Jack B. Sowards and young director Nicholas Meyer, Bennett created that follow-up, and set the stage for two more films that, though planned one-by-one, work as a perfect trilogy. A story of sacrifice, of friendship, and of reclaiming your first and best place in the universe...\nAbout STAR TREK II: THE WRATH OF KHAN1982 | 113 mins.\n\"Commanding a starship is your first best destiny. Anything else is a waste of material.\"\nNot just a great STAR TREK film, not just a great science-fiction film, it\u2019s one of the greatest films of all time. An epic revenge tale that also manages to pack in meditations on aging, regret, and how we deal with death. It\u2019s the finest moment in the entire original series canon.\nAbout STAR TREK III: THE SEARCH FOR SPOCK1984 | 105 mins.\n\u201cMy father says that you have been my friend. You came back for me.\u201d\nLeonard Nimoy stayed with the series to direct this \u2013 his first feature and the best of the odd-numbered Treks. The story (literally) inverts the previous film's themes as the Enterprise crew goes renegade to save their friend and heal the afflicted Dr. McCoy.\nAbout STAR TREK IV: THE VOYAGE HOME1986 | 119 mins.\n\u201cThey like you very much, but they are not the hell 'your' whales.\u201d\nWhen a mysterious alien probe threatens Earth by evaporating the oceans and destroying the atmosphere, there's only one crew that can save the planet: the crew of the late, great NCC-1701, currently fugitives thanks to their activities in Part 3. In a swift attempt to save mankind, Admiral Kirk and his crew must time-travel back to 1986 San Francisco, where they find a world of punk, pizza, and exact-change buses. \nMore than \"the one with the whales,\" this rollicking adventure quickly warps away from the heavy themes of the past two films for the most fun STAR TREK ever made, and the wrap-up to the unintended trilogy that began with WRATH OF KHAN."
+    },
+    {
+      "title": "Star Trek: The Motion Picture (The Director'S Edition) + Star Trek Ii: The Wrath Of Khan (The Director'S Cut)",
+      "theater": "Paris Theater",
+      "url": "https://www.paristheaternyc.com/film/star-trek-double-feature-paris",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1979, 1982",
+      "director": "Robert Wise, Nicholas Meyer",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-09-08"
+      ],
+      "date_start": "2026-09-08",
+      "date_end": "2026-09-08",
+      "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
     },
     {
       "title": "Starstruck",
@@ -12155,6 +12595,25 @@
       "description": "The third, and most recent, adaptation of John Godey\u2019s 1973 novel, Taking of Pelham 123 charts one of the most iconic subway stories ever put to film. When \u2018Ryder\u2019 (Travolta) and his accomplices hijack a 6 train, dispatcher Walter Garber (Washington) is thrust into the position of negotiator. Despite the 6 train setting, most of the film was shot on the track between Hoyt-Schermerhorn and the Transit Museum in Downtown Brooklyn. With a roster of iconic New York/Jersey actors, Scott\u2019s adaptation\u2014arriving near the end of his visually and editorially baroque late period\u2014thrusts a timeless story into the modern era."
     },
     {
+      "title": "Tarzan And His Mate",
+      "theater": "Nitehawk (Williamsburg)",
+      "url": "https://nitehawkcinema.com/williamsburg/movies/tarzan-and-his-mate/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1934",
+      "director": "Cedric Gibbons",
+      "cast": "Johnny Weissmuller, Maureen O\u2019Sullivan, Neil Hamilton, Paul Cavanagh, Yola d\u2019Avril, \u201cJiggs\u201d as Cheeta",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-09-10"
+      ],
+      "date_start": "2026-09-10",
+      "date_end": "2026-09-10",
+      "description": ""
+    },
+    {
       "title": "Teenage Mutant Ninja Turtles",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/hoyt-schermerhorn-teenage-mutant-ninja-turtles",
@@ -12179,20 +12638,24 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/teenage-sex-and-death-at-camp-miasma/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24080244/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24078242/",
       "year": "2026",
       "director": "Jane Schoenbrun",
       "cast": "Gillian Anderson, Hannah Einbinder, Patrick Fischler, Sarah Sherman, Zach Cherry, Dylan Baker, Jack Haven, Eva Victor, Kevin McDonald",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 4:40 pm",
-        "Mon Sep 7 9:30 pm"
+        "Tue Sep 8 9:15 pm"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16"
       ],
       "date_start": "",
       "date_end": "",
@@ -12211,10 +12674,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
       ],
       "date_start": "",
       "date_end": "",
@@ -12232,9 +12701,6 @@
       "cast": "Hannah Einbinder, Gillian Anderson, Amanda Fix, Arthur Conti, Patrick Fischler, Jack Haven",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 3:30 PM",
-        "Mon Sep 7 8:45 PM",
-        "Tue Sep 8 10:15 AM",
         "Tue Sep 8 3:30 PM",
         "Tue Sep 8 8:45 PM",
         "Wed Sep 9 10:15 AM",
@@ -12245,7 +12711,6 @@
         "Thu Sep 10 8:45 PM"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
         "2026-09-10"
@@ -12267,7 +12732,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08"
       ],
       "date_start": "",
@@ -12286,10 +12750,6 @@
       "cast": "Hannah Einbinder, Gillian Anderson, Amanda Fix, Arthur Conti, Patrick Fischler, Jack Haven",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 4:30 PM",
-        "Mon Sep 7 7:10 PM",
-        "Mon Sep 7 9:45 PM",
-        "Tue Sep 8 11:15 AM",
         "Tue Sep 8 1:50 PM",
         "Tue Sep 8 4:30 PM",
         "Tue Sep 8 7:10 PM",
@@ -12306,7 +12766,6 @@
         "Thu Sep 10 10:00 PM"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
         "2026-09-10"
@@ -12657,10 +13116,10 @@
       "cast": "Gene Hackman, John Cazale, Harrison Ford, Terri Garr, Frederic Forrest WINNER Cannes Film Festival \u2013 Palme d\u2019Or, 1974 NOMINEE Academy Awards\u00ae \u2013 Best Picture, Best Original Screenplay, Best Sound, 1975",
       "country": "U.S",
       "showtimes": [
-        "1:00"
+        "Ends Today!",
+        "2:00"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-10"
       ],
       "date_start": "",
@@ -12717,10 +13176,6 @@
       "cast": "P.K. Mahanandia, Lotta Mahanandia, Mina Dale, Chirag Lobo",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 4:25 PM",
-        "Mon Sep 7 6:50 PM",
-        "Mon Sep 7 9:15 PM",
-        "Tue Sep 8 11:30 AM",
         "Tue Sep 8 2:00 PM",
         "Tue Sep 8 4:25 PM",
         "Tue Sep 8 6:50 PM",
@@ -12737,7 +13192,6 @@
         "Thu Sep 10 9:15 PM"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
         "2026-09-10"
@@ -12791,43 +13245,20 @@
       "description": "Greg Mottola\u2019s feature debut, teeming with deadpan humor and surprising emotional weight, established him as a voice of the \u201890s indie scene. After discovering a love letter written to her husband (Stanley Tucci), Eliza (Hope Davis) rallies her bombastic Long Island family to embark on a quest to uncover the truth. The group\u2014sister (Posey) and pretentious boyfriend (Schriber), her headstrong mom (Anne Meara), and reserved father (McNamara)\u2014traipses New York City in pursuit of answers throughout a detour-filled day that sends the family through the ringer as new revelations come to light and old familial schisms rear their heads."
     },
     {
-      "title": "The Departed",
-      "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/the-departed/?date=today",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/23801561/",
-      "year": "2006",
-      "director": "Martin Scorsese",
-      "cast": "Leonardo DiCaprio, Matt Damon, Jack Nicholson, Mark Wahlberg, Vera Farmiga",
-      "country": "",
-      "showtimes": [
-        "Mon Sep 7 8:45 pm"
-      ],
-      "show_dates": [
-        "2026-09-07",
-        "2026-09-12"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Lies. Betrayal. Sacrifice. How far will you take it?"
-    },
-    {
       "title": "The Dog Stars",
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/movies/the-dog-stars/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24080256/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24078243/",
       "year": "2026",
       "director": "Ridley Scott",
       "cast": "Josh Brolin, Jacob Elordi, Margaret Qualley, Guy Pearce, Benedict Wong, Alara-Star Khan",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 9:45 pm"
+        "Tue Sep 8 9:45 pm"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
         "2026-09-10"
@@ -12849,7 +13280,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09"
       ],
@@ -12940,19 +13370,23 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/the-end-of-oak-street/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24080241/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24078228/",
       "year": "2026",
       "director": "David Robert Mitchell",
       "cast": "Anne Hathaway, Ewan McGregor, Christian Convery, Maisy Stella",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 3:10 pm",
-        "Mon Sep 7 7:55 pm"
+        "Tue Sep 8 3:30 pm"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
-        "2026-09-09"
+        "2026-09-09",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16"
       ],
       "date_start": "",
       "date_end": "",
@@ -12971,7 +13405,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08"
       ],
       "date_start": "",
@@ -13021,27 +13454,6 @@
       "description": "As fear spreads across Uganda about a serial killer haunting the highways, an off-duty police officer drives an elderly witness from a remote village back to town. Along the way, he picks up an injured stranger who begins recounting the violent events that led him to the roadside. As the journey unfolds, suspicion grows inside the car, and the officer realizes the truth may be far more dangerous than the story being told."
     },
     {
-      "title": "The Godfather",
-      "theater": "Film Forum",
-      "url": "https://filmforum.org/film/the-godfather-coppola",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "1972",
-      "director": "Francis Ford Coppola Based on Mario Puzo\u2019s novel",
-      "cast": "Al Pacino, Marlon Brando, John Cazale, James Caan, Robert Duvall, Diane Keaton WINNER Academy Awards\u00ae \u2013 Best Picture, Best Actor (Marlon Brando), Best Adapted Screenplay, 1973",
-      "country": "U.S",
-      "showtimes": [
-        "3:30"
-      ],
-      "show_dates": [
-        "2026-09-07"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": ""
-    },
-    {
       "title": "The Godfather Part Ii",
       "theater": "Film Forum",
       "url": "https://filmforum.org/film/the-godfather-part-ii-coppola",
@@ -13053,10 +13465,10 @@
       "cast": "Al Pacino, Robert De Niro, Diane Keaton, John Cazale, Robert Duvall WINNER Academy Awards\u00ae \u2013 Best Picture, Best Director, Best Supporting Actor (Rober De Niro), Best Adapted Screenplay, Best Art Direction, Best Original Score, 1975",
       "country": "U.S",
       "showtimes": [
-        "7:00"
+        "Ends Today!",
+        "4:20"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-10"
       ],
       "date_start": "",
@@ -13134,19 +13546,24 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/the-invite/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24080249/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24078233/",
       "year": "2026",
       "director": "Olivia Wilde",
       "cast": "Seth Rogen, Olivia Wilde, Edward Norton, Pen\u00e9lope Cruz",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 6:35 pm"
+        "Tue Sep 8 7:30 pm"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16"
       ],
       "date_start": "",
       "date_end": "",
@@ -13165,10 +13582,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
       ],
       "date_start": "",
       "date_end": "",
@@ -13393,8 +13816,6 @@
       "cast": "Benjamin Lavernhe, Pierre Lottin, Sarah Suco",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 6:15 PM",
-        "Tue Sep 8 1:00 PM",
         "Tue Sep 8 6:15 PM",
         "Wed Sep 9 1:00 PM",
         "Wed Sep 9 6:15 PM",
@@ -13402,7 +13823,6 @@
         "Thu Sep 10 6:15 PM"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
         "2026-09-10"
@@ -13424,10 +13844,35 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-03"
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-05",
+        "2026-09-06",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28"
       ],
       "date_start": "2026-09-03",
-      "date_end": "2026-09-03",
+      "date_end": "2026-09-28",
       "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
     },
     {
@@ -13505,7 +13950,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
         "2026-09-10"
@@ -13527,7 +13971,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09"
       ],
@@ -13541,21 +13984,26 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/the-odyssey-dcp/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24080239/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24078225/",
       "year": "2026",
       "director": "Christopher Nolan",
       "cast": "Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson, Lupita Nyong\u2019o, Zendaya, Charlize Theron, Jon Bernthal, Logan Marshall-Green, Benny Safdie, Mia Goth, John Leguizamo, Elliot Page",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 2:55 pm",
-        "Mon Sep 7 6:20 pm",
-        "Mon Sep 7 8:30 pm"
+        "Tue Sep 8 2:55 pm",
+        "Tue Sep 8 6:05 pm",
+        "Tue Sep 8 8:45 pm"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16"
       ],
       "date_start": "",
       "date_end": "",
@@ -13805,9 +14253,6 @@
       "cast": "Gillian Anderson, Jason Isaacs, Denis Lill",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 4:20 PM",
-        "Mon Sep 7 9:35 PM",
-        "Tue Sep 8 11:05 AM",
         "Tue Sep 8 4:20 PM",
         "Tue Sep 8 9:35 PM",
         "Wed Sep 9 11:05 AM",
@@ -13817,7 +14262,6 @@
         "Thu Sep 10 4:15 PM"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
         "2026-09-10"
@@ -13856,7 +14300,7 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07"
+        "2026-09-08"
       ],
       "date_start": "",
       "date_end": "",
@@ -13922,6 +14366,52 @@
       "description": "The Smallest Show on Earth (1957) dir. Basil Dearden 80min; DCP The Smallest Show on Earth follows a newly married couple who unexpectedly inherit a dilapidated British cinema and set out to save it from closure, aided\u2014and often undermined\u2014by its eccentric staff. The prolific Basil Dearden, who worked on over 45 films across his career, directs this warmhearted comedy about love, labor, and the quiet heroics of keeping the movies alive. Box Office Bunny (1990) dir. Darrell Van Critters 5min; Digital This delightful Looney Tunes short is set in a massive movie theater situated right above Bugs\u2019 bunny hole and co-stars Elmer Fudd and Daffy Duck."
     },
     {
+      "title": "The Sound Of Music",
+      "theater": "Paris Theater",
+      "url": "https://www.paristheaternyc.com/film/the-sound-of-music-big-and-loud",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1965",
+      "director": "Robert Wise",
+      "cast": "Julie Andrews, Christopher Plummer, Eleanor Parker, Richard Haydn, Peggy Wood, Charmian Carr",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-08-30",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-05",
+        "2026-09-06",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26"
+      ],
+      "date_start": "2026-08-30",
+      "date_end": "2026-09-26",
+      "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
+    },
+    {
       "title": "The Square",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/history-as-hashtag-the-square",
@@ -13974,7 +14464,11 @@
       "show_dates": [
         "2026-09-06",
         "2026-09-08",
-        "2026-09-09"
+        "2026-09-09",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-16"
       ],
       "date_start": "",
       "date_end": "",
@@ -13986,17 +14480,23 @@
       "url": "https://www.ifccenter.com/films/the-sun-never-sets/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577605~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=577622~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2026",
       "director": "Joe Swanberg",
       "cast": "Dakota Fanning, Cory Michael Smith, Jake Johnson",
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
       ],
       "date_start": "",
       "date_end": "",
@@ -14015,7 +14515,6 @@
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08"
       ],
       "date_start": "",
@@ -14145,7 +14644,7 @@
       "booking_url": "https://drafthouse.com/nyc/show/the-uprising",
       "year": "2026",
       "director": "",
-      "cast": "",
+      "cast": "Andrew Garfield, Jamie Bell, Stephen Dillane, Tom Hollander, Cosmo Jarvis, Thomasin McKenzie, Jonny Lee Miller, Woody Norman, Katherine Waterston, Sky Yang",
       "country": "",
       "showtimes": [],
       "show_dates": [
@@ -14614,19 +15113,24 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/tony/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24080251/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24078235/",
       "year": "2026",
       "director": "Matt Johnson",
       "cast": "Dominic Sessa, Emilia Jones, Leo Woodall, Antonio Banderas, Stavros Halkias",
       "country": "",
       "showtimes": [
-        "Mon Sep 7 7:15 pm"
+        "Tue Sep 8 4:45 pm"
       ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16"
       ],
       "date_start": "",
       "date_end": "",
@@ -14645,10 +15149,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
       ],
       "date_start": "",
       "date_end": "",
@@ -14667,7 +15177,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08"
       ],
       "date_start": "",
@@ -14936,25 +15445,6 @@
       "description": "When firefighter Terry Lynch (Hutton) is denied benefits by the city in the wake of an off-duty rescue injury, his brother Jimmy (Urich) takes it upon himself to seek restitution. In an overstuffed 96 minutes, Jimmy\u2019s quest takes him around the city\u2014from the Queensboro Bridge to the Hoyt-Schermerhorn station. Fun fact: this was one of the first flicks to receive a PG-13 rating."
     },
     {
-      "title": "Twice Upon A Time",
-      "theater": "Low Cinema",
-      "url": "https://lowcinema.com/movie/twice-upon-a-time/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://lowcinema.com/checkout/b682e983-0712-4223-ba41-c8f3582e2c82/",
-      "year": "1983",
-      "director": "Charles Swenson and John Korty",
-      "cast": "",
-      "country": "USA",
-      "showtimes": [],
-      "show_dates": [
-        "2026-09-07"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Intro by artist/writer Avi Ezor on 9/6 for the 8:15p showing. In a land where dreams are born, the evil Synonamess Botch sets in motion a plan to give humanity non-stop nightmares that threatens the flow of time itself. Only a motley crew of creatures, including an adorable shapeshifter, a floral aspiring actress, a snarky Fairy Godmother, and a mime straight out of the silent film era, can save both the world and people's sleeping habits. One of the most bizarre and unique animated films to ever come out of Hollywood, the result is less wannabe Disney than a proto-Shrek by way of Liquid Television, with a dash of classic Adult Swim thrown in for good measure. - Avi Ezor"
-    },
-    {
       "title": "Twilight (2008)",
       "theater": "Alamo Drafthouse NYC",
       "url": "https://drafthouse.com/nyc/show/the-twilight-saga-twilight-2008-fan-event",
@@ -15109,7 +15599,11 @@
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-16"
       ],
       "date_start": "",
       "date_end": "",
@@ -15383,10 +15877,19 @@
         "2026-09-08",
         "2026-09-09",
         "2026-09-10",
-        "2026-09-11"
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-20"
       ],
       "date_start": "2026-08-21",
-      "date_end": "2026-09-11",
+      "date_end": "2026-09-20",
       "description": "In ANIMALS, Los Angeles mayoral candidate Mark Kimball (Ben Affleck) faces those very questions. When he receives an ominous phone call, Mark and his wife Abigail (Kerry Washington) scramble to respond to a threat that could upend their carefully constructed life."
     },
     {
@@ -15471,14 +15974,15 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/wild-inside/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24078224/",
       "year": "2026",
       "director": "Penny Lane",
       "cast": "",
       "country": "",
-      "showtimes": [],
+      "showtimes": [
+        "Tue Sep 8 2:55 pm"
+      ],
       "show_dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-09",
         "2026-09-10"
