@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-01T18:51:09.626182",
+  "fetched_at": "2026-11-02T22:42:16.925731",
   "movies": [
     {
       "title": "14th",
@@ -7,7 +7,7 @@
       "url": "https://www.ifccenter.com/films/14th/",
       "status": "Coming Soon",
       "opens": "November 27",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2026",
       "director": "Ava DuVernay",
       "cast": "",
@@ -26,7 +26,7 @@
       "url": "https://www.ifccenter.com/films/a-fox-under-a-pink-moon/",
       "status": "Coming Soon",
       "opens": "December 2",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2026",
       "director": "Mehrdad Oskouei, Soraya Akhlaghi",
       "cast": "",
@@ -234,6 +234,28 @@
     {
       "title": "Avedon",
       "theater": "IFC Center",
+      "url": "https://www.ifccenter.com/films/avedon-open-captioning/",
+      "status": "Coming Soon",
+      "opens": "November 6",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=588024~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "year": "2026",
+      "director": "Ron Howard",
+      "cast": "",
+      "country": "USA",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10"
+      ],
+      "date_start": "2026-11-06",
+      "date_end": "2026-11-06",
+      "description": ""
+    },
+    {
+      "title": "Avedon",
+      "theater": "IFC Center",
       "url": "https://www.ifccenter.com/films/avedon/",
       "status": "Coming Soon",
       "opens": "November 6",
@@ -397,31 +419,6 @@
       "description": "A gifted cellist, Alex Serian (Pedro Pascal), returns home to Los Angeles after 20 years on the road. &nbsp;Music, which has been the constant, all-consuming river of his life, begins to carry Alex on an adventure that will change him forever."
     },
     {
-      "title": "Being Heumann",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/being-heumann",
-      "status": "Coming Soon",
-      "opens": "November 6",
-      "booking_url": "https://drafthouse.com/nyc/show/being-heumann",
-      "year": "2026",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-06",
-        "2026-11-07",
-        "2026-11-08",
-        "2026-11-09",
-        "2026-11-10",
-        "2026-11-11",
-        "2026-11-12"
-      ],
-      "date_start": "2026-11-06",
-      "date_end": "",
-      "description": "They wouldn\u2019t take Judy Heumann\u2019s phone calls, so she took their building. In 1977, a young disabled woman (Ruth Madeley) and a scrappy coalition of outsiders decide they\u2019ve had enough. What begins as one impulsive act becomes the longest occupation of a federal building in American history, as hundreds spontaneously seize government offices and refuse to leave until the bureaucrat in their way (Mark Ruffalo) takes action. Bringing rebellion in all its forms to the hallowed halls, a movement\u2019s accidental leaders struggle to find their path forward where none has ever been paved for them. Directed by Academy Award winner Si\u00e2n Heder (CODA) and based on true events, BEING HEUMANN is the revolutionary, irreverent, and deeply human story of the least likely people trying to pull off the impossible and change the lives of millions."
-    },
-    {
       "title": "Bela Lugosi Meets a Brooklyn Gorilla",
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/showtimes/bela-lugosi-meets-a-brooklyn-gorilla-11-12-26-700-pm/",
@@ -560,7 +557,7 @@
       ],
       "date_start": "2026-11-06",
       "date_end": "2026-11-06",
-      "description": "There's something going on behind the white picket fences of Lumberton, North Carolina, in David Lynch\u2019s Blue Velvet . When college student Jeffrey Beaumont (MacLachlan) discovers a severed ear in a field, his curiosity leads him into an investigation that exposes the town\u2019s darker side. With the help of a detective\u2019s daughter (Dern), Jeffrey ventures beyond the familiarity of small-town life into an unknown world of obsession, violence, and corruption. Dean Stockwell plays Ben in a performance featuring what Variety described as \u201cthe most indelibly weird scene in any movie since the dawn of movies.\u201d As the publication notes, Stockwell\u2019s portrayal of Ben \u201cwill always be the one that immortalized him in film history.\u201d"
+      "description": "There's something going on behind the white picket fences of Lumberton, North Carolina, in David Lynch\u2019s Blue Velvet . When college student Jeffrey Beaumont (MacLachlan) discovers a severed ear in a field, his curiosity leads him into an investigation that exposes the town\u2019s darker side. With the help of a detective\u2019s daughter (Dern), Jeffrey ventures beyond the familiarity of small-town life into an unknown world of obsession, violence, and corruption. Dean Stockwell plays Ben in a performance featuring what Variety described as \u201cthe most indelibly weird scene in any movie since the dawn of movies.\u201d As the publication notes, Stockwell\u2019s portrayal of Ben \u201cwill always be the one that immortalized him in film history.\u201d Introduction by guest curator Allen Kessman on Nov 6"
     },
     {
       "title": "Boyz n the Hood",
@@ -746,7 +743,7 @@
       "url": "https://www.ifccenter.com/films/cloverfield/",
       "status": "Coming Soon",
       "opens": "November 13",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2008",
       "director": "Matt Reeves",
       "cast": "Lizzy Caplan, Jessica Lucas, T.J. Miller, Michael Stahl-David, Mike Vogel, Odette Yustman",
@@ -787,7 +784,7 @@
       "booking_url": "",
       "year": "2026",
       "director": "Jordan Firstman",
-      "cast": "Jordan Firstman, Cara Delevigne, Kirby Howell-Baptiste",
+      "cast": "Jordan Firstman, Reggie Absolom, Diego Calva, Cara Delevigne, Kirby Howell-Baptiste, Colleen Camp, Vicki Pepperdine, Nigil Whyte, Eldar Isgandarov, Saturn Risin9, Miss Benny, Alaska Riley",
       "country": "",
       "showtimes": [],
       "show_dates": [
@@ -796,29 +793,6 @@
       "date_start": "2026-11-13",
       "date_end": "2026-11-13",
       "description": "In Jordan Firstman\u2019s directorial debut, the writer-director stars as a New York City club promoter whose hard-partying lifestyle is upended when he discovers he has a 10-year-old son. This comedy-drama mixes the untamed world of nightlight with an unconventional story of fatherhood. Stranger things have happened in New York\u2019s club scene."
-    },
-    {
-      "title": "Club Kid",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/club-kid",
-      "status": "Coming Soon",
-      "opens": "November 5",
-      "booking_url": "https://drafthouse.com/nyc/show/club-kid",
-      "year": "2026",
-      "director": "Jordan Firstman",
-      "cast": "Jordan Firstman, Cara Delevigne, Kirby Howell-Baptiste",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-05",
-        "2026-11-06",
-        "2026-11-07",
-        "2026-11-08",
-        "2026-11-09"
-      ],
-      "date_start": "2026-11-05",
-      "date_end": "",
-      "description": "A hard-partying New York City club promoter sees his whirlwind lifestyle upended by the arrival of the 10-year-old son he never knew he had."
     },
     {
       "title": "Compulsion",
@@ -845,7 +819,7 @@
       "url": "https://www.ifccenter.com/films/coward/",
       "status": "Coming Soon",
       "opens": "December 25",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2026",
       "director": "Lukas Dhont",
       "cast": "Emmanuel Macchia, Valentin Campagne",
@@ -879,25 +853,6 @@
       "description": "On their first summer back from college, best friends Curtis (Chase Mackay), Jimmy (Graham Cox), and Abe (Jason Waters) embark on a fantastical 24-hour odyssey of drugs and alcohol on their way to a house party hosted by Curtis\u2019s ex-girlfriend, Jane (Avery Boggs). When their pursuit of hedonism leads to Jane and Curtis reuniting prematurely, Curtis is unable to handle his emotions and loses touch with his relationships and reality.\nCROCODILE DOSE is a teen comedy told through cell phones, digital photography, and the internet. Set in a magical Denver, the film explores falling in love and growing up in a technologically interconnected world."
     },
     {
-      "title": "DarkRoom Screening & Salon",
-      "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/darkroom-screening-salon-nov-2026/",
-      "status": "Coming Soon",
-      "opens": "November 2",
-      "booking_url": "",
-      "year": "2026",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-02"
-      ],
-      "date_start": "2026-11-02",
-      "date_end": "2026-11-02",
-      "description": ""
-    },
-    {
       "title": "Dean\u2019S List: The Films Of Dean Stockwell",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/deans-list",
@@ -915,25 +870,6 @@
       "date_start": "2026-11-06",
       "date_end": "2026-11-06",
       "description": "Programmed by Allen Kessman Dean Stockwell made magic, converting trivial roles into triumphs, and leading turns into a legacy. In an astounding eight-decade career\u2014from child acting days in Joseph Losey\u2019s anti-conformity film The Boy with Green Hair to a scene-stealing short stint in Robert Altman\u2019s The Player and an Oscar-nominated role in Jonathan Demme\u2019s Married to the Mob \u2014Stockwell leapt from smile to snarl, thriller to comedy, and hero to villain. He sparred with the likes of Kyle MacLachlan and Dennis Hopper in Blue Velvet and Harry Dean Stanton in Paris, Texas , always a captivating complement to anyone lucky enough to share his screen. In honor of what would have been Stockwell\u2019s 90th birthday as well as the fifth anniversary of his death, revel in the work of a beloved but still criminally unsung actor with a nine-movie odyssey through a defining career in American cinema."
-    },
-    {
-      "title": "Depraved",
-      "theater": "IFC Center",
-      "url": "https://www.ifccenter.com/films/depraved/",
-      "status": "Coming Soon",
-      "opens": "November 2",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=585456~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-      "year": "",
-      "director": "Larry Fessenden",
-      "cast": "David Call, Joshua Leonard, Alex Breaux, Ana Kayne",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-02"
-      ],
-      "date_start": "2026-11-02",
-      "date_end": "2026-11-02",
-      "description": ""
     },
     {
       "title": "Dive in Wonderland",
@@ -979,7 +915,7 @@
       "url": "https://www.ifccenter.com/films/double-impact/",
       "status": "Coming Soon",
       "opens": "November 20",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1991",
       "director": "Sheldon Lettich",
       "cast": "Jean-Claude Van Damme, Geoffrey Lewis, Alonna Shaw, Corinna Everson, Philip Chan, Alan Scarfe, Bolo",
@@ -1139,7 +1075,7 @@
       "url": "https://www.ifccenter.com/films/enter-the-void/",
       "status": "Coming Soon",
       "opens": "November 27",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2010",
       "director": "Gaspar No\u00e9",
       "cast": "Nathaniel Brown, Paz de la Huerta, Cyril Roy, Ed Spear",
@@ -1233,28 +1169,6 @@
       ],
       "date_start": "2026-11-05",
       "date_end": "2026-11-05",
-      "description": "Presented in Japanese with English subtitles\nWar reduced Japan to zero. Godzilla plunged it into minus. Now the math gets even more terrifying. Takashi Yamazaki returns to direct, write, and oversee the visual effects for this epic follow-up to GODZILLA MINUS ONE, his Oscar-winning reinvention of Toho\u2019s iconic monster. Set in 1949, two years after the events of the previous film, GODZILLA MINUS ZERO follows Japan\u2019s hard-fought recovery as a new catastrophe threatens to erase it all. With returning stars Ryunosuke Kamiki and Minami Hamabe, bigger monster mayhem, and spectacular effects built for a huge screen, this is the latest chapter in a storied franchise that began in 1954. See the King of the Monsters at its most colossal, on the big screen."
-    },
-    {
-      "title": "Godzilla Minus Zero",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
-      "status": "Coming Soon",
-      "opens": "November 5",
-      "booking_url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
-      "year": "2026",
-      "director": "Takashi Yamazaki",
-      "cast": "Minami Hamabe, Masami Nagasawa, Ry\u00fbnosuke Kamiki, Jun Kunimura, Sakura And\u00f4, Yuki Yamada",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-05",
-        "2026-11-06",
-        "2026-11-07",
-        "2026-11-08"
-      ],
-      "date_start": "2026-11-05",
-      "date_end": "",
       "description": "Presented in Japanese with English subtitles\nWar reduced Japan to zero. Godzilla plunged it into minus. Now the math gets even more terrifying. Takashi Yamazaki returns to direct, write, and oversee the visual effects for this epic follow-up to GODZILLA MINUS ONE, his Oscar-winning reinvention of Toho\u2019s iconic monster. Set in 1949, two years after the events of the previous film, GODZILLA MINUS ZERO follows Japan\u2019s hard-fought recovery as a new catastrophe threatens to erase it all. With returning stars Ryunosuke Kamiki and Minami Hamabe, bigger monster mayhem, and spectacular effects built for a huge screen, this is the latest chapter in a storied franchise that began in 1954. See the King of the Monsters at its most colossal, on the big screen."
     },
     {
@@ -1416,29 +1330,6 @@
       ],
       "date_start": "2026-11-13",
       "date_end": "2026-11-13",
-      "description": "I PLAY ROCKY is an electrifying true story about an unknown actor with an unshakable belief that he wasn't just meant to write Rocky \u2013 he was meant to be Rocky Balboa. Told \"no\" at every turn, Sylvester Stallone bets everything on himself, holding the line on playing the lead against seemingly impossible odds. The result is the ultimate underdog story behind the ultimate underdog movie."
-    },
-    {
-      "title": "I Play Rocky",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/i-play-rocky",
-      "status": "Coming Soon",
-      "opens": "November 5",
-      "booking_url": "https://drafthouse.com/nyc/show/i-play-rocky",
-      "year": "2026",
-      "director": "Peter Farrelly",
-      "cast": "Anthony Ippolito, AnnaSophia Robb, Tracy Letts, Jay Duplass, Matt Dillon, Stephan James, Kiki Seto",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-05",
-        "2026-11-06",
-        "2026-11-07",
-        "2026-11-08",
-        "2026-11-09"
-      ],
-      "date_start": "2026-11-05",
-      "date_end": "",
       "description": "I PLAY ROCKY is an electrifying true story about an unknown actor with an unshakable belief that he wasn't just meant to write Rocky \u2013 he was meant to be Rocky Balboa. Told \"no\" at every turn, Sylvester Stallone bets everything on himself, holding the line on playing the lead against seemingly impossible odds. The result is the ultimate underdog story behind the ultimate underdog movie."
     },
     {
@@ -1626,7 +1517,7 @@
       "url": "https://www.ifccenter.com/films/la-gradiva/",
       "status": "Coming Soon",
       "opens": "December 18",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2026",
       "director": "Marine Atlan",
       "cast": "Colas Quignard, Suzanne Gerin, Mitia Capellier-Audat, Antonia Buresi",
@@ -1638,25 +1529,6 @@
       "date_start": "2026-12-18",
       "date_end": "2026-12-18",
       "description": "A group of French high school students travel to Pompeii on a class trip to discover its ruins and the bodies petrified by Vesuvius in 79 CE. In this ghost town, they are suddenly overcome by an intense sensation and drawn into a dizzying descent. One by one, James, Toni, Suzanne, and their Latin teacher, Mme Mercier, are swept up in desire and anger\u2014until they surrender to them completely. Marine Atlan\u2019s feature directorial debut La Gradiva is an affecting and evocative coming-of-age travel drama, where the force of youth meets a world frozen in time."
-    },
-    {
-      "title": "Let\u2019s Keep This Conversation to a Minimum",
-      "theater": "IFC Center",
-      "url": "https://www.ifccenter.com/films/lets-keep-this-conversation-to-a-minimum/",
-      "status": "Coming Soon",
-      "opens": "November 2",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=585839~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-      "year": "",
-      "director": "",
-      "cast": "",
-      "country": "USA",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-02"
-      ],
-      "date_start": "2026-11-02",
-      "date_end": "2026-11-02",
-      "description": ""
     },
     {
       "title": "Life & Debt: 25Th Anniversary",
@@ -1676,34 +1548,6 @@
       "date_start": "2026-11-10",
       "date_end": "2026-11-10",
       "description": "In a post-independence speech condemning the International Monetary Fund (IMF), former Jamaican Prime Minister Michael Manley declared, \"The Jamaican government will not accept anybody, anywhere in the world telling us what to do in our own country. Above all, we're not for sale.\" Twenty-five years after its release, award-winning filmmaker Stephanie Black\u2019s Life and Debt remains a powerful examination of globalization\u2019s lasting impact on Jamaica. This feature-length documentary explores how structural adjustment policies imposed by the IMF, the World Bank, and the Inter-American Development Bank reshaped the island\u2019s economy and society, tracing the consequences of debt, trade liberalization, and international economic intervention for Jamaican workers and farmers. As Life & Debt returns to the screen, it offers a timely look at Jamaica\u2019s ongoing struggle for economic sovereignty and self-determination. This screening will be followed by a Q&A."
-    },
-    {
-      "title": "Littermates",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/littermates",
-      "status": "Coming Soon",
-      "opens": "November 6",
-      "booking_url": "https://drafthouse.com/nyc/show/littermates",
-      "year": "2026",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-06",
-        "2026-11-07",
-        "2026-11-08",
-        "2026-11-09",
-        "2026-11-10",
-        "2026-11-11",
-        "2026-11-12",
-        "2026-11-14",
-        "2026-11-16",
-        "2026-11-17"
-      ],
-      "date_start": "2026-11-06",
-      "date_end": "",
-      "description": "At Chester\u2019s cottage, good behavior earns karaoke. Getting answers is a little more complicated.\nAfter a mysterious apocalyptic(ish) attack leaves them bloodied, disoriented, and unable to speak, Liam (Joey Bader) and Mel (Kaylee McGregor) take refuge in the English countryside. Their oddball host, Chester (Oliver Woolf), feeds them, helps them recover, and introduces a system of rewards: behave yourself, earn \u201cnifties,\u201d cash them in for hot-tub time and dance parties.\nBeyond the cottage, things are less nifty. But within it, a makeshift family is taking shape. While Liam embraces their new life, Mel grows increasingly curious about the world Chester insists is too dangerous to enter\u2026\nIn their feature debut, directors Scott Tinkham and Michael Woloson mix deadpan comedy, sibling rivalry, and creeping unease in a coming-of-age story about people who have to grow up all over again. Winner of the Special Jury Prize at the 2026 Manchester Film Festival and the Narrative Feature Audience Award at Dances With Films LA 2026, this has the sort of sensibilities that fans of Yorgos Lanthimos and Ben Wheatley will adore\u2026 and it\u2019s a natural fit as an Alamo Exclusive."
     },
     {
       "title": "Little Children",
@@ -1763,25 +1607,6 @@
       "description": "Marina Pinares, the wife of the president of a South American country, insists on being his vice-presidential running mate in the next election. She's no stranger to assassination to get what she wants, so some suspect she'll kill her own husband after the election to become president. In a series of flashbacks we see her rise to power: a party girl willing to sacrifice a friend's virtue to gain favor; the lover of a soldier she later tortures; the mistress of the military man she soon marries.\nBased on the life of Eva Peron and directed by adult filmmaker Radley Metzger (SCORE, THE OPENING OF MISTY BEETHOVEN), LITTLE MOTHER is a rarely-seen tale of political intrigue that's ready for rediscovery."
     },
     {
-      "title": "Little Odessa",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/little-odessa",
-      "status": "Coming Soon",
-      "opens": "November 8",
-      "booking_url": "https://drafthouse.com/nyc/show/little-odessa",
-      "year": "1994",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-08"
-      ],
-      "date_start": "2026-11-08",
-      "date_end": "",
-      "description": "\"LITTLE ODESSA was my first movie, and it was made really on the basis of a dare from a wonderful producer named Paul Webster. After I\u2019d pitched him a free ideas he\u2019d rejected, he looked at me square in the face and asked, \u2018can YOU make a personal movie?\u2019 So I went off and wrote the picture in something like a month. It\u2019s very much the work of a young man in a hurry, and though I see some loose threads in its tapestry now, I can\u2019t help but admit I\u2019ve been crafting variations on this my whole life.\" - James Gray\nA Dostoevskian family tragedy in the form of a gangster drama, the darkly elegant debut feature by James Gray heralded the arrival of a singular voice in contemporary American cinema. Cloaked in the shadows of New York\u2019s underworld, Little Odessa follows Joshua (Tim Roth), a volatile hit man whose latest assignment takes him back to the Brooklyn neighborhood where he grew up. After his return home, his criminal life collides with the grim domestic world of his abusive father (Maximilian Schell), ailing mother (Vanessa Redgrave), and loyal teenage brother (Edward Furlong). Channeling the brooding fatalism of classic noir, Gray\u2014who won the Venice Film Festival\u2019s Silver Lion at just twenty-five\u2014composes a haunting reflection on violence that begins at home and ripples ever outward. (The Criterion Collection)\n4k DCP courtesy of Lionsgate"
-    },
-    {
       "title": "Little Women (2019)",
       "theater": "Alamo Drafthouse NYC",
       "url": "https://drafthouse.com/nyc/show/sad-girl-cinema-club-little-women-2019",
@@ -1807,7 +1632,7 @@
       "url": "https://www.ifccenter.com/films/look-back/",
       "status": "Coming Soon",
       "opens": "December 30",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "",
       "director": "Hirokazu Kore-eda",
       "cast": "Natsuki Deguchi, Aju Makita, Furi Nanase, Rokka Okada",
@@ -1918,6 +1743,28 @@
     {
       "title": "Mouse",
       "theater": "IFC Center",
+      "url": "https://www.ifccenter.com/films/mouse-open-captioning/",
+      "status": "Coming Soon",
+      "opens": "November 6",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=588027~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "year": "2026",
+      "director": "Alex Thompson, Kelly O'Sullivan",
+      "cast": "Sophie Okonedo, Katherine Mallen-Kupferer, Tara Mallen, Chloe Coleman, Iman Vellani, David Hyde Pier",
+      "country": "USA",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-12"
+      ],
+      "date_start": "2026-11-06",
+      "date_end": "2026-11-06",
+      "description": ""
+    },
+    {
+      "title": "Mouse",
+      "theater": "IFC Center",
       "url": "https://www.ifccenter.com/films/mouse/",
       "status": "Coming Soon",
       "opens": "November 6",
@@ -1960,6 +1807,25 @@
       "description": ""
     },
     {
+      "title": "My Brother's Wedding",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/my-brothers-wedding",
+      "status": "Coming Soon",
+      "opens": "November 21",
+      "booking_url": "https://drafthouse.com/nyc/show/my-brothers-wedding",
+      "year": "1983",
+      "director": "Charles Burnett",
+      "cast": "Everett Silas, Jessie Holmes, Gaye Shannon-Burnett, Ronnie Bell",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-21"
+      ],
+      "date_start": "2026-11-21",
+      "date_end": "",
+      "description": "South Central LA, the early 1980s. Pierce Mundy (Everett Silas) is always on the move without ever really getting anywhere \u2013 kept busy by his parents, their dry cleaning shop, friends and neighbors. His childhood buddies are all in prison or dead and his best friend Soldier (Ronnie Bell) is just getting out of jail. Pierce\u2019s brother Wendell (Monte Easter), on the other hand, is an up-and-coming lawyer set to marry an upper-middle-class woman (Gaye Shannon-Burnett). Pierce is entirely lacking in ambition, to the consternation of his Bible-thumping mother (Jessie Holmes), and yet he is an integral part of life in the neighborhood. When Soldier is killed in a car accident, Pierce\u2019s conflicting obligations to family and friends manifest in the choice between his brother\u2019s wedding and his best friend\u2019s funeral, both falling on the same day. Charles Burnett\u2019s second feature after Killer of Sheep is a tragicomic classic of New Black Cinema in which lived realities are shown in even the smallest of supporting roles, complex and attentive. Pierce\u2019s wanderings reveal a portrait of a young man and a community defined in equal measure by stagnation, resignation, resistance and joie de vivre.Digitally restored and remastered by Milestone Films in collaboration with the UCLA Film &amp; Television Archive and the Berkeley Art Museum and Pacific Film Archive. A Milestone Films release."
+    },
+    {
       "title": "My Brother\u2019s Wedding",
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/movies/my-brothers-wedding/",
@@ -1976,7 +1842,7 @@
       ],
       "date_start": "2026-11-07",
       "date_end": "2026-11-07",
-      "description": ""
+      "description": "South Central LA, the early 1980s. Pierce Mundy (Everett Silas) is always on the move without ever really getting anywhere \u2013 kept busy by his parents, their dry cleaning shop, friends and neighbors. His childhood buddies are all in prison or dead and his best friend Soldier (Ronnie Bell) is just getting out of jail. Pierce\u2019s brother Wendell (Monte Easter), on the other hand, is an up-and-coming lawyer set to marry an upper-middle-class woman (Gaye Shannon-Burnett). Pierce is entirely lacking in ambition, to the consternation of his Bible-thumping mother (Jessie Holmes), and yet he is an integral part of life in the neighborhood. When Soldier is killed in a car accident, Pierce\u2019s conflicting obligations to family and friends manifest in the choice between his brother\u2019s wedding and his best friend\u2019s funeral, both falling on the same day. Charles Burnett\u2019s second feature after Killer of Sheep is a tragicomic classic of New Black Cinema in which lived realities are shown in even the smallest of supporting roles, complex and attentive. Pierce\u2019s wanderings reveal a portrait of a young man and a community defined in equal measure by stagnation, resignation, resistance and joie de vivre.Digitally restored and remastered by Milestone Films in collaboration with the UCLA Film &amp; Television Archive and the Berkeley Art Museum and Pacific Film Archive. A Milestone Films release."
     },
     {
       "title": "Mystery Transmission",
@@ -2081,6 +1947,25 @@
       "description": ""
     },
     {
+      "title": "Network",
+      "theater": "Nitehawk (Prospect Park)",
+      "url": "https://nitehawkcinema.com/prospectpark/movies/network/",
+      "status": "Coming Soon",
+      "opens": "November 24",
+      "booking_url": "",
+      "year": "1976",
+      "director": "Sidney Lumet",
+      "cast": "Faye Dunaway, Peter Finch, William Holden, Robert Duvall, Beatrice Straight, Wesley Addy, Ned Beatty",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-24"
+      ],
+      "date_start": "2026-11-24",
+      "date_end": "2026-11-24",
+      "description": ""
+    },
+    {
       "title": "NoBudge Live 53",
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/movies/nobudge-live-53/",
@@ -2124,7 +2009,7 @@
       "url": "https://www.ifccenter.com/films/nuisance-bear/",
       "status": "Coming Soon",
       "opens": "December 4",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2025",
       "director": "Gabriela Osio Vanden, Jack Weisman",
       "cast": "",
@@ -2264,25 +2149,6 @@
       "date_start": "2026-11-22",
       "date_end": "",
       "description": "The allure of stardom on the big screen proves to be a road to some very dark places for Mia Goth\u2019s titular PEARL in this stylish and gruesome prequel to Ti West\u2019s X. With her husband away at war, Pearl finds herself dreaming of a way to escape from her boring life on the farm. She sees the silver screen as her way to find stardom and the love she so desperately needs, but her overbearing mother and her own dark impulses might hold her back from the fame she craves.\nPEARL proves to be a delightfully perverse study on a standout character from writer/director Ti West\u2019s tribute to \u201870s grindhouse, X. Its vibrant, candy-coated veneer plays wonderfully against the depraved desires of the main character bubbling just below the surface. Co-writer/star Mia Goth gives another deliciously unhinged performance as Pearl, a not-quite-innocent farm girl looking for love in all the wrong places. As much a love letter to the Golden Age of Hollywood as it is a demented look at the darkness bubbling just below the surface of rural America, PEARL is colorful, unnerving, and twisted in all the right ways."
-    },
-    {
-      "title": "Peeping Tom (1960)",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/terror-tuesday-peeping-tom",
-      "status": "Coming Soon",
-      "opens": "November 3",
-      "booking_url": "https://drafthouse.com/nyc/show/terror-tuesday-peeping-tom",
-      "year": "1960",
-      "director": "Michael Powell",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-03"
-      ],
-      "date_start": "2026-11-03",
-      "date_end": "",
-      "description": "The bodies pile up as sensitive film studio focus-puller Mark Lewis (Carl Boehm) moonlights as a private photographer of scantily-clad woman, while obsessively working on his own \"documentary\" of the women's dying expressions. Long-known as a companion film to PSYCHO, director Michael Powell's career was effectively destroyed in the UK as Hitchcock achieved major commercial and critical success.\n4K DCP courtesy of Rialto Pictures"
     },
     {
       "title": "Pinocchio",
@@ -2590,32 +2456,12 @@
       "description": ""
     },
     {
-      "title": "Rammstein - Live in Mexico City",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/rammstein-live-in-mexico-city",
-      "status": "Coming Soon",
-      "opens": "November 4",
-      "booking_url": "https://drafthouse.com/nyc/show/rammstein-live-in-mexico-city",
-      "year": "2026",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-04",
-        "2026-11-08"
-      ],
-      "date_start": "2026-11-04",
-      "date_end": "",
-      "description": "Filmed across three sold-out nights at the 65,000-capacity Foro Sol, RAMMSTEIN \u2013 LIVE IN MEXICO CITY captures one of the defining performances of the band's monumental five-year world stadium tour in a spectacular concert film directed by two-time Primetime Emmy\u00ae Award winner Paul Dugdale.\nSpanning 135 concerts and witnessed by 6 million fans around the world, the tour marked a major chapter in Rammstein's career. Two-time GRAMMY\u00ae nominees with audiences across the globe, Rammstein have brought German-language rock to major venues around the world \u2013 combining colossal sound and live production on a scale entirely their own.\nFeaturing 20 career-spanning songs, the film places audiences at the heart of a show where 20-meter-high flames and towering industrial architecture are matched by moments of genuine connection between the band and the crowd.\nFrom November 4, 2026, audiences worldwide can experience RAMMSTEIN \u2013 LIVE IN MEXICO CITY in cinematic 4K."
-    },
-    {
       "title": "Rate It X",
       "theater": "IFC Center",
       "url": "https://www.ifccenter.com/films/rate-it-x-2/",
       "status": "Coming Soon",
       "opens": "November 20",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1985",
       "director": "Paula de Koenigsberg, Lucy Winer",
       "cast": "",
@@ -2678,7 +2524,7 @@
       "url": "https://www.ifccenter.com/films/rose/",
       "status": "Coming Soon",
       "opens": "December 11",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2026",
       "director": "Markus Schleinzer",
       "cast": "Emmanuel Macchia, Valentin Campagne",
@@ -2763,7 +2609,7 @@
       "url": "https://www.ifccenter.com/films/sorcerer/",
       "status": "Coming Soon",
       "opens": "December 11",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1977",
       "director": "William Friedkin",
       "cast": "Roy Scheider, Bruno Cremer, Francisco Rabal, Amidou",
@@ -2854,25 +2700,6 @@
       "description": ""
     },
     {
-      "title": "Swingers",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/swingers",
-      "status": "Coming Soon",
-      "opens": "November 5",
-      "booking_url": "https://drafthouse.com/nyc/show/swingers",
-      "year": "1996",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-05"
-      ],
-      "date_start": "2026-11-05",
-      "date_end": "",
-      "description": "A wannabe actor has a hard time moving on from a breakup, but he is lucky to have supportive friends."
-    },
-    {
       "title": "Tally Brown, New York",
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/movies/tally-brown-new-york/",
@@ -2898,7 +2725,7 @@
       "url": "https://www.ifccenter.com/films/tangles/",
       "status": "Coming Soon",
       "opens": "November 27",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "",
       "director": "Leah Nelson",
       "cast": "Bryan Cranston, Seth Rogen, Julia Louis-Dreyfus, Pamela Adlon, Sarah Silverman, Beanie Feldstein, Ab",
@@ -3045,28 +2872,6 @@
       "description": "Dr. Seuss\u2019s iconic Cat in the Hat gets its first animated big-screen adventure, with Bill Hader voicing the striped-hat troublemaker on a mission to cheer up siblings Gabby and Sebastian after a move to a new town. Fantastical worlds, magical mayhem, and Matt Berry voicing a goldfish \u2013 this movie has everyTHING. And if you\u2019re still recovering from the emotional trauma of the 2003 live-action Mike Myers version, consider this your chance to make some new memories."
     },
     {
-      "title": "The Cat in the Hat (2026)",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/the-cat-in-the-hat-2026",
-      "status": "Coming Soon",
-      "opens": "November 5",
-      "booking_url": "https://drafthouse.com/nyc/show/the-cat-in-the-hat-2026",
-      "year": "2026",
-      "director": "Alessandro Carloni, Erica Rivinoja",
-      "cast": "Bill Hader, Xochitl Gomez, Tiago Martinez, Quinta Brunson, America Ferrera, Matt Berry",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-05",
-        "2026-11-06",
-        "2026-11-07",
-        "2026-11-08"
-      ],
-      "date_start": "2026-11-05",
-      "date_end": "",
-      "description": "Dr. Seuss\u2019s iconic Cat in the Hat gets its first animated big-screen adventure, with Bill Hader voicing the striped-hat troublemaker on a mission to cheer up siblings Gabby and Sebastian after a move to a new town. Fantastical worlds, magical mayhem, and Matt Berry voicing a goldfish \u2013 this movie has everyTHING. And if you\u2019re still recovering from the emotional trauma of the 2003 live-action Mike Myers version, consider this your chance to make some new memories."
-    },
-    {
       "title": "The Comedy Genius Of Sid Caesar",
       "theater": "Film Forum",
       "url": "https://filmforum.org/film/when-caesar-was-king-2026",
@@ -3083,7 +2888,7 @@
       ],
       "date_start": "",
       "date_end": "",
-      "description": "In the early 1950s, 20 million people tuned into see the weekly TV extravaganza Your Show of Shows , starring"
+      "description": "BACK BY POPULAR DEMAND! In the early 1950s, 20 million people tuned into see the weekly TV extravaganza Your Show of Shows , starring"
     },
     {
       "title": "The Cook, The Thief, His Wife, & Her Lover",
@@ -3222,10 +3027,11 @@
         "2026-11-30",
         "2026-12-01",
         "2026-12-02",
-        "2026-12-03"
+        "2026-12-03",
+        "2026-12-04"
       ],
       "date_start": "2026-11-25",
-      "date_end": "2026-12-03",
+      "date_end": "2026-12-04",
       "description": "LA BOLA NEGRA is a bold, passionate triptych spanning nearly a century of Spanish history from the 30s to modern day. The film tells the story of three men whose lives are intimately connected through desire, pain, and inheritance."
     },
     {
@@ -3253,7 +3059,7 @@
       "url": "https://www.ifccenter.com/films/the-holy-mountain/",
       "status": "Coming Soon",
       "opens": "November 6",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=588248~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "1973",
       "director": "Alejandro Jodorowsky",
       "cast": "Alejandro Jodorowsky, Horacio Salinas, Zamira Saunders",
@@ -3272,7 +3078,7 @@
       "url": "https://www.ifccenter.com/films/the-host-2/",
       "status": "Coming Soon",
       "opens": "November 20",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2006",
       "director": "Bong Joon Ho",
       "cast": "Song Kang-ho, Byun Hee-bong, Park Hae-il, Bae Doona, Ko A-sung",
@@ -3374,26 +3180,6 @@
       "description": ""
     },
     {
-      "title": "The Magnificent Ambersons",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/the-magnificent-ambersons",
-      "status": "Coming Soon",
-      "opens": "November 7",
-      "booking_url": "https://drafthouse.com/nyc/show/the-magnificent-ambersons",
-      "year": "1942",
-      "director": "Orson Welles",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-07",
-        "2026-11-08"
-      ],
-      "date_start": "2026-11-07",
-      "date_end": "",
-      "description": "The young, handsome, but somewhat wild Eugene Morgan wants to marry Isabel Amberson, daughter of a rich upper-class family, but she instead marries dull and steady Wilbur Minafer. Their only child, George, grows up a spoiled brat. Years later, Eugene comes back, now a mature widower and a successful automobile maker. After Wilbur dies, Eugene again asks Isabel to marry him, and she is receptive. But George resents the attentions paid to his mother, and he and his whacko aunt Fanny manage to sabotage the romance. A series of disasters befall the Ambersons and George, and he gets his come-uppance in the end.\n4k DCP courtesy of Warner Bros."
-    },
-    {
       "title": "The Player",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/deans-list-the-player",
@@ -3410,7 +3196,7 @@
       ],
       "date_start": "2026-11-08",
       "date_end": "2026-11-08",
-      "description": "Griffin Mill, a Hollywood studio executive with a shaky moral compass (Robbins), finds himself caught up in a criminal situation that would be right at home in one of his movie projects. Blending film noir with biting industry satire, Robert Altman\u2019s The Player , based on Michael Tolkin\u2019s novel, explores Hollywood ambition and hypocrisy. Featuring one of American cinema\u2019s most celebrated opening shots and a lineup of star cameos, the film includes Dean Stockwell as Andy Civella, a Hollywood executive. This complexly woven grand entertainment marked Altman\u2019s triumphant commercial comeback in the early 1990s."
+      "description": "Griffin Mill, a Hollywood studio executive with a shaky moral compass (Robbins), finds himself caught up in a criminal situation that would be right at home in one of his movie projects. Blending film noir with biting industry satire, Robert Altman\u2019s The Player , based on Michael Tolkin\u2019s novel, explores Hollywood ambition and hypocrisy. Featuring one of American cinema\u2019s most celebrated opening shots and a lineup of star cameos, the film includes Dean Stockwell as Andy Civella, a Hollywood executive. This complexly woven grand entertainment marked Altman\u2019s triumphant commercial comeback in the early 1990s. Introduction by guest curator Allen Kessman on Nov 9"
     },
     {
       "title": "The Polar Express",
@@ -3456,14 +3242,14 @@
       "url": "https://www.ifccenter.com/films/the-reflecting-skin/",
       "status": "Coming Soon",
       "opens": "November 6",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=588280~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "1990",
       "director": "Philip Ridley",
       "cast": "Viggo Mortensen, Lindsay Duncan, Jeremy Cooper, Sheila Moore, Duncan Fraser",
       "country": "United Kingdom",
       "showtimes": [],
       "show_dates": [
-        "2026-11-06"
+        "2026-11-02"
       ],
       "date_start": "2026-11-06",
       "date_end": "2026-11-06",
@@ -3570,7 +3356,7 @@
       "url": "https://www.ifccenter.com/films/the-texas-chainsaw-massacre/",
       "status": "Coming Soon",
       "opens": "December 4",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1974",
       "director": "Tobe Hooper",
       "cast": "Marilyn Burns, Gunnar Hansen, Edwin Neal, Paul A. Partain, Allen Danziger",
@@ -3627,7 +3413,7 @@
       "url": "https://www.ifccenter.com/films/the-thing-2/",
       "status": "Coming Soon",
       "opens": "December 18",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1982",
       "director": "John Carpenter",
       "cast": "Kurt Russell, Wilford Brimley, Keith David, David Clennon, T.K. Carter",
@@ -3646,7 +3432,7 @@
       "url": "https://www.ifccenter.com/films/the-wild-bunch-2/",
       "status": "Coming Soon",
       "opens": "November 13",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1969",
       "director": "Sam Peckinpah",
       "cast": "William Holden, Ernest Borgnine, Robert Ryan, Edmond O\u2019Brien, Warren Oates, Ben Johnson, Jaime S\u00e1nch",
@@ -3822,7 +3608,7 @@
       "url": "https://www.ifccenter.com/films/twin-peaks-fire-walk-with-me/",
       "status": "Coming Soon",
       "opens": "November 20",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1992",
       "director": "David Lynch",
       "cast": "Sheryl Lee, Ray Wise, Madchen Amick, Dana Ashbrook, David Bowie, Phoebe Augustine, Moira Kelly, Peggy Lipton",
@@ -3892,25 +3678,6 @@
       "date_start": "2026-11-15",
       "date_end": "",
       "description": "Back on the big screen for the first time in ages! Aardman Animation's beloved duo of clueless inventor Wallace and his wise, world-weary dog companion Gromit first took the world by storm in this trio of sweetly absurd Oscar-winning shorts by visionary animator Nick Park. Full of stunning filmmaking and design, clever writing and deep emotional beats, this timeless program of claymation is for the kid in us all.\nA GRAND DAY OUT1989 | 25 mins.Talented but unlucky inventor Wallace travels with his loyal sidekick on a cheese-seeking moon quest.\nTHE WRONG TROUSERS1993 | 30 mins.Wallace\u2019s latest invention \u2013 a pair of \u201cTechno Trousers\u201d \u2013 leads to danger from penguin supervillain Feathers McGraw.\nA CLOSE SHAVE1995 | 30 mins.Wallace has a new invention \u2013 a Knit-O-Matic machine \u2013 and adventure looms as sheep are being rustled and poor Gromit is framed. Keep your eyes peeled for Shaun the Sheep in his big-screen debut!"
-    },
-    {
-      "title": "We Own the Night",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/we-own-the-night",
-      "status": "Coming Soon",
-      "opens": "November 7",
-      "booking_url": "https://drafthouse.com/nyc/show/we-own-the-night",
-      "year": "2007",
-      "director": "",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-07"
-      ],
-      "date_start": "2026-11-07",
-      "date_end": "",
-      "description": "\"I\u2019d been trying to do something with cops as the subject\u2014but I\u2019d wanted the idea to have nothing to do with the procedural. I kept asking myself, \u2018what\u2019s in it for these people, emotionally? What is the true cost to their souls?\u2019 WE OWN THE NIGHT was born out of the desire to focus on the sincere and honest picture of a family at war with itself.\" - James GrayWhat if your own family stood in the way of everything you worked for? Bobby Green (Joaquin Phoenix) has forsaken his name to escape his family and their tradition in law enforcement to pursue his ambitions as a Brooklyn nightclub owner. As he turns a blind eye to the drug dealers around him, he comes face to face with the family he abandoned when his brother (Mark Wahlberg) and father (Robert Duvall) crack down on the club. Now Bobby must choose a side. Is he going to turn informant or will he help run the biggest crime ring in New York history? (Sony Pictures Entertainment)"
     },
     {
       "title": "Werwulf",
@@ -4000,7 +3767,7 @@
       "booking_url": "",
       "year": "2026",
       "director": "Martin McDonagh",
-      "cast": "John Malkovich, Sam Rockwell, Steve Buscemi, Mariana di Girolamo, Ail\u00edn Salaswith,Tom Waits and Parker Posey",
+      "cast": "John Malkovich, Sam Rockwell, Steve Buscemi, Mariana di Girolamo, Ail\u00edn Salas, Tom Waits, Parker Posey",
       "country": "",
       "showtimes": [],
       "show_dates": [
@@ -4015,28 +3782,6 @@
       "date_start": "2026-11-05",
       "date_end": "2026-11-05",
       "description": "Shortly before the 1973 Chilean coup, CIA agents Chris (Malkovich) and Lee (Rockwell) are dispatched from Santiago to Easter island by their bureau chief, MJ (Steve Buscemi). As the longtime partners wrestle with their dark pasts and present conspiracies amongst the island\u2019s iconic statues, Chris's newfound bond with a pair of rebellious students threatens to send everyone\u2019s trip to this remote paradise sideways. Martin McDonagh ( In Bruges , The Banshees of Inisherin ) returns with another masterful character study, a richly funny political thriller replete with the writer/director\u2019s trademark wit, voice, and poignancy."
-    },
-    {
-      "title": "Wild Horse Nine",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
-      "status": "Coming Soon",
-      "opens": "November 5",
-      "booking_url": "https://drafthouse.com/nyc/show/wild-horse-nine",
-      "year": "2026",
-      "director": "Martin McDonagh",
-      "cast": "John Malkovich, Sam Rockwell, Steve Buscemi, Mariana di Girolamo, Ail\u00edn Salaswith,Tom Waits and Parker Posey",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-05",
-        "2026-11-06",
-        "2026-11-07",
-        "2026-11-08"
-      ],
-      "date_start": "2026-11-05",
-      "date_end": "",
-      "description": "We\u2019re excited for any new movie by Martin McDonagh (THE BANSHEES OF INISHERIN, IN BRUGES), but especially one starring Sam Rockwell, John Malkovich, Parker Posey, and Steve Buscemi. Set on Easter Island just before the 1973 Chilean coup, WILD HORSE NINE sends two CIA agents into a remote paradise where old grudges, conspiracies, and rebellious students complicate their mission. Did we mention Tom Waits is also in this movie? Prepare to be utterly charmed."
     },
     {
       "title": "Women on the Verge of a Nervous Breakdown",
@@ -4425,25 +4170,6 @@
       "description": "The word cinema is an abbreviation of the French cin\u00e9matographe , a term coined by the Lumi\u00e8re Brothers, who combined the Greek words for \u201cmovement\u201d and \u201cwriting\u201d to describe this new form of expression. As part of Triple Canopy Presents: Magic, Alex Tatarsky\u20142025 Triple Canopy fellow\u2014will share a local clown\u2019s take on \u201cmovement writing.\u201d Tatarsky will present research and workshop characters live with the audience for a new piece of fiction that considers American traditions of conjuring and spirit channeling in the lineage of experimental improvisational performance. Part lecture, part seance, Tatarsky\u2019s performance draws on the researcher and artist Shannon Taggart\u2019s investigations into spectral photography and \u201cspirit cinema\u201d to investigate the life of objects and the material of spirit."
     },
     {
-      "title": "A Place In The Sun",
-      "theater": "Paris Theater",
-      "url": "https://www.paristheaternyc.com/film/a-place-in-the-sun-paris",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "",
-      "director": "George Stevens",
-      "cast": "Montgomery Clift, \\nElizabeth Taylor, \\nShelley Winters",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-10-31"
-      ],
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "description": "LA BOLA NEGRA is a bold, passionate triptych spanning nearly a century of Spanish history from the 30s to modern day. The film tells the story of three men whose lives are intimately connected through desire, pain, and inheritance."
-    },
-    {
       "title": "A Pure Person: The Sonic Landscape Of Lim Giong",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/a-pure-person",
@@ -4723,17 +4449,15 @@
       "url": "https://metrograph.com/film/9999000610-all-that-heaven-allows/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31227",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31328",
       "year": "1955",
       "director": "Douglas Sirk",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sun Nov1 1:30pm",
         "Wed Nov4 5:35pm"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-04"
       ],
       "date_start": "",
@@ -5186,7 +4910,6 @@
         "Wed Nov11 3:30pm"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-11"
       ],
       "date_start": "",
@@ -5344,6 +5067,31 @@
       "date_start": "",
       "date_end": "",
       "description": "With her delivery of the line \u201cMy whole life is a dark room\u2026 One. Big. Dark. Room,\u201d Winona Ryder cemented herself as a goth girl heroine for the ages, a brooding teen in widow\u2019s weeds relocated by her parents to a creaky country house that happens\u2026"
+    },
+    {
+      "title": "Being Heumann",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/being-heumann",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/being-heumann",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "They wouldn\u2019t take Judy Heumann\u2019s phone calls, so she took their building. In 1977, a young disabled woman (Ruth Madeley) and a scrappy coalition of outsiders decide they\u2019ve had enough. What begins as one impulsive act becomes the longest occupation of a federal building in American history, as hundreds spontaneously seize government offices and refuse to leave until the bureaucrat in their way (Mark Ruffalo) takes action. Bringing rebellion in all its forms to the hallowed halls, a movement\u2019s accidental leaders struggle to find their path forward where none has ever been paved for them. Directed by Academy Award winner Si\u00e2n Heder (CODA) and based on true events, BEING HEUMANN is the revolutionary, irreverent, and deeply human story of the least likely people trying to pull off the impossible and change the lives of millions."
     },
     {
       "title": "Bell, Book And Candle",
@@ -5859,7 +5607,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-04"
       ],
       "date_start": "",
@@ -6111,10 +5858,10 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-05"
       ],
       "date_start": "",
       "date_end": "",
@@ -6126,16 +5873,15 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/chronovisor/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24752529/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24749485/",
       "year": "2026",
       "director": "Jack Auen, Kevin Walker",
       "cast": "Anne Laure Sellier",
       "country": "",
       "showtimes": [
-        "Sun Nov 1 10:00 pm"
+        "Mon Nov 2 7:00 pm"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04"
@@ -6249,13 +5995,12 @@
       "cast": "Laura Dern, Swoosie Kurtz, Kelly Preston, Burt Reynolds, Kurtwood Smith, Mary Kay Place, Kenneth Mars, Tippi Hedren",
       "country": "U.S",
       "showtimes": [
-        "1:20",
-        "3:40",
-        "6:00",
-        "8:20"
+        "1:00",
+        "3:20",
+        "5:40",
+        "8:00"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -6309,18 +6054,15 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/clayface/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24752514/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24749503/",
       "year": "2026",
       "director": "James Watkins",
       "cast": "Tom Rhys Harries, Ruby Sear, Naomi Ackie, Eddie Marsan, Max Minghella",
       "country": "",
       "showtimes": [
-        "Sun Nov 1 4:15 pm",
-        "Sun Nov 1 7:30 pm",
-        "Sun Nov 1 9:30 pm"
+        "Mon Nov 2 10:30 pm"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -6343,10 +6085,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -6358,16 +6106,16 @@
       "url": "https://www.ifccenter.com/films/closure/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=584436~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=587164~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2026",
       "director": "Michal Marczak",
       "cast": "",
       "country": "Poland",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-12"
       ],
       "date_start": "",
       "date_end": "",
@@ -6382,7 +6130,7 @@
       "booking_url": "",
       "year": "2026",
       "director": "Jordan Firstman",
-      "cast": "Jordan Firstman, Cara Delevigne, Kirby Howell-Baptiste",
+      "cast": "Jordan Firstman, Reggie Absolom, Diego Calva, Cara Delevigne, Kirby Howell-Baptiste, Colleen Camp, Vicki Pepperdine, Nigil Whyte, Eldar Isgandarov, Saturn Risin9, Miss Benny, Alaska Riley",
       "country": "",
       "showtimes": [],
       "show_dates": [
@@ -6401,36 +6149,27 @@
       "booking_url": "https://angelikafilmcenter.com/nyc/movies/club-kid",
       "year": "2026",
       "director": "Jordan Firstman",
-      "cast": "Jordan Firstman, Cara Delevigne, Kirby Howell-Baptiste",
+      "cast": "Jordan Firstman, Reggie Absolom, Diego Calva, Cara Delevigne, Kirby Howell-Baptiste, Colleen Camp, Vicki Pepperdine, Nigil Whyte, Eldar Isgandarov, Saturn Risin9, Miss Benny, Alaska Riley",
       "country": "",
       "showtimes": [
         "Thu Nov 5 6:00 PM",
         "Thu Nov 5 8:45 PM",
-        "Fri Nov 6 9:45 AM",
         "Fri Nov 6 12:20 PM",
-        "Fri Nov 6 3:00 PM",
         "Fri Nov 6 5:45 PM",
         "Fri Nov 6 8:30 PM",
-        "Sat Nov 7 9:45 AM",
+        "Sat Nov 7 10:00 AM",
         "Sat Nov 7 3:00 PM",
         "Sat Nov 7 5:45 PM",
-        "Sat Nov 7 8:30 PM",
         "Sat Nov 7 12:20 PM",
-        "Sun Nov 8 10:00 AM",
         "Sun Nov 8 12:35 PM",
         "Sun Nov 8 3:15 PM",
         "Sun Nov 8 6:05 PM",
-        "Sun Nov 8 8:55 PM",
-        "Mon Nov 9 10:00 AM",
-        "Mon Nov 9 12:35 PM",
         "Mon Nov 9 3:15 PM",
         "Mon Nov 9 8:55 PM",
         "Mon Nov 9 6:05 PM",
-        "Wed Nov 11 10:00 AM",
-        "Wed Nov 11 12:35 PM",
+        "Tue Nov 10 6:05 PM",
         "Wed Nov 11 3:15 PM",
         "Wed Nov 11 6:05 PM",
-        "Wed Nov 11 8:55 PM",
         "Thu Nov 12 6:05 PM"
       ],
       "show_dates": [
@@ -6439,8 +6178,32 @@
         "2026-11-07",
         "2026-11-08",
         "2026-11-09",
+        "2026-11-10",
         "2026-11-11",
         "2026-11-12"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "A hard-partying New York City club promoter sees his whirlwind lifestyle upended by the arrival of the 10-year-old son he never knew he had."
+    },
+    {
+      "title": "Club Kid",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/club-kid",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/club-kid",
+      "year": "2026",
+      "director": "Jordan Firstman",
+      "cast": "Jordan Firstman, Reggie Absolom, Diego Calva, Cara Delevigne, Kirby Howell-Baptiste, Colleen Camp, Vicki Pepperdine, Nigil Whyte, Eldar Isgandarov, Saturn Risin9, Miss Benny, Alaska Riley",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09"
       ],
       "date_start": "",
       "date_end": "",
@@ -6455,7 +6218,7 @@
       "booking_url": "https://angelikafilmcenter.com/nyc/movies/club-kid-in-35mm",
       "year": "",
       "director": "Jordan Firstman",
-      "cast": "Jordan Firstman, Cara Delevigne, Kirby Howell-Baptiste",
+      "cast": "Jordan Firstman, Reggie Absolom, Diego Calva, Cara Delevigne, Kirby Howell-Baptiste, Colleen Camp, Vicki Pepperdine, Nigil Whyte, Eldar Isgandarov, Saturn Risin9, Miss Benny, Alaska Riley",
       "country": "",
       "showtimes": [
         "Thu Nov 5 4:15 PM",
@@ -6464,12 +6227,12 @@
         "Fri Nov 6 11:20 AM",
         "Fri Nov 6 2:00 PM",
         "Fri Nov 6 4:45 PM",
-        "Fri Nov 6 10:50 PM",
+        "Fri Nov 6 10:45 PM",
         "Fri Nov 6 7:30 PM",
         "Sat Nov 7 11:20 AM",
         "Sat Nov 7 2:00 PM",
         "Sat Nov 7 4:45 PM",
-        "Sat Nov 7 10:50 PM",
+        "Sat Nov 7 10:45 PM",
         "Sat Nov 7 7:30 PM",
         "Sun Nov 8 10:50 AM",
         "Sun Nov 8 1:30 PM",
@@ -6480,7 +6243,7 @@
         "Mon Nov 9 1:30 PM",
         "Mon Nov 9 4:15 PM",
         "Mon Nov 9 7:00 PM",
-        "Mon Nov 9 10:00 PM",
+        "Mon Nov 9 9:55 PM",
         "Tue Nov 10 10:50 AM",
         "Tue Nov 10 1:30 PM",
         "Tue Nov 10 4:15 PM",
@@ -6510,27 +6273,6 @@
       "date_start": "",
       "date_end": "",
       "description": "A hard-partying New York City club promoter sees his whirlwind lifestyle upended by the arrival of the 10-year-old son he never knew he had."
-    },
-    {
-      "title": "Coco",
-      "theater": "Film Forum",
-      "url": "https://filmforum.org/film/coco-ffjr-2026",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "2017",
-      "director": "Lee Unkrich U.S., 2017",
-      "cast": "Benjamin Bratt, Anthony Gonzales, Gael Garc\u00eda Bernal, Alanna Ubach",
-      "country": "",
-      "showtimes": [
-        "11:00"
-      ],
-      "show_dates": [
-        "2026-11-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": ""
     },
     {
       "title": "Columbus",
@@ -6853,6 +6595,27 @@
       "date_start": "2026-10-06",
       "date_end": "2026-10-06",
       "description": "In his most sprawling and ambitious film to date, French Senegalese filmmaker Alain Gomis ( F\u00e9licit\u00e9 , NYFF55) has crafted a remarkable cinematic experience, an immersion into the rituals of one extended family, set across two continents. Dao plunges headfirst into two separate yet intrinsically interconnected ceremonies\u2014a memorial in Guinea-Bissau and a wedding in Paris\u2014which Gomis cuts between with kinetic abandon. Both are attended by the taciturn yet soulful middle-aged Gloria (Katy Correa), whose father has recently died and whose daughter, Nour (D\u2019Joh\u00e9 Kouadio), is about to be married. Reaching ecstatic highs while also remaining grounded in the pragmatic details of the celebrations it depicts, Dao illustrates the power and persistence of African diaspora traditions. Cast with both professional actors and amateur performers, including members of the director\u2019s own family, Gomis\u2019s epic unfolds as a tapestry being woven before our eyes, a constant flow of movement that delicately raises questions of ancestry and assimilation, life and death, and, in its surprising construction, fiction and documentary. A Janus Films release."
+    },
+    {
+      "title": "DarkRoom Screening & Salon",
+      "theater": "Nitehawk (Prospect Park)",
+      "url": "https://nitehawkcinema.com/prospectpark/movies/darkroom-screening-salon-nov-2026/?date=today",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24490078/",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [
+        "Mon Nov 2 7:15 pm"
+      ],
+      "show_dates": [
+        "2026-11-02"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "Another secret monthly mixtape of short films from around the globe"
     },
     {
       "title": "Daughters Of The Dust",
@@ -7290,16 +7053,15 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/edie-arnold-is-a-loser/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24752518/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24749496/",
       "year": "2026",
       "director": "Kade Atwood, Megan Rico",
       "cast": "Adi Madden Cabrera, Cherish Rodriguez, McKenna Tuckett, Niki Rahimi, Alexa Paige",
       "country": "",
       "showtimes": [
-        "Sun Nov 1 7:15 pm"
+        "Mon Nov 2 8:05 pm"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04"
@@ -7476,13 +7238,6 @@
       "cast": "Hilaree Nelson, Jim Morrison",
       "country": "",
       "showtimes": [
-        "Sun Nov 1 1:50 PM",
-        "Sun Nov 1 10:10 PM",
-        "Sun Nov 1 4:25 PM",
-        "Sun Nov 1 7:10 PM",
-        "Mon Nov 2 11:10 AM",
-        "Mon Nov 2 1:50 PM",
-        "Mon Nov 2 4:25 PM",
         "Mon Nov 2 7:10 PM",
         "Mon Nov 2 9:50 PM",
         "Tue Nov 3 11:10 AM",
@@ -7501,7 +7256,6 @@
         "Thu Nov 5 10:10 PM"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -7743,18 +7497,16 @@
       "url": "https://metrograph.com/film/9999003994-far-from-heaven/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31228",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31283",
       "year": "2002",
       "director": "Todd Haynes",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sun Nov1 3:30pm",
         "Fri Nov6 4:15pm",
         "Sat Nov7 12:00pm"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-06",
         "2026-11-07"
       ],
@@ -7776,12 +7528,12 @@
       "showtimes": [
         "12:25",
         "2:25(OC)",
+        "4:15",
         "4:30",
         "6:30",
         "8:30"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -7823,7 +7575,7 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "date_start": "",
       "date_end": "",
@@ -7910,42 +7662,18 @@
       "description": "DanceAfrica and African Film Festival, Inc. welcome you warmly to the 33rd edition of FilmAfrica! Presented annually alongside BAM\u2019s iconic DanceAfrica celebration and as part of the New York African Film Festival (NYAFF)\u2014this year spotlighting the culture and artistry of Uganda\u2014this vibrant showcase of contemporary and classic Pan-African cinema highlights the continent\u2019s rich storytelling traditions, social movements, and artistic expression"
     },
     {
-      "title": "Fireflies Press presents Hermia & Helena",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/9999005074-fireflies-press-presents-hermia-helena/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31302",
-      "year": "2016",
-      "director": "Mat\u00edas Pi\u00f1eiro",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Sun Nov8 1:50pm"
-      ],
-      "show_dates": [
-        "2026-11-08"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Q&A with filmmaker Matias Pi\u00f1eiro moderated by NYFF Artistic Director Dennis Lim on Sunday, November 8th"
-    },
-    {
       "title": "Fjord",
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/movies/fjord/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24752520/",
+      "booking_url": "",
       "year": "2026",
       "director": "Cristian Mungiu",
       "cast": "Renate Reinsve, Sebastian Stan, Vanessa Ceban, Lisa Loven Kongsli, Thorbj\u00f8rn Harr",
       "country": "",
-      "showtimes": [
-        "Sun Nov 1 9:00 pm"
-      ],
+      "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04"
@@ -7967,10 +7695,12 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-10"
       ],
       "date_start": "",
       "date_end": "",
@@ -8096,14 +7826,13 @@
       "url": "https://lowcinema.com/movie/gail-daughtry-and-the-celebrity-sex-pass/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://lowcinema.com/checkout/4c59af85-8342-44c4-afea-400e4ad1ae29/",
+      "booking_url": "https://lowcinema.com/checkout/993b46c4-27c2-45ed-baf3-ee2ed9b6b4a5/",
       "year": "2026",
       "director": "David Wain",
       "cast": "",
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -8160,14 +7889,13 @@
       "url": "https://www.ifccenter.com/films/gentle-monster-open-captioning/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=587478~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=587479~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2026",
       "director": "Marie Kreutzer",
       "cast": "L\u00e9a Seydoux, Jella Haase, Laurence Rupp, Catherine Deneuve",
       "country": "France",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03"
       ],
@@ -8181,14 +7909,13 @@
       "url": "https://www.ifccenter.com/films/gentle-monster/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=587139~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=587167~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2026",
       "director": "Marie Kreutzer",
       "cast": "L\u00e9a Seydoux, Jella Haase, Laurence Rupp, Catherine Deneuve",
       "country": "France",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -8298,23 +8025,29 @@
       "description": "Based on a 1993 memoir of the same name by Susanna Kaysen, Mangold\u2019s powerhouse picture sets its scene at a New England psychiatric hospital c. 1967 where Winona Ryder (in the Kaysen role; also a producer on the film) lands after suffering a nervous\u2026"
     },
     {
-      "title": "Godzilla (1954)",
-      "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/godzilla-1954/?date=today",
+      "title": "Godzilla Minus Zero",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "",
-      "year": "1954",
-      "director": "Ishir\u00f4 Honda",
-      "cast": "Takashi Shimura, Akihiko Hirata, Akira Takarada",
+      "booking_url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
+      "year": "2026",
+      "director": "Takashi Yamazaki",
+      "cast": "Minami Hamabe, Masami Nagasawa, Ry\u00fbnosuke Kamiki, Jun Kunimura, Sakura And\u00f4, Yuki Yamada",
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01"
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
       ],
       "date_start": "",
       "date_end": "",
-      "description": "GODZILLA, a weapon of science, a great battle of wonder and terror!"
+      "description": "Presented in Japanese with English subtitles\nWar reduced Japan to zero. Godzilla plunged it into minus. Now the math gets even more terrifying. Takashi Yamazaki returns to direct, write, and oversee the visual effects for this epic follow-up to GODZILLA MINUS ONE, his Oscar-winning reinvention of Toho\u2019s iconic monster. Set in 1949, two years after the events of the previous film, GODZILLA MINUS ZERO follows Japan\u2019s hard-fought recovery as a new catastrophe threatens to erase it all. With returning stars Ryunosuke Kamiki and Minami Hamabe, bigger monster mayhem, and spectacular effects built for a huge screen, this is the latest chapter in a storied franchise that began in 1954. See the King of the Monsters at its most colossal, on the big screen."
     },
     {
       "title": "Godzilla vs. Mechagodzilla",
@@ -8329,7 +8062,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-04"
       ],
@@ -8438,25 +8170,6 @@
       "date_start": "2026-02-18",
       "date_end": "2026-02-18",
       "description": "Like the Royal Theater in The Last Picture Show and the movie house in Cinema Paradiso , the Fu-Ho, a run down Taipei movie palace, is shutting down for good, playing its final film to a motley smattering of spectators. Even as the theater's ill-mannered patrons snack noisily, remove their shoes, and generally treat this temple of cinema like their living room, the sense that moviegoing as a communal experience is slipping away takes on a powerful and painful resonance. Yet Tsai Ming-liang\u2019s Goodbye, Dragon Inn is too multifaceted to collapse into a simple valentine to the age of pre-VOD cinephilia. Instead, Ming-liang rises to the narrative challenge, offering a series of sly and delicate character arcs via his signature long, static shots and sparse use of dialogue. Featuring a reading by James Malzone before the screening on February 19"
-    },
-    {
-      "title": "Grandma\u2019S Boy",
-      "theater": "Nitehawk (Williamsburg)",
-      "url": "https://nitehawkcinema.com/williamsburg/movies/grandmas-boy/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "2006",
-      "director": "Nicholaus Goossen",
-      "cast": "Allen Covert, Linda Cardellini, Shirley Jones, Peter Dante, Shirley Knight, Joel David Moore, Kevin Nealon, Doris Roberts, Nick Swardson, Jonah Hill",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-02"
-      ],
-      "date_start": "2026-11-02",
-      "date_end": "2026-11-02",
-      "description": ""
     },
     {
       "title": "Greetings From Out Here",
@@ -8611,25 +8324,6 @@
       "date_start": "2026-03-20",
       "date_end": "2026-03-20",
       "description": "Haifa, nicknamed after the city he longs for, comes and goes in a Palestinian refugee camp. Although he is seen as the town fool, there are many things that only he knows. He is closely related to the family of Abu Said, a former policeman who has high hopes for the political developments promised by the peace process. Oum Said, his wife, hangs her hope instead on the imminent release of their eldest son, Said, from jail. Their youngest son, Siad, is cynical and rebellious. Sabah, their 12-year-old daughter, sees the future through the eyes of a romantic, searching for what it might hold in store for her."
-    },
-    {
-      "title": "Halloween (1978)",
-      "theater": "Nitehawk (Prospect Park)",
-      "url": "https://nitehawkcinema.com/prospectpark/movies/halloween-1978/?date=today",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "1978",
-      "director": "John Carpenter",
-      "cast": "Jamie Lee Curtis, Donald Pleasence",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "The night HE came home"
     },
     {
       "title": "Hamnet",
@@ -8915,6 +8609,29 @@
       "description": "In another surreal, politically-charged, and straight-up weird outing from eccentric director Boots Riley ( Sorry to Bother You ), I Love Boosters follows a crew of professional shoplifters (Keke Palmer, Naomi Ackie) as they take aim at a cutthroat fashion maven (Demi Moore)\u2014in an effort they deem a community service. Sneak preview screening on May 19 at 7:30pm followed by a Q&A with Boots Riley"
     },
     {
+      "title": "I Play Rocky",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/i-play-rocky",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/i-play-rocky",
+      "year": "2026",
+      "director": "Peter Farrelly",
+      "cast": "Anthony Ippolito, AnnaSophia Robb, Tracy Letts, Jay Duplass, Matt Dillon, Stephan James, Kiki Seto",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "I PLAY ROCKY is an electrifying true story about an unknown actor with an unshakable belief that he wasn't just meant to write Rocky \u2013 he was meant to be Rocky Balboa. Told \"no\" at every turn, Sylvester Stallone bets everything on himself, holding the line on playing the lead against seemingly impossible odds. The result is the ultimate underdog story behind the ultimate underdog movie."
+    },
+    {
       "title": "I Want Your Sex",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/i-want-your-sex",
@@ -9101,27 +8818,6 @@
       "description": "A group of recent grads head out on a late-night drive for grub, hoping to enjoy one final hangout before their paths diverge. Instead, they accidentally turn onto an endless two-lane hellscape surrounded by untold horrors and cosmic forces beyond their understanding. Written, directed, and edited by Alexander Ullom in his directorial debut, It Ends premiered at the 2025 South by Southwest Festival, and has been praised by Variety as a \u201cbrilliant\u201d modern retelling of Jean-Paul Sartre\u2019s No Exit ."
     },
     {
-      "title": "Ivan",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/9999005035-ivan/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31318",
-      "year": "1932",
-      "director": "Oleksandr Dovzhenko",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Mon Nov2 4:00pm"
-      ],
-      "show_dates": [
-        "2026-11-02"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Introduction by programmer Edo Choi on Sunday, October 18th"
-    },
-    {
       "title": "Jane Fonda",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/jane-fonda",
@@ -9290,7 +8986,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-04"
       ],
@@ -9330,10 +9025,17 @@
         "2026-11-01",
         "2026-11-02",
         "2026-11-03",
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
       ],
       "date_start": "2026-10-16",
-      "date_end": "2026-11-04",
+      "date_end": "2026-11-11",
       "description": "An enduring masterpiece of cinema starring Oliver Reed and Vanessa Redgrave, The Devils is a prescient epic of obsession and corruption\u2013and a defining work of art from seminal filmmaker Ken Russell. Ken Russell\u2019s The Devils is the uncut and unfiltered theatrical experience the British director Russell envisioned, and the first time the film will be presented\u2014restored and in 4K."
     },
     {
@@ -9386,17 +9088,13 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/klara-and-the-sun/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24752505/",
+      "booking_url": "",
       "year": "2026",
       "director": "Taika Waititi",
       "cast": "Jenna Ortega, Amy Adams, Mia Tharia, Aran Murphy, Steve Buscemi, Natasha Lyonne",
       "country": "",
-      "showtimes": [
-        "Sun Nov 1 2:00 pm",
-        "Sun Nov 1 4:45 pm"
-      ],
+      "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04"
@@ -9418,9 +9116,9 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-02",
         "2026-11-03",
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-05"
       ],
       "date_start": "",
       "date_end": "",
@@ -9517,14 +9215,10 @@
       "cast": "Guitarricadelafuente, Milo Quifes,\u00a0Carlos Gonz\u00e1lez",
       "country": "",
       "showtimes": [
-        "Sun Nov 1 8:50 PM",
-        "Mon Nov 2 10:45 AM",
         "Tue Nov 3 10:45 AM",
         "Wed Nov 4 10:45 AM"
       ],
       "show_dates": [
-        "2026-11-01",
-        "2026-11-02",
         "2026-11-03",
         "2026-11-04"
       ],
@@ -9545,13 +9239,15 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-05",
         "2026-11-06",
         "2026-11-07",
-        "2026-11-08"
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -9569,11 +9265,6 @@
       "cast": "Guitarricadelafuente, Milo Quifes,\u00a0Carlos Gonz\u00e1lez",
       "country": "",
       "showtimes": [
-        "Sun Nov 1 3:05 PM",
-        "Sun Nov 1 6:30 PM",
-        "Sun Nov 1 10:00 PM",
-        "Mon Nov 2 11:45 AM",
-        "Mon Nov 2 3:05 PM",
         "Mon Nov 2 6:30 PM",
         "Mon Nov 2 10:00 PM",
         "Tue Nov 3 11:45 AM",
@@ -9590,7 +9281,6 @@
         "Thu Nov 5 10:00 PM"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -9789,6 +9479,53 @@
       "date_start": "",
       "date_end": "",
       "description": "In a conservative Australian town, the most terrifying thing facing two queer teens isn\u2019t just the ostracization of their community, but a more sinister entity that takes the form of the person they desire most: each other. With captivating performances from its breakout stars, this striking debut from director Adrian Chiarella deftly weaves a truly haunting premise and moments of sweet romance into a larger tapestry investigating the toll of contemporary bigotry."
+    },
+    {
+      "title": "Littermates",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/littermates",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/littermates",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-14",
+        "2026-11-16",
+        "2026-11-17"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "At Chester\u2019s cottage, good behavior earns karaoke. Getting answers is a little more complicated.\nAfter a mysterious apocalyptic(ish) attack leaves them bloodied, disoriented, and unable to speak, Liam (Joey Bader) and Mel (Kaylee McGregor) take refuge in the English countryside. Their oddball host, Chester (Oliver Woolf), feeds them, helps them recover, and introduces a system of rewards: behave yourself, earn \u201cnifties,\u201d cash them in for hot-tub time and dance parties.\nBeyond the cottage, things are less nifty. But within it, a makeshift family is taking shape. While Liam embraces their new life, Mel grows increasingly curious about the world Chester insists is too dangerous to enter\u2026\nIn their feature debut, directors Scott Tinkham and Michael Woloson mix deadpan comedy, sibling rivalry, and creeping unease in a coming-of-age story about people who have to grow up all over again. Winner of the Special Jury Prize at the 2026 Manchester Film Festival and the Narrative Feature Audience Award at Dances With Films LA 2026, this has the sort of sensibilities that fans of Yorgos Lanthimos and Ben Wheatley will adore\u2026 and it\u2019s a natural fit as an Alamo Exclusive."
+    },
+    {
+      "title": "Little Odessa",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/little-odessa",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/little-odessa",
+      "year": "1994",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-08"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "\"LITTLE ODESSA was my first movie, and it was made really on the basis of a dare from a wonderful producer named Paul Webster. After I\u2019d pitched him a free ideas he\u2019d rejected, he looked at me square in the face and asked, \u2018can YOU make a personal movie?\u2019 So I went off and wrote the picture in something like a month. It\u2019s very much the work of a young man in a hurry, and though I see some loose threads in its tapestry now, I can\u2019t help but admit I\u2019ve been crafting variations on this my whole life.\" - James Gray\nA Dostoevskian family tragedy in the form of a gangster drama, the darkly elegant debut feature by James Gray heralded the arrival of a singular voice in contemporary American cinema. Cloaked in the shadows of New York\u2019s underworld, Little Odessa follows Joshua (Tim Roth), a volatile hit man whose latest assignment takes him back to the Brooklyn neighborhood where he grew up. After his return home, his criminal life collides with the grim domestic world of his abusive father (Maximilian Schell), ailing mother (Vanessa Redgrave), and loyal teenage brother (Edward Furlong). Channeling the brooding fatalism of classic noir, Gray\u2014who won the Venice Film Festival\u2019s Silver Lion at just twenty-five\u2014composes a haunting reflection on violence that begins at home and ripples ever outward. (The Criterion Collection)\n4k DCP courtesy of Lionsgate"
     },
     {
       "title": "Lone Star",
@@ -10103,6 +9840,27 @@
       "description": "In this saga set during the Napoleonic Wars, adapted loosely from Patrick O'Brian's Aubrey\u2013Maturin series, a captain of the British Royal Navy (Crowe) pursues his enemy across the seas\u2014posing questions about the interplay between duty and loyalty along the way. The Pynchon connection? The novelist names a storyteller\u2014\u201cthe best Yarn-Spinner in all the Fleets\u201d\u2014after O\u2019Brian in Mason & Dixon , his own sprawling historical adventure tale."
     },
     {
+      "title": "Mat\u00edas Pi\u00f1eiro presents Hermia & Helena",
+      "theater": "Metrograph",
+      "url": "https://metrograph.com/film/9999005074-matias-pineiro-presents-hermia-helena/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31302",
+      "year": "2016",
+      "director": "Mat\u00edas Pi\u00f1eiro",
+      "cast": "",
+      "country": "",
+      "showtimes": [
+        "Sun Nov8 1:50pm"
+      ],
+      "show_dates": [
+        "2026-11-08"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "Q&A with filmmaker Matias Pi\u00f1eiro moderated by NYFF Artistic Director Dennis Lim on Sunday, November 8th"
+    },
+    {
       "title": "May Your Eyes Be Blessed: Film And Tv Work Of Luiz Fernando Carvalho",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/may-your-eyes",
@@ -10230,17 +9988,15 @@
       "url": "https://metrograph.com/film/9999005018-midnight-in-paris/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31231",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31326",
       "year": "2011",
       "director": "Woody Allen",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sun Nov1 9:50pm",
         "Wed Nov4 3:30pm"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-04"
       ],
       "date_start": "",
@@ -10679,7 +10435,6 @@
         "12:30"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -10795,8 +10550,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
-        "2026-11-02",
         "2026-11-03",
         "2026-11-04"
       ],
@@ -10817,10 +10570,9 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
-        "2026-11-02",
         "2026-11-03",
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-05"
       ],
       "date_start": "",
       "date_end": "",
@@ -10903,25 +10655,6 @@
       "date_start": "",
       "date_end": "",
       "description": "Akerman was 26 years old and living in New York City, away from her native Belgium and her mother, when she teamed with DP Babette Mangolte to film this diary/essay/poem in subway stations and on street corners, their images to eventually be paired with\u2026"
-    },
-    {
-      "title": "News from Home + Interior NY Subway, 14th Street",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/9999005065-news-from-home-interior-ny-subway-14th-street/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "1976",
-      "director": "Chantal  Akerman, G. W. \"Billy\" Bitzer",
-      "cast": "",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Introduction by series curator Genevieve Yue on Sunday, November 1st"
     },
     {
       "title": "Nicola\u0301S Guille\u0301N Landria\u0301N Shorts Program",
@@ -11020,44 +10753,6 @@
       "date_start": "2026-08-29",
       "date_end": "2026-09-03",
       "description": "Andrei Tarkovsky explained that in Russian the word nostalghia conveys \u201cthe love for your homeland and the melancholy that arises from being far away.\u201d This debilitating form of homesickness is embodied in his film about Russian intellectual Andrei Gorchakov doing research in Italy, who becomes obsessed with the Botticelli-like beauty of his translator Eugenia, as well as with the apocalyptic ramblings of a self-destructive wanderer named Domenico. Written with frequent Michelangelo Antonioni collaborator Tonino Guerra ( L\u2019Avventura ), this mystical and mysterious collision of East and West incorporates an unnamed German Shepherd in a small role\u2014a quiet nod to Tarkovsky's own pup and broader love of dogs."
-    },
-    {
-      "title": "Nov 1 Cat People",
-      "theater": "Nitehawk (Williamsburg)",
-      "url": "https://nitehawkcinema.com/williamsburg/movies/cat-people-1942/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "1942",
-      "director": "Jacques Tourneur",
-      "cast": "Simone Simon, Kent Smith, Jane Randolph",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": ""
-    },
-    {
-      "title": "Nov 1 Hocus Pocus",
-      "theater": "Nitehawk (Williamsburg)",
-      "url": "https://nitehawkcinema.com/williamsburg/movies/hocus-pocus/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "1993",
-      "director": "Kenny Ortega",
-      "cast": "Bette Midler, Sarah Jessica Parker, Kathy Najimy, Omri Katz, Thora Birch, Vinessa Shaw",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": ""
     },
     {
       "title": "Nuestra Escena: Punk Across Latin America",
@@ -11198,14 +10893,13 @@
       "url": "https://www.ifccenter.com/films/on-the-road-2/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=587142~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=587466~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2026",
       "director": "David Pablos",
       "cast": "Victor Prieto Simental, Osvaldo Sanchez, Victor Manuel Aguirre",
       "country": "Mexico",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -11246,14 +10940,14 @@
       "cast": "",
       "country": "",
       "showtimes": [
-        "12:15(OC)",
+        "12:15",
         "2:30",
         "4:45",
         "7:00",
+        "8:10(OC)",
         "9:15"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -11276,11 +10970,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
-        "2026-11-05"
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -11299,7 +10998,7 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "date_start": "",
       "date_end": "",
@@ -11370,7 +11069,7 @@
       "url": "https://www.ifccenter.com/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586651~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586782~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "",
       "director": "",
       "cast": "",
@@ -11510,7 +11209,7 @@
         "Thu Nov 12 2:00 PM",
         "Thu Nov 12 4:35 PM",
         "Thu Nov 12 7:15 PM",
-        "Thu Nov 12 10:00 PM",
+        "Thu Nov 12 10:10 PM",
         "Fri Nov 13 11:00 AM",
         "Fri Nov 13 1:40 PM",
         "Fri Nov 13 4:20 PM",
@@ -11598,6 +11297,25 @@
       "date_start": "2026-10-27",
       "date_end": "2026-10-27",
       "description": "In Penny Allen\u2019s sun-dappled Pacific Northwest thriller, a struggling Oregon vintner couple turns to an unlikely cash crop: marijuana. But when a wave of robberies threatens their peaceful, countercultural existence, their rural idyll gives way to a strange and suspenseful battle over land, livelihood, and survival. Starring Eric Silverstein and Lola Desmond, Paydirt unfolds with a laid-back, laconic rhythm that gradually gives way to tension, blending slice-of-life realism with more blood-pumping fare."
+    },
+    {
+      "title": "Peeping Tom (1960)",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/terror-tuesday-peeping-tom",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/terror-tuesday-peeping-tom",
+      "year": "1960",
+      "director": "Michael Powell",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-03"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "The bodies pile up as sensitive film studio focus-puller Mark Lewis (Carl Boehm) moonlights as a private photographer of scantily-clad woman, while obsessively working on his own \"documentary\" of the women's dying expressions. Long-known as a companion film to PSYCHO, director Michael Powell's career was effectively destroyed in the UK as Hitchcock achieved major commercial and critical success.\n4K DCP courtesy of Rialto Pictures"
     },
     {
       "title": "Petro",
@@ -11749,7 +11467,7 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "date_start": "",
       "date_end": "",
@@ -11767,9 +11485,6 @@
       "cast": "Jeon Do-yeon, Sul Kyung-gu, Zo In-sung, Cho Yeo-jeong, Ha Lim Lee, Jo Yuri",
       "country": "",
       "showtimes": [
-        "Sun Nov 1 2:15 PM",
-        "Sun Nov 1 6:00 PM",
-        "Mon Nov 2 3:15 PM",
         "Mon Nov 2 8:50 PM",
         "Tue Nov 3 2:15 PM",
         "Tue Nov 3 8:35 PM",
@@ -11777,7 +11492,6 @@
         "Wed Nov 4 8:50 PM"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04"
@@ -11809,16 +11523,15 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/primetime/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24752526/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24749499/",
       "year": "2026",
       "director": "Lance Oppenheim",
       "cast": "Robert Pattinson, Merritt Wever, Skyler Gisondo, Phoebe Bridgers, Matthew Maher, Bokeem Woodbine",
       "country": "",
       "showtimes": [
-        "Sun Nov 1 6:25 pm"
+        "Mon Nov 2 9:00 pm"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04"
@@ -11902,6 +11615,25 @@
       "description": "School-teacher-turned-astronaut Ryland Grace (Gosling) awakes on a space station with no memory of who he is or his mission. As fragments of memory return in bursts, he pieces together his objective to reverse the impact of a space event that hurled Earth into the early stages of an Ice Age, and soon realizes he may not be alone in his quest. Based on the novel by Andy Weir ( The Martian ), Phil Lord and Christopher Miller\u2019s adaptation invokes elements of puppetry and practical effects in its conjuring of Grace\u2019s companion, propelling a visual style reminiscent of some of sci-fi\u2019s trailblazing works."
     },
     {
+      "title": "Public Affairs",
+      "theater": "Nitehawk (Williamsburg)",
+      "url": "https://nitehawkcinema.com/williamsburg/movies/public-affairs/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1983",
+      "director": "Henri Pachard",
+      "cast": "Paul Thomas, Annette Haven, Kelly Nichols, Annette Heinz, Joey Silvera",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-05"
+      ],
+      "date_start": "2026-11-05",
+      "date_end": "2026-11-05",
+      "description": ""
+    },
+    {
       "title": "Putney Swope",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/tidal-memory-putney-swope",
@@ -11951,12 +11683,6 @@
       "cast": "Juliette Binoche, Tom Courtenay, Lolabelle Backus",
       "country": "",
       "showtimes": [
-        "Sun Nov 1 3:50 PM",
-        "Sun Nov 1 7:10 PM",
-        "Sun Nov 1 10:00 PM",
-        "Mon Nov 2 10:10 AM",
-        "Mon Nov 2 1:00 PM",
-        "Mon Nov 2 3:50 PM",
         "Mon Nov 2 6:40 PM",
         "Mon Nov 2 9:30 PM",
         "Tue Nov 3 10:10 AM",
@@ -11974,7 +11700,6 @@
         "Thu Nov 5 3:00 PM"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -12023,6 +11748,27 @@
       "date_start": "",
       "date_end": "",
       "description": "Shot over the course of eight years on every line and spur of Thailand\u2019s rail system, its mountains of footage culled down to appear as one 48-hour journey, Chidgasornpongse\u2019s Apichatpong Weerasethakul\u2013produced documentary is both a mesmeric\u2026"
+    },
+    {
+      "title": "Rammstein - Live in Mexico City",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/rammstein-live-in-mexico-city",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/rammstein-live-in-mexico-city",
+      "year": "2026",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-04",
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "Filmed across three sold-out nights at the 65,000-capacity Foro Sol, RAMMSTEIN \u2013 LIVE IN MEXICO CITY captures one of the defining performances of the band's monumental five-year world stadium tour in a spectacular concert film directed by two-time Primetime Emmy\u00ae Award winner Paul Dugdale.\nSpanning 135 concerts and witnessed by 6 million fans around the world, the tour marked a major chapter in Rammstein's career. Two-time GRAMMY\u00ae nominees with audiences across the globe, Rammstein have brought German-language rock to major venues around the world \u2013 combining colossal sound and live production on a scale entirely their own.\nFeaturing 20 career-spanning songs, the film places audiences at the heart of a show where 20-meter-high flames and towering industrial architecture are matched by moments of genuine connection between the band and the crowd.\nFrom November 4, 2026, audiences worldwide can experience RAMMSTEIN \u2013 LIVE IN MEXICO CITY in cinematic 4K."
     },
     {
       "title": "Rashomon",
@@ -12374,27 +12120,6 @@
       "description": "Run, Tecato, Run is the last of three low-budget social problem films by Efra\u00edn Guti\u00e9rrez\u2014all restored by the UCLA Film & Television Archive. Guti\u00e9rrez\u2014the first Chicano feature director\u2014not only starred in these films, but developed a grass-roots distribution strategy that allowed him to outperform Hollywood releases in several cities. Based on true incidents, Run, Tecato, Run depicts a junkie's efforts to get off heroin in order to reclaim and raise his daughter. Produced for $60,000, the film explores the connections between the Vietnam War, drug addiction, and crime\u2014juxtaposing these against Mexican American family, culture and spirituality."
     },
     {
-      "title": "Rushmore",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/9999005049-rushmore/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31230",
-      "year": "1998",
-      "director": "Wes Anderson",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Sun Nov1 7:50pm"
-      ],
-      "show_dates": [
-        "2026-11-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Extracurricular-mad but otherwise unpromising 15-year-old student Max Fisher (Jason Schwartzman) is too busy competing (or so he thinks) with sad sack industrialist Bill Murray for the affections of teacher Olivia Williams to survive \u201csudden death\u2026"
-    },
-    {
       "title": "Sad Vacation",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/9999005077-sad-vacation/",
@@ -12531,7 +12256,6 @@
         "Thu Nov12 1:00pm"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-12"
       ],
       "date_start": "",
@@ -12669,10 +12393,12 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-07",
+        "2026-11-09"
       ],
       "date_start": "",
       "date_end": "",
@@ -13242,27 +12968,6 @@
       "description": "New 4K Restoration by IndieCollect Directed by the legendary Gordon Parks and based on Northup's 1853 memoir, this tour de force recounts the true story of a free Black man kidnapped in 1841 and sold into slavery. The film predates 12 Years a Slave by 30 years and equals its narrative power. Originally broadcast on public television as part of the \"American Playhouse\" series, Solomon Northup's Odyssey was never seen in theaters\u2014until now. For this new 4K restoration, IndieCollect scanned the original camera negative and did extensive color correction in consultation with DP Hiro Narita. The restoration was made possible with support from Ford Foundation/JustFilms and Golden Globe Foundation. Q&A on Friday, 4/3 at 7pm with Eva Yuma, restoration colorist, and Melissa Howell, 3rd great-granddaughter of Solomon Northup, moderated by Sandra Schulberg, founder of Indiecollect Q&A following the 4/4, 5:30pm screening with Dr. Sheril Antonio (NYU professor and author of Contemporary African American Cinema ) in conversation with Warrington Hudlin, co-founder of Black Filmmaker Foundation"
     },
     {
-      "title": "Something Special (Willy/Milly)",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/9999005052-something-special-willy-milly/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31233",
-      "year": "1986",
-      "director": "Paul Schneider",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Sun Nov1 7:45pm"
-      ],
-      "show_dates": [
-        "2026-11-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Introduction and post-screening discussion by Jenni Olson moderated by filmmaker, film critic and writer Drew Burnett Gregory on Saturday, October 24th"
-    },
-    {
       "title": "Somewhere in the Night",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/9999005091-somewhere-in-the-night/",
@@ -13537,10 +13242,10 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-05"
       ],
       "date_start": "",
       "date_end": "",
@@ -13667,6 +13372,25 @@
       "date_start": "2026-07-24",
       "date_end": "2026-07-24",
       "description": "After saving a Black Panther from racist cops, a Black male prostitute goes on the run from \u201cthe man\u201d with the help of the ghetto community and some disillusioned Hells Angels. Deemed by Huey P. Newton \u201cthe first truly revolutionary Black film made,\u201d Peebles' landmark 1971 film catalyzed a whole genre of blaxploitation, a cultural touchstone of the \u201870s. Soundtracked by the thumping basslines of then-unknown Earth, Wind & Fire, Peebles\u2019 opus became the blueprint for not just the genre it birthed, but soul music\u2019s ongoing symbiosis with cinema."
+    },
+    {
+      "title": "Swingers",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/swingers",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/swingers",
+      "year": "1996",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-05"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "A wannabe actor has a hard time moving on from a breakup, but he is lucky to have supportive friends."
     },
     {
       "title": "Taking Of Pelham 123",
@@ -14299,6 +14023,31 @@
       "description": "This whimsical romp follows a tabby from, you guessed it, outer space. When a stranded UFO is impounded by the US government, the suits are surprised (and a bit bemused) to find a cat in its pilot seat, donning a special collar that grants the ability to communicate with humans. Jake the cat (played by Rumpler and Amber, brother and sister Abyssinian cats) must seek the help of a scientist to repair his ship and return home in this underrated, quintessential 1970s Disney comedy."
     },
     {
+      "title": "The Cat in the Hat (2026)",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/the-cat-in-the-hat-2026",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/the-cat-in-the-hat-2026",
+      "year": "2026",
+      "director": "Alessandro Carloni, Erica Rivinoja",
+      "cast": "Bill Hader, Xochitl Gomez, Tiago Martinez, Quinta Brunson, America Ferrera, Matt Berry",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "Dr. Seuss\u2019s iconic Cat in the Hat gets its first animated big-screen adventure, with Bill Hader voicing the striped-hat troublemaker on a mission to cheer up siblings Gabby and Sebastian after a move to a new town. Fantastical worlds, magical mayhem, and Matt Berry voicing a goldfish \u2013 this movie has everyTHING. And if you\u2019re still recovering from the emotional trauma of the 2003 live-action Mike Myers version, consider this your chance to make some new memories."
+    },
+    {
       "title": "The Celebration",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/9999005092-the-celebration/",
@@ -14413,27 +14162,6 @@
       "description": "Billionaire vigilante Batman (Christian Bale), district attorney Harvey Dent (Aaron Eckhart), and police lieutenant Jim Gordon (Gary Oldman), working together to eliminate Gotham's organized crime, are confronted and confounded by a chaotic criminal mastermind known as the Joker (Heath Ledger). Made in the wake of the 2001 Patriot Act and the rise of technological mass surveillance, Batman\u2019s path to justice in the film recalls the Bush administration\u2019s violation of civil liberties in the name of safety. One of the highest-grossing films of all time, The Dark Knight established the template for the modern super-hero movie, and earned Ledger posthumous Academy, BAFTA, and Golden Globe awards."
     },
     {
-      "title": "THE DAY AFTER HALLOWEEN",
-      "theater": "Film Noir Cinema",
-      "url": "https://www.filmnoircinema.com/program/2026/11/1/the-day-after-halloween",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "2022",
-      "director": "",
-      "cast": "",
-      "country": "US",
-      "showtimes": [
-        "Nov 1 6:00\u202fPM"
-      ],
-      "show_dates": [
-        "2026-11-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Two lifelong buddies must unravel the circumstances that led to a corpse in their bathtub in the wake of a halloween\u00a0party. Trailer:https://vimeo.com/1018350856?share=copy&fl=sv&fe=ci Tickets:https://www.eventbrite.com/e/the-day-after-halloween-tickets-2003529318124?aff=oddtdtcreator"
-    },
-    {
       "title": "The Daytrippers",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/urban-odysseys-the-daytrippers",
@@ -14481,37 +14209,23 @@
       "url": "https://www.ifccenter.com/films/the-devils/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=587141~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=587162~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "1971",
       "director": "Ken Russell",
       "cast": "Vanessa Redgrave, Oliver Reed",
       "country": "UK",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
-        "2026-11-05"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": ""
-    },
-    {
-      "title": "The Devils",
-      "theater": "Film at Lincoln Center",
-      "url": "https://www.filmlinc.org/films/the-devils/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "1971",
-      "director": "Ken Russell",
-      "cast": "Vanessa Redgrave, Oliver Reed",
-      "country": "UK",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-01"
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -14658,17 +14372,15 @@
       "url": "https://metrograph.com/film/9999005062-the-gorgon/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31185",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31305",
       "year": "1964",
       "director": "Terence Fisher",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sun Nov1 4:00pm",
         "Sun Nov8 5:45pm"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-08"
       ],
       "date_start": "",
@@ -14726,7 +14438,6 @@
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04"
@@ -14741,14 +14452,13 @@
       "url": "https://lowcinema.com/movie/the-history-of-concrete/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://lowcinema.com/checkout/2a480e45-9bfa-4fe2-ab25-188edc45c39b/",
+      "booking_url": "https://lowcinema.com/movie/the-history-of-concrete/",
       "year": "2026",
       "director": "John Wilson",
       "cast": "",
       "country": "USA",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -14759,27 +14469,6 @@
       "date_start": "",
       "date_end": "",
       "description": "A filmmaker applies lessons from a Hallmark movie writing workshop to pitch a documentary about concrete. * Q&A after the Monday, September 21st screenings with director John Wilson * Probably some other ones too just don't know yet"
-    },
-    {
-      "title": "The Hound of the Baskervilles",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/9999005048-the-hound-of-the-baskervilles/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31234",
-      "year": "1959",
-      "director": "Terence Fisher",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Sun Nov1 5:50pm"
-      ],
-      "show_dates": [
-        "2026-11-01"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "An ardent aficionado of the work of Sir Arthur Conan Doyle, Cushing takes over the chambers at 221B Baker Street with aplomb and gives us a Sherlock for the ages in Fisher\u2019s adaptation of the 1902 Holmes adventure of the same name, in which our hero is\u2026"
     },
     {
       "title": "The Housemaid",
@@ -14832,7 +14521,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-03",
         "2026-11-04"
       ],
@@ -14942,6 +14630,26 @@
       "description": "Ingmar Bergman's 1958 feature is an engaging, brilliantly conceived tale of deceit from one of cinema\u2019s premier illusionists. Max von Sydow stars as Dr. Vogler, a nineteenth-century traveling mesmerist and peddler of potions, whose magic is put to the test in Stockholm by the cruel, eminently rational royal medical adviser Dr. Verg\u00e9rus. The result is a diabolically clever battle of wits that\u2019s both frightening and funny, shot in rich, gorgeously gothic black-and-white."
     },
     {
+      "title": "The Magnificent Ambersons",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/the-magnificent-ambersons",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/the-magnificent-ambersons",
+      "year": "1942",
+      "director": "Orson Welles",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "The young, handsome, but somewhat wild Eugene Morgan wants to marry Isabel Amberson, daughter of a rich upper-class family, but she instead marries dull and steady Wilbur Minafer. Their only child, George, grows up a spoiled brat. Years later, Eugene comes back, now a mature widower and a successful automobile maker. After Wilbur dies, Eugene again asks Isabel to marry him, and she is receptive. But George resents the attentions paid to his mother, and he and his whacko aunt Fanny manage to sabotage the romance. A series of disasters befall the Ambersons and George, and he gets his come-uppance in the end.\n4k DCP courtesy of Warner Bros."
+    },
+    {
       "title": "The Man Died",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/filmafrica-the-man-died",
@@ -15025,18 +14733,16 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/the-only-living-pickpocket-in-new-york/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24752510/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24750202/",
       "year": "2026",
       "director": "Noah Segan",
       "cast": "John Turturro, Giancarlo Esposito, Will Price, Tatiana Maslany, Victoria Moroles, Steve Buscemi",
       "country": "",
       "showtimes": [
-        "Sun Nov 1 2:30 pm",
-        "Sun Nov 1 7:00 pm",
-        "Sun Nov 1 9:45 pm"
+        "Mon Nov 2 6:45 pm",
+        "Mon Nov 2 10:15 pm"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -15059,11 +14765,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
-        "2026-11-05"
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -15081,16 +14792,8 @@
       "cast": "John Turturro, Giancarlo Esposito, Will Price, Tatiana Maslany, Victoria Moroles, Steve Buscemi, and Jamie Lee Curtis",
       "country": "",
       "showtimes": [
-        "Sun Nov 1 2:40 PM",
-        "Sun Nov 1 4:55 PM",
-        "Sun Nov 1 7:00 PM",
-        "Sun Nov 1 9:15 PM",
-        "Mon Nov 2 10:30 AM",
-        "Mon Nov 2 12:45 PM",
-        "Mon Nov 2 3:00 PM",
-        "Mon Nov 2 5:15 PM",
-        "Mon Nov 2 9:55 PM",
         "Mon Nov 2 7:40 PM",
+        "Mon Nov 2 9:55 PM",
         "Tue Nov 3 10:30 AM",
         "Tue Nov 3 12:45 PM",
         "Tue Nov 3 3:00 PM",
@@ -15109,7 +14812,6 @@
         "Thu Nov 5 8:35 PM"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -15132,37 +14834,20 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
       ],
       "date_start": "",
       "date_end": "",
       "description": "Harry Lehman (John Turturro) is an aging pickpocket who plies his trade with ever-diminishing returns in a drastically changed New York. Wallets stuffed with cash have been replaced by easily canceled credit cards, and Harry struggles to make ends meet as he cares for his disabled wife, Rosie. When he unwittingly purloins and fences a valuable USB stick, Harry finds himself in a race against time to return the loot or face the rage of a vengeful crime family."
-    },
-    {
-      "title": "The Only Living Pickpocket in New York",
-      "theater": "Cobble Hill Cinemas",
-      "url": "https://www.hk-cinemas.com",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://www.hk-cinemas.com",
-      "year": "2026",
-      "director": "Noah Segan",
-      "cast": "John Turturro, Giancarlo Esposito, Will Price, Tatiana Maslany, Victoria Moroles, Steve Buscemi",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-01",
-        "2026-11-02",
-        "2026-11-03",
-        "2026-11-04",
-        "2026-11-05"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Harry Lehman is an aging pickpocket who plies his trade with ever-diminishing returns in a drastically changed New York. Wallets stuffed with cash have been replaced by easily cancelled credit cards, and Harry struggles to make ends meet as he cares for his disabled wife, Rosie. When he unwittingly purloins and fences a valuable USB stick, Harry finds himself in a race against time to return the loot or face the rage of a vengeful crime family."
     },
     {
       "title": "The Only Living Pickpocket in New York",
@@ -15177,11 +14862,17 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
-        "2026-11-05"
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12"
       ],
       "date_start": "",
       "date_end": "",
@@ -15200,11 +14891,17 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
-        "2026-11-05"
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12"
       ],
       "date_start": "",
       "date_end": "",
@@ -15223,36 +14920,21 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
-        "2026-11-05"
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12"
       ],
       "date_start": "",
       "date_end": "",
       "description": "Harry Lehman is an aging pickpocket who plies his trade with ever-diminishing returns in a drastically changed New York. Wallets stuffed with cash have been replaced by easily cancelled credit cards, and Harry struggles to make ends meet as he cares for his disabled wife, Rosie. When he unwittingly purloins and fences a valuable USB stick, Harry finds himself in a race against time to return the loot or face the rage of a vengeful crime family."
-    },
-    {
-      "title": "The Parallax View",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/9999005100-the-parallax-view/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31319",
-      "year": "1974",
-      "director": "Alan J. Pakula",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        "Mon Nov2 4:00pm"
-      ],
-      "show_dates": [
-        "2026-11-02"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "After an ex-girlfriend comes to him with an eyewitness report on the assassination of a sitting U.S. senator at the Seattle Space Needle that contravenes the official story, anti-authoritarian investigative reporter Warren Beatty follows a thread that\u2026"
     },
     {
       "title": "The Pawnbroker",
@@ -15419,6 +15101,26 @@
       "description": "Celebrated Japanese horror director Kiyoshi Kurosawa ( Cure , Serpent\u2019s Path ) explores a new path in this lush treatment of Honobu Yonezawa's prizewinning historical novel, detailing palace intrigue in the court of a samurai nobleman during the Azuchi era at the end of the 16th century. Turning against Oda Nobunaga, the ruthless, power-hungry warlord he previously served, Araki Murashige (Masahiro Motoki, of Departures ) is besieged by Oda\u2019s forces and bedevilled by a series of inexplicable crimes in his household. As tension rises and loyalties fray, Murashige is forced to strategize with Kuroda Kanbei (Masaki Suda, of Kurosawa\u2019s 2024 thriller Cloud ), a samurai envoy sent by Oda and imprisoned by Murashige, while his wife Chiyoho (Yuriko Yoshitaka) and loyalists fight to preserve order."
     },
     {
+      "title": "The Scout",
+      "theater": "Low Cinema",
+      "url": "https://lowcinema.com/movie/the-scout/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://lowcinema.com/checkout/ea4cd801-6f90-46c2-a03e-8e597a0109b4/",
+      "year": "2025",
+      "director": "Paula Andrea Gonzalez-Nasser",
+      "cast": "",
+      "country": "USA",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-09",
+        "2026-11-11"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "Q&A on 11/9 with director Paula Andrea Gonzalez-Nasser, producer/editor Ryan Martin Brown, and actor Mimi Davila. Moderated by Carrie Carusone ( It Ends ). A New York City location scout photographs the homes of strangers for a T.V. pilot, stepping into their private lives while trying to satisfy her erratic employers."
+    },
+    {
       "title": "The Secret Agent",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2025/the-secret-agent",
@@ -15434,6 +15136,26 @@
       "date_start": "",
       "date_end": "",
       "description": "Set in Brazil in 1977, the most awarded film at Cannes this year stars Wagner Moura ( Narcos , Civil War ) as Marcelo, a former teacher and political dissident on the run during the waning years of Brazil\u2019s military dictatorship. Hoping to reunite with his son, he travels to Recife during Carnival but quickly realizes that the city is not the safe haven he expected. Critics are calling Kleber Mendon\u00e7a Filho\u2019s vivid neo-noir thriller \u201ca masterpiece\u201d ( The Playlist ) and \u201csuperb in every way\u201d ( The Guardian )."
+    },
+    {
+      "title": "The Silence Of The Lambs",
+      "theater": "Nitehawk (Williamsburg)",
+      "url": "https://nitehawkcinema.com/williamsburg/movies/silence-of-the-lambs/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1991",
+      "director": "Jonathan Demme",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-06",
+        "2026-11-09"
+      ],
+      "date_start": "2026-11-06",
+      "date_end": "2026-11-06",
+      "description": ""
     },
     {
       "title": "The Smallest Show On Earth + Box Office Bunny",
@@ -16344,10 +16066,9 @@
       "cast": "Isaac Mizrahi, Linda Evangelista, Naomi Campbell, Cindy Crawford, Kate Moss Executive Producer Nina Santisi",
       "country": "U.S",
       "showtimes": [
-        "8:00(OC)"
+        "6:20(OC)"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -16520,6 +16241,25 @@
       "description": "Tom Cruise packs his oversize screen presence into a human-scale portrayal of Ray Ferrier, a divorced dockworker with weekend custody of his teenage son and young daughter, in Steven Spielberg\u2019s big-budget, high-octane take on the titular 1898 H.G. Wells novel about invaders from outer space. Transposing the action to the modern day, our greatest pop filmmaker mines American anxieties of destruction and invasion that defined the post-9/11 era."
     },
     {
+      "title": "We Own the Night",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/we-own-the-night",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://drafthouse.com/nyc/show/we-own-the-night",
+      "year": "2007",
+      "director": "",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-07"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "\"I\u2019d been trying to do something with cops as the subject\u2014but I\u2019d wanted the idea to have nothing to do with the procedural. I kept asking myself, \u2018what\u2019s in it for these people, emotionally? What is the true cost to their souls?\u2019 WE OWN THE NIGHT was born out of the desire to focus on the sincere and honest picture of a family at war with itself.\" - James GrayWhat if your own family stood in the way of everything you worked for? Bobby Green (Joaquin Phoenix) has forsaken his name to escape his family and their tradition in law enforcement to pursue his ambitions as a Brooklyn nightclub owner. As he turns a blind eye to the drug dealers around him, he comes face to face with the family he abandoned when his brother (Mark Wahlberg) and father (Robert Duvall) crack down on the club. Now Bobby must choose a side. Is he going to turn informant or will he help run the biggest crime ring in New York history? (Sony Pictures Entertainment)"
+    },
+    {
       "title": "Welcome Ii The Terrordome",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/welcome-ii-the-terrordome",
@@ -16585,7 +16325,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03"
       ],
@@ -16732,17 +16471,15 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/wicker/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24752523/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24749501/",
       "year": "2026",
       "director": "Alex Huston Fischer, Eleanor Wilson",
       "cast": "Olivia Colman, Alexander Skarsg\u00e5rd, Elizabeth Debicki, Peter Dinklage",
       "country": "",
       "showtimes": [
-        "Sun Nov 1 4:30 pm",
-        "Sun Nov 1 9:15 pm"
+        "Mon Nov 2 9:30 pm"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -16764,14 +16501,8 @@
       "cast": "Alexander Skarsg\u00e5rd, Olivia Colman, Elizabeth Debicki",
       "country": "",
       "showtimes": [
-        "Sun Nov 1 3:45 PM",
-        "Sun Nov 1 6:20 PM",
-        "Sun Nov 1 9:30 PM",
-        "Mon Nov 2 10:45 AM",
-        "Mon Nov 2 3:45 PM",
         "Mon Nov 2 6:20 PM",
         "Mon Nov 2 9:40 PM",
-        "Mon Nov 2 1:15 PM",
         "Tue Nov 3 10:30 AM",
         "Tue Nov 3 1:00 PM",
         "Tue Nov 3 3:30 PM",
@@ -16787,7 +16518,6 @@
         "Thu Nov 5 6:00 PM"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -16810,14 +16540,66 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
       ],
       "date_start": "",
       "date_end": "",
       "description": "An audacious comedic fable about sex, marriage, and the absurdities of social convention, WICKER tells the wholly original love story of an ostracized fisherwoman (Olivia Colman) who commissions a husband to be made by the local basketmaker (Peter Dinklage). When her wicker husband (Alexander Skarsg\u00e5rd) proves more spectacular than she ever imagined, his soulful spirit and unique prowess awaken something inside her, setting off a wave of jealousy, fascination, and upheaval that threatens the very fabric of village life."
+    },
+    {
+      "title": "Wild at Heart - UNRATED",
+      "theater": "Cobble Hill Cinemas",
+      "url": "https://www.hk-cinemas.com",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://www.hk-cinemas.com",
+      "year": "",
+      "director": "David Lynch",
+      "cast": "",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-02",
+        "2026-11-04"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "Young lovers Sailor and Lula hit the road to start a new life together away from the wrath of Lula&rsquo;s deranged, disapproving mother, who has hired a team of hitmen to cut the lovers&rsquo; surreal honeymoon short. including bonus content"
+    },
+    {
+      "title": "Wild Horse Nine",
+      "theater": "Nitehawk (Williamsburg)",
+      "url": "https://nitehawkcinema.com/williamsburg/movies/wild-horse-nine/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "2026",
+      "director": "Martin McDonagh",
+      "cast": "John Malkovich, Sam Rockwell, Steve Buscemi, Mariana di Girolamo, Ail\u00edn Salas, Tom Waits, Parker Posey",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12"
+      ],
+      "date_start": "2026-11-05",
+      "date_end": "2026-11-05",
+      "description": "Shortly before the 1973 Chilean coup, CIA agents Chris (John Malkovich) and Lee (Sam Rockwell) are dispatched from Santiago to Easter island by their bureau chief, MJ (Steve Buscemi). Amongst the Island&#39;s iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris&#39;s newfound bond with a pair of rebellious students (Mariana di Girolamo and Ail&iacute;n Salas) threatens to send everyone&rsquo;s trip to this remote paradise sideways."
     },
     {
       "title": "Wild Horse Nine",
@@ -16836,56 +16618,26 @@
         "Thu Nov 5 5:45 PM",
         "Thu Nov 5 7:30 PM",
         "Thu Nov 5 8:30 PM",
-        "Fri Nov 6 10:00 AM",
-        "Fri Nov 6 11:00 AM",
-        "Fri Nov 6 12:40 PM",
         "Fri Nov 6 1:45 PM",
         "Fri Nov 6 3:25 PM",
-        "Fri Nov 6 4:30 PM",
         "Fri Nov 6 6:10 PM",
         "Fri Nov 6 7:20 PM",
         "Fri Nov 6 8:55 PM",
         "Fri Nov 6 10:05 PM",
-        "Sat Nov 7 10:00 AM",
-        "Sat Nov 7 11:00 AM",
         "Sat Nov 7 1:45 PM",
         "Sat Nov 7 3:25 PM",
         "Sat Nov 7 4:30 PM",
         "Sat Nov 7 6:10 PM",
         "Sat Nov 7 7:20 PM",
-        "Sat Nov 7 8:55 PM",
-        "Sat Nov 7 10:05 PM",
-        "Sat Nov 7 12:40 PM",
-        "Sun Nov 8 10:00 AM",
         "Sun Nov 8 11:00 AM",
-        "Sun Nov 8 12:40 PM",
         "Sun Nov 8 1:45 PM",
         "Sun Nov 8 3:25 PM",
-        "Sun Nov 8 6:10 PM",
-        "Sun Nov 8 7:20 PM",
-        "Sun Nov 8 8:55 PM",
-        "Sun Nov 8 10:05 PM",
-        "Sun Nov 8 4:30 PM",
-        "Mon Nov 9 10:00 AM",
         "Mon Nov 9 12:40 PM",
         "Mon Nov 9 4:30 PM",
-        "Mon Nov 9 9:30 PM",
         "Mon Nov 9 6:00 PM",
-        "Tue Nov 10 11:00 AM",
-        "Tue Nov 10 1:45 PM",
-        "Tue Nov 10 4:30 PM",
-        "Tue Nov 10 7:20 PM",
-        "Tue Nov 10 10:05 PM",
-        "Wed Nov 11 11:00 AM",
+        "Tue Nov 10 3:25 PM",
         "Wed Nov 11 1:45 PM",
-        "Wed Nov 11 4:30 PM",
-        "Wed Nov 11 7:20 PM",
-        "Wed Nov 11 10:05 PM",
-        "Thu Nov 12 11:00 AM",
-        "Thu Nov 12 1:45 PM",
-        "Thu Nov 12 4:30 PM",
-        "Thu Nov 12 7:20 PM",
-        "Thu Nov 12 10:05 PM"
+        "Thu Nov 12 7:20 PM"
       ],
       "show_dates": [
         "2026-11-05",
@@ -16902,23 +16654,29 @@
       "description": "Shortly before the 1973 Chilean coup, CIA agents Chris (John Malkovich) and Lee (Sam Rockwell) are dispatched from Santiago to Easter island by their bureau chief, MJ (Steve Buscemi). Amongst the Island&#39;s iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris&#39;s newfound bond with a pair of rebellious students (Mariana di Girolamo and Ail&iacute;n Salas) threatens to send everyone&rsquo;s trip to this remote paradise sideways."
     },
     {
-      "title": "Wild River",
-      "theater": "Paris Theater",
-      "url": "https://www.paristheaternyc.com/film/wild-river-paris",
+      "title": "Wild Horse Nine",
+      "theater": "Alamo Drafthouse NYC",
+      "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "",
-      "year": "",
-      "director": "Elia Kazan",
-      "cast": "Montgomery Clift, \\nLee Remick, \\nJo Van Fleet",
+      "booking_url": "https://drafthouse.com/nyc/show/wild-horse-nine",
+      "year": "2026",
+      "director": "Martin McDonagh",
+      "cast": "John Malkovich, Sam Rockwell, Steve Buscemi, Mariana di Girolamo, Ail\u00edn Salas, Tom Waits, Parker Posey",
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01"
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
       ],
-      "date_start": "2026-11-01",
-      "date_end": "2026-11-01",
-      "description": "LA BOLA NEGRA is a bold, passionate triptych spanning nearly a century of Spanish history from the 30s to modern day. The film tells the story of three men whose lives are intimately connected through desire, pain, and inheritance."
+      "date_start": "",
+      "date_end": "",
+      "description": "We\u2019re excited for any new movie by Martin McDonagh (THE BANSHEES OF INISHERIN, IN BRUGES), but especially one starring Sam Rockwell, John Malkovich, Parker Posey, and Steve Buscemi. Set on Easter Island just before the 1973 Chilean coup, WILD HORSE NINE sends two CIA agents into a remote paradise where old grudges, conspiracies, and rebellious students complicate their mission. Did we mention Tom Waits is also in this movie? Prepare to be utterly charmed."
     },
     {
       "title": "Wild Things",
@@ -16952,7 +16710,6 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04"
@@ -16974,10 +16731,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -17086,18 +16849,17 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/you-can-see-everything/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24752519/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/24749493/",
       "year": "2026",
       "director": "Lance Oppenheim, Nathan Fielder",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Sun Nov 1 4:00 pm",
-        "Sun Nov 1 7:45 pm",
-        "Sun Nov 1 8:45 pm"
+        "Mon Nov 2 6:00 pm",
+        "Mon Nov 2 8:45 pm",
+        "Mon Nov 2 9:45 pm"
       ],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
@@ -17120,11 +16882,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
-        "2026-11-05"
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -17143,10 +16910,16 @@
       "country": "",
       "showtimes": [],
       "show_dates": [
-        "2026-11-01",
         "2026-11-02",
         "2026-11-03",
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
       ],
       "date_start": "",
       "date_end": "",
@@ -17158,13 +16931,12 @@
       "url": "https://metrograph.com/film/9999005068-zi/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31284",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31293",
       "year": "2026",
       "director": "Kogonada .",
       "cast": "",
       "country": "",
       "showtimes": [
-        "Fri Nov6 6:30pm",
         "Sat Nov7 5:15pm",
         "Sun Nov8 7:00pm",
         "Wed Nov11 7:30pm",
