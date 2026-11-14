@@ -355,7 +355,7 @@
       border: 1px solid var(--border);
       border-radius: 12px;
       padding: 28px 32px;
-      max-width: 540px;
+      max-width: 640px;
       width: 100%;
       max-height: 90vh;
       overflow-y: auto;
@@ -417,11 +417,13 @@
       line-clamp: 5;
       -webkit-box-orient: vertical;
       overflow: hidden;
+      white-space: pre-line;
     }
     #modal-desc.expanded {
       display: block;
       overflow: visible;
     }
+    .c-dates .next-time { color: var(--text); font-variant-numeric: tabular-nums; }
     #modal-more {
       display: none;
       margin-top: 8px;
@@ -492,11 +494,18 @@
 <div id="modal-overlay" role="dialog" aria-modal="true">
   <div id="modal">
     <button id="modal-close" aria-label="Close">✕</button>
-    <div id="modal-title"></div>
-    <div id="modal-meta"></div>
-    <div id="modal-cast"></div>
+    <div class="fd-head">
+      <div id="modal-poster"></div>
+      <div class="fd-head-text">
+        <div id="modal-title"></div>
+        <div id="modal-meta"></div>
+        <div id="modal-links"></div>
+        <div id="modal-cast"></div>
+      </div>
+    </div>
     <div id="modal-desc"></div>
     <button id="modal-more">show more ↓</button>
+    <div id="modal-dates"></div>
   </div>
 </div>
 
@@ -544,6 +553,7 @@
   </table>
 </div>
 
+<script src="film-details.js"></script>
 <script>
   // ── Theater fallback URLs ──
   const THEATER_URLS = {
@@ -600,6 +610,10 @@
           director:    r.director    || '',
           country:     r.country     || '',
           description: r.description || '',
+          cast:        r.cast        || '',
+          poster:      r.poster      || '',
+          letterboxd_url:    r.letterboxd_url    || '',
+          letterboxd_rating: r.letterboxd_rating || '',
           status:      r.status,
           opens:       r.opens       || '',
           show_dates:  [],
@@ -612,6 +626,8 @@
       if (!g.director    && r.director)    g.director    = r.director;
       if (!g.country     && r.country)     g.country     = r.country;
       if (!g.description && r.description) g.description = r.description;
+      for (const f of ['cast', 'poster', 'letterboxd_url', 'letterboxd_rating'])
+        if (!g[f] && r[f]) g[f] = r[f];
       if (r.opens && (!g.opens || parseOpens(r.opens) < parseOpens(g.opens))) {
         g.opens = r.opens;
       }
@@ -621,9 +637,15 @@
       }
       g.theaters.push({
         name:        r.theater,
+        url:         r.url || '',
         booking_url: r.booking_url || '',
         status:      r.status,
         opens:       r.opens || '',
+        showtimes:   r.showtimes || [],
+        notes:       r.notes || [],
+        show_dates:  r.show_dates || [],
+        date_start:  r.date_start || '',
+        date_end:    r.date_end || '',
       });
     }
     return Array.from(map.values());
@@ -740,13 +762,32 @@
 
       const MONTH_ABBR = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
       const DAY_ABBR   = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+      const fmtIso = iso => {
+        const [y, mo, d] = iso.split('-').map(Number);
+        const dt = new Date(y, mo - 1, d);
+        return `${DAY_ABBR[dt.getDay()]} ${MONTH_ABBR[dt.getMonth()]} ${d}`;
+      };
+      const _t = new Date();
+      const todayIso = `${_t.getFullYear()}-${String(_t.getMonth()+1).padStart(2,'0')}-${String(_t.getDate()).padStart(2,'0')}`;
+      // Next few days with showtimes (times de-duplicated across theaters)
+      const byDay = new Map();
+      m.theaters.forEach(t => (t.showtimes || []).forEach(s => {
+        if (s.date < todayIso || !s.time) return;
+        if (!byDay.has(s.date)) byDay.set(s.date, new Set());
+        byDay.get(s.date).add(s.time);
+      }));
+      const timeDays = [...byDay.keys()].sort();
+      const upcomingDates = (m.show_dates || []).filter(d => d >= todayIso);
       let datesHtml = '';
-      if (m.show_dates && m.show_dates.length) {
-        datesHtml = m.show_dates.map(iso => {
-          const [y, mo, d] = iso.split('-').map(Number);
-          const dt = new Date(y, mo - 1, d);
-          return `${DAY_ABBR[dt.getDay()]} ${MONTH_ABBR[dt.getMonth()]} ${d}`;
+      if (timeDays.length) {
+        datesHtml = timeDays.slice(0, 3).map(d => {
+          const times = [...byDay.get(d)].slice(0, 4).join(', ') + (byDay.get(d).size > 4 ? '…' : '');
+          return `${fmtIso(d)} <span class="next-time">${esc(times)}</span>`;
         }).join('<br>');
+        if (timeDays.length > 3) datesHtml += `<br>+${timeDays.length - 3} more days`;
+      } else if (upcomingDates.length) {
+        datesHtml = upcomingDates.slice(0, 4).map(fmtIso).join('<br>');
+        if (upcomingDates.length > 4) datesHtml += `<br>+${upcomingDates.length - 4} more`;
       } else if (m.opens) {
         datesHtml = `Opens ${esc(m.opens)}`;
       }
@@ -825,6 +866,9 @@
     const castEl = document.getElementById('modal-cast');
     castEl.textContent = m.cast ? `Cast: ${m.cast}` : '';
     castEl.style.display = m.cast ? '' : 'none';
+    document.getElementById('modal-poster').innerHTML = FilmDetails.posterHtml(m);
+    document.getElementById('modal-links').innerHTML = FilmDetails.linksHtml(m, cleanTitle(m.title));
+    document.getElementById('modal-dates').innerHTML = FilmDetails.theatersHtml(m.theaters);
     const descEl = document.getElementById('modal-desc');
     const moreBtn = document.getElementById('modal-more');
     descEl.classList.remove('expanded');

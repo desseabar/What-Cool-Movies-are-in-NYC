@@ -35,7 +35,25 @@ python3 scraper.py --html --json
 
 # Update the GitHub Pages data file
 python3 scraper.py --site
+
+# Faster run without poster/cast/Letterboxd lookups, or a single theater
+python3 scraper.py --no-letterboxd --only metrograph
 ```
+
+### Posters, cast, and Letterboxd links
+
+After scraping, `letterboxd.py` looks each film up via IMDb's title-suggestion endpoint
+(title + year), follows `letterboxd.com/imdb/<id>/` to the Letterboxd film page, and reads its
+poster, directors, top-billed cast, and average rating. Matches are checked against the
+theater's year and director. Results — including misses — are cached in
+`letterboxd_cache.json` (committed by the GitHub Action), so daily runs only look up new films.
+
+### Not scraped
+
+Some theater sites sit behind Cloudflare bot challenges and can't be read by a plain HTTP
+scraper: **Cinema Village** (entire site), the **Paris Theater** ticketing site (daily times —
+the film list itself is scraped), and currently **Film at Lincoln Center** and the **HK Cinemas**
+API (both return 403).
 
 ### Output files
 
@@ -107,5 +125,9 @@ Each film is a `Movie` dataclass with these fields:
 | `director` | Director name(s) |
 | `cast` | Top-billed cast |
 | `country` | Country of origin |
-| `showtimes` | List of showtime strings |
-| `description` | Film synopsis |
+| `showtimes` | `[{"date": "YYYY-MM-DD", "time": "6:30 PM", "url": "...", "label": "35mm"}]` |
+| `show_dates` | Every date the film screens (ISO) |
+| `description` | Film synopsis (event blurbs are moved to `notes`) |
+| `notes` | Event info: Q&As, introductions, print formats |
+| `poster` | Poster image URL (Letterboxd, else IMDb or the theater) |
+| `letterboxd_url` / `letterboxd_rating` | Letterboxd film page and average rating |

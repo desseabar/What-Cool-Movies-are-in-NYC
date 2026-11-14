@@ -337,7 +337,7 @@
       border: 1px solid #333;
       border-radius: 8px;
       padding: 28px 32px;
-      max-width: 540px;
+      max-width: 640px;
       width: 90vw;
       max-height: 80vh;
       overflow-y: auto;
@@ -352,7 +352,8 @@
     #modal-title { font-family: 'Limelight', cursive; font-size: 1.2rem; margin-bottom: 8px; }
     #modal-meta  { font-size: 0.8rem; color: #aaa; margin-bottom: 10px; line-height: 1.7; }
     #modal-cast  { font-size: 0.8rem; color: #aaa; margin-bottom: 10px; }
-    #modal-desc  { font-size: 0.85rem; color: #ccc; line-height: 1.65; }
+    #modal-desc  { font-size: 0.85rem; color: #ccc; line-height: 1.65; white-space: pre-line; }
+    @media (max-width: 520px) { #modal { padding: 22px 16px; } }
     #modal-dates { margin-top: 12px; }
     .modal-theater-row { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; flex-wrap: wrap; }
     .modal-theater-link { font-size: 0.82rem; color: #e5c100; text-decoration: none; white-space: nowrap; }
@@ -413,14 +414,21 @@
 <div id="modal-overlay">
   <div id="modal">
     <button id="modal-close" onclick="closeModal()">✕</button>
-    <div id="modal-title"></div>
-    <div id="modal-meta"></div>
-    <div id="modal-cast"></div>
+    <div class="fd-head">
+      <div id="modal-poster"></div>
+      <div class="fd-head-text">
+        <div id="modal-title"></div>
+        <div id="modal-meta"></div>
+        <div id="modal-links"></div>
+        <div id="modal-cast"></div>
+      </div>
+    </div>
     <div id="modal-desc"></div>
     <div id="modal-dates"></div>
   </div>
 </div>
 
+<script src="film-details.js"></script>
 <script>
   // ── Helpers ──────────────────────────────────────────────────────────────
   function isoToDate(s) {
@@ -546,38 +554,20 @@
   // ── Modal ─────────────────────────────────────────────────────────────────
   function openModal(movie) {
     const parts = [];
-    if (movie.year)    parts.push(movie.year);
-    if (movie.country) parts.push(movie.country);
-    if (movie.director) parts.push('Dir. ' + movie.director);
-    document.getElementById('modal-title').textContent = cleanTitle(movie.title);
+    if (movie.year)    parts.push(esc(movie.year));
+    if (movie.country) parts.push(esc(movie.country));
+    if (movie.director) parts.push('Dir. ' + esc(movie.director));
+    const title = cleanTitle(movie.title);
+    document.getElementById('modal-title').textContent = title;
     document.getElementById('modal-meta').innerHTML  = parts.join(' &middot; ');
+    document.getElementById('modal-poster').innerHTML = FilmDetails.posterHtml(movie);
+    document.getElementById('modal-links').innerHTML = FilmDetails.linksHtml(movie, title);
     document.getElementById('modal-cast').textContent = movie.cast ? 'With ' + movie.cast : '';
     document.getElementById('modal-desc').textContent = movie.description || '';
-
-    function formatDates(show_dates, date_start, date_end) {
-      if (show_dates && show_dates.length) {
-        return show_dates.map(d => {
-          const dt = isoToDate(d);
-          return `${DAY_ABBR[dt.getDay()]} ${MONTH_ABBR[dt.getMonth()]} ${dt.getDate()}`;
-        }).join(', ');
-      }
-      if (date_start) {
-        const s = isoToDate(date_start);
-        let label = `${MONTH_ABBR[s.getMonth()]} ${s.getDate()}`;
-        if (date_end && date_end !== date_start) {
-          const e = isoToDate(date_end);
-          label += `–${MONTH_ABBR[e.getMonth()]} ${e.getDate()}`;
-        }
-        return label;
-      }
-      return '';
-    }
-
-    const theaters = movie.theaters && movie.theaters.length ? movie.theaters : [{ name: movie.theater, url: movie.url, show_dates: movie.show_dates || [], date_start: movie.date_start || '', date_end: movie.date_end || '' }];
-    document.getElementById('modal-dates').innerHTML = theaters.map(t => {
-      const dates = formatDates(t.show_dates, t.date_start, t.date_end);
-      return `<div class="modal-theater-row"><a href="${esc(t.url)}" target="_blank" class="modal-theater-link">${esc(t.name)}</a>${dates ? `<span class="modal-theater-dates">${esc(dates)}</span>` : ''}</div>`;
-    }).join('');
+    const theaters = movie.theaters && movie.theaters.length ? movie.theaters : [{
+      name: movie.theater, url: movie.url, showtimes: movie.showtimes || [], notes: movie.notes || [],
+      show_dates: movie.show_dates || [], date_start: movie.date_start || '', date_end: movie.date_end || '', opens: movie.opens || '' }];
+    document.getElementById('modal-dates').innerHTML = FilmDetails.theatersHtml(theaters);
     document.getElementById('modal-overlay').classList.add('open');
   }
   function closeModal() {
@@ -684,6 +674,7 @@
       // ── Text search ──
       if (q && !m.title.toLowerCase().includes(q) &&
           !(m.director||'').toLowerCase().includes(q) &&
+          !(m.cast||'').toLowerCase().includes(q) &&
           !(m.theater||'').toLowerCase().includes(q)) continue;
 
       // ── Theater filter ──
@@ -752,7 +743,7 @@
     let bodyHtml = '';
 
     for (const { m, colSet, nearestBefore, nearestAfter } of withDates) {
-      const mJson    = esc(JSON.stringify(m));
+      const mJson    = allMovies.indexOf(m);
       const bc       = barClass(m);
       const rowCls   = colSet.size === 0 ? ' class="out-of-window"' : '';
       const arrowCls   = `nav-arrow arrow-${bc.replace('bar-', '')}`;
@@ -761,16 +752,20 @@
       const rightArrow = nearestAfter
         ? `<span class="${arrowCls}" title="Jump to ${nearestAfter}" onclick="event.stopPropagation();navigateToDate('${nearestAfter}')">&#8594;</span>` : '';
 
-      bodyHtml += `<tr${rowCls} onclick="openModal(${mJson})">`;
+      bodyHtml += `<tr${rowCls} onclick="openModal(allMovies[${mJson}])">`;
       const key = normKey(m.title);
       const isSaved = savedFilms.has(key);
       bodyHtml += `<td class="title-col ${bc}" title="${esc(cleanTitle(m.title))} — ${esc(m.theater)}"><button class="save-btn${isSaved ? ' saved' : ''}" data-key="${esc(key)}" onclick="toggleSave(event,'${esc(key)}')" title="${isSaved ? 'Unsave' : 'Save'}">&#9733;</button>${esc(cleanTitle(m.title))}</td>`;
       bodyHtml += `<td class="nav-col">${leftArrow}</td>`;
       for (const col of cols) {
         const cls = ['day-col', col.isToday ? 'today-col' : '', col.isWeekend ? 'weekend-col' : ''].filter(Boolean).join(' ');
-        bodyHtml += colSet.has(col.iso)
-          ? `<td class="${cls}"><div class="bar ${bc}"></div></td>`
-          : `<td class="${cls}"></td>`;
+        if (colSet.has(col.iso)) {
+          const times = FilmDetails.timesOn(m.theaters, col.iso);
+          const tip = times.length ? ` title="${esc(times.join('\n'))}"` : '';
+          bodyHtml += `<td class="${cls}"${tip}><div class="bar ${bc}"></div></td>`;
+        } else {
+          bodyHtml += `<td class="${cls}"></td>`;
+        }
       }
       bodyHtml += `<td class="nav-col">${rightArrow}</td>`;
       bodyHtml += '</tr>';
@@ -784,7 +779,7 @@
       noDateSec.style.display = '';
       noDates.sort((a, b) => a.title.localeCompare(b.title));
       noDatePills.innerHTML = noDates.map(m =>
-        `<span class="pill" onclick="openModal(${esc(JSON.stringify(m))})" title="${esc(m.theater)}">${esc(m.title)}</span>`
+        `<span class="pill" onclick="openModal(allMovies[${allMovies.indexOf(m)}])" title="${esc(m.theater)}">${esc(m.title)}</span>`
       ).join('');
     } else {
       noDateSec.style.display = 'none';
@@ -827,7 +822,9 @@
       const byTitle = new Map();
       for (const m of (data.movies || [])) {
         const key = normKey(m.title);
-        const theaterEntry = { name: m.theater, url: m.url, show_dates: m.show_dates || [], date_start: m.date_start || '', date_end: m.date_end || '' };
+        const theaterEntry = { name: m.theater, url: m.url, booking_url: m.booking_url || '', showtimes: m.showtimes || [],
+                               notes: m.notes || [], opens: m.opens || '',
+                               show_dates: m.show_dates || [], date_start: m.date_start || '', date_end: m.date_end || '' };
         if (!byTitle.has(key)) {
           byTitle.set(key, Object.assign({}, m, { theaters: [theaterEntry] }));
         } else {
@@ -841,6 +838,8 @@
             existing.date_end = m.date_end;
           if (!existing.theater.includes(m.theater))
             existing.theater += ', ' + m.theater;
+          for (const f of ['poster', 'letterboxd_url', 'letterboxd_rating', 'cast', 'year', 'director', 'country', 'description'])
+            if (!existing[f] && m[f]) existing[f] = m[f];
         }
       }
       allMovies = Array.from(byTitle.values());

@@ -26,6 +26,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/movies.json
+          git add docs/movies.json letterboxd_cache.json
           git diff --staged --quiet || git commit -m "chore: update movie listings [skip ci]"
           git push
