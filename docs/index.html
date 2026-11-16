@@ -470,6 +470,9 @@
   let filterSaved        = false;
   let filterWeekend      = false;
   let filterThisWeekend  = false;
+  // Time-of-day filter (morning / afternoon / evening); remembered per browser
+  let timeBands = new Set();
+  try { timeBands = new Set(JSON.parse(localStorage.getItem('timeBands') || '[]')); } catch (_) {}
   let _wasWeekendOnly    = false;
   let savedFilms      = new Set(JSON.parse(localStorage.getItem('savedFilms') || '[]'));
 
@@ -567,8 +570,9 @@
     const theaters = movie.theaters && movie.theaters.length ? movie.theaters : [{
       name: movie.theater, url: movie.url, showtimes: movie.showtimes || [], notes: movie.notes || [],
       show_dates: movie.show_dates || [], date_start: movie.date_start || '', date_end: movie.date_end || '', opens: movie.opens || '' }];
-    document.getElementById('modal-dates').innerHTML = FilmDetails.theatersHtml(theaters);
+    document.getElementById('modal-dates').innerHTML = FilmDetails.scheduleHtml(theaters, { bands: timeBands });
     document.getElementById('modal-overlay').classList.add('open');
+    FilmDetails.layout(document.getElementById('modal-dates'));
   }
   function closeModal() {
     document.getElementById('modal-overlay').classList.remove('open');
@@ -686,14 +690,18 @@
       // ── Director dropdown filter ──
       if (activeDirector && (m.director || '') !== activeDirector) continue;
 
+      // ── Time-of-day filter: keep only dates with a screening in the chosen bands ──
+      const datesForM = timeBands.size ? FilmDetails.bandDates(m.theaters, timeBands) : movieDates(m);
+      if (timeBands.size && !datesForM.length) continue;
+
       // ── Saved / weekend / watchlist / director filters ──
       if (filterSaved && !savedFilms.has(normKey(m.title))) continue;
       if (filterThisWeekend) {
         const wknd = thisWeekendDates();
-        if (!movieDates(m).some(d => wknd.has(d))) continue;
+        if (!datesForM.some(d => wknd.has(d))) continue;
       }
       if (filterWeekend) {
-        const hasWeekend = movieDates(m).some(iso => { const d = isoToDate(iso).getDay(); return d === 0 || d === 5 || d === 6; });
+        const hasWeekend = datesForM.some(iso => { const d = isoToDate(iso).getDay(); return d === 0 || d === 5 || d === 6; });
         if (!hasWeekend) continue;
       }
       if (filterWatchlist && !wlTitles.has(normKey(m.title))) continue;
@@ -702,7 +710,7 @@
         if (!dirs.some(d => wlDirectors.has(d))) continue;
       }
 
-      const allDates = movieDates(m);
+      const allDates = datesForM;
       if (!allDates.length) { noDates.push(m); continue; }
 
       const colSet        = new Set(allDates.filter(d => d >= windowStartIso && d <= windowEndIso));
@@ -760,9 +768,7 @@
       for (const col of cols) {
         const cls = ['day-col', col.isToday ? 'today-col' : '', col.isWeekend ? 'weekend-col' : ''].filter(Boolean).join(' ');
         if (colSet.has(col.iso)) {
-          const times = FilmDetails.timesOn(m.theaters, col.iso);
-          const tip = times.length ? ` title="${esc(times.join('\n'))}"` : '';
-          bodyHtml += `<td class="${cls}"${tip}><div class="bar ${bc}"></div></td>`;
+          bodyHtml += `<td class="${cls}"><div class="bar ${bc}"></div></td>`;
         } else {
           bodyHtml += `<td class="${cls}"></td>`;
         }
@@ -870,6 +876,10 @@
       filterHtml += `<button class="filter-btn" id="weekend-filter-btn">Weekend showing</button>`;
       filterHtml += `<button class="filter-btn" id="wl-filter-btn">On my watchlist</button>`;
       filterHtml += `<button class="filter-btn" id="dir-filter-btn">Director on watchlist</button>`;
+      filterHtml += '<span class="filter-sep"></span>';
+      FilmDetails.BANDS.forEach(b => {
+        filterHtml += `<button class="filter-btn time-btn${timeBands.has(b.key) ? ' active' : ''}" data-band="${b.key}" title="Screenings ${b.hint}">${b.label}</button>`;
+      });
       filterRow.innerHTML = filterHtml;
 
       document.getElementById('theater-select').addEventListener('change', function() {
@@ -909,6 +919,13 @@
         this.classList.toggle('active', filterDirector);
         buildChart();
       });
+      document.querySelectorAll('.time-btn').forEach(btn => btn.addEventListener('click', function() {
+        const band = this.dataset.band;
+        if (timeBands.has(band)) timeBands.delete(band); else timeBands.add(band);
+        this.classList.toggle('active', timeBands.has(band));
+        try { localStorage.setItem('timeBands', JSON.stringify([...timeBands])); } catch (_) {}
+        buildChart();
+      }));
 
       buildChart();
     })

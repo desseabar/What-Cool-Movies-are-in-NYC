@@ -261,6 +261,14 @@
     .c-dir      { width: 140px; max-width: 160px; color: var(--muted);
                   white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .c-dates    { min-width: 140px; color: var(--muted); font-size: 0.8rem; line-height: 1.6; }
+    .title-theaters { display: none; }
+    @media (max-width: 640px) {
+      .c-title    { min-width: 0; max-width: none; width: 42%; }
+      .c-dates    { width: auto; min-width: 0; }
+      th.c-theaters, td.c-theaters { display: none; }
+      .title-theaters { display: block; margin-top: 4px; font-size: .74rem; line-height: 1.5; }
+      .title-theaters .theater-entry { line-height: 1.5; }
+    }
     .c-theaters { min-width: 180px; }
 
     .film-name {
@@ -423,7 +431,6 @@
       display: block;
       overflow: visible;
     }
-    .c-dates .next-time { color: var(--text); font-variant-numeric: tabular-nums; }
     #modal-more {
       display: none;
       margin-top: 8px;
@@ -528,6 +535,11 @@
   <div class="page-wrap">
     <div class="controls-sep"></div>
     <button class="filter-btn" id="saved-btn">Saved</button>
+
+    <div class="controls-sep"></div>
+    <button class="filter-btn time-btn" data-band="morning" title="Screenings before 12 PM">Morning</button>
+    <button class="filter-btn time-btn" data-band="afternoon" title="Screenings 12–5 PM">Afternoon</button>
+    <button class="filter-btn time-btn" data-band="evening" title="Screenings 5 PM–late">Evening</button>
 
     <div class="controls-sep" id="wl-sep" style="display:none"></div>
     <button class="filter-btn wl-btn" id="wl-title-btn" style="display:none">On my watchlist</button>
@@ -729,6 +741,13 @@
       list = list.filter(m => savedFilms.has(normTitle(m.title)));
     }
 
+    // Time-of-day filter: keep films with an upcoming screening in a chosen band
+    if (timeBands.size) {
+      const _d = new Date();
+      const today = `${_d.getFullYear()}-${String(_d.getMonth()+1).padStart(2,'0')}-${String(_d.getDate()).padStart(2,'0')}`;
+      list = list.filter(m => FilmDetails.bandDates(m.theaters, timeBands).some(d => d >= today));
+    }
+
     // Apply watchlist overlay filter
     if (watchlistFilter === 'title') {
       list = list.filter(m => watchlistTitles.has(normTitle(m.title)));
@@ -769,38 +788,28 @@
       };
       const _t = new Date();
       const todayIso = `${_t.getFullYear()}-${String(_t.getMonth()+1).padStart(2,'0')}-${String(_t.getDate()).padStart(2,'0')}`;
-      // Next few days with showtimes (times de-duplicated across theaters)
-      const byDay = new Map();
-      m.theaters.forEach(t => (t.showtimes || []).forEach(s => {
-        if (s.date < todayIso || !s.time) return;
-        if (!byDay.has(s.date)) byDay.set(s.date, new Set());
-        byDay.get(s.date).add(s.time);
-      }));
-      const timeDays = [...byDay.keys()].sort();
-      const upcomingDates = (m.show_dates || []).filter(d => d >= todayIso);
+      // Next few dates as timelines: one dot per screening, coloured by theater
+      // Dates only here — showtimes appear when you open the film.
+      // With a time filter on, list just the dates that have a screening in those hours.
+      const upcomingDates = (timeBands.size ? FilmDetails.bandDates(m.theaters, timeBands) : (m.show_dates || []))
+        .filter(d => d >= todayIso);
       let datesHtml = '';
-      if (timeDays.length) {
-        datesHtml = timeDays.slice(0, 3).map(d => {
-          const times = [...byDay.get(d)].slice(0, 4).join(', ') + (byDay.get(d).size > 4 ? '…' : '');
-          return `${fmtIso(d)} <span class="next-time">${esc(times)}</span>`;
-        }).join('<br>');
-        if (timeDays.length > 3) datesHtml += `<br>+${timeDays.length - 3} more days`;
-      } else if (upcomingDates.length) {
-        datesHtml = upcomingDates.slice(0, 4).map(fmtIso).join('<br>');
-        if (upcomingDates.length > 4) datesHtml += `<br>+${upcomingDates.length - 4} more`;
+      if (upcomingDates.length) {
+        datesHtml = upcomingDates.slice(0, 6).map(fmtIso).join('<br>');
+        if (upcomingDates.length > 6) datesHtml += `<br>+${upcomingDates.length - 6} more`;
       } else if (m.opens) {
         datesHtml = `Opens ${esc(m.opens)}`;
       }
 
-      const theatersHtml = m.theaters.map(t => {
-        const href = t.booking_url || THEATER_URLS[t.name] || '#';
+      const theatersHtml = m.theaters.map((t, ti) => {
+        const href = t.url || t.booking_url || THEATER_URLS[t.name] || '#';
         return `<span class="theater-entry"><a href="${esc(href)}" target="_blank" rel="noopener">${esc(t.name)}</a></span>`;
       }).join('');
 
       const key     = normTitle(m.title);
       const isSaved = savedFilms.has(key);
       return `<tr>
-        <td class="c-title"><button class="save-btn${isSaved ? ' saved' : ''}" data-key="${esc(key)}" onclick="toggleSave(event,'${key}')" title="${isSaved ? 'Unsave' : 'Save'}">&#9733;</button><span class="film-name" onclick="openModal(${i})">${esc(cleanTitle(m.title))}</span>${badge}</td>
+        <td class="c-title"><button class="save-btn${isSaved ? ' saved' : ''}" data-key="${esc(key)}" onclick="toggleSave(event,'${key}')" title="${isSaved ? 'Unsave' : 'Save'}">&#9733;</button><span class="film-name" onclick="openModal(${i})">${esc(cleanTitle(m.title))}</span>${badge}<div class="title-theaters">${theatersHtml}</div></td>
         <td class="c-year">${esc(m.year)}</td>
         <td class="c-dir">${esc(m.director)}</td>
         <td class="c-dates">${datesHtml}</td>
@@ -815,6 +824,8 @@
   let searchQuery  = '';
   let renderedList = [];
   let savedFilter  = false;
+  let timeBands    = new Set();
+  try { timeBands = new Set(JSON.parse(localStorage.getItem('timeBands') || '[]')); } catch (_) {}
   let savedFilms   = new Set(JSON.parse(localStorage.getItem('savedFilms') || '[]'));
 
   // ── Saved films helpers ──
@@ -837,6 +848,17 @@
     });
     if (savedFilter) render(allMovies, activeFilter);
   }
+
+  document.querySelectorAll('.time-btn').forEach(btn => {
+    btn.classList.toggle('active', timeBands.has(btn.dataset.band));
+    btn.addEventListener('click', () => {
+      const band = btn.dataset.band;
+      if (timeBands.has(band)) timeBands.delete(band); else timeBands.add(band);
+      btn.classList.toggle('active', timeBands.has(band));
+      try { localStorage.setItem('timeBands', JSON.stringify([...timeBands])); } catch (_) {}
+      render(allMovies, activeFilter);
+    });
+  });
 
   document.getElementById('saved-btn').addEventListener('click', () => {
     savedFilter = !savedFilter;
@@ -868,7 +890,7 @@
     castEl.style.display = m.cast ? '' : 'none';
     document.getElementById('modal-poster').innerHTML = FilmDetails.posterHtml(m);
     document.getElementById('modal-links').innerHTML = FilmDetails.linksHtml(m, cleanTitle(m.title));
-    document.getElementById('modal-dates').innerHTML = FilmDetails.theatersHtml(m.theaters);
+    document.getElementById('modal-dates').innerHTML = FilmDetails.scheduleHtml(m.theaters, { bands: timeBands });
     const descEl = document.getElementById('modal-desc');
     const moreBtn = document.getElementById('modal-more');
     descEl.classList.remove('expanded');
@@ -876,6 +898,7 @@
     descEl.textContent = m.description || '';
     descEl.style.display = m.description ? '' : 'none';
     document.getElementById('modal-overlay').classList.add('open');
+    FilmDetails.layout(document.getElementById('modal-dates'));
     document.body.style.overflow = 'hidden';
     // After render, check if description is clamped
     if (m.description) {
