@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-21T20:26:49.665232",
+  "fetched_at": "2026-11-22T20:39:28.338329",
   "movies": [
     {
       "title": "14th",
@@ -7,7 +7,7 @@
       "url": "https://www.ifccenter.com/films/14th/",
       "status": "Coming Soon",
       "opens": "November 27",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589926~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589950~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2026",
       "director": "Ava DuVernay",
       "cast": "Sherrilyn Ifill, Stacey Abrams, Alexandria Ocasio-Cortez, Jeff Flake, Hasan Piker, Alex Padilla",
@@ -182,13 +182,13 @@
           "date": "2026-12-08",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/terror-tuesday-american-psycho-the-king-of-the-full-moon-night",
-          "label": "Terror Tuesday \u00b7 Lower Manhattan"
+          "label": "Terror Tuesday \u00b7 Staten Island"
         },
         {
           "date": "2026-12-08",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/terror-tuesday-american-psycho-the-king-of-the-full-moon-night",
-          "label": "Terror Tuesday \u00b7 Staten Island"
+          "label": "Terror Tuesday \u00b7 Lower Manhattan"
         }
       ],
       "show_dates": [
@@ -434,13 +434,13 @@
           "date": "2026-12-17",
           "time": "1:00 PM",
           "url": "https://drafthouse.com/nyc/show/avengers-doomsday",
-          "label": "Downtown Brooklyn \u00b7 Sold out"
+          "label": "Staten Island"
         },
         {
           "date": "2026-12-17",
           "time": "1:00 PM",
           "url": "https://drafthouse.com/nyc/show/avengers-doomsday",
-          "label": "Staten Island"
+          "label": "Downtown Brooklyn \u00b7 Sold out"
         },
         {
           "date": "2026-12-17",
@@ -728,13 +728,13 @@
           "date": "2026-12-19",
           "time": "11:00 PM",
           "url": "https://drafthouse.com/nyc/show/avengers-doomsday",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-12-19",
           "time": "11:00 PM",
           "url": "https://drafthouse.com/nyc/show/avengers-doomsday",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-12-20",
@@ -812,13 +812,13 @@
           "date": "2026-12-20",
           "time": "6:00 PM",
           "url": "https://drafthouse.com/nyc/show/avengers-doomsday",
-          "label": "Staten Island"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-12-20",
           "time": "6:00 PM",
           "url": "https://drafthouse.com/nyc/show/avengers-doomsday",
-          "label": "Downtown Brooklyn \u00b7 Sold out"
+          "label": "Staten Island"
         },
         {
           "date": "2026-12-20",
@@ -848,13 +848,13 @@
           "date": "2026-12-20",
           "time": "11:00 PM",
           "url": "https://drafthouse.com/nyc/show/avengers-doomsday",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-12-20",
           "time": "11:00 PM",
           "url": "https://drafthouse.com/nyc/show/avengers-doomsday",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-12-21",
@@ -944,13 +944,13 @@
           "date": "2026-12-22",
           "time": "6:00 PM",
           "url": "https://drafthouse.com/nyc/show/avengers-doomsday",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-12-22",
           "time": "6:00 PM",
           "url": "https://drafthouse.com/nyc/show/avengers-doomsday",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-12-22",
@@ -1088,13 +1088,13 @@
           "date": "2026-11-28",
           "time": "4:00 PM",
           "url": "https://drafthouse.com/nyc/show/batman-returns",
-          "label": "Downtown Brooklyn"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-28",
           "time": "4:00 PM",
           "url": "https://drafthouse.com/nyc/show/batman-returns",
-          "label": "Staten Island"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-28",
@@ -1293,13 +1293,13 @@
           "date": "2026-12-04",
           "time": "9:45 PM",
           "url": "https://drafthouse.com/nyc/show/behemoth",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-12-04",
           "time": "9:45 PM",
           "url": "https://drafthouse.com/nyc/show/behemoth",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-12-04",
@@ -1335,13 +1335,13 @@
           "date": "2026-12-05",
           "time": "3:15 PM",
           "url": "https://drafthouse.com/nyc/show/behemoth",
-          "label": "Staten Island"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-12-05",
           "time": "3:15 PM",
           "url": "https://drafthouse.com/nyc/show/behemoth",
-          "label": "Downtown Brooklyn"
+          "label": "Staten Island"
         },
         {
           "date": "2026-12-05",
@@ -1476,13 +1476,13 @@
           "date": "2026-12-10",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/billy-joel-tonight",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-12-10",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/billy-joel-tonight",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-12-10",
@@ -1870,13 +1870,13 @@
           "date": "2026-11-29",
           "time": "4:15 PM",
           "url": "https://drafthouse.com/nyc/show/bitter-christmas",
-          "label": "Lower Manhattan"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-29",
           "time": "4:15 PM",
           "url": "https://drafthouse.com/nyc/show/bitter-christmas",
-          "label": "Downtown Brooklyn"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-29",
@@ -1918,61 +1918,6 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/8/1/4/3/7/981437-bitter-christmas-0-460-0-690-crop.jpg?v=e53e0d2801",
       "letterboxd_url": "https://letterboxd.com/film/bitter-christmas/",
       "letterboxd_rating": "3.1"
-    },
-    {
-      "title": "Black Caesar",
-      "theater": "Paris Theater",
-      "url": "https://www.paristheaternyc.com/film/black-caesar-paris",
-      "status": "Coming Soon",
-      "opens": "November 22",
-      "booking_url": "",
-      "year": "1973",
-      "director": "Larry Cohen",
-      "cast": "Fred Williamson, Gloria Hendry, D'Urville Martin, Julius Harris",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-22"
-      ],
-      "date_start": "2026-11-22",
-      "date_end": "2026-11-22",
-      "description": "A racist, corrupt cop partially cripples a young Black boy who later rises to power and becomes the kingpin of crime in Harlem.",
-      "notes": [
-        "Presented in 35mm",
-        "35mm print!",
-        "Preceded by the Looney Tunes animated short Bugsy & Mugsy ."
-      ],
-      "poster": "https://a.ltrbxd.com/resized/film-poster/3/8/1/1/4/38114-black-caesar-0-460-0-690-crop.jpg?v=6a0dbb95cc",
-      "letterboxd_url": "https://letterboxd.com/film/black-caesar/",
-      "letterboxd_rating": "3.5"
-    },
-    {
-      "title": "Black Sunday",
-      "theater": "Paris Theater",
-      "url": "https://www.paristheaternyc.com/film/black-sunday-1977-paris",
-      "status": "Coming Soon",
-      "opens": "November 22",
-      "booking_url": "",
-      "year": "1977",
-      "director": "John Frankenheimer",
-      "cast": "Robert Shaw, Bruce Dern, Marthe Keller, Fritz Weaver, Bekim Fehmiu",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-22",
-        "2026-11-23"
-      ],
-      "date_start": "2026-11-22",
-      "date_end": "2026-11-23",
-      "description": "Blimp pilot Michael Lander (Bruce Dern), who has endured the horrors of the Vietnam War, is now psychotic. Hoping to kill himself in grand fashion, he teams with Black September terrorist Dahlia (Marthe Keller), who plans on using Lander to set off a bomb at the Super Bowl by crashing his aircraft into the crowded stands.",
-      "notes": [
-        "Presented in 35mm",
-        "35mm print courtesy of the Paramount Archive.",
-        "Preceded by the Looney Tunes animated short Hare Lift ."
-      ],
-      "poster": "https://a.ltrbxd.com/resized/film-poster/1/5/3/0/1/15301-black-sunday-0-460-0-690-crop.jpg?v=3b19b4744d",
-      "letterboxd_url": "https://letterboxd.com/film/black-sunday/",
-      "letterboxd_rating": "3.5"
     },
     {
       "title": "Blade Runner: The Final Cut",
@@ -2053,33 +1998,6 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/2/2/0/3/5/422035-burning-0-460-0-690-crop.jpg?v=34c9bc6300",
       "letterboxd_url": "https://letterboxd.com/film/burning-2018/",
       "letterboxd_rating": "4.0"
-    },
-    {
-      "title": "Butch Cassidy and the Sundance Kid",
-      "theater": "Paris Theater",
-      "url": "https://www.paristheaternyc.com/film/butch-cassidy-and-the-sundance-kid-paris",
-      "status": "Coming Soon",
-      "opens": "November 22",
-      "booking_url": "",
-      "year": "1969",
-      "director": "George Roy Hill",
-      "cast": "Paul Newman, Robert Redford, Katharine Ross",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-22"
-      ],
-      "date_start": "2026-11-22",
-      "date_end": "2026-11-22",
-      "description": "As the west rapidly becomes civilized, a pair of outlaws in 1890s Wyoming find themselves pursued by a posse and decide to flee to South America in hopes of evading the law.",
-      "notes": [
-        "Presented in 35mm",
-        "35mm print courtesy of the Yale Film Archive.",
-        "Preceded by the Looney Tunes animated short Drip-Along Daffy ."
-      ],
-      "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/4/8/2/51482-butch-cassidy-and-the-sundance-kid-0-460-0-690-crop.jpg?v=1d6d9ae6dc",
-      "letterboxd_url": "https://letterboxd.com/film/butch-cassidy-and-the-sundance-kid/",
-      "letterboxd_rating": "4.2"
     },
     {
       "title": "Cameron Winter at Carnegie Hall",
@@ -2286,13 +2204,13 @@
           "date": "2026-12-14",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/crunchyroll-anime-nights-sneak-peek-12-14-2026",
-          "label": "Downtown Brooklyn"
+          "label": "Staten Island"
         },
         {
           "date": "2026-12-14",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/crunchyroll-anime-nights-sneak-peek-12-14-2026",
-          "label": "Staten Island"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-12-14",
@@ -2793,12 +2711,6 @@
           "date": "2026-12-17",
           "time": "4:00 PM",
           "url": "https://drafthouse.com/nyc/show/dune-part-three",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-12-17",
-          "time": "4:00 PM",
-          "url": "https://drafthouse.com/nyc/show/dune-part-three",
           "label": "Downtown Brooklyn"
         },
         {
@@ -2806,6 +2718,12 @@
           "time": "4:00 PM",
           "url": "https://drafthouse.com/nyc/show/dune-part-three",
           "label": "Staten Island"
+        },
+        {
+          "date": "2026-12-17",
+          "time": "4:00 PM",
+          "url": "https://drafthouse.com/nyc/show/dune-part-three",
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-12-17",
@@ -2829,25 +2747,25 @@
           "date": "2026-12-17",
           "time": "7:45 PM",
           "url": "https://drafthouse.com/nyc/show/dune-part-three",
-          "label": "Downtown Brooklyn"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-12-17",
           "time": "7:45 PM",
           "url": "https://drafthouse.com/nyc/show/dune-part-three",
-          "label": "Lower Manhattan"
+          "label": "Downtown Brooklyn"
+        },
+        {
+          "date": "2026-12-17",
+          "time": "10:00 PM",
+          "url": "https://drafthouse.com/nyc/show/dune-part-three",
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-12-17",
           "time": "10:00 PM",
           "url": "https://drafthouse.com/nyc/show/dune-part-three",
           "label": "Staten Island"
-        },
-        {
-          "date": "2026-12-17",
-          "time": "10:00 PM",
-          "url": "https://drafthouse.com/nyc/show/dune-part-three",
-          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-12-18",
@@ -3003,13 +2921,13 @@
           "date": "2026-12-19",
           "time": "7:30 AM",
           "url": "https://drafthouse.com/nyc/show/dune-part-three",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-12-19",
           "time": "7:30 AM",
           "url": "https://drafthouse.com/nyc/show/dune-part-three",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-12-19",
@@ -3039,13 +2957,13 @@
           "date": "2026-12-19",
           "time": "11:30 AM",
           "url": "https://drafthouse.com/nyc/show/dune-part-three",
-          "label": "Lower Manhattan"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-12-19",
           "time": "11:30 AM",
           "url": "https://drafthouse.com/nyc/show/dune-part-three",
-          "label": "Downtown Brooklyn"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-12-19",
@@ -3489,13 +3407,13 @@
           "date": "2026-12-22",
           "time": "10:30 PM",
           "url": "https://drafthouse.com/nyc/show/dune-part-three",
-          "label": "Lower Manhattan"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-12-22",
           "time": "10:30 PM",
           "url": "https://drafthouse.com/nyc/show/dune-part-three",
-          "label": "Downtown Brooklyn"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-12-22",
@@ -3591,13 +3509,13 @@
           "date": "2026-12-23",
           "time": "10:30 PM",
           "url": "https://drafthouse.com/nyc/show/dune-part-three",
-          "label": "Lower Manhattan"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-12-23",
           "time": "10:30 PM",
           "url": "https://drafthouse.com/nyc/show/dune-part-three",
-          "label": "Downtown Brooklyn"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-12-23",
@@ -3885,7 +3803,7 @@
       "url": "https://www.ifccenter.com/films/earth-girls-are-easy/",
       "status": "Coming Soon",
       "opens": "November 27",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589926~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589950~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1988",
       "director": "Julien Temple",
       "cast": "Geena Davis, Jeff Goldblum, Jim Carrey, Damon Wayans, Julie Brown",
@@ -4039,12 +3957,6 @@
           "date": "2026-12-23",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/movie-party-elf-movie-party-sing-along",
-          "label": "Movie Parties \u00b7 Staten Island"
-        },
-        {
-          "date": "2026-12-23",
-          "time": "7:00 PM",
-          "url": "https://drafthouse.com/nyc/show/movie-party-elf-movie-party-sing-along",
           "label": "Movie Parties \u00b7 Downtown Brooklyn"
         },
         {
@@ -4052,6 +3964,12 @@
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/movie-party-elf-movie-party-sing-along",
           "label": "Movie Parties \u00b7 Lower Manhattan"
+        },
+        {
+          "date": "2026-12-23",
+          "time": "7:00 PM",
+          "url": "https://drafthouse.com/nyc/show/movie-party-elf-movie-party-sing-along",
+          "label": "Movie Parties \u00b7 Staten Island"
         },
         {
           "date": "2026-12-23",
@@ -4359,7 +4277,7 @@
       "url": "https://www.ifccenter.com/films/enter-the-void/",
       "status": "Coming Soon",
       "opens": "November 27",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589926~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589950~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2010",
       "director": "Gaspar No\u00e9",
       "cast": "Nathaniel Brown, Paz de la Huerta, Cyril Roy, Ed Spear",
@@ -4554,25 +4472,25 @@
           "date": "2026-11-25",
           "time": "1:15 PM",
           "url": "https://drafthouse.com/nyc/show/focker-in-law",
-          "label": "Downtown Brooklyn"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-25",
           "time": "1:15 PM",
           "url": "https://drafthouse.com/nyc/show/focker-in-law",
-          "label": "Lower Manhattan"
+          "label": "Downtown Brooklyn"
+        },
+        {
+          "date": "2026-11-25",
+          "time": "3:00 PM",
+          "url": "https://drafthouse.com/nyc/show/focker-in-law",
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-25",
           "time": "3:00 PM",
           "url": "https://drafthouse.com/nyc/show/focker-in-law",
           "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-25",
-          "time": "3:00 PM",
-          "url": "https://drafthouse.com/nyc/show/focker-in-law",
-          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-25",
@@ -4692,13 +4610,13 @@
           "date": "2026-11-27",
           "time": "9:00 AM",
           "url": "https://drafthouse.com/nyc/show/focker-in-law",
-          "label": "Downtown Brooklyn"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-27",
           "time": "9:00 AM",
           "url": "https://drafthouse.com/nyc/show/focker-in-law",
-          "label": "Staten Island"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-27",
@@ -4758,13 +4676,13 @@
           "date": "2026-11-27",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/focker-in-law",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-27",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/focker-in-law",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-27",
@@ -4788,13 +4706,13 @@
           "date": "2026-11-28",
           "time": "9:00 AM",
           "url": "https://drafthouse.com/nyc/show/focker-in-law",
-          "label": "Downtown Brooklyn"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-28",
           "time": "9:00 AM",
           "url": "https://drafthouse.com/nyc/show/focker-in-law",
-          "label": "Staten Island"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-28",
@@ -4812,13 +4730,13 @@
           "date": "2026-11-28",
           "time": "1:00 PM",
           "url": "https://drafthouse.com/nyc/show/focker-in-law",
-          "label": "Downtown Brooklyn"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-28",
           "time": "1:00 PM",
           "url": "https://drafthouse.com/nyc/show/focker-in-law",
-          "label": "Staten Island"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-28",
@@ -4854,13 +4772,13 @@
           "date": "2026-11-28",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/focker-in-law",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-28",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/focker-in-law",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-28",
@@ -4902,12 +4820,6 @@
           "date": "2026-11-29",
           "time": "1:00 PM",
           "url": "https://drafthouse.com/nyc/show/focker-in-law",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-29",
-          "time": "1:00 PM",
-          "url": "https://drafthouse.com/nyc/show/focker-in-law",
           "label": "Staten Island"
         },
         {
@@ -4915,6 +4827,12 @@
           "time": "1:00 PM",
           "url": "https://drafthouse.com/nyc/show/focker-in-law",
           "label": "Lower Manhattan"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "1:00 PM",
+          "url": "https://drafthouse.com/nyc/show/focker-in-law",
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-29",
@@ -5242,6 +5160,12 @@
           "date": "2026-11-24",
           "time": "3:00 PM",
           "url": "https://drafthouse.com/nyc/show/hexed",
+          "label": "Lower Manhattan"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "3:00 PM",
+          "url": "https://drafthouse.com/nyc/show/hexed",
           "label": "Staten Island"
         },
         {
@@ -5249,12 +5173,6 @@
           "time": "3:00 PM",
           "url": "https://drafthouse.com/nyc/show/hexed",
           "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-24",
-          "time": "3:00 PM",
-          "url": "https://drafthouse.com/nyc/show/hexed",
-          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-24",
@@ -5266,13 +5184,13 @@
           "date": "2026-11-24",
           "time": "6:30 PM",
           "url": "https://drafthouse.com/nyc/show/hexed",
-          "label": "Staten Island"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-24",
           "time": "6:30 PM",
           "url": "https://drafthouse.com/nyc/show/hexed",
-          "label": "Downtown Brooklyn"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-24",
@@ -5416,12 +5334,6 @@
           "date": "2026-11-26",
           "time": "3:30 PM",
           "url": "https://drafthouse.com/nyc/show/hexed",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-26",
-          "time": "3:30 PM",
-          "url": "https://drafthouse.com/nyc/show/hexed",
           "label": "Lower Manhattan"
         },
         {
@@ -5432,6 +5344,18 @@
         },
         {
           "date": "2026-11-26",
+          "time": "3:30 PM",
+          "url": "https://drafthouse.com/nyc/show/hexed",
+          "label": "Staten Island"
+        },
+        {
+          "date": "2026-11-26",
+          "time": "6:30 PM",
+          "url": "https://drafthouse.com/nyc/show/hexed",
+          "label": "Downtown Brooklyn"
+        },
+        {
+          "date": "2026-11-26",
           "time": "6:30 PM",
           "url": "https://drafthouse.com/nyc/show/hexed",
           "label": "Lower Manhattan"
@@ -5441,12 +5365,6 @@
           "time": "6:30 PM",
           "url": "https://drafthouse.com/nyc/show/hexed",
           "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-26",
-          "time": "6:30 PM",
-          "url": "https://drafthouse.com/nyc/show/hexed",
-          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-27",
@@ -5500,13 +5418,13 @@
           "date": "2026-11-27",
           "time": "3:30 PM",
           "url": "https://drafthouse.com/nyc/show/hexed",
-          "label": "Downtown Brooklyn"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-27",
           "time": "3:30 PM",
           "url": "https://drafthouse.com/nyc/show/hexed",
-          "label": "Staten Island"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-27",
@@ -5524,13 +5442,13 @@
           "date": "2026-11-27",
           "time": "6:30 PM",
           "url": "https://drafthouse.com/nyc/show/hexed",
-          "label": "Downtown Brooklyn"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-27",
           "time": "6:30 PM",
           "url": "https://drafthouse.com/nyc/show/hexed",
-          "label": "Staten Island"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-27",
@@ -5626,13 +5544,13 @@
           "date": "2026-11-28",
           "time": "6:30 PM",
           "url": "https://drafthouse.com/nyc/show/hexed",
-          "label": "Staten Island"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-28",
           "time": "6:30 PM",
           "url": "https://drafthouse.com/nyc/show/hexed",
-          "label": "Downtown Brooklyn"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-28",
@@ -5656,13 +5574,13 @@
           "date": "2026-11-29",
           "time": "9:00 AM",
           "url": "https://drafthouse.com/nyc/show/hexed",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-29",
           "time": "9:00 AM",
           "url": "https://drafthouse.com/nyc/show/hexed",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-29",
@@ -5674,7 +5592,7 @@
           "date": "2026-11-29",
           "time": "12:00 PM",
           "url": "https://drafthouse.com/nyc/show/hexed",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-29",
@@ -5686,7 +5604,7 @@
           "date": "2026-11-29",
           "time": "12:00 PM",
           "url": "https://drafthouse.com/nyc/show/hexed",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-29",
@@ -5765,7 +5683,7 @@
       "url": "https://www.ifccenter.com/films/high-school-high/",
       "status": "Coming Soon",
       "opens": "December 18",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589926~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589950~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1996",
       "director": "Hart Bochner",
       "cast": "Jon Lovitz, Tia Carrere, Mekhi Phifer, Louise Fletcher, Malinda Williams",
@@ -6675,13 +6593,13 @@
           "date": "2026-12-13",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/sad-girl-cinema-club-little-women-2019",
-          "label": "Sad Girl Cinema Club \u00b7 Lower Manhattan"
+          "label": "Sad Girl Cinema Club \u00b7 Staten Island"
         },
         {
           "date": "2026-12-13",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/sad-girl-cinema-club-little-women-2019",
-          "label": "Sad Girl Cinema Club \u00b7 Staten Island"
+          "label": "Sad Girl Cinema Club \u00b7 Lower Manhattan"
         },
         {
           "date": "2026-12-14",
@@ -6708,7 +6626,7 @@
       "url": "https://www.ifccenter.com/films/look-back/",
       "status": "Coming Soon",
       "opens": "December 30",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589926~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589950~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2026",
       "director": "Hirokazu Kore-eda",
       "cast": "Natsuki Deguchi, Aju Makita, Furi Nanase, Rokka Okada",
@@ -6826,7 +6744,7 @@
           "date": "2026-12-31",
           "time": "4:00 PM",
           "url": "https://drafthouse.com/nyc/show/mars-attacks",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-12-31",
@@ -6838,7 +6756,7 @@
           "date": "2026-12-31",
           "time": "4:00 PM",
           "url": "https://drafthouse.com/nyc/show/mars-attacks",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         }
       ],
       "show_dates": [
@@ -7412,13 +7330,13 @@
           "date": "2027-01-10",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/drafthouse-recommends-nirvanna-the-band-the-show-the-movie-the-commentary-track",
-          "label": "Drafthouse Recommends \u00b7 Downtown Brooklyn"
+          "label": "Drafthouse Recommends \u00b7 Lower Manhattan"
         },
         {
           "date": "2027-01-10",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/drafthouse-recommends-nirvanna-the-band-the-show-the-movie-the-commentary-track",
-          "label": "Drafthouse Recommends \u00b7 Lower Manhattan"
+          "label": "Drafthouse Recommends \u00b7 Downtown Brooklyn"
         }
       ],
       "show_dates": [
@@ -7863,7 +7781,7 @@
       "url": "https://www.ifccenter.com/films/rose/",
       "status": "Coming Soon",
       "opens": "December 11",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589926~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589950~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "2026",
       "director": "Markus Schleinzer",
       "cast": "Emmanuel Macchia, Valentin Campagne",
@@ -7991,7 +7909,7 @@
       "url": "https://www.ifccenter.com/films/sorcerer/",
       "status": "Coming Soon",
       "opens": "December 11",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589926~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589950~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1977",
       "director": "William Friedkin",
       "cast": "Roy Scheider, Bruno Cremer, Francisco Rabal, Amidou",
@@ -8172,7 +8090,7 @@
       "url": "https://www.ifccenter.com/",
       "status": "Coming Soon",
       "opens": "July 10",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589926~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589950~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "",
       "director": "",
       "cast": "",
@@ -8315,33 +8233,6 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/7/7/4/51774-the-apartment-0-460-0-690-crop.jpg?v=7df6fac704",
       "letterboxd_url": "https://letterboxd.com/film/the-apartment/",
       "letterboxd_rating": "4.4"
-    },
-    {
-      "title": "The Bad News Bears",
-      "theater": "Paris Theater",
-      "url": "https://www.paristheaternyc.com/film/the-bad-news-bears-1976-paris",
-      "status": "Coming Soon",
-      "opens": "November 22",
-      "booking_url": "",
-      "year": "1976",
-      "director": "Michael Ritchie",
-      "cast": "Walter Matthau, Tatum O'Neal, Vic Morrow",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-22"
-      ],
-      "date_start": "2026-11-22",
-      "date_end": "2026-11-22",
-      "description": "Hard-drinking, ex-minor-league hopeful Morris Buttermaker grumpily agrees to coach a Little League team at the behest of lawyer-councilman Bob Whitewood, who has a vendetta against the league for excluding his marginally talented son from play. After failing with his new team of misfits, Buttermaker enlists feisty and gifted pitcher Amanda Whurlitzer to lead the charge -- but can he find the luck and patience to whip these outcasts into shape?",
-      "notes": [
-        "Presented in 35mm",
-        "35mm print!",
-        "Preceded by the Looney Tunes animated short Gone Batty ."
-      ],
-      "poster": "https://a.ltrbxd.com/resized/film-poster/3/7/3/5/5/37355-the-bad-news-bears-0-460-0-690-crop.jpg?v=c30c5e9c1d",
-      "letterboxd_url": "https://letterboxd.com/film/the-bad-news-bears/",
-      "letterboxd_rating": "3.7"
     },
     {
       "title": "The Bells of St. Mary\u2019s",
@@ -8517,13 +8408,13 @@
           "date": "2026-12-07",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/special-event-the-departed-20th-anniversary",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-12-07",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/special-event-the-departed-20th-anniversary",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-12-09",
@@ -9071,7 +8962,7 @@
       "url": "https://www.ifccenter.com/films/the-texas-chainsaw-massacre/",
       "status": "Coming Soon",
       "opens": "December 4",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589926~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589950~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1974",
       "director": "Tobe Hooper",
       "cast": "Marilyn Burns, Gunnar Hansen, Edwin Neal, Paul A. Partain, Allen Danziger",
@@ -9124,7 +9015,7 @@
       "url": "https://www.ifccenter.com/films/the-thing-2/",
       "status": "Coming Soon",
       "opens": "December 18",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589926~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589950~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
       "year": "1982",
       "director": "John Carpenter",
       "cast": "Kurt Russell, Wilford Brimley, T.K. Carter, David Clennon, Keith David, Richard Dysart",
@@ -9308,13 +9199,13 @@
           "date": "2026-12-03",
           "time": "6:30 PM",
           "url": "https://drafthouse.com/nyc/show/movie-party-violent-night-2",
-          "label": "Movie Parties \u00b7 Downtown Brooklyn"
+          "label": "Movie Parties \u00b7 Lower Manhattan"
         },
         {
           "date": "2026-12-03",
           "time": "6:30 PM",
           "url": "https://drafthouse.com/nyc/show/movie-party-violent-night-2",
-          "label": "Movie Parties \u00b7 Lower Manhattan"
+          "label": "Movie Parties \u00b7 Downtown Brooklyn"
         },
         {
           "date": "2026-12-03",
@@ -9326,13 +9217,13 @@
           "date": "2026-12-03",
           "time": "9:45 PM",
           "url": "https://drafthouse.com/nyc/show/violent-night-2",
-          "label": "Downtown Brooklyn"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-12-03",
           "time": "9:45 PM",
           "url": "https://drafthouse.com/nyc/show/violent-night-2",
-          "label": "Lower Manhattan"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-12-04",
@@ -9618,13 +9509,13 @@
           "date": "2026-12-30",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/when-harry-met-sally",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-12-30",
           "time": "7:00 PM",
           "url": "https://drafthouse.com/nyc/show/when-harry-met-sally",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         }
       ],
       "show_dates": [
@@ -9637,33 +9528,6 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/4/8/5/51485-when-harry-met-sally--0-460-0-690-crop.jpg?v=2f277e2fe7",
       "letterboxd_url": "https://letterboxd.com/film/when-harry-met-sally/",
       "letterboxd_rating": "4.1"
-    },
-    {
-      "title": "Which Way is Up?",
-      "theater": "Paris Theater",
-      "url": "https://www.paristheaternyc.com/film/which-way-is-up-paris",
-      "status": "Coming Soon",
-      "opens": "November 22",
-      "booking_url": "",
-      "year": "1977",
-      "director": "Michael Schultz",
-      "cast": "Richard Pryor, Lonette McKee, Margaret Avery",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-22"
-      ],
-      "date_start": "2026-11-22",
-      "date_end": "2026-11-22",
-      "description": "Orange picker Leroy Jones (Richard Pryor) inadvertently becomes a union leader and is forced out of town, leaving behind his sexually obsessed father, Rufus (also Pryor), and spouse, Annie Mae (Margaret Avery). He heads for Los Angeles, where he falls for union organizer Vanetta (Lonette McKee). Annie Mae seeks solace from the local preacher, Lenox Thomas (also Pryor), who eventually impregnates her. When Leroy catches wind of this, he heads home for a showdown with Lenox.",
-      "notes": [
-        "Presented in 35mm",
-        "35mm print!",
-        "Preceded by the Looney Tunes animated short Mouse Wreckers ."
-      ],
-      "poster": "https://a.ltrbxd.com/resized/film-poster/3/7/4/3/8/37438-which-way-is-up--0-460-0-690-crop.jpg?v=b6c7624230",
-      "letterboxd_url": "https://letterboxd.com/film/which-way-is-up/",
-      "letterboxd_rating": "3.0"
     },
     {
       "title": "Wto/99",
@@ -9854,18 +9718,12 @@
       "url": "https://metrograph.com/film/9999001436-a-clockwork-orange/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31379",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31390",
       "year": "1971",
       "director": "Stanley Kubrick",
       "cast": "Malcolm McDowell, Patrick Magee, Carl Duering, Michael Bates, Warren Clarke, James Marcus",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "10:20 PM",
-          "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31379",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "9:00 PM",
@@ -9886,7 +9744,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-27",
         "2026-12-02"
@@ -9997,6 +9854,36 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/7/9/1/5/877915-afternoons-of-solitude-0-460-0-690-crop.jpg?v=d81a720146",
       "letterboxd_url": "https://letterboxd.com/film/afternoons-of-solitude/",
       "letterboxd_rating": "3.8"
+    },
+    {
+      "title": "Akai Megane",
+      "theater": "Film Noir Cinema",
+      "url": "https://www.filmnoircinema.com/program/2026/11/23/ji-no-banken",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "https://www.filmnoircinema.com/program/2026/11/23/ji-no-banken",
+      "year": "1987",
+      "director": "Mamoru Oshii",
+      "cast": "Shigeru Chiba, Machiko Washio, Hideyuki Tanaka, Tessyo Genda, Mako Hyodo, Yasuo Otsuka",
+      "country": "JP",
+      "showtimes": [
+        {
+          "date": "2026-11-23",
+          "time": "7:00 PM",
+          "url": "https://www.filmnoircinema.com/program/2026/11/23/ji-no-banken",
+          "label": ""
+        }
+      ],
+      "show_dates": [
+        "2026-11-23"
+      ],
+      "date_start": "",
+      "date_end": "",
+      "description": "A surreal science fiction noir involving a man trapped in a future where seemingly everyone is a government spy and all-night noodle stands are outlawed.",
+      "notes": [],
+      "poster": "https://a.ltrbxd.com/resized/film-poster/3/2/2/0/4/32204-the-red-spectacles-0-460-0-690-crop.jpg?v=d3d551bfef",
+      "letterboxd_url": "https://letterboxd.com/film/the-red-spectacles/",
+      "letterboxd_rating": "3.7"
     },
     {
       "title": "All of a Sudden",
@@ -10485,36 +10372,6 @@
       "letterboxd_rating": "3.8"
     },
     {
-      "title": "Benedetta",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/9999004248-benedetta/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31378",
-      "year": "2021",
-      "director": "Paul Verhoeven",
-      "cast": "Virginie Efira, Charlotte Rampling, Daphn\u00e9 Patakia, Lambert Wilson, Olivier Rabourdin, Louise Chevillotte",
-      "country": "",
-      "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "10:15 PM",
-          "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31378",
-          "label": ""
-        }
-      ],
-      "show_dates": [
-        "2026-11-21"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Inspired by the life of Benedetta Carlini, a nun of 17th-century Tuscany whose claims of mystic visions drew the attention of church higher-ups, their investigations eventually revealing a verboten sexual relationship between Carlini and one of her fellow nuns and leading to her imprisonment, Verhoeven\u2019s earthy, irreverent film immerses one in the squelchy squalor and earthly delights of Counter-Reformation era Europe, with Virginie Efira a revelation in the title role and Charlotte Rampling, as the abbess of the convent, conveying roiling inner turmoil beneath a cooly composed exterior. An examination of the difficult relationship between religious submission and sexual liberation, featuring some of the most memorable foley sounds in recent cinema.",
-      "notes": [],
-      "poster": "https://a.ltrbxd.com/resized/film-poster/3/8/6/6/3/1/386631-benedetta-0-460-0-690-crop.jpg?v=9d52b3ab59",
-      "letterboxd_url": "https://letterboxd.com/film/benedetta/",
-      "letterboxd_rating": "3.4"
-    },
-    {
       "title": "Best Pancakes in the County",
       "theater": "IFC Center",
       "url": "https://www.ifccenter.com/films/best-pancakes-in-the-county-open-captioning/",
@@ -10526,12 +10383,6 @@
       "cast": "Nicolas Cage, Justin Long, Shelley Hennig",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "9:50 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589926~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "9:50 PM",
@@ -10564,7 +10415,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -10595,26 +10445,26 @@
       "country": "",
       "showtimes": [
         {
-          "date": "2026-11-21",
+          "date": "2026-11-22",
           "time": "3:45 PM",
           "url": "https://www.filmlinc.org/films/bitter-christmas/",
           "label": ""
         },
         {
-          "date": "2026-11-21",
+          "date": "2026-11-22",
           "time": "6:15 PM",
           "url": "https://www.filmlinc.org/films/bitter-christmas/",
           "label": ""
         },
         {
-          "date": "2026-11-21",
+          "date": "2026-11-22",
           "time": "8:45 PM",
           "url": "https://www.filmlinc.org/films/bitter-christmas/",
           "label": ""
         }
       ],
       "show_dates": [
-        "2026-11-21"
+        "2026-11-22"
       ],
       "date_start": "",
       "date_end": "",
@@ -10636,36 +10486,6 @@
       "cast": "Barbara Lennie, Leonardo Sbaraglia, Aitana Sanchez-Gijon",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "3:45 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/bitter-christmas",
-          "label": "English subtitles"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:30 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/bitter-christmas",
-          "label": "English subtitles"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:10 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/bitter-christmas",
-          "label": "English subtitles"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "10:00 AM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/bitter-christmas",
-          "label": "English subtitles"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "1:20 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/bitter-christmas",
-          "label": "English subtitles"
-        },
         {
           "date": "2026-11-22",
           "time": "4:00 PM",
@@ -10746,7 +10566,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24"
@@ -10758,6 +10577,61 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/8/1/4/3/7/981437-bitter-christmas-0-460-0-690-crop.jpg?v=e53e0d2801",
       "letterboxd_url": "https://letterboxd.com/film/bitter-christmas/",
       "letterboxd_rating": "3.1"
+    },
+    {
+      "title": "Black Caesar",
+      "theater": "Paris Theater",
+      "url": "https://www.paristheaternyc.com/film/black-caesar-paris",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1973",
+      "director": "Larry Cohen",
+      "cast": "Fred Williamson, Gloria Hendry, D'Urville Martin, Julius Harris",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-22"
+      ],
+      "date_start": "2026-11-22",
+      "date_end": "2026-11-22",
+      "description": "A racist, corrupt cop partially cripples a young Black boy who later rises to power and becomes the kingpin of crime in Harlem.",
+      "notes": [
+        "Presented in 35mm",
+        "35mm print!",
+        "Preceded by the Looney Tunes animated short Bugsy & Mugsy ."
+      ],
+      "poster": "https://a.ltrbxd.com/resized/film-poster/3/8/1/1/4/38114-black-caesar-0-460-0-690-crop.jpg?v=6a0dbb95cc",
+      "letterboxd_url": "https://letterboxd.com/film/black-caesar/",
+      "letterboxd_rating": "3.5"
+    },
+    {
+      "title": "Black Sunday",
+      "theater": "Paris Theater",
+      "url": "https://www.paristheaternyc.com/film/black-sunday-1977-paris",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1977",
+      "director": "John Frankenheimer",
+      "cast": "Robert Shaw, Bruce Dern, Marthe Keller, Fritz Weaver, Bekim Fehmiu",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-22",
+        "2026-11-23"
+      ],
+      "date_start": "2026-11-22",
+      "date_end": "2026-11-23",
+      "description": "Blimp pilot Michael Lander (Bruce Dern), who has endured the horrors of the Vietnam War, is now psychotic. Hoping to kill himself in grand fashion, he teams with Black September terrorist Dahlia (Marthe Keller), who plans on using Lander to set off a bomb at the Super Bowl by crashing his aircraft into the crowded stands.",
+      "notes": [
+        "Presented in 35mm",
+        "35mm print courtesy of the Paramount Archive.",
+        "Preceded by the Looney Tunes animated short Hare Lift ."
+      ],
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/5/3/0/1/15301-black-sunday-0-460-0-690-crop.jpg?v=3b19b4744d",
+      "letterboxd_url": "https://letterboxd.com/film/black-sunday/",
+      "letterboxd_rating": "3.5"
     },
     {
       "title": "Blue + Chinese Series",
@@ -10845,6 +10719,33 @@
       "letterboxd_rating": "4.0"
     },
     {
+      "title": "Butch Cassidy and the Sundance Kid",
+      "theater": "Paris Theater",
+      "url": "https://www.paristheaternyc.com/film/butch-cassidy-and-the-sundance-kid-paris",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1969",
+      "director": "George Roy Hill",
+      "cast": "Paul Newman, Robert Redford, Katharine Ross",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-22"
+      ],
+      "date_start": "2026-11-22",
+      "date_end": "2026-11-22",
+      "description": "As the west rapidly becomes civilized, a pair of outlaws in 1890s Wyoming find themselves pursued by a posse and decide to flee to South America in hopes of evading the law.",
+      "notes": [
+        "Presented in 35mm",
+        "35mm print courtesy of the Yale Film Archive.",
+        "Preceded by the Looney Tunes animated short Drip-Along Daffy ."
+      ],
+      "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/4/8/2/51482-butch-cassidy-and-the-sundance-kid-0-460-0-690-crop.jpg?v=1d6d9ae6dc",
+      "letterboxd_url": "https://letterboxd.com/film/butch-cassidy-and-the-sundance-kid/",
+      "letterboxd_rating": "4.2"
+    },
+    {
       "title": "Calamity",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/9999005129-calamity/",
@@ -10886,30 +10787,6 @@
       "cast": "Cameron Winter",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "5:00 PM",
-          "url": "https://commerce.bam.org/booking/production/57907",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:00 PM",
-          "url": "https://commerce.bam.org/booking/production/57908",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:00 PM",
-          "url": "https://commerce.bam.org/booking/production/57909",
-          "label": ""
-        },
-        {
-          "date": "2026-11-22",
-          "time": "3:00 PM",
-          "url": "https://commerce.bam.org/booking/production/57910",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "5:00 PM",
@@ -10966,7 +10843,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24"
@@ -11171,74 +11047,17 @@
       "letterboxd_rating": "4.2"
     },
     {
-      "title": "Cloverfield",
-      "theater": "IFC Center",
-      "url": "https://www.ifccenter.com/films/cloverfield/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=590041~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-      "year": "2008",
-      "director": "Matt Reeves",
-      "cast": "Lizzy Caplan, Jessica Lucas, T.J. Miller, Michael Stahl-David, Mike Vogel, Odette Yustman",
-      "country": "USA",
-      "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "11:50 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=590041~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        }
-      ],
-      "show_dates": [
-        "2026-11-21"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Staff Pick by Heather Landsman, Usher\n\nScreening as part of our series Staff Picks 2026",
-      "notes": [
-        "Presented in 35mm",
-        "Screening on 35mm!"
-      ],
-      "poster": "https://a.ltrbxd.com/resized/sm/upload/07/hp/61/ut/as01o40tJ2FhtheqeXf7bVZ0EQO-0-460-0-690-crop.jpg?v=08b1fe1af9",
-      "letterboxd_url": "https://letterboxd.com/film/cloverfield/",
-      "letterboxd_rating": "3.4"
-    },
-    {
       "title": "Club Kid",
       "theater": "Nitehawk (Prospect Park)",
       "url": "https://nitehawkcinema.com/prospectpark/movies/club-kid/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/25024352/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/25025312/",
       "year": "2026",
       "director": "Jordan Firstman",
       "cast": "Jordan Firstman, Cara Delvingne, Diego Calva, Kirby Howell-Baptiste, Reggie Absolom, Colleen Camp",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "11:15 AM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024395/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "3:10 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024341/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:35 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024352/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:15 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024358/",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "11:15 AM",
@@ -11337,7 +11156,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -11364,30 +11182,6 @@
       "cast": "Jordan Firstman, Cara Delvingne, Diego Calva, Kirby Howell-Baptiste, Reggie Absolom, Colleen Camp",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "4:00 PM",
-          "url": "https://commerce.bam.org/booking/production/59872",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:40 PM",
-          "url": "https://commerce.bam.org/booking/production/59873",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:20 PM",
-          "url": "https://commerce.bam.org/booking/production/59874",
-          "label": ""
-        },
-        {
-          "date": "2026-11-22",
-          "time": "1:10 PM",
-          "url": "https://commerce.bam.org/booking/production/59875",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "4:00 PM",
@@ -11480,7 +11274,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -11507,36 +11300,6 @@
       "cast": "Jordan Firstman, Reggie Absolom, Diego Calva, Cara Delevigne, Kirby Howell-Baptiste, Colleen Camp, Vicki Pepperdine, Nigil Whyte, Eldar Isgandarov, Saturn Risin9, Miss Benny, Alaska Riley",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "4:05 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/club-kid-in-35mm",
-          "label": "35mm"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:00 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/club-kid-in-35mm",
-          "label": "35mm"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:55 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/club-kid-in-35mm",
-          "label": "35mm"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "10:20 AM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/club-kid-in-35mm",
-          "label": "35mm"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "1:10 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/club-kid-in-35mm",
-          "label": "35mm"
-        },
         {
           "date": "2026-11-22",
           "time": "4:05 PM",
@@ -11662,10 +11425,21 @@
           "time": "4:05 PM",
           "url": "https://angelikafilmcenter.com/nyc/movies/club-kid-in-35mm",
           "label": "35mm"
+        },
+        {
+          "date": "2026-11-26",
+          "time": "7:00 PM",
+          "url": "https://angelikafilmcenter.com/nyc/movies/club-kid-in-35mm",
+          "label": "35mm"
+        },
+        {
+          "date": "2026-11-26",
+          "time": "10:00 PM",
+          "url": "https://angelikafilmcenter.com/nyc/movies/club-kid-in-35mm",
+          "label": "35mm"
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -11692,60 +11466,6 @@
       "cast": "Jordan Firstman, Cara Delvingne, Diego Calva, Kirby Howell-Baptiste, Reggie Absolom, Colleen Camp",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "2:45 PM",
-          "url": "https://drafthouse.com/nyc/show/club-kid",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "3:15 PM",
-          "url": "https://drafthouse.com/nyc/show/club-kid",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "3:45 PM",
-          "url": "https://drafthouse.com/nyc/show/club-kid",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:30 PM",
-          "url": "https://drafthouse.com/nyc/show/club-kid",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:00 PM",
-          "url": "https://drafthouse.com/nyc/show/club-kid",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:45 PM",
-          "url": "https://drafthouse.com/nyc/show/club-kid",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:15 PM",
-          "url": "https://drafthouse.com/nyc/show/club-kid",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "11:30 AM",
-          "url": "https://drafthouse.com/nyc/show/club-kid",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "12:30 PM",
-          "url": "https://drafthouse.com/nyc/show/club-kid",
-          "label": "Lower Manhattan"
-        },
         {
           "date": "2026-11-22",
           "time": "3:15 PM",
@@ -11798,13 +11518,13 @@
           "date": "2026-11-23",
           "time": "3:15 PM",
           "url": "https://drafthouse.com/nyc/show/club-kid",
-          "label": "Lower Manhattan"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-23",
           "time": "3:15 PM",
           "url": "https://drafthouse.com/nyc/show/club-kid",
-          "label": "Downtown Brooklyn"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-23",
@@ -11822,17 +11542,16 @@
           "date": "2026-11-23",
           "time": "9:45 PM",
           "url": "https://drafthouse.com/nyc/show/club-kid",
-          "label": "Downtown Brooklyn"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-23",
           "time": "9:45 PM",
           "url": "https://drafthouse.com/nyc/show/club-kid",
-          "label": "Lower Manhattan"
+          "label": "Downtown Brooklyn"
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23"
       ],
@@ -11882,24 +11601,12 @@
       "url": "https://metrograph.com/film/9999003186-come-back-to-the-5-dime-jimmy-dean-jimmy-dean/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31380",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31486",
       "year": "1982",
       "director": "Robert Altman",
       "cast": "Cher, Sandy Dennis, Karen Black, Sudie Bond, Kathy Bates, Marta Heflin",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "8:00 PM",
-          "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31380",
-          "label": ""
-        },
-        {
-          "date": "2026-11-22",
-          "time": "1:00 PM",
-          "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31388",
-          "label": ""
-        },
         {
           "date": "2026-11-23",
           "time": "4:00 PM",
@@ -11920,8 +11627,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25"
@@ -12223,36 +11928,6 @@
       "letterboxd_rating": "3.0"
     },
     {
-      "title": "Double Impact",
-      "theater": "IFC Center",
-      "url": "https://www.ifccenter.com/films/double-impact/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=590043~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-      "year": "1991",
-      "director": "Sheldon Lettich",
-      "cast": "Jean-Claude Van Damme, Geoffrey Lewis, Alonna Shaw, Corinna Everson, Philip Chan, Alan Scarfe, Bolo",
-      "country": "",
-      "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "11:55 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=590043~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        }
-      ],
-      "show_dates": [
-        "2026-11-21"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "Chad (Jean-Claude Van Damme), a charming, smooth karate instructor from Los Angeles is mysteriously urged to fly to China by the man who raised him like a son, Frank Avery (Geoffrey Lewis, \u201cHigh Plains Drifter,\u201d \u201cEvery Which Way But Loose\u201d). There he meets Alex (Jean-Claude Van Damme), a streetwise gun-slinging smuggler raised on the back streets of Hong Kong. Chad and Alex discover they are twin brothers and were separated when their parents were brutally murdered twenty-five years ago.\n\nStaff pick by Ray\n\nScreening as part of our series Staff Picks 2026",
-      "notes": [],
-      "poster": "https://a.ltrbxd.com/resized/film-poster/4/7/0/0/7/47007-double-impact-0-460-0-690-crop.jpg?v=f12b6e9540",
-      "letterboxd_url": "https://letterboxd.com/film/double-impact/",
-      "letterboxd_rating": "2.8"
-    },
-    {
       "title": "Dov\u2019\u00e8 la Libert\u00e0?",
       "theater": "Film Forum",
       "url": "https://filmforum.org/film/dove-la-liberta-rossellini-120",
@@ -12408,90 +12083,6 @@
       "country": "",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "3:00 PM",
-          "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "3:15 PM",
-          "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "4:30 PM",
-          "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:00 PM",
-          "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:30 PM",
-          "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:30 PM",
-          "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:15 PM",
-          "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:45 PM",
-          "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:30 PM",
-          "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "10:30 AM",
-          "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "11:45 AM",
-          "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "12:00 PM",
-          "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "1:30 PM",
-          "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "3:00 PM",
-          "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Downtown Brooklyn"
-        },
-        {
           "date": "2026-11-22",
           "time": "3:15 PM",
           "url": "https://drafthouse.com/nyc/show/ebenezer",
@@ -12561,13 +12152,13 @@
           "date": "2026-11-23",
           "time": "3:00 PM",
           "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Staten Island"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-23",
           "time": "3:00 PM",
           "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Downtown Brooklyn"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-23",
@@ -12585,13 +12176,13 @@
           "date": "2026-11-23",
           "time": "6:30 PM",
           "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-23",
           "time": "6:30 PM",
           "url": "https://drafthouse.com/nyc/show/ebenezer",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-23",
@@ -12613,7 +12204,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23"
       ],
@@ -12637,24 +12227,6 @@
       "cast": "Andrew Scott, Olivia Colman, Johnny Flynn, Billie Piper",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "7:15 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/elsinore",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:30 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/elsinore",
-          "label": ""
-        },
-        {
-          "date": "2026-11-22",
-          "time": "1:45 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/elsinore",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "4:30 PM",
@@ -13005,7 +12577,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -13039,36 +12610,6 @@
       "cast": "Andrew Scott, Olivia Colman, Johnny Flynn, Billie Piper",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "4:30 PM",
-          "url": "https://drafthouse.com/nyc/show/elsinore",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:45 PM",
-          "url": "https://drafthouse.com/nyc/show/elsinore",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:00 PM",
-          "url": "https://drafthouse.com/nyc/show/elsinore",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "10:30 AM",
-          "url": "https://drafthouse.com/nyc/show/elsinore",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "1:30 PM",
-          "url": "https://drafthouse.com/nyc/show/elsinore",
-          "label": "Downtown Brooklyn"
-        },
         {
           "date": "2026-11-22",
           "time": "4:45 PM",
@@ -13275,7 +12816,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -13490,24 +13030,6 @@
       "country": "Poland / Germany / Italy / France",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "12:30 PM",
-          "url": "https://filmforum.org/film/fatherland",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "4:00 PM",
-          "url": "https://filmforum.org/film/fatherland",
-          "label": "Open captions"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "8:15 PM",
-          "url": "https://filmforum.org/film/fatherland",
-          "label": ""
-        },
-        {
           "date": "2026-11-22",
           "time": "12:30 PM",
           "url": "https://filmforum.org/film/fatherland",
@@ -13587,7 +13109,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -13615,12 +13136,6 @@
       "country": "Poland / Germany / Italy / France",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "7:00 PM",
-          "url": "https://commerce.bam.org/booking/production/59862",
-          "label": ""
-        },
-        {
           "date": "2026-11-22",
           "time": "3:00 PM",
           "url": "https://commerce.bam.org/booking/production/59863",
@@ -13646,7 +13161,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24"
@@ -13672,20 +13186,20 @@
       "country": "Poland / Germany / Italy / France",
       "showtimes": [
         {
-          "date": "2026-11-21",
+          "date": "2026-11-22",
           "time": "4:30 PM",
           "url": "https://www.filmlinc.org/films/fatherland/",
           "label": ""
         },
         {
-          "date": "2026-11-21",
+          "date": "2026-11-22",
           "time": "8:30 PM",
           "url": "https://www.filmlinc.org/films/fatherland/",
           "label": ""
         }
       ],
       "show_dates": [
-        "2026-11-21"
+        "2026-11-22"
       ],
       "date_start": "",
       "date_end": "",
@@ -13696,34 +13210,34 @@
       "letterboxd_rating": "3.6"
     },
     {
-      "title": "Female Trouble",
-      "theater": "IFC Center",
-      "url": "https://www.ifccenter.com/films/female-trouble/",
+      "title": "Film Club",
+      "theater": "Film Noir Cinema",
+      "url": "https://www.filmnoircinema.com/program/2020/3/19/film-club-k59bk-a95nh-fe9j9-988ma-z5agf-ym22l-r3gag-byhhb-mcg2e-54ntk",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589900~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-      "year": "1974",
-      "director": "John Waters",
-      "cast": "Divine, Mink Stole, David Lochary, Edith Massey, Mary Vivian Pearce, Cookie Mueller",
-      "country": "USA",
+      "booking_url": "https://www.filmnoircinema.com/program/2020/3/19/film-club-k59bk-a95nh-fe9j9-988ma-z5agf-ym22l-r3gag-byhhb-mcg2e-54ntk",
+      "year": "",
+      "director": "",
+      "cast": "",
+      "country": "",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "11:59 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589900~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+          "date": "2026-12-03",
+          "time": "9:00 PM",
+          "url": "https://www.filmnoircinema.com/program/2020/3/19/film-club-k59bk-a95nh-fe9j9-988ma-z5agf-ym22l-r3gag-byhhb-mcg2e-54ntk",
           "label": ""
         }
       ],
       "show_dates": [
-        "2026-11-21"
+        "2026-12-03"
       ],
       "date_start": "",
       "date_end": "",
-      "description": "\u201cSex offenses that would shock the Marquis de Sade!\u201d sniffed critic Rex Reed in the Daily News, reviewing John Waters\u2019 follow-up to the notorious Pink Flamingos . The perversities pile up in the tale of high-school delinquent and meatball sandwich-lover Dawn Davenport (played by Waters muse Divine), whose number one Christmas wish is for a pair of cha-cha heels. But her parents fail to heed her request, and her rage leads inexorably to stripping, prostitution, disfigurement, tabloid fame and mass murder.\n\nShot in Waters\u2019 beloved native Baltimore on 16mm and featuring his regular Dreamlanders troupe\u2013including Mink Stole, David Lochary, Mary Vivian Pearce, Edith Massey, and Cookie Mueller\u2013this endlessly quotable, gloriously lurid satire was Divine\u2019s favorite of his own films.\n\n\u201cThe sordid tale of Dawn Davenport, who rises from high school hoyden to mistress of crime\u2026 A true original.\u201d \u2013 Variety\n\nScreening as part of Late Night Favorites: Fall 2026\n\nPreviously screened as part of our midnight series Late Night Favorites: Fall 2025, Sicks by John Waters and \u201cLate-Night Favorites: Spring 2019.\u201d",
+      "description": "Film Noir Cinema presents: \u201cFILM CLUB\u201d - an evening with moving image.\n\nThe films are chosen each time by a different member of the club without anybody but the chooser knowing the title.\n\nPure cinematheque fun.",
       "notes": [],
-      "poster": "https://a.ltrbxd.com/resized/film-poster/4/3/2/1/6/43216-female-trouble-0-460-0-690-crop.jpg?v=740aefa477",
-      "letterboxd_url": "https://letterboxd.com/film/female-trouble/",
-      "letterboxd_rating": "3.9"
+      "poster": "",
+      "letterboxd_url": "",
+      "letterboxd_rating": ""
     },
     {
       "title": "FILM NOIR CINEMA: The 10th Anniversary",
@@ -13988,30 +13502,6 @@
       "letterboxd_rating": "3.9"
     },
     {
-      "title": "Ghost World",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/9999005096-ace-presents-ghost-world/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "2001",
-      "director": "Terry Zwigoff",
-      "cast": "Thora Birch, Scarlett Johansson, Steve Buscemi, Brad Renfro, Illeana Douglas, Bob Balaban",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [],
-      "date_start": "",
-      "date_end": "",
-      "description": "The first film adaptation from the work of caustic cartoonist Daniel Clowes, Ghost World is a post-apocalyptic survival film set in the suburban AnyAmerica of 2001. Thora Birch and Scarlett Johansson co-star as two too-smart girls, freshly matriculated from high school and rudderless in early adulthood, who employ scalding irony as a ward to fend off the toxic effects of existence in a cultural wasteland, discovering an amiably creepy kindred spirit in the form of Steve Buscemi\u2019s weedy record collector, Seymour. An anthem for opting out and modern-day classic, with editor Michael R. Miller displaying the gift for mordant, off-kilter comedy he\u2019d honed working with the Coen Brothers.\n\nMiller, ACE, moderated by editor Jamie Kirkpatrick, ACE, on Saturday, November 21st",
-      "notes": [
-        "Q&A with editor Michael R.",
-        "Presented by ACE"
-      ],
-      "poster": "https://a.ltrbxd.com/resized/sm/upload/b3/fj/5k/es/t9uXmc321EzCp6uUYU3XtghjqTq-0-460-0-690-crop.jpg?v=8c0964a95e",
-      "letterboxd_url": "https://letterboxd.com/film/ghost-world/",
-      "letterboxd_rating": "3.6"
-    },
-    {
       "title": "Godzilla",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/9999001836-godzilla/",
@@ -14061,84 +13551,6 @@
       "country": "",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "2:45 PM",
-          "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "3:45 PM",
-          "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:00 PM",
-          "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:15 PM",
-          "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:15 PM",
-          "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
-          "label": "Downtown Brooklyn \u00b7 Sold out"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:30 PM",
-          "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:45 PM",
-          "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:30 PM",
-          "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "11:00 AM",
-          "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "11:15 AM",
-          "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "12:00 PM",
-          "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "2:30 PM",
-          "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "2:45 PM",
-          "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
-          "label": "Lower Manhattan"
-        },
-        {
           "date": "2026-11-22",
           "time": "3:45 PM",
           "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
@@ -14184,13 +13596,13 @@
           "date": "2026-11-23",
           "time": "11:15 AM",
           "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-23",
           "time": "11:15 AM",
           "url": "https://drafthouse.com/nyc/show/godzilla-minus-zero",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-23",
@@ -14260,7 +13672,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24"
@@ -14324,72 +13735,6 @@
       "notes": [],
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/3/4/7/5/1/434751-greetings-from-out-here-0-460-0-690-crop.jpg?v=8110847508",
       "letterboxd_url": "https://letterboxd.com/film/greetings-from-out-here/",
-      "letterboxd_rating": ""
-    },
-    {
-      "title": "Gunvor Nelson Program 1",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/9999005097-gunvor-nelson-program-1/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31382",
-      "year": "1973",
-      "director": "Gunvor Nelson",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "3:15 PM",
-          "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31382",
-          "label": "16mm"
-        }
-      ],
-      "show_dates": [
-        "2026-11-21"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "\u201cGunvor Nelson launched her film career with a pair of raucous collage films made with her friend Dorothy Wiley. In Schmeerguntz, glamorized images of American womanhood clash with the reality of messy diapers and clogged kitchen sinks, revealing \u2018a society which hides its animal functions beneath a shiny public surface\u2019 (Film Quarterly). The surreal extravaganza Fog Pumas was a grand prize winner at the 1967 EXPRMTL festival in Knokke. My Name is Oona, perhaps Nelson\u2019s best-known film, is an impressionistic portrait of her daughter with a memorably repetitive soundtrack partly created by Steve Reich. Kirsa Nicholina is at once a lyrical and boldly graphic birth film. Moons Pool, filmed entirely underwater with naked male and female bodies, is a dazzling example of Nelson\u2019s visual and aural poetry. The serene Time Being is a loving, meditative film of Nelson\u2019s mother, in bed, approaching death.\u201d \u2014Series curator David Schwartz\n\nSchmeerguntz (Gunvor Nelson, 1966, 14 mins)\n\nFog Pumas (Gunvor Nelson, 1967, 25 mins)\n\nMy Name is Oona (Gunvor Nelson, 1969, 10 mins)\n\nKirsa Nicholina (Gunvor Nelson, 1969, 16 mins)\n\nMoons Pool (Gunvor Nelson, 1973, 15 mins)\n\nTime Being (Gunvor Nelson, 1991, 5 mins)",
-      "notes": [
-        "Introduction by filmmaker Lynne Sachs on Saturday, November 21st",
-        "Presented in 16mm"
-      ],
-      "poster": "",
-      "letterboxd_url": "",
-      "letterboxd_rating": ""
-    },
-    {
-      "title": "Gunvor Nelson Program 2",
-      "theater": "Metrograph",
-      "url": "https://metrograph.com/film/9999005095-gunvor-nelson-program-2/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31385",
-      "year": "1993",
-      "director": "Gunvor Nelson",
-      "cast": "",
-      "country": "",
-      "showtimes": [
-        {
-          "date": "2026-11-22",
-          "time": "1:15 PM",
-          "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31385",
-          "label": "16mm"
-        }
-      ],
-      "show_dates": [
-        "2026-11-22"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "\u201cThese three films, among Nelson\u2019s most beautifully crafted works, were made during return trips to her home country, leading up to her move back to Sweden in 1993 after teaching for more than two decades at the San Francisco Art Institute. Frame Line blends still photographs (some of which she paints on) and moving images, showing the full range of her artistry as she revisits her past. Red Shift, filmed at her parents\u2019 home in Kristinehamn, is a unique hybrid film with scripted and documentary elements, with Nelson, her daughter Oona, and her mother as \u2018performers,\u2019 punctuated by readings of letters from Calamity Jane to her daughter. Old Digs weaves together a murmuring soundtrack of a family gathering with roaming color images of a rustic village, layered with cut-out images added through stop-motion animation.\u201d \u2014Series curator David Schwartz\n\nFrame Line (Gunvor Nelson, 1983, 22 mins)\n\nRed Shift (Gunvor Nelson, 1984, 47 mins)\n\nOld Digs (Gunvor Nelson, 1993, 21 mins)",
-      "notes": [
-        "Introduction by series curator David Schwartz on Sunday, November 22nd",
-        "Presented in 16mm"
-      ],
-      "poster": "",
-      "letterboxd_url": "",
       "letterboxd_rating": ""
     },
     {
@@ -14531,66 +13876,6 @@
       "country": "",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "3:30 PM",
-          "url": "https://drafthouse.com/nyc/show/how-to-rob-a-bank",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "4:00 PM",
-          "url": "https://drafthouse.com/nyc/show/how-to-rob-a-bank",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:00 PM",
-          "url": "https://drafthouse.com/nyc/show/how-to-rob-a-bank",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:00 PM",
-          "url": "https://drafthouse.com/nyc/show/how-to-rob-a-bank",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:15 PM",
-          "url": "https://drafthouse.com/nyc/show/how-to-rob-a-bank",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:15 PM",
-          "url": "https://drafthouse.com/nyc/show/how-to-rob-a-bank",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:15 PM",
-          "url": "https://drafthouse.com/nyc/show/how-to-rob-a-bank",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:30 PM",
-          "url": "https://drafthouse.com/nyc/show/how-to-rob-a-bank",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "12:15 PM",
-          "url": "https://drafthouse.com/nyc/show/how-to-rob-a-bank",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "12:45 PM",
-          "url": "https://drafthouse.com/nyc/show/how-to-rob-a-bank",
-          "label": "Lower Manhattan"
-        },
-        {
           "date": "2026-11-22",
           "time": "3:30 PM",
           "url": "https://drafthouse.com/nyc/show/how-to-rob-a-bank",
@@ -14636,13 +13921,13 @@
           "date": "2026-11-22",
           "time": "10:30 PM",
           "url": "https://drafthouse.com/nyc/show/how-to-rob-a-bank",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-22",
           "time": "10:30 PM",
           "url": "https://drafthouse.com/nyc/show/how-to-rob-a-bank",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-23",
@@ -14696,17 +13981,16 @@
           "date": "2026-11-23",
           "time": "10:30 PM",
           "url": "https://drafthouse.com/nyc/show/how-to-rob-a-bank",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-23",
           "time": "10:30 PM",
           "url": "https://drafthouse.com/nyc/show/how-to-rob-a-bank",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23"
       ],
@@ -14745,36 +14029,12 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/i-play-rocky/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/25024344/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/25025308/",
       "year": "2026",
       "director": "Peter Farrelly",
       "cast": "Anthony Ippolito, AnnaSophia Robb, Tracy Letts, Jay Duplass, Matt Dillon, Stephan James, Kiki Seto",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "1:45 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024393/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "4:45 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024344/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:45 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024347/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:00 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024353/",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "1:45 PM",
@@ -14837,7 +14097,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24"
@@ -14862,84 +14121,6 @@
       "cast": "Anthony Ippolito, AnnaSophia Robb, Tracy Letts, Jay Duplass, Matt Dillon, Stephan James, Kiki Seto",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "3:15 PM",
-          "url": "https://drafthouse.com/nyc/show/i-play-rocky",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "3:15 PM",
-          "url": "https://drafthouse.com/nyc/show/i-play-rocky",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:15 PM",
-          "url": "https://drafthouse.com/nyc/show/i-play-rocky",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:30 PM",
-          "url": "https://drafthouse.com/nyc/show/i-play-rocky",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:45 PM",
-          "url": "https://drafthouse.com/nyc/show/i-play-rocky",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:00 PM",
-          "url": "https://drafthouse.com/nyc/show/i-play-rocky",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:45 PM",
-          "url": "https://drafthouse.com/nyc/show/i-play-rocky",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:45 PM",
-          "url": "https://drafthouse.com/nyc/show/i-play-rocky",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:15 PM",
-          "url": "https://drafthouse.com/nyc/show/i-play-rocky",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "10:45 AM",
-          "url": "https://drafthouse.com/nyc/show/i-play-rocky",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "11:45 AM",
-          "url": "https://drafthouse.com/nyc/show/i-play-rocky",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "12:30 PM",
-          "url": "https://drafthouse.com/nyc/show/i-play-rocky",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "2:15 PM",
-          "url": "https://drafthouse.com/nyc/show/i-play-rocky",
-          "label": "Downtown Brooklyn"
-        },
         {
           "date": "2026-11-22",
           "time": "3:15 PM",
@@ -15074,7 +14255,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24"
@@ -15132,7 +14312,7 @@
       ],
       "date_start": "",
       "date_end": "",
-      "description": "Sirk\u2019s supreme tearjerker, this stealth investigation into race in America takes the form of a deceptively glossy melodrama, with bottle-blonde Lana Turner as Lora, a single mother trying to raise a daughter and start an acting career. But as the film unfolds with Sirk\u2019s usual visual splendor, he undercuts his own main narrative, focusing more intently on the fraught relationship between Lora\u2019s African American maid, Annie, and her mixed-race daughter, Sarah Jane, played by Juanita Moore and Susan Kohner in Oscar-nominated roles. Still potent, Imitation of Life is a subversive Hollywood masterpiece that brought the \u201950s to a close with a devastating wail\u2014literally ending with a mournful spiritual by Mahalia Jackson.",
+      "description": "Sirk\u2019s supreme tearjerker, this stealth investigation into race in America takes the form of a deceptively glossy melodrama, with bottle-blonde Lana Turner as Lora, a single mother trying to raise a daughter and start an acting career. But as the film unfolds with Sirk\u2019s usual visual splendor, he undercuts his own main narrative, focusing more intently on the fraught relationship between Lora\u2019s African American maid, Annie, and her mixed-race daughter, Sarah Jane, played by Juanita Moore and Susan Kohner in Oscar-nominated roles. (An unexpected visit by Annie to Sarah Jane\u2019s classroom at Christmas time is but one of many devastating moments.) Arguably the film\u2019s most eloquent review comes from none other than Richard Pryor, in 1959 serving with the Army and stationed in West Germany, who was thrown in the brig after stabbing a white soldier who laughed through an on-base screening.",
       "notes": [],
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/9/3/1/2/29312-imitation-of-life-0-460-0-690-crop.jpg?v=3ca7c6cf64",
       "letterboxd_url": "https://letterboxd.com/film/imitation-of-life-1959/",
@@ -15179,7 +14359,7 @@
       "booking_url": "https://angelikafilmcenter.com/nyc/movies/ink",
       "year": "2026",
       "director": "Danny Boyle",
-      "cast": "Guy Pearce, Jack O\u2019Connell, Claire Foy",
+      "cast": "Jack O\u2019Connell, Claire Foy, Guy Pearce",
       "country": "",
       "showtimes": [
         {
@@ -15196,7 +14376,7 @@
         },
         {
           "date": "2026-12-10",
-          "time": "9:55 PM",
+          "time": "10:00 PM",
           "url": "https://angelikafilmcenter.com/nyc/movies/ink",
           "label": ""
         },
@@ -15423,7 +14603,7 @@
       ],
       "date_start": "",
       "date_end": "",
-      "description": "In 1969, as rising media tycoon acquires the daily newspaper \"The Sun,\" his partnership with editor Larry Lamb turns the paper into Britain's most influential tabloid.",
+      "description": "The film is an explosive cinematic rollercoaster about a group of visionaries and misfits who had an idea for a new kind of news \u2014 one that would give the people what they want and would change the face of the world we live in today.",
       "notes": [],
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/4/0/7/5/9/2/1407592-ink-2026-0-460-0-690-crop.jpg?v=39004eea0a",
       "letterboxd_url": "https://letterboxd.com/film/ink-2026/",
@@ -15546,54 +14726,12 @@
       "url": "https://www.ifccenter.com/films/josephine/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=587883~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589928~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2026",
       "director": "Beth de Ara\u00fajo",
       "cast": "Mason Reeves, Channing Tatum, Gemma Chan, Phillip Ettinger",
       "country": "USA",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "10:35 AM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589901~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "1:10 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589902~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "2:50 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589907~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "4:00 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=587883~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:50 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=587884~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "8:40 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589909~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:40 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589905~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "10:35 AM",
@@ -15800,7 +14938,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -15814,8 +14951,7 @@
         "Fri Nov 20: Q&A w/ star Gemma Chan, moderated by filmmaker Derek Cianfrance (BLUE VALENTINE) after 6:50 show!",
         "Fri Nov 20: Extended intro by star Gemma Chan at 9:40 show!",
         "Sat Nov 21: Q&A w/ star Gemma Chan after 4:00 show!",
-        "Sat Nov 21: Q&A w/ star Gemma Chan moderated by filmmaker Sean Wang ( DIDI ) after 6:50 show!",
-        "Sat Nov 21: Q&A w/ star Gemma Chan mod. by Sean Wang after 6:50 show!"
+        "Sat Nov 21: Q&A w/ star Gemma Chan moderated by filmmaker Sean Wang ( DIDI ) after 6:50 show!"
       ],
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/8/1/5/8/1/1181581-josephine-2026-0-460-0-690-crop.jpg?v=db27ed760e",
       "letterboxd_url": "https://letterboxd.com/film/josephine-2026/",
@@ -16132,30 +15268,6 @@
       "country": "",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "2:45 PM",
-          "url": "https://drafthouse.com/nyc/show/la-bola-negra",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "10:45 AM",
-          "url": "https://drafthouse.com/nyc/show/la-bola-negra",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "11:00 AM",
-          "url": "https://drafthouse.com/nyc/show/la-bola-negra",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "2:45 PM",
-          "url": "https://drafthouse.com/nyc/show/la-bola-negra",
-          "label": "Lower Manhattan"
-        },
-        {
           "date": "2026-11-23",
           "time": "10:45 AM",
           "url": "https://drafthouse.com/nyc/show/la-bola-negra",
@@ -16175,8 +15287,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
-        "2026-11-22",
         "2026-11-23"
       ],
       "date_start": "",
@@ -16657,18 +15767,12 @@
       "url": "https://metrograph.com/film/9999005093-memento/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31389",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31421",
       "year": "2000",
       "director": "Christopher Nolan",
       "cast": "Guy Pearce, Carrie-Anne Moss, Joe Pantoliano, Mark Boone Junior, Russ Fega, Jorja Fox",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-22",
-          "time": "6:35 PM",
-          "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31389",
-          "label": "35mm"
-        },
         {
           "date": "2026-11-28",
           "time": "8:40 PM",
@@ -16683,7 +15787,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-22",
         "2026-11-28",
         "2026-12-03"
       ],
@@ -16772,20 +15875,20 @@
       "country": "",
       "showtimes": [
         {
-          "date": "2026-11-21",
+          "date": "2026-11-22",
           "time": "6:00 PM",
           "url": "https://www.filmlinc.org/films/minotaur/",
           "label": ""
         },
         {
-          "date": "2026-11-21",
+          "date": "2026-11-22",
           "time": "8:45 PM",
           "url": "https://www.filmlinc.org/films/minotaur/",
           "label": ""
         }
       ],
       "show_dates": [
-        "2026-11-21"
+        "2026-11-22"
       ],
       "date_start": "",
       "date_end": "",
@@ -16808,36 +15911,6 @@
       "country": "",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "3:40 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/minotaur",
-          "label": "English subtitles"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:50 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/minotaur",
-          "label": "English subtitles"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:05 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/minotaur",
-          "label": "English subtitles"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "10:30 AM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/minotaur",
-          "label": "English subtitles"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "12:30 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/minotaur",
-          "label": "Open Captions"
-        },
-        {
           "date": "2026-11-22",
           "time": "3:40 PM",
           "url": "https://angelikafilmcenter.com/nyc/movies/minotaur",
@@ -16960,6 +16033,18 @@
         {
           "date": "2026-11-26",
           "time": "3:40 PM",
+          "url": "https://angelikafilmcenter.com/nyc/movies/minotaur",
+          "label": "English subtitles"
+        },
+        {
+          "date": "2026-11-26",
+          "time": "6:50 PM",
+          "url": "https://angelikafilmcenter.com/nyc/movies/minotaur",
+          "label": "Open Captions"
+        },
+        {
+          "date": "2026-11-26",
+          "time": "10:05 PM",
           "url": "https://angelikafilmcenter.com/nyc/movies/minotaur",
           "label": "English subtitles"
         },
@@ -17133,7 +16218,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -17233,18 +16317,12 @@
       "url": "https://www.ifccenter.com/films/mouse-open-captioning/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589923~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589966~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2026",
       "director": "Alex Thompson, Kelly O'Sullivan",
       "cast": "Sophie Okonedo, Katherine Mallen-Kupferer, Tara Mallen, Chloe Coleman, Iman Vellani, David Hyde Pier",
       "country": "USA",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "2:55 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589923~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": "Open captions"
-        },
         {
           "date": "2026-11-22",
           "time": "2:55 PM",
@@ -17277,7 +16355,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -17387,30 +16464,12 @@
       "url": "https://www.ifccenter.com/films/naza/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589924~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589948~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2026",
       "director": "Yuval Abraham, Rachel Szor",
       "cast": "Yuval Abraham, Benjamin Netanyahu",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "11:00 AM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589916~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "1:00 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589922~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "5:35 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589924~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "11:00 AM",
@@ -17491,7 +16550,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -17790,42 +16848,6 @@
       "letterboxd_rating": "3.6"
     },
     {
-      "title": "NOFX: 40 Years of Fuckin' Up",
-      "theater": "Alamo Drafthouse NYC",
-      "url": "https://drafthouse.com/nyc/show/nofx-40-years-of-fuckin-up",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://drafthouse.com/nyc/show/nofx-40-years-of-fuckin-up",
-      "year": "2026",
-      "director": "James Buddy Day",
-      "cast": "Fat Mike, El Hefe, Eric Melvin, Erik Sandin",
-      "country": "",
-      "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "9:30 PM",
-          "url": "https://drafthouse.com/nyc/show/nofx-40-years-of-fuckin-up",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:45 PM",
-          "url": "https://drafthouse.com/nyc/show/nofx-40-years-of-fuckin-up",
-          "label": "Lower Manhattan"
-        }
-      ],
-      "show_dates": [
-        "2026-11-21"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "40 YEARS OF FUCKIN' UP is SPINAL TAP, but real. It's a film about the infamous, fairly unfamous, and beloved punk rock band NOFX. This is the unbelievable story about how a group of untalented, drug-addicted teenage punks somehow became the most successful independent band in history \u2013 and they did it haphazardly, entirely on their own.",
-      "notes": [],
-      "poster": "https://a.ltrbxd.com/resized/film-poster/1/5/2/0/4/1/6/1520416-40-years-of-fuckin-up-0-460-0-690-crop.jpg?v=aefa23b477",
-      "letterboxd_url": "https://letterboxd.com/film/40-years-of-fuckin-up/",
-      "letterboxd_rating": "3.7"
-    },
-    {
       "title": "Obsession",
       "theater": "BAM",
       "url": "https://www.bam.org/film/2026/obsession",
@@ -17912,18 +16934,6 @@
       "country": "USA",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "1:30 PM",
-          "url": "https://filmforum.org/film/once-upon-a-time-in-harlem",
-          "label": "Open captions"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:00 PM",
-          "url": "https://filmforum.org/film/once-upon-a-time-in-harlem",
-          "label": ""
-        },
-        {
           "date": "2026-11-22",
           "time": "5:10 PM",
           "url": "https://filmforum.org/film/once-upon-a-time-in-harlem",
@@ -17979,7 +16989,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -18028,14 +17037,14 @@
       "country": "USA",
       "showtimes": [
         {
-          "date": "2026-11-21",
+          "date": "2026-11-22",
           "time": "6:30 PM",
           "url": "https://www.filmlinc.org/films/once-upon-a-time-in-harlem/",
           "label": ""
         }
       ],
       "show_dates": [
-        "2026-11-21"
+        "2026-11-22"
       ],
       "date_start": "",
       "date_end": "",
@@ -18081,95 +17090,6 @@
       "poster": "https://a.ltrbxd.com/resized/sm/upload/vz/7i/ka/ys/6ED4Wr2vgOc7yPiXIqovwLiQfCl-0-460-0-690-crop.jpg?v=3da900f744",
       "letterboxd_url": "https://letterboxd.com/film/once-upon-a-time-in-the-west/",
       "letterboxd_rating": "4.4"
-    },
-    {
-      "title": "Once Upon a Time... in Hollywood",
-      "theater": "Paris Theater",
-      "url": "https://www.paristheaternyc.com/film/once-upon-a-time-in-hollywood-paris",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "2019",
-      "director": "Quentin Tarantino",
-      "cast": "Leonardo DiCaprio, Brad Pitt, Margot Robbie, Emile Hirsch, Margaret Qualley, Timothy Olyphant, Austin Butler, Dakota Fanning, Bruce Dern, Al Pacino",
-      "country": "",
-      "showtimes": [],
-      "show_dates": [
-        "2026-11-21"
-      ],
-      "date_start": "2026-11-21",
-      "date_end": "2026-11-21",
-      "description": "Quentin Tarantino's Once Upon a Time... in Hollywood visits 1969 Los Angeles, where everything is changing, as TV star Rick Dalton (Leonardo DiCaprio) and his longtime stunt double Cliff Booth (Brad Pitt) make their way around an industry they hardly recognize anymore. The ninth film from the writer-director features a large ensemble cast and multiple storylines in a tribute to the final moments of Hollywood's golden age.",
-      "notes": [
-        "Presented in 35mm",
-        "35mm print!",
-        "Preceded by the Looney Tunes animated short The Scarlet Pumpernickel ."
-      ],
-      "poster": "https://a.ltrbxd.com/resized/film-poster/3/9/7/8/5/9/397859-once-upon-a-time-in-hollywood-0-460-0-690-crop.jpg?v=f3e8612854",
-      "letterboxd_url": "https://letterboxd.com/film/once-upon-a-time-in-hollywood/",
-      "letterboxd_rating": "3.8"
-    },
-    {
-      "title": "Paisan",
-      "theater": "Film Forum",
-      "url": "https://filmforum.org/film/paisan-rossellini-120",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "1946",
-      "director": "Roberto Rossellini",
-      "cast": "Carmela Sazio, Robert Van Loon, Dots Johnson",
-      "country": "",
-      "showtimes": [
-        {
-          "date": "2026-11-20",
-          "time": "12:20 PM",
-          "url": "https://filmforum.org/film/paisan-rossellini-120",
-          "label": ""
-        },
-        {
-          "date": "2026-11-20",
-          "time": "2:15 PM",
-          "url": "https://filmforum.org/film/paisan-rossellini-120",
-          "label": ""
-        },
-        {
-          "date": "2026-11-20",
-          "time": "2:45 PM",
-          "url": "https://filmforum.org/film/paisan-rossellini-120",
-          "label": ""
-        },
-        {
-          "date": "2026-11-20",
-          "time": "4:45 PM",
-          "url": "https://filmforum.org/film/paisan-rossellini-120",
-          "label": ""
-        },
-        {
-          "date": "2026-11-20",
-          "time": "4:50 PM",
-          "url": "https://filmforum.org/film/paisan-rossellini-120",
-          "label": ""
-        },
-        {
-          "date": "2026-11-20",
-          "time": "5:50 PM",
-          "url": "https://filmforum.org/film/paisan-rossellini-120",
-          "label": ""
-        }
-      ],
-      "show_dates": [
-        "2026-11-20",
-        "2026-11-21",
-        "2026-11-22"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "The story of Italy\u2019s liberation, told in six episodes, traveling from the first Allied landing in Sicily to the battle of the Po Delta, PAISAN demonstrated that OPEN CITY had been no fluke. Conceived on a vaster scale, with a considerably higher budget, and international distribution from MGM, PAISAN is a national epic that still startles for its immediacy, its technical mastery, its unpredictable rhythms. Scenes of unbearable suspense on the streets of Florence alternate with lighter fare, such as the doctrinal scuffles between Italian monks and American chaplains in Romagna. Stitched together like a newsreel (and skillfully edited to blend in stock footage and suggest off-screen pyrotechnics with creative sound effects), PAISAN became a worldwide sensation, an intellectual action film that pictured recent history with an unprecedented heft and scope. The film became a lodestar for filmmakers from Gillo Pontecorvo to Martin Scorsese, with the latter remarking, \u201cThe result... is still startling: it\u2019s like seeing reality itself unfolding before your eyes.\u201d",
-      "notes": [],
-      "poster": "https://a.ltrbxd.com/resized/sm/upload/81/l8/kg/zl/kXTQQxB1ToE4bhOcFbEFdZiubCF-0-460-0-690-crop.jpg?v=c513307ba3",
-      "letterboxd_url": "https://letterboxd.com/film/paisan/",
-      "letterboxd_rating": "3.9"
     },
     {
       "title": "Palestine \u201836",
@@ -18231,36 +17151,12 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/paper-tiger/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/25024351/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/25025315/",
       "year": "2026",
       "director": "James Gray",
       "cast": "Adam Driver, Scarlett Johansson, Miles Teller",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "11:00 AM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024387/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "2:40 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024339/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:30 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024351/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:45 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024357/",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "11:00 AM",
@@ -18359,7 +17255,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -18386,30 +17281,6 @@
       "cast": "Adam Driver, Scarlett Johansson, Miles Teller",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "4:20 PM",
-          "url": "https://commerce.bam.org/booking/production/59570",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:50 PM",
-          "url": "https://commerce.bam.org/booking/production/59571",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:30 PM",
-          "url": "https://commerce.bam.org/booking/production/59572",
-          "label": ""
-        },
-        {
-          "date": "2026-11-22",
-          "time": "1:30 PM",
-          "url": "https://commerce.bam.org/booking/production/59573",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "4:20 PM",
@@ -18484,7 +17355,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -18510,36 +17380,6 @@
       "cast": "Adam Driver, Scarlett Johansson, Miles Teller",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "4:35 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/paper-tiger-in-35mm",
-          "label": "35mm"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:15 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/paper-tiger-in-35mm",
-          "label": "35mm"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:05 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/paper-tiger-in-35mm",
-          "label": "35mm"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "11:05 AM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/paper-tiger-in-35mm",
-          "label": "35mm"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "1:45 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/paper-tiger-in-35mm",
-          "label": "35mm"
-        },
         {
           "date": "2026-11-22",
           "time": "4:35 PM",
@@ -18680,7 +17520,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -18708,96 +17547,6 @@
       "country": "",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "2:45 PM",
-          "url": "https://drafthouse.com/nyc/show/paper-tiger",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "3:00 PM",
-          "url": "https://drafthouse.com/nyc/show/paper-tiger",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "4:00 PM",
-          "url": "https://drafthouse.com/nyc/show/paper-tiger",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:15 PM",
-          "url": "https://drafthouse.com/nyc/show/paper-tiger",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:15 PM",
-          "url": "https://drafthouse.com/nyc/show/paper-tiger",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:00 PM",
-          "url": "https://drafthouse.com/nyc/show/paper-tiger",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:30 PM",
-          "url": "https://drafthouse.com/nyc/show/paper-tiger",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:00 PM",
-          "url": "https://drafthouse.com/nyc/show/paper-tiger",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:30 PM",
-          "url": "https://drafthouse.com/nyc/show/paper-tiger",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "11:15 AM",
-          "url": "https://drafthouse.com/nyc/show/paper-tiger",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "11:45 AM",
-          "url": "https://drafthouse.com/nyc/show/paper-tiger",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "12:00 PM",
-          "url": "https://drafthouse.com/nyc/show/paper-tiger",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "2:45 PM",
-          "url": "https://drafthouse.com/nyc/show/paper-tiger",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "3:00 PM",
-          "url": "https://drafthouse.com/nyc/show/paper-tiger",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "3:00 PM",
-          "url": "https://drafthouse.com/nyc/show/paper-tiger",
-          "label": "Staten Island"
-        },
-        {
           "date": "2026-11-22",
           "time": "6:00 PM",
           "url": "https://drafthouse.com/nyc/show/paper-tiger",
@@ -18807,13 +17556,13 @@
           "date": "2026-11-22",
           "time": "6:15 PM",
           "url": "https://drafthouse.com/nyc/show/paper-tiger",
-          "label": "Downtown Brooklyn"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-22",
           "time": "6:15 PM",
           "url": "https://drafthouse.com/nyc/show/paper-tiger",
-          "label": "Lower Manhattan"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-22",
@@ -18913,7 +17662,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24"
@@ -19070,18 +17818,12 @@
       "url": "https://www.ifccenter.com/films/possible-love/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589932~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589964~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2026",
       "director": "Lee Chang-dong",
       "cast": "Jeon Do-yeon, Sul Kyung-gu, Zo In-sung, Cho Yeo-jeong",
       "country": "South Korea",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "11:30 AM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589906~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "11:30 AM",
@@ -19114,7 +17856,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -19145,7 +17886,7 @@
           "date": "2026-12-01",
           "time": "6:30 PM",
           "url": "https://angelikafilmcenter.com/nyc/movies/possible-love-in-35mm",
-          "label": "35mm \u00b7 Sold out"
+          "label": "35mm \u00b7 Q&A to follow the screening"
         }
       ],
       "show_dates": [
@@ -19265,30 +18006,6 @@
       "country": "",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "12:20 PM",
-          "url": "https://filmforum.org/film/raise-the-red-lantern",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "3:00 PM",
-          "url": "https://filmforum.org/film/raise-the-red-lantern",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "5:40 PM",
-          "url": "https://filmforum.org/film/raise-the-red-lantern",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "8:20 PM",
-          "url": "https://filmforum.org/film/raise-the-red-lantern",
-          "label": ""
-        },
-        {
           "date": "2026-11-22",
           "time": "12:20 PM",
           "url": "https://filmforum.org/film/raise-the-red-lantern",
@@ -19380,7 +18097,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -19438,24 +18154,12 @@
       "url": "https://www.ifccenter.com/films/rate-it-x/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589320~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589318~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "1986",
       "director": "Paula De Koenigsberg, Lucy Winer",
       "cast": "Lucy Winer, Ugly George, Joel M. Reed, Dwaine Tinsley",
       "country": "USA",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "1:40 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589317~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:20 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589320~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": "Q&A"
-        },
         {
           "date": "2026-11-22",
           "time": "1:40 PM",
@@ -19518,7 +18222,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -19530,8 +18233,7 @@
       "description": "Previously screened as part of our series Declaration of Independents!",
       "notes": [
         "Sunday, July 5: Q&A with directors Lucy Winer and Paula De Koenigsberg after 2:55 show!",
-        "Monday, July 6: Q&A with directors Lucy Winer and Paula De Koenigsberg after 7:20 show!",
-        "Sat Nov 21: Q&A w/ dirs. Lucy Winer & Paula De Koenigsberg after 6:20 show!"
+        "Monday, July 6: Q&A with directors Lucy Winer and Paula De Koenigsberg after 7:20 show!"
       ],
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/0/0/8/9/7/200897-rate-it-x-0-460-0-690-crop.jpg?v=302fde79fc",
       "letterboxd_url": "https://letterboxd.com/film/rate-it-x/",
@@ -19745,17 +18447,10 @@
           "time": "8:50 PM",
           "url": "https://filmforum.org/film/rome-open-city-rossellini-120",
           "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:20 PM",
-          "url": "https://filmforum.org/film/rome-open-city-rossellini-120",
-          "label": ""
         }
       ],
       "show_dates": [
         "2026-11-20",
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-26"
@@ -19983,22 +18678,13 @@
       "url": "https://metrograph.com/film/9999003282-secrets-lies/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31376",
+      "booking_url": "",
       "year": "1996",
       "director": "Mike Leigh",
       "cast": "Brenda Blethyn, Marianne Jean-Baptiste, Timothy Spall, Phyllis Logan, Claire Rushbrook, Lee Ross",
       "country": "",
-      "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "5:15 PM",
-          "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31376",
-          "label": ""
-        }
-      ],
-      "show_dates": [
-        "2026-11-21"
-      ],
+      "showtimes": [],
+      "show_dates": [],
       "date_start": "",
       "date_end": "",
       "description": "The winner of the Palme d\u2019Or at the 1996 Cannes Film Festival, Leigh\u2019s tender, funny, fearless film has Brenda Blethyn in a career-best performance as Cynthia, a white working-class woman who has a life-changing revelation when she meets Black middle-class optometrist Marianne Jean-Baptiste, who informs Cynthia she\u2019s the little girl Cynthia had given up for adoption 27 years ago, all grown up. Developed, like all of Leigh\u2019s films, through a process of collaborative improvisation, it\u2019s a film of startling spontaneity and uncomfortable, unflinching emotional honesty.",
@@ -20094,22 +18780,13 @@
       "url": "https://metrograph.com/film/9999003805-sibyl/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31392",
+      "booking_url": "",
       "year": "2019",
       "director": "Justine Triet",
       "cast": "Virginie Efira, Ad\u00e8le Exarchopoulos, Gaspard Ulliel, Sandra H\u00fcller, Laure Calamy, Niels Schneider",
       "country": "",
-      "showtimes": [
-        {
-          "date": "2026-11-22",
-          "time": "7:30 PM",
-          "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31392",
-          "label": ""
-        }
-      ],
-      "show_dates": [
-        "2026-11-22"
-      ],
+      "showtimes": [],
+      "show_dates": [],
       "date_start": "",
       "date_end": "",
       "description": "Four years before her Palme d\u2019Or triumph with Anatomy of a Fall, Triet produced this comic thriller starring Virginie Efira in the title role as a psychotherapist who, fed up with her m\u00e9tier, decides to return to writing fiction\u2014and, in the person of one of her patients, a young, tumultuous actress named Margot (Ad\u00e8le Exarchopoulos), finds an absolutely irresistible source of literary inspiration. Impassioned performances by both leads make Sibyl a compelling study in obsession and self-delusion, with the added inducement of Anatomy star Sandra H\u00fcller\u2019s appearance in a side-splitting role as the director of a film-within-the-film.\n\nDistirbutor: Music Box Films",
@@ -20590,12 +19267,6 @@
       "country": "",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "12:15 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/24710517/",
-          "label": ""
-        },
-        {
           "date": "2026-11-22",
           "time": "12:15 PM",
           "url": "https://nitehawkcinema.com/prospectpark/purchase/24710514/",
@@ -20603,7 +19274,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22"
       ],
       "date_start": "",
@@ -20623,7 +19293,7 @@
       "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=588759~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2026",
       "director": "Leah Nelson",
-      "cast": "Bryan Cranston, Seth Rogen, Julia Louis-Dreyfus, Pamela Adlon, Sarah Silverman, Beanie Feldstein, Ab",
+      "cast": "Bryan Cranston, Seth Rogen, Julia Louis-Dreyfus, Sarah Silverman, Beanie Feldstein",
       "country": "USA",
       "showtimes": [
         {
@@ -21023,18 +19693,12 @@
       "url": "https://metrograph.com/film/9999003425-the-ascent/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31377",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31434",
       "year": "1977",
       "director": "Larisa Shepitko",
       "cast": "Boris Plotnikov, Vladimir Gostyukhin, Anatoliy Solonitsyn, Lyudmila Polyakova, Viktoriya Goldentul, Sergei Yakovlev",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "8:00 PM",
-          "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31377",
-          "label": ""
-        },
         {
           "date": "2026-11-29",
           "time": "11:15 AM",
@@ -21043,7 +19707,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-29"
       ],
       "date_start": "",
@@ -21053,6 +19716,33 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/5/4/6/6/15466-the-ascent-0-460-0-690-crop.jpg?v=23f005183e",
       "letterboxd_url": "https://letterboxd.com/film/the-ascent/",
       "letterboxd_rating": "4.4"
+    },
+    {
+      "title": "The Bad News Bears",
+      "theater": "Paris Theater",
+      "url": "https://www.paristheaternyc.com/film/the-bad-news-bears-1976-paris",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "1976",
+      "director": "Michael Ritchie",
+      "cast": "Walter Matthau, Tatum O'Neal, Vic Morrow",
+      "country": "",
+      "showtimes": [],
+      "show_dates": [
+        "2026-11-22"
+      ],
+      "date_start": "2026-11-22",
+      "date_end": "2026-11-22",
+      "description": "Hard-drinking, ex-minor-league hopeful Morris Buttermaker grumpily agrees to coach a Little League team at the behest of lawyer-councilman Bob Whitewood, who has a vendetta against the league for excluding his marginally talented son from play. After failing with his new team of misfits, Buttermaker enlists feisty and gifted pitcher Amanda Whurlitzer to lead the charge -- but can he find the luck and patience to whip these outcasts into shape?",
+      "notes": [
+        "Presented in 35mm",
+        "35mm print!",
+        "Preceded by the Looney Tunes animated short Gone Batty ."
+      ],
+      "poster": "https://a.ltrbxd.com/resized/film-poster/3/7/3/5/5/37355-the-bad-news-bears-0-460-0-690-crop.jpg?v=c30c5e9c1d",
+      "letterboxd_url": "https://letterboxd.com/film/the-bad-news-bears/",
+      "letterboxd_rating": "3.7"
     },
     {
       "title": "The Best Secret Agent",
@@ -21096,30 +19786,6 @@
       "cast": "Bill Hader, Xochitl Gomez, Tiago Martinez, Matt Berry, Quinta Brunson, Bowen Yang",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "3:30 PM",
-          "url": "https://drafthouse.com/nyc/show/the-cat-in-the-hat-2026",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:30 PM",
-          "url": "https://drafthouse.com/nyc/show/the-cat-in-the-hat-2026",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-cat-in-the-hat-2026",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "12:30 PM",
-          "url": "https://drafthouse.com/nyc/show/the-cat-in-the-hat-2026",
-          "label": "Staten Island"
-        },
         {
           "date": "2026-11-22",
           "time": "3:30 PM",
@@ -21170,7 +19836,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24"
@@ -21669,24 +20334,6 @@
       "country": "UK",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "11:05 AM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589911~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "3:50 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589913~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "8:45 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589915~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
-        {
           "date": "2026-11-22",
           "time": "11:05 AM",
           "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589936~8722a542-64c1-4c0b-af02-c3e8a239d769&",
@@ -21778,7 +20425,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -21870,6 +20516,38 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/4/6/2/6/9/446269-the-empty-man-0-460-0-690-crop.jpg?v=d9ee98bd77",
       "letterboxd_url": "https://letterboxd.com/film/the-empty-man/",
       "letterboxd_rating": "3.1"
+    },
+    {
+      "title": "The Fellowship of the Ring",
+      "theater": "Nitehawk (Williamsburg)",
+      "url": "https://nitehawkcinema.com/williamsburg/movies/lotr-the-fellowship-of-the-ring/",
+      "status": "Now Playing",
+      "opens": "",
+      "booking_url": "",
+      "year": "2001",
+      "director": "Peter Jackson",
+      "cast": "Elijah Wood, Ian McKellen, Liv Tyler, Viggo Mortensen, Sean Astin, Cate Blanchett",
+      "country": "",
+      "showtimes": [
+        {
+          "date": "2026-11-30",
+          "time": "9:15 PM",
+          "url": "https://nitehawkcinema.com/williamsburg/purchase/24772620/",
+          "label": ""
+        }
+      ],
+      "show_dates": [
+        "2026-11-30"
+      ],
+      "date_start": "2026-11-30",
+      "date_end": "2026-11-30",
+      "description": "The future of civilization rests in the fate of the One Ring, which has been lost for centuries. Powerful forces are unrelenting in their search for it. But fate has placed it in the hands of a young Hobbit named Frodo Baggins (Elijah Wood), who inherits the Ring and steps into legend. A daunting task lies ahead for Frodo when he becomes the Ringbearer \u2013 to destroy the One Ring in the fires of Mount Doom where it was forged.",
+      "notes": [
+        "Presented in 35mm"
+      ],
+      "poster": "https://a.ltrbxd.com/resized/sm/upload/3t/vq/0u/m6/1tX9ZlgVvWjAQhMs1vAfsYpi7VK-0-460-0-690-crop.jpg?v=30bbb824e1",
+      "letterboxd_url": "https://letterboxd.com/film/the-lord-of-the-rings-the-fellowship-of-the-ring/",
+      "letterboxd_rating": "4.4"
     },
     {
       "title": "The Flavor of Green Tea Over Rice",
@@ -22002,30 +20680,12 @@
       "url": "https://www.ifccenter.com/films/the-history-of-concrete/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589908~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589934~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2026",
       "director": "John Wilson",
       "cast": "John Wilson, Michael Imperioli, Jack Macco, Nathan Fielder, Timoth\u00e9e Chalamet, Josh Safdie",
       "country": "USA",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "10:40 AM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589921~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "5:45 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589908~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:35 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589925~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "10:40 AM",
@@ -22118,7 +20778,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -22142,71 +20801,17 @@
       "letterboxd_rating": "3.9"
     },
     {
-      "title": "The Holy Mountain",
-      "theater": "IFC Center",
-      "url": "https://www.ifccenter.com/films/the-holy-mountain/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589920~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-      "year": "1973",
-      "director": "Alejandro Jodorowsky",
-      "cast": "Alejandro Jodorowsky, Horacio Salinas, Zamira Saunders",
-      "country": "Mexico",
-      "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "11:50 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589920~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        }
-      ],
-      "show_dates": [
-        "2026-11-21"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "The follow-up to his Midnight Movie sensation El Topo , writer-director Alejandro Jodorowsky\u2019s THE HOLY MOUNTAIN caused a scandal at the 1973 Cannes Film Festival with its flood of sacrilegious imagery, existential symbolism and outrageous violence. Once again, Jodorowsky plays the allegorically named lead, \u201cThe Alchemist,\u201d who assembles a group of people from all walks of life and renames them for the planets in the solar system. Putting his recruits through strange mystical rites and divesting them of their worldly baggage, he leads them on a trip to Lotus Island to ascend the Holy Mountain and displace the immortal gods who secretly rule the universe. This gorgeous new digital restoration, overseen by the filmmaker himself, returns Jodorowsky\u2019s most visually extravagant film to all its trippy splendor.\n\nScreening as part of Late Night Favorites: Fall 2026",
-      "notes": [],
-      "poster": "https://a.ltrbxd.com/resized/film-poster/4/7/8/0/5/47805-the-holy-mountain-0-460-0-690-crop.jpg?v=d7002e900e",
-      "letterboxd_url": "https://letterboxd.com/film/the-holy-mountain/",
-      "letterboxd_rating": "4.1"
-    },
-    {
       "title": "The Host",
       "theater": "IFC Center",
       "url": "https://www.ifccenter.com/films/the-host-2/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589918~8722a542-64c1-4c0b-af02-c3e8a239d769&",
+      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589943~8722a542-64c1-4c0b-af02-c3e8a239d769&",
       "year": "2006",
       "director": "Bong Joon Ho",
       "cast": "Song Kang-ho, Byun Hee-bong, Park Hae-il, Bae Doona, Ko A-sung",
       "country": "Korea",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "12:55 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589917~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "3:35 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589918~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:30 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=590047~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:25 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589919~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "12:55 PM",
@@ -22323,7 +20928,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -22353,12 +20957,6 @@
       "country": "",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "9:30 PM",
-          "url": "https://drafthouse.com/nyc/show/the-host-20th-anniversary",
-          "label": "20th anniversary \u00b7 Downtown Brooklyn"
-        },
-        {
           "date": "2026-11-23",
           "time": "7:30 PM",
           "url": "https://drafthouse.com/nyc/show/the-host-20th-anniversary",
@@ -22366,7 +20964,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-23"
       ],
       "date_start": "",
@@ -22413,36 +21010,12 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/the-hunger-games-sunrise-on-the-reaping/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/25024343/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/25025318/",
       "year": "2026",
       "director": "Francis Lawrence",
       "cast": "Joseph Zada, Jennifer Lawrence, Mckenna Grace, Ralph Fiennes, Elle Fanning, Jesse Plemons, Kieran Culkin, Maya Hawke, Glenn Close, Lili Taylor",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "12:30 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024394/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "4:00 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024343/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "5:15 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024349/",
-          "label": "Sold out"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:30 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024354/",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "12:30 PM",
@@ -22453,13 +21026,13 @@
           "date": "2026-11-22",
           "time": "4:00 PM",
           "url": "https://nitehawkcinema.com/prospectpark/purchase/25025306/",
-          "label": ""
+          "label": "Sold out"
         },
         {
           "date": "2026-11-22",
           "time": "5:15 PM",
           "url": "https://nitehawkcinema.com/prospectpark/purchase/25025310/",
-          "label": ""
+          "label": "Sold out"
         },
         {
           "date": "2026-11-22",
@@ -22541,7 +21114,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -22569,192 +21141,6 @@
       "country": "",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "3:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "3:30 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "4:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "5:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:30 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:45 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:30 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan \u00b7 Sold out"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "8:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:30 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:45 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:45 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "10:00 AM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "10:00 AM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "10:15 AM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "10:30 AM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "11:00 AM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "11:30 AM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "12:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "1:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "2:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "2:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "2:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "2:30 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "3:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "3:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
-        },
-        {
           "date": "2026-11-22",
           "time": "3:30 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
@@ -22776,7 +21162,7 @@
           "date": "2026-11-22",
           "time": "6:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-22",
@@ -22788,7 +21174,7 @@
           "date": "2026-11-22",
           "time": "6:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-22",
@@ -22818,12 +21204,6 @@
           "date": "2026-11-22",
           "time": "10:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "10:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
           "label": "Lower Manhattan"
         },
         {
@@ -22831,6 +21211,12 @@
           "time": "10:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
           "label": "Downtown Brooklyn"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "10:00 PM",
+          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-22",
@@ -22878,13 +21264,13 @@
           "date": "2026-11-23",
           "time": "11:30 AM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-23",
           "time": "11:30 AM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-23",
@@ -22897,18 +21283,18 @@
           "time": "12:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
           "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-23",
-          "time": "2:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-23",
           "time": "2:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
           "label": "Lower Manhattan"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "2:00 PM",
+          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-23",
@@ -22938,17 +21324,11 @@
           "date": "2026-11-23",
           "time": "4:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-23",
-          "time": "4:00 PM",
-          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
           "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-23",
-          "time": "6:00 PM",
+          "time": "4:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
           "label": "Staten Island"
         },
@@ -22963,6 +21343,12 @@
           "time": "6:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
           "label": "Lower Manhattan"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "6:00 PM",
+          "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-23",
@@ -23058,7 +21444,7 @@
           "date": "2026-11-24",
           "time": "6:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-24",
@@ -23070,7 +21456,7 @@
           "date": "2026-11-24",
           "time": "6:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Downtown Brooklyn"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-24",
@@ -23088,7 +21474,7 @@
           "date": "2026-11-24",
           "time": "10:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-24",
@@ -23100,7 +21486,7 @@
           "date": "2026-11-24",
           "time": "10:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Downtown Brooklyn"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-25",
@@ -23160,13 +21546,13 @@
           "date": "2026-11-25",
           "time": "6:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-25",
           "time": "6:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-25",
@@ -23340,13 +21726,13 @@
           "date": "2026-11-27",
           "time": "6:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-27",
           "time": "6:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Downtown Brooklyn"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-27",
@@ -23364,13 +21750,13 @@
           "date": "2026-11-27",
           "time": "10:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-27",
           "time": "10:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Downtown Brooklyn"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-27",
@@ -23400,13 +21786,13 @@
           "date": "2026-11-28",
           "time": "10:30 AM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Lower Manhattan"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-28",
           "time": "10:30 AM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-28",
@@ -23466,13 +21852,13 @@
           "date": "2026-11-28",
           "time": "10:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Downtown Brooklyn"
+          "label": "Staten Island"
         },
         {
           "date": "2026-11-28",
           "time": "10:00 PM",
           "url": "https://drafthouse.com/nyc/show/the-hunger-games-sunrise-on-the-reaping",
-          "label": "Staten Island"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-28",
@@ -23584,7 +21970,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -23673,12 +22058,6 @@
       "country": "",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "11:00 AM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/24710462/",
-          "label": ""
-        },
-        {
           "date": "2026-11-22",
           "time": "11:00 AM",
           "url": "https://nitehawkcinema.com/prospectpark/purchase/24710464/",
@@ -23686,7 +22065,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22"
       ],
       "date_start": "",
@@ -23988,36 +22366,12 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/the-only-living-pickpocket-in-new-york/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/25024340/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/25025309/",
       "year": "2026",
       "director": "Noah Segan",
       "cast": "John Turturro, Giancarlo Esposito, Will Price, Tatiana Maslany, Victoria Moroles, Steve Buscemi",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "2:00 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024350/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "5:00 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024340/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:00 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024384/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:35 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024359/",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "2:00 PM",
@@ -24092,7 +22446,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -24119,24 +22472,6 @@
       "cast": "John Turturro, Giancarlo Esposito, Will Price, Tatiana Maslany, Victoria Moroles, Steve Buscemi",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "5:00 PM",
-          "url": "https://commerce.bam.org/booking/production/59850",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:15 PM",
-          "url": "https://commerce.bam.org/booking/production/59851",
-          "label": ""
-        },
-        {
-          "date": "2026-11-22",
-          "time": "1:00 PM",
-          "url": "https://commerce.bam.org/booking/production/59852",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "5:00 PM",
@@ -24175,7 +22510,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24"
@@ -24190,45 +22524,6 @@
     },
     {
       "title": "The Piano",
-      "theater": "Nitehawk (Williamsburg)",
-      "url": "https://nitehawkcinema.com/williamsburg/movies/the-piano/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "",
-      "year": "1993",
-      "director": "Jane Campion",
-      "cast": "Holly Hunter, Harvey Keitel, Sam Neill, Anna Paquin",
-      "country": "",
-      "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "11:00 AM",
-          "url": "https://nitehawkcinema.com/williamsburg/purchase/24710424/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-22",
-          "time": "11:00 AM",
-          "url": "https://nitehawkcinema.com/williamsburg/purchase/24710425/",
-          "label": ""
-        }
-      ],
-      "show_dates": [
-        "2026-11-21",
-        "2026-11-22"
-      ],
-      "date_start": "2026-11-21",
-      "date_end": "2026-11-22",
-      "description": "Ada, mute since birth, her nine year old daughter and her piano arrive to an arranged marriage in the remote bush of nineteenth century New Zealand. Of all her belongings her husband refuses to transport the piano and it is left behind on the beach. Unable to bear its certain destruction, Ada strikes a bargain with an illiterate tattooed neighbor. She may earn her piano back if she allows him to do certain things while she plays; one black key for every lesson. The arrangement draws all three deeper and deeper into a complex emotional, sexual bond remarkable for its na\u00efve passion and frightening disregard for limits.",
-      "notes": [
-        "4K restoration"
-      ],
-      "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/4/1/3/51413-the-piano-0-460-0-690-crop.jpg?v=3b2718521a",
-      "letterboxd_url": "https://letterboxd.com/film/the-piano/",
-      "letterboxd_rating": "3.9"
-    },
-    {
-      "title": "The Piano",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/9999005111-the-piano/",
       "status": "Now Playing",
@@ -24236,7 +22531,7 @@
       "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31431",
       "year": "1993",
       "director": "Jane Campion",
-      "cast": "Holly Hunter, Harvey Keitel, Sam Neill, Anna Paquin",
+      "cast": "Holly Hunter, Harvey Keitel, Sam Neill, Anna Paquin, Cliff Curtis, Kerry Walker",
       "country": "",
       "showtimes": [
         {
@@ -24341,18 +22636,12 @@
       "url": "https://metrograph.com/film/9999005098-the-rescuers/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31384",
+      "booking_url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31429",
       "year": "1977",
       "director": "Wolfgang Reitherman, Art Stevens",
       "cast": "Bob Newhart, Eva Gabor, Geraldine Page, Joe Flynn, Jeanette Nolan, Pat Buttram",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-22",
-          "time": "11:15 AM",
-          "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31384",
-          "label": "35mm"
-        },
         {
           "date": "2026-11-29",
           "time": "11:15 AM",
@@ -24361,7 +22650,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-22",
         "2026-11-29"
       ],
       "date_start": "",
@@ -24633,36 +22921,6 @@
       "letterboxd_rating": "4.4"
     },
     {
-      "title": "The Wild Bunch",
-      "theater": "IFC Center",
-      "url": "https://www.ifccenter.com/films/the-wild-bunch-2/",
-      "status": "Now Playing",
-      "opens": "",
-      "booking_url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589910~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-      "year": "1969",
-      "director": "Sam Peckinpah",
-      "cast": "William Holden, Ernest Borgnine, Robert Ryan, Edmond O\u2019Brien, Warren Oates, Ben Johnson, Jaime S\u00e1nch",
-      "country": "USA",
-      "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "11:25 PM",
-          "url": "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589910~8722a542-64c1-4c0b-af02-c3e8a239d769&",
-          "label": ""
-        }
-      ],
-      "show_dates": [
-        "2026-11-21"
-      ],
-      "date_start": "",
-      "date_end": "",
-      "description": "An aging group of outlaws look for one last big score as the \u201ctraditional\u201d American West is disappearing around them.\n\nScreening as part of Late Night Favorites: Fall 2026\n\nPreviously screened as part of our Weekend Classics series Uneasy Riders: 60s Hollywood , part of Carnegie Hall\u2019s The \u201960s: The Years that Changed America festival.",
-      "notes": [],
-      "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/5/4/4/51544-the-wild-bunch-0-460-0-690-crop.jpg?v=a8eabc58f5",
-      "letterboxd_url": "https://letterboxd.com/film/the-wild-bunch/",
-      "letterboxd_rating": "4.1"
-    },
-    {
       "title": "The Woman in the Window",
       "theater": "Metrograph",
       "url": "https://metrograph.com/film/9999005072-the-woman-in-the-window/",
@@ -24740,30 +22998,6 @@
       "country": "USA",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "2:30 PM",
-          "url": "https://filmforum.org/film/threeasfour-full-circle",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "4:40 PM",
-          "url": "https://filmforum.org/film/threeasfour-full-circle",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:50 PM",
-          "url": "https://filmforum.org/film/threeasfour-full-circle",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:00 PM",
-          "url": "https://filmforum.org/film/threeasfour-full-circle",
-          "label": ""
-        },
-        {
           "date": "2026-11-22",
           "time": "2:30 PM",
           "url": "https://filmforum.org/film/threeasfour-full-circle",
@@ -24861,7 +23095,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -25111,13 +23344,13 @@
           "date": "2026-11-22",
           "time": "10:00 PM",
           "url": "https://drafthouse.com/nyc/show/victorian-psycho",
-          "label": "Lower Manhattan"
+          "label": "Downtown Brooklyn"
         },
         {
           "date": "2026-11-22",
           "time": "10:00 PM",
           "url": "https://drafthouse.com/nyc/show/victorian-psycho",
-          "label": "Downtown Brooklyn"
+          "label": "Lower Manhattan"
         },
         {
           "date": "2026-11-23",
@@ -25141,7 +23374,7 @@
     {
       "title": "Voyage to Italy",
       "theater": "Film Forum",
-      "url": "https://filmforum.org/film/voyage-to-italy-rossellini-120",
+      "url": "https://filmforum.org/film/voyage-to-italy-rossellini-120-rossellini-120",
       "status": "Now Playing",
       "opens": "",
       "booking_url": "",
@@ -25219,9 +23452,7 @@
       ],
       "show_dates": [
         "2026-11-20",
-        "2026-11-21",
-        "2026-11-22",
-        "2026-11-23"
+        "2026-11-22"
       ],
       "date_start": "",
       "date_end": "",
@@ -25262,33 +23493,30 @@
       "letterboxd_rating": ""
     },
     {
-      "title": "Whirlpool",
-      "theater": "Film Noir Cinema",
-      "url": "https://www.filmnoircinema.com/program/2026/5/13/whirlpool",
+      "title": "Which Way is Up?",
+      "theater": "Paris Theater",
+      "url": "https://www.paristheaternyc.com/film/which-way-is-up-paris",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://www.filmnoircinema.com/program/2026/5/13/whirlpool",
-      "year": "1970",
-      "director": "Jos\u00e9 Ram\u00f3n Larraz",
-      "cast": "Karl Lanchbury, Vivien Neves, Pia Andersson, Sibyla Grey, Johanna Hegger, Andrew Grant",
-      "country": "SP",
-      "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "5:00 PM",
-          "url": "https://www.filmnoircinema.com/program/2026/5/13/whirlpool",
-          "label": ""
-        }
-      ],
+      "booking_url": "",
+      "year": "1977",
+      "director": "Michael Schultz",
+      "cast": "Richard Pryor, Lonette McKee, Margaret Avery",
+      "country": "",
+      "showtimes": [],
       "show_dates": [
-        "2026-11-21"
+        "2026-11-22"
       ],
-      "date_start": "",
-      "date_end": "",
-      "description": "A rich older woman living in a country house brings home a new model to be photographed by a young enigmatic photographer who lives with her.",
-      "notes": [],
-      "poster": "https://a.ltrbxd.com/resized/film-poster/3/1/6/5/9/31659-whirlpool-0-460-0-690-crop.jpg?v=da3e6ede7c",
-      "letterboxd_url": "https://letterboxd.com/film/whirlpool-1970/",
+      "date_start": "2026-11-22",
+      "date_end": "2026-11-22",
+      "description": "Orange picker Leroy Jones (Richard Pryor) inadvertently becomes a union leader and is forced out of town, leaving behind his sexually obsessed father, Rufus (also Pryor), and spouse, Annie Mae (Margaret Avery). He heads for Los Angeles, where he falls for union organizer Vanetta (Lonette McKee). Annie Mae seeks solace from the local preacher, Lenox Thomas (also Pryor), who eventually impregnates her. When Leroy catches wind of this, he heads home for a showdown with Lenox.",
+      "notes": [
+        "Presented in 35mm",
+        "35mm print!",
+        "Preceded by the Looney Tunes animated short Mouse Wreckers ."
+      ],
+      "poster": "https://a.ltrbxd.com/resized/film-poster/3/7/4/3/8/37438-which-way-is-up--0-460-0-690-crop.jpg?v=b6c7624230",
+      "letterboxd_url": "https://letterboxd.com/film/which-way-is-up/",
       "letterboxd_rating": "3.0"
     },
     {
@@ -25325,18 +23553,6 @@
       "country": "",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "5:30 PM",
-          "url": "https://drafthouse.com/nyc/show/wicker",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "12:45 PM",
-          "url": "https://drafthouse.com/nyc/show/wicker",
-          "label": "Lower Manhattan"
-        },
-        {
           "date": "2026-11-23",
           "time": "12:30 PM",
           "url": "https://drafthouse.com/nyc/show/wicker",
@@ -25350,8 +23566,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
-        "2026-11-22",
         "2026-11-23"
       ],
       "date_start": "",
@@ -25401,36 +23615,12 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/wild-horse-nine/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/25024345/",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/25025307/",
       "year": "2026",
       "director": "Martin McDonagh",
       "cast": "John Malkovich, Sam Rockwell, Steve Buscemi, Mariana di Girolamo, Ail\u00edn Salas, Tom Waits, Parker Posey",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "2:15 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024388/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "4:15 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024345/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:15 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024348/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:15 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024356/",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "2:15 PM",
@@ -25447,7 +23637,7 @@
           "date": "2026-11-22",
           "time": "7:15 PM",
           "url": "https://nitehawkcinema.com/prospectpark/purchase/25025314/",
-          "label": ""
+          "label": "Sold out"
         },
         {
           "date": "2026-11-22",
@@ -25529,7 +23719,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -25556,30 +23745,6 @@
       "cast": "John Malkovich, Sam Rockwell, Steve Buscemi, Mariana di Girolamo, Ail\u00edn Salas, Tom Waits, Parker Posey",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "4:15 PM",
-          "url": "https://commerce.bam.org/booking/production/59913",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:45 PM",
-          "url": "https://commerce.bam.org/booking/production/59914",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "9:30 PM",
-          "url": "https://commerce.bam.org/booking/production/59915",
-          "label": ""
-        },
-        {
-          "date": "2026-11-22",
-          "time": "1:20 PM",
-          "url": "https://commerce.bam.org/booking/production/59916",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "4:15 PM",
@@ -25672,7 +23837,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -25699,36 +23863,6 @@
       "cast": "John Malkovich, Sam Rockwell, Steve Buscemi, Mariana di Girolamo, Ail\u00edn Salaswith, Tom Waits and Parker Posey",
       "country": "",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "4:25 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/wild-horse-nine",
-          "label": "Open Captions"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:40 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/wild-horse-nine",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:10 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/wild-horse-nine",
-          "label": ""
-        },
-        {
-          "date": "2026-11-22",
-          "time": "10:35 AM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/wild-horse-nine",
-          "label": ""
-        },
-        {
-          "date": "2026-11-22",
-          "time": "2:20 PM",
-          "url": "https://angelikafilmcenter.com/nyc/movies/wild-horse-nine",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "5:05 PM",
@@ -25809,7 +23943,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24"
@@ -25835,72 +23968,6 @@
       "country": "",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "2:45 PM",
-          "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
-          "label": "Fantastic Fest Presents \u00b7 Staten Island"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "4:00 PM",
-          "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
-          "label": "Fantastic Fest Presents \u00b7 Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "4:15 PM",
-          "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
-          "label": "Fantastic Fest Presents \u00b7 Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:00 PM",
-          "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
-          "label": "Fantastic Fest Presents \u00b7 Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:30 PM",
-          "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
-          "label": "Fantastic Fest Presents \u00b7 Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:45 PM",
-          "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
-          "label": "Fantastic Fest Presents \u00b7 Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "11:00 PM",
-          "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
-          "label": "Fantastic Fest Presents \u00b7 Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "10:30 AM",
-          "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
-          "label": "Fantastic Fest Presents \u00b7 Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "1:00 PM",
-          "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
-          "label": "Fantastic Fest Presents \u00b7 Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "1:30 PM",
-          "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
-          "label": "Fantastic Fest Presents \u00b7 Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "2:45 PM",
-          "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
-          "label": "Fantastic Fest Presents \u00b7 Staten Island"
-        },
-        {
           "date": "2026-11-22",
           "time": "4:15 PM",
           "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
@@ -25916,13 +23983,13 @@
           "date": "2026-11-22",
           "time": "7:30 PM",
           "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
-          "label": "Fantastic Fest Presents \u00b7 Lower Manhattan"
+          "label": "Fantastic Fest Presents \u00b7 Downtown Brooklyn"
         },
         {
           "date": "2026-11-22",
           "time": "7:30 PM",
           "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
-          "label": "Fantastic Fest Presents \u00b7 Downtown Brooklyn"
+          "label": "Fantastic Fest Presents \u00b7 Lower Manhattan"
         },
         {
           "date": "2026-11-22",
@@ -25982,17 +24049,16 @@
           "date": "2026-11-23",
           "time": "10:45 PM",
           "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
-          "label": "Fantastic Fest Presents \u00b7 Lower Manhattan"
+          "label": "Fantastic Fest Presents \u00b7 Downtown Brooklyn"
         },
         {
           "date": "2026-11-23",
           "time": "10:45 PM",
           "url": "https://drafthouse.com/nyc/show/wild-horse-nine",
-          "label": "Fantastic Fest Presents \u00b7 Downtown Brooklyn"
+          "label": "Fantastic Fest Presents \u00b7 Lower Manhattan"
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23"
       ],
@@ -26017,36 +24083,6 @@
       "country": "",
       "showtimes": [
         {
-          "date": "2026-11-21",
-          "time": "3:30 PM",
-          "url": "https://drafthouse.com/nyc/show/wildwood",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "7:00 PM",
-          "url": "https://drafthouse.com/nyc/show/wildwood",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:30 PM",
-          "url": "https://drafthouse.com/nyc/show/wildwood",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "11:00 AM",
-          "url": "https://drafthouse.com/nyc/show/wildwood",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "2:30 PM",
-          "url": "https://drafthouse.com/nyc/show/wildwood",
-          "label": "Lower Manhattan"
-        },
-        {
           "date": "2026-11-22",
           "time": "6:00 PM",
           "url": "https://drafthouse.com/nyc/show/wildwood",
@@ -26084,7 +24120,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23"
       ],
@@ -26135,36 +24170,12 @@
       "url": "https://nitehawkcinema.com/prospectpark/movies/you-can-see-everything/?date=today",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "",
+      "booking_url": "https://nitehawkcinema.com/prospectpark/purchase/25025311/",
       "year": "2026",
       "director": "Lance Oppenheim, Nathan Fielder",
       "cast": "Elizabeth Holmes, Nathan Fielder, Billy Evans, Amanda Seyfried, Christopher Abbott, Lance Oppenheim",
       "country": "USA",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "11:30 AM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024396/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "2:50 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024346/",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:00 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024342/",
-          "label": "Sold out"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "8:45 PM",
-          "url": "https://nitehawkcinema.com/prospectpark/purchase/25024355/",
-          "label": "Sold out"
-        },
         {
           "date": "2026-11-22",
           "time": "11:30 AM",
@@ -26263,7 +24274,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -26290,24 +24300,6 @@
       "cast": "Elizabeth Holmes, Nathan Fielder, Billy Evans, Amanda Seyfried, Christopher Abbott, Lance Oppenheim",
       "country": "USA",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "4:45 PM",
-          "url": "https://commerce.bam.org/booking/production/59895",
-          "label": ""
-        },
-        {
-          "date": "2026-11-21",
-          "time": "8:30 PM",
-          "url": "https://commerce.bam.org/booking/production/59896",
-          "label": ""
-        },
-        {
-          "date": "2026-11-22",
-          "time": "1:00 PM",
-          "url": "https://commerce.bam.org/booking/production/59897",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "4:45 PM",
@@ -26370,7 +24362,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
@@ -26397,54 +24388,6 @@
       "cast": "Elizabeth Holmes, Nathan Fielder, Billy Evans, Amanda Seyfried, Christopher Abbott, Lance Oppenheim",
       "country": "USA",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "3:45 PM",
-          "url": "https://drafthouse.com/nyc/show/you-can-see-everything",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "6:45 PM",
-          "url": "https://drafthouse.com/nyc/show/you-can-see-everything",
-          "label": "Downtown Brooklyn \u00b7 Sold out"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "8:00 PM",
-          "url": "https://drafthouse.com/nyc/show/you-can-see-everything",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "10:45 PM",
-          "url": "https://drafthouse.com/nyc/show/you-can-see-everything",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "10:15 AM",
-          "url": "https://drafthouse.com/nyc/show/you-can-see-everything",
-          "label": "Downtown Brooklyn"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "10:30 AM",
-          "url": "https://drafthouse.com/nyc/show/you-can-see-everything",
-          "label": "Staten Island"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "11:15 AM",
-          "url": "https://drafthouse.com/nyc/show/you-can-see-everything",
-          "label": "Lower Manhattan"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "2:30 PM",
-          "url": "https://drafthouse.com/nyc/show/you-can-see-everything",
-          "label": "Downtown Brooklyn \u00b7 Sold out"
-        },
         {
           "date": "2026-11-22",
           "time": "3:30 PM",
@@ -26513,7 +24456,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23"
       ],
@@ -26531,18 +24473,12 @@
       "url": "https://lowcinema.com/movie/you-can-see-everything-2/",
       "status": "Now Playing",
       "opens": "",
-      "booking_url": "https://lowcinema.com/checkout/9db99a83-a259-4df2-98db-c7b938dfdf72/",
+      "booking_url": "https://lowcinema.com/checkout/abcaa5fe-ce88-44e9-bcdf-44d6ca080f4e/",
       "year": "2026",
       "director": "Nathan Fielder and Lance Oppenheim",
       "cast": "Elizabeth Holmes, Nathan Fielder, Billy Evans, Amanda Seyfried, Christopher Abbott, Lance Oppenheim",
       "country": "USA",
       "showtimes": [
-        {
-          "date": "2026-11-21",
-          "time": "9:00 PM",
-          "url": "https://lowcinema.com/checkout/9db99a83-a259-4df2-98db-c7b938dfdf72/",
-          "label": ""
-        },
         {
           "date": "2026-11-22",
           "time": "8:30 PM",
@@ -26629,7 +24565,6 @@
         }
       ],
       "show_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
